@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "succeeded": [
+    "U4:3"
+  ],
+  "connections": [
+    {
+      "pin": "U4:3",
+      "net": "HEATER_GATE",
+      "kind": "netport",
+      "pinX": 1040,
+      "pinY": 610,
+      "selected": {
+        "direction": "left",
+        "offset": 131,
+        "endPoint": {
+          "x": 910,
+          "y": 610
+        },
+        "score": 93.1,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 13.1,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 1000000251.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "right",
+          "offset": 18,
+          "score": 1000010591.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 3000000151.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "199ac5f7b2b5be42",
+      "flagPrimitiveId": "dfe8de8da4b67e74",
+      "state": "new"
+    }
+  ]
+}

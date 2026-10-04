@@ -1,0 +1,80 @@
+{
+  "id": "req_42",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:45:19.095061Z",
+  "ok": true,
+  "result": {
+    "device": {
+      "association": {
+        "footprint": {
+          "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+          "uuid": "fe504d2680e1467fa9d6c1a2da7dfafe"
+        },
+        "footprintUuid": "fe504d2680e1467fa9d6c1a2da7dfafe",
+        "images": [
+          ""
+        ],
+        "symbol": {
+          "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+          "type": 2,
+          "uuid": "264347d7724d43f0b69fb705906a178e"
+        },
+        "symbolType": 2,
+        "symbolUuid": "264347d7724d43f0b69fb705906a178e"
+      },
+      "classification": [],
+      "description": "KiCad SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm; open by default, never bridge both inputs",
+      "libraryType": "3",
+      "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+      "name": "EA_AGENT__RICE_SAPFLOW_SJ3_OPEN_20261003",
+      "property": {
+        "addIntoBom": false,
+        "addIntoPcb": true,
+        "designator": "SJ",
+        "name": "EA_AGENT__RICE_SAPFLOW_SJ3_OPEN_20261003",
+        "otherProperty": {
+          "Add into BOM": "no",
+          "Convert to PCB": "yes",
+          "Description": "KiCad SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm; open by default, never bridge both inputs",
+          "Designator": "SJ",
+          "Footprint": "fe504d2680e1467fa9d6c1a2da7dfafe",
+          "FootprintName": {
+            "name": "EA_AGENT__RICE_SAPFLOW_SJ3_OPEN_20261003_FP",
+            "source": "",
+            "uuid": "fe504d2680e1467fa9d6c1a2da7dfafe"
+          },
+          "Name": "",
+          "Source": "KiCad SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm; open by default, never bridge both inputs",
+          "Symbol": "264347d7724d43f0b69fb705906a178e",
+          "SymbolName": {
+            "name": "EA_AGENT__RICE_SAPFLOW_SJ3_OPEN_20261003",
+            "source": "",
+            "uuid": "264347d7724d43f0b69fb705906a178e"
+          },
+          "Validation": "CANDIDATE-UNVERIFIED"
+        }
+      },
+      "subPartNames": [
+        "EA_AGENT__RICE_SAPFLOW_SJ3_OPEN_20261003.1",
+        "EA_AGENT__RICE_SAPFLOW_SJ3_OPEN_20261003.1"
+      ],
+      "uuid": "d624aa915ca34a80833f6cd6b2dbf8fb"
+    },
+    "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+    "name": "EA_AGENT__RICE_SAPFLOW_SJ3_OPEN_20261003",
+    "namespace": "EA_AGENT",
+    "requestedName": "Rice_SapFlow_SJ3_Open_20261003",
+    "uuid": "d624aa915ca34a80833f6cd6b2dbf8fb",
+    "verified": true
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "fe504d2680e1467fa9d6c1a2da7dfafe",
+    "documentType": "footprint",
+    "tabId": "fe504d2680e1467fa9d6c1a2da7dfafe@9e05c206bff14f5b91e051328bc4efe6"
+  },
+  "seq": 38,
+  "seqAbandoned": 0
+}

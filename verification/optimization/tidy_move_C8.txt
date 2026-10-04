@@ -1,0 +1,9 @@
+  清扫:删除 4 个旧桩线/旗/残段(整树,回读证实)
+  移动:1 件落位(snap 5 网格)
+  重连:2 只 pin 按移动前桩线几何原样重建(刚体平移不改桩长)
+✓ group-move 对账:网表逐引脚一致、无新增 bridge(1 移动 / 0 no-op)
+partial: {"requestedDelta":{"dx":-720,"dy":-380},"appliedDelta":{"dx":-720,"dy":-341.5}}
+✓ 组 g1 "tidy-C8" 平移 1 件 appliedΔ=(-720,-342)(requestedΔ=(-720,-380) 被钳位,详见 stderr);内核对账绿(网表逐引脚一致,无新增 bridge)
+
+⚠ 钳位:y 轴撞图纸下沿(或图签 keepout):请求 -380 只走得了 -342(被钳掉 -38)
+⚠ 钳位:requestedΔ=(-720,-380) → appliedΔ=(-720,-342)

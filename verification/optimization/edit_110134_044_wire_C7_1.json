@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "succeeded": [
+    "C7:1"
+  ],
+  "connections": [
+    {
+      "pin": "C7:1",
+      "net": "+5V",
+      "kind": "power",
+      "pinX": 1200,
+      "pinY": 700,
+      "selected": {
+        "direction": "left",
+        "offset": 18,
+        "endPoint": {
+          "x": 1180,
+          "y": 700
+        },
+        "score": -18.2,
+        "reasons": [
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 999999991.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 1000000001.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "right",
+          "offset": 18,
+          "score": 1000010501.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        }
+      ],
+      "wirePrimitiveId": "a2e975fdeb64d8a2",
+      "flagPrimitiveId": "a5afb433c5a89bee",
+      "state": "new"
+    }
+  ]
+}

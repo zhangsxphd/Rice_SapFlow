@@ -1,0 +1,16 @@
+{
+  "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+  "archiveVerified": true,
+  "filesSha256": {
+    "Rice_SapFlow_Optimized.epro2": "d887a69bb5079050f86af4c475ffe73f4bb1b8a64e9562825132f055a3a5ae70",
+    "Rice_SapFlow_Optimized_BOM.csv": "3f84979bcc228ab9c96b5ac5982a8b15e2167a495f172e975a1c9df8b1bf6940",
+    "firmware/RiceSapFlow/RiceSapFlow.ino": "d50d688593deaaf7a0f90a96fe79707ea9f8916599b2816aa548a6aa6b764af6",
+    "firmware/RiceSapFlow/measurement.h": "56d5e0ad43389eb9379bfad7ca5a257b7010d8d4f7912d2dda6aef978b3edd01",
+    "firmware/test_measurement.cpp": "fcfeaac8b112927bfae5596d3e5cb3b3fb3bc54926d06917754c5519c2815406",
+    "scripts/verify_optimized_design.py": "b4763cc6e3164f7b0c72bd083c7b5c2243878971f7a0659de10c8edf0e61bb7d",
+    "design/easyeda/optimization/requirements.json": "29922369ec69e1f314b7b1b2b933cdc1fabac701fb0337048fadad5fed90104a"
+  },
+  "pythonSyntaxFiles": 13,
+  "physicalTestingPerformed": false,
+  "manufacturingReleased": false
+}

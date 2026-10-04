@@ -1,0 +1,2 @@
+✅ 6 component(s), outline=bbox → /Users/zhangshuxuan/本地文稿/Rice_SapFlow_V01/verification/optimization/sensor_pcb_final.json
+⚠️  board outline is an AABB approximation (connector reported outline format unexpected-start:R) — edge distances on a non-rectangular board are approximate

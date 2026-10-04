@@ -1,0 +1,7 @@
+{"playbookSha256":"39e6d80d728360c70b216afc40cbb6fe7740936a0890ea06305435186b97ca21","name":"Rice SapFlow board and document identities","project":"cf823b99abc3472f86efd2c874825dfb","startedAt":"2026-10-03T00:48:43+08:00"}
+{"idx":1,"id":"rename-main-board","status":"ok","ms":72}
+{"idx":2,"id":"rename-sensor-board","status":"ok","ms":43}
+{"idx":3,"id":"name-main-schematic","status":"ok","ms":4}
+{"idx":4,"id":"name-sensor-schematic","status":"ok","ms":3}
+{"idx":5,"id":"name-main-page","status":"ok","ms":384}
+{"idx":6,"id":"name-sensor-page","status":"ok","ms":387}

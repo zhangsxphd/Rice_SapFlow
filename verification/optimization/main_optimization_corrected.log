@@ -1,0 +1,73 @@
+001 start_main
+002 candidate_preflight_U1_L
+003 candidate_read_U1_L
+004 detach_U1_L_1
+005 detach_U1_L_2
+006 detach_U1_L_3
+007 detach_U1_L_4
+008 detach_U1_L_5
+009 detach_U1_L_7
+010 delete_old_U1_L
+011 adopt_U1_L
+012 connect_U1_L_1
+013 connect_U1_L_2
+014 connect_U1_L_3
+015 connect_U1_L_4
+016 connect_U1_L_5
+017 connect_U1_L_7
+018 nc_U1_L
+019 candidate_preflight_U1_R
+020 candidate_U1_R
+021 candidate_read_U1_R
+022 detach_U1_R_6
+023 delete_old_U1_R
+024 adopt_U1_R
+025 connect_U1_R_6
+026 nc_U1_R
+027 candidate_preflight_C1
+028 candidate_C1
+029 candidate_read_C1
+030 detach_C1_2
+031 detach_C1_1
+032 delete_old_C1
+033 adopt_C1
+034 connect_C1_2
+035 connect_C1_1
+036 candidate_preflight_C3
+037 candidate_C3
+038 candidate_read_C3
+039 detach_C3_2
+040 detach_C3_1
+041 delete_old_C3
+042 adopt_C3
+043 connect_C3_2
+044 connect_C3_1
+045 candidate_preflight_C2
+046 candidate_C2
+047 candidate_read_C2
+048 detach_C2_2
+049 detach_C2_1
+050 delete_old_C2
+051 adopt_C2
+052 connect_C2_2
+053 connect_C2_1
+054 candidate_preflight_C4
+055 candidate_C4
+056 candidate_read_C4
+057 detach_C4_2
+058 detach_C4_1
+059 delete_old_C4
+060 adopt_C4
+061 connect_C4_2
+062 connect_C4_1
+063 candidate_preflight_TP1
+Traceback (most recent call last):
+  File "/Users/zhangshuxuan/本地文稿/Rice_SapFlow_V01/scripts/optimize_easyeda.py", line 121, in <module>
+    main_parts()
+  File "/Users/zhangshuxuan/本地文稿/Rice_SapFlow_V01/scripts/optimize_easyeda.py", line 96, in main_parts
+    replace_candidate(doc,old,tp,{'1':net},library=PRIVATE)
+  File "/Users/zhangshuxuan/本地文稿/Rice_SapFlow_V01/scripts/optimize_easyeda.py", line 58, in replace_candidate
+    r = run(['sch','place','--lib',library,'--uuid',uuid,'--designator',candidate,
+  File "/Users/zhangshuxuan/本地文稿/Rice_SapFlow_V01/scripts/optimize_easyeda.py", line 36, in run
+    raise RuntimeError('%s: %s' % (label, data.get('error', r.stdout[-500:])))
+RuntimeError: candidate_TP1: {'code': 'DISPATCH_FAILED', 'message': 'connector did not respond', 'detail': 'context deadline exceeded'}

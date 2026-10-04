@@ -1,0 +1,209 @@
+{
+  "connections": [
+    {
+      "pin": "J2:1",
+      "net": "+5V",
+      "kind": "power"
+    },
+    {
+      "pin": "J2:2",
+      "net": "GND",
+      "kind": "ground"
+    },
+    {
+      "pin": "J2:3",
+      "net": "+3V3",
+      "kind": "power"
+    },
+    {
+      "pin": "J2:4",
+      "net": "SDA",
+      "kind": "net_label"
+    },
+    {
+      "pin": "J2:5",
+      "net": "SCL",
+      "kind": "net_label"
+    },
+    {
+      "pin": "J2:7",
+      "net": "HEATER_EN",
+      "kind": "net_label"
+    },
+    {
+      "pin": "J3:6",
+      "net": "GPIO10_RES",
+      "kind": "net_label"
+    },
+    {
+      "pin": "C1:1",
+      "net": "+5V",
+      "kind": "power"
+    },
+    {
+      "pin": "C1:2",
+      "net": "GND",
+      "kind": "ground"
+    },
+    {
+      "pin": "C2:1",
+      "net": "+5V",
+      "kind": "power"
+    },
+    {
+      "pin": "C2:2",
+      "net": "GND",
+      "kind": "ground"
+    },
+    {
+      "pin": "C3:1",
+      "net": "+3V3",
+      "kind": "power"
+    },
+    {
+      "pin": "C3:2",
+      "net": "GND",
+      "kind": "ground"
+    },
+    {
+      "pin": "C4:1",
+      "net": "+3V3",
+      "kind": "power"
+    },
+    {
+      "pin": "C4:2",
+      "net": "GND",
+      "kind": "ground"
+    },
+    {
+      "pin": "R1:1",
+      "net": "+3V3",
+      "kind": "power"
+    },
+    {
+      "pin": "R1:2",
+      "net": "SDA",
+      "kind": "net_label"
+    },
+    {
+      "pin": "R2:1",
+      "net": "+3V3",
+      "kind": "power"
+    },
+    {
+      "pin": "R2:2",
+      "net": "SCL",
+      "kind": "net_label"
+    },
+    {
+      "pin": "Q1:1",
+      "net": "HEATER_GATE",
+      "kind": "net_label"
+    },
+    {
+      "pin": "Q1:2",
+      "net": "GND",
+      "kind": "ground"
+    },
+    {
+      "pin": "Q1:3",
+      "net": "HEATER_RETURN",
+      "kind": "net_label"
+    },
+    {
+      "pin": "R3:1",
+      "net": "HEATER_EN",
+      "kind": "net_label"
+    },
+    {
+      "pin": "R3:2",
+      "net": "HEATER_GATE",
+      "kind": "net_label"
+    },
+    {
+      "pin": "R4:1",
+      "net": "HEATER_GATE",
+      "kind": "net_label"
+    },
+    {
+      "pin": "R4:2",
+      "net": "GND",
+      "kind": "ground"
+    },
+    {
+      "pin": "SJ1:1",
+      "net": "+3V3",
+      "kind": "power"
+    },
+    {
+      "pin": "SJ1:2",
+      "net": "HEATER_VCC",
+      "kind": "net_label"
+    },
+    {
+      "pin": "SJ1:3",
+      "net": "+5V",
+      "kind": "power"
+    },
+    {
+      "pin": "J1:1",
+      "net": "+3V3",
+      "kind": "power"
+    },
+    {
+      "pin": "J1:2",
+      "net": "GND",
+      "kind": "ground"
+    },
+    {
+      "pin": "J1:3",
+      "net": "SDA",
+      "kind": "net_label"
+    },
+    {
+      "pin": "J1:4",
+      "net": "SCL",
+      "kind": "net_label"
+    },
+    {
+      "pin": "J1:5",
+      "net": "HEATER_VCC",
+      "kind": "net_label"
+    },
+    {
+      "pin": "J1:6",
+      "net": "HEATER_RETURN",
+      "kind": "net_label"
+    },
+    {
+      "pin": "TP1:1",
+      "net": "+5V",
+      "kind": "power"
+    },
+    {
+      "pin": "TP2:1",
+      "net": "+3V3",
+      "kind": "power"
+    },
+    {
+      "pin": "TP3:1",
+      "net": "GND",
+      "kind": "ground"
+    },
+    {
+      "pin": "TP4:1",
+      "net": "SDA",
+      "kind": "net_label"
+    },
+    {
+      "pin": "TP5:1",
+      "net": "SCL",
+      "kind": "net_label"
+    },
+    {
+      "pin": "TP6:1",
+      "net": "HEATER_RETURN",
+      "kind": "net_label"
+    }
+  ]
+}

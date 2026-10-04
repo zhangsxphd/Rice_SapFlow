@@ -1,0 +1,81 @@
+{
+  "id": "req_5",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:34:25.487256Z",
+  "ok": true,
+  "result": {
+    "components": [
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Drawing-Symbol_A4",
+          "uuid": "21ae94e833e12793"
+        },
+        "componentType": "sheet",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "",
+          "uuid": "21ae94e833e12793"
+        },
+        "mirror": false,
+        "name": "",
+        "net": "",
+        "otherProperty": {
+          "@Assembly Variant": "Basic",
+          "@Board Name": "Board1",
+          "@Create Date": "2026-10-03",
+          "@Create Time": "00:31:12",
+          "@Page Count": "1",
+          "@Page Name": "P1",
+          "@Page No": "1",
+          "@Project Name": "New Project_2026-10-03_00-31-06",
+          "@Schematic Name": "Schematic1",
+          "@Update Date": "2026-10-03",
+          "@Update Time": "00:31:12",
+          "Blade Width": "10",
+          "Border": "1",
+          "Color": "",
+          "Company": "嘉立创EDA",
+          "Description": "",
+          "Drawed": "",
+          "Height": "825",
+          "Page Size": "A4",
+          "Part Number": "",
+          "Region Start": "1",
+          "Reviewed": "",
+          "Size": "A4",
+          "Title Block": "1",
+          "Title Block Position": "3",
+          "Version": "V1.0",
+          "Width": "1170",
+          "X Region Count": "6",
+          "Y Region Count": "4"
+        },
+        "primitiveId": "55a9bd61b7d1e006",
+        "rotation": 0,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Drawing-Symbol_A4",
+          "uuid": "eb13813f8f797ebc"
+        },
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "count": 1,
+    "wires": []
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "e59b6979d877fc6f",
+    "documentType": "schematic",
+    "tabId": "e59b6979d877fc6f@cf823b99abc3472f86efd2c874825dfb"
+  },
+  "seq": 3,
+  "seqAbandoned": 0
+}

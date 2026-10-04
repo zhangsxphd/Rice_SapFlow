@@ -1,0 +1,30 @@
+playbook "Rice SapFlow optimized parts and heater supply" — 28 step(s), project=a422d704ace24952ae3d8c1eb5094d0b
+  [1/28] replace-U1_L     run     sch replace
+  [2/28] replace-U1_R     run     sch replace
+  [3/28] replace-C1       run     sch replace
+  [4/28] replace-C3       run     sch replace
+  [5/28] replace-C2       run     sch replace
+  [6/28] replace-C4       run     sch replace
+  [7/28] disconnect-TP1   run     sch disconnect
+  [8/28] replace-TP1      run     sch replace
+  [9/28] disconnect-TP2   run     sch disconnect
+  [10/28] replace-TP2      run     sch replace
+  [11/28] disconnect-TP3   run     sch disconnect
+  [12/28] replace-TP3      run     sch replace
+  [13/28] disconnect-TP4   run     sch disconnect
+  [14/28] replace-TP4      run     sch replace
+  [15/28] disconnect-TP5   run     sch disconnect
+  [16/28] replace-TP5      run     sch replace
+  [17/28] disconnect-TP6   run     sch disconnect
+  [18/28] replace-TP6      run     sch replace
+  [19/28] disconnect-SJ1-1 run     sch disconnect
+  [20/28] disconnect-SJ1-2 run     sch disconnect
+  [21/28] disconnect-SJ1-3 run     sch disconnect
+  [22/28] remove-SJ1       run     sch prim-delete [confirm]
+  [23/28] place-U4         run     sch place
+  [24/28] place-C7         run     sch place
+  [25/28] place-C8         run     sch place
+  [26/28] place-C9         run     sch place
+  [27/28] place-C10        run     sch place
+  [28/28] save-main        run     sch save
+dry-run: preflight passed, nothing executed

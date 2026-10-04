@@ -1,0 +1,1178 @@
+{
+  "ok": true,
+  "succeeded": [
+    "U2:1",
+    "U2:2",
+    "U2:4",
+    "U2:5",
+    "U2:6",
+    "U3:1",
+    "U3:2",
+    "U3:4",
+    "U3:5",
+    "U3:6",
+    "C5:1",
+    "C5:2",
+    "C6:1",
+    "C6:2",
+    "R5:1",
+    "R5:2",
+    "J4:1",
+    "J4:2",
+    "J4:3",
+    "J4:4",
+    "J4:5",
+    "J4:6"
+  ],
+  "connections": [
+    {
+      "pin": "U2:1",
+      "net": "SCL",
+      "kind": "net_label",
+      "pinX": 255,
+      "pinY": 510,
+      "selected": {
+        "direction": "left",
+        "offset": 18,
+        "endPoint": {
+          "x": 235,
+          "y": 510
+        },
+        "score": 81.8,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 1000000101.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "right",
+          "offset": 78,
+          "score": 1000000607.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 1999999991.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "deafa2aa5f3de1fc",
+      "flagPrimitiveId": "ca8639998ed19f94",
+      "state": "new"
+    },
+    {
+      "pin": "U2:2",
+      "net": "GND",
+      "kind": "ground",
+      "pinX": 255,
+      "pinY": 500,
+      "selected": {
+        "direction": "left",
+        "offset": 48,
+        "endPoint": {
+          "x": 205,
+          "y": 500
+        },
+        "score": 84.8,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 4.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "right",
+          "offset": 18,
+          "score": 1000010601.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 2000000091.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        },
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 3000000101.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "bf7eb9272d3ee17a",
+      "flagPrimitiveId": "071c5feb9c6a18c9",
+      "state": "new"
+    },
+    {
+      "pin": "U2:4",
+      "net": "GND",
+      "kind": "ground",
+      "pinX": 345,
+      "pinY": 490,
+      "selected": {
+        "direction": "right",
+        "offset": 18,
+        "endPoint": {
+          "x": 365,
+          "y": 490
+        },
+        "score": 81.8,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 1000000091.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "left",
+          "offset": 18,
+          "score": 1000010601.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "up",
+          "offset": 24,
+          "score": 2000000002.4,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "ec9c1adea3f26a62",
+      "flagPrimitiveId": "2d4e7cea649b02a3",
+      "state": "new"
+    },
+    {
+      "pin": "U2:5",
+      "net": "+3V3",
+      "kind": "power",
+      "pinX": 345,
+      "pinY": 500,
+      "selected": {
+        "direction": "right",
+        "offset": 66,
+        "endPoint": {
+          "x": 410,
+          "y": 500
+        },
+        "score": 86.6,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 6.6,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "left",
+          "offset": 24,
+          "score": 1000010602.4,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 2000000091.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 3000000101.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "fdb71a2bc7290f3b",
+      "flagPrimitiveId": "109bfdeb67ff327e",
+      "state": "new"
+    },
+    {
+      "pin": "U2:6",
+      "net": "SDA",
+      "kind": "net_label",
+      "pinX": 345,
+      "pinY": 510,
+      "selected": {
+        "direction": "right",
+        "offset": 18,
+        "endPoint": {
+          "x": 365,
+          "y": 510
+        },
+        "score": 81.8,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 1000000101.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "left",
+          "offset": 78,
+          "score": 1000000607.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 30,
+          "score": 2999999993,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "d6ae71ba96e62383",
+      "flagPrimitiveId": "19867857826514ea",
+      "state": "new"
+    },
+    {
+      "pin": "U3:1",
+      "net": "SCL",
+      "kind": "net_label",
+      "pinX": 655,
+      "pinY": 510,
+      "selected": {
+        "direction": "left",
+        "offset": 18,
+        "endPoint": {
+          "x": 635,
+          "y": 510
+        },
+        "score": 81.8,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 1000000101.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "right",
+          "offset": 78,
+          "score": 1000000607.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 1999999991.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "6b465c198496f1c9",
+      "flagPrimitiveId": "5b64a513bca17f89",
+      "state": "new"
+    },
+    {
+      "pin": "U3:2",
+      "net": "GND",
+      "kind": "ground",
+      "pinX": 655,
+      "pinY": 500,
+      "selected": {
+        "direction": "left",
+        "offset": 48,
+        "endPoint": {
+          "x": 605,
+          "y": 500
+        },
+        "score": 84.8,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 4.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "right",
+          "offset": 18,
+          "score": 1000010601.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 2000000091.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        },
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 3000000101.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "eafa2e6f4909b2ec",
+      "flagPrimitiveId": "22de90c756090da9",
+      "state": "new"
+    },
+    {
+      "pin": "U3:4",
+      "net": "+3V3",
+      "kind": "power",
+      "pinX": 745,
+      "pinY": 490,
+      "selected": {
+        "direction": "right",
+        "offset": 18,
+        "endPoint": {
+          "x": 765,
+          "y": 490
+        },
+        "score": 81.8,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 1000000101.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "left",
+          "offset": 18,
+          "score": 1000010601.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "up",
+          "offset": 30,
+          "score": 1999999993,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "7ea228798d88a2c5",
+      "flagPrimitiveId": "30965dd74d54faf9",
+      "state": "new"
+    },
+    {
+      "pin": "U3:5",
+      "net": "+3V3",
+      "kind": "power",
+      "pinX": 745,
+      "pinY": 500,
+      "selected": {
+        "direction": "right",
+        "offset": 54,
+        "endPoint": {
+          "x": 800,
+          "y": 500
+        },
+        "score": 85.4,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 5.4,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "left",
+          "offset": 30,
+          "score": 1000010603,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 2000000091.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 2000000101.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "4a225ccf9c8d5c5e",
+      "flagPrimitiveId": "9f644390d77761a5",
+      "state": "new"
+    },
+    {
+      "pin": "U3:6",
+      "net": "SDA",
+      "kind": "net_label",
+      "pinX": 745,
+      "pinY": 510,
+      "selected": {
+        "direction": "right",
+        "offset": 18,
+        "endPoint": {
+          "x": 765,
+          "y": 510
+        },
+        "score": 81.8,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 1000000101.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "left",
+          "offset": 78,
+          "score": 1000000607.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 24,
+          "score": 2999999992.4,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "c473ad0cf57d9dd0",
+      "flagPrimitiveId": "1ea7011f16d25627",
+      "state": "new"
+    },
+    {
+      "pin": "C5:1",
+      "net": "+3V3",
+      "kind": "power",
+      "pinX": 150,
+      "pinY": 500,
+      "selected": {
+        "direction": "left",
+        "offset": 18,
+        "endPoint": {
+          "x": 130,
+          "y": 500
+        },
+        "score": -18.2,
+        "reasons": [
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 999999991.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 1000000001.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "right",
+          "offset": 18,
+          "score": 1000010501.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        }
+      ],
+      "wirePrimitiveId": "8684e7cbb0c8b3b1",
+      "flagPrimitiveId": "d61b5e474584fc37",
+      "state": "new"
+    },
+    {
+      "pin": "C5:2",
+      "net": "GND",
+      "kind": "ground",
+      "pinX": 190,
+      "pinY": 500,
+      "selected": {
+        "direction": "right",
+        "offset": 18,
+        "endPoint": {
+          "x": 210,
+          "y": 500
+        },
+        "score": 981.8,
+        "reasons": [
+          {
+            "cost": 1000,
+            "desc": "label collides with an existing flag/port/label"
+          },
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 999999991.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 1000000001.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "left",
+          "offset": 18,
+          "score": 1000011501.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        }
+      ],
+      "wirePrimitiveId": "aeb77d0812abdd73",
+      "flagPrimitiveId": "e55ce583743b9932",
+      "warning": "落点带痕(score=982):label collides with an existing flag/port/label —— 建议挪件腾位后重连",
+      "state": "new"
+    },
+    {
+      "pin": "C6:1",
+      "net": "+3V3",
+      "kind": "power",
+      "pinX": 850,
+      "pinY": 500,
+      "selected": {
+        "direction": "left",
+        "offset": 18,
+        "endPoint": {
+          "x": 830,
+          "y": 500
+        },
+        "score": -18.2,
+        "reasons": [
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 999999991.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 1000000001.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "right",
+          "offset": 18,
+          "score": 1000010501.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        }
+      ],
+      "wirePrimitiveId": "a55526ce76010914",
+      "flagPrimitiveId": "2a9493d00265a713",
+      "state": "new"
+    },
+    {
+      "pin": "C6:2",
+      "net": "GND",
+      "kind": "ground",
+      "pinX": 890,
+      "pinY": 500,
+      "selected": {
+        "direction": "right",
+        "offset": 18,
+        "endPoint": {
+          "x": 910,
+          "y": 500
+        },
+        "score": -18.2,
+        "reasons": [
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 999999991.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 1000000001.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "left",
+          "offset": 18,
+          "score": 1000011501.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        }
+      ],
+      "wirePrimitiveId": "5782768a613f0e9e",
+      "flagPrimitiveId": "21fec84c7c5904f1",
+      "state": "new"
+    },
+    {
+      "pin": "R5:1",
+      "net": "HEATER_VCC",
+      "kind": "net_label",
+      "pinX": 470,
+      "pinY": 500,
+      "selected": {
+        "direction": "left",
+        "offset": 18,
+        "endPoint": {
+          "x": 450,
+          "y": 500
+        },
+        "score": -18.2,
+        "reasons": [
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 999999991.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 1000000001.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "right",
+          "offset": 46,
+          "score": 1000000504.6,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        }
+      ],
+      "wirePrimitiveId": "44507411ec9e778f",
+      "flagPrimitiveId": "2609f8b8389a6f05",
+      "state": "new"
+    },
+    {
+      "pin": "R5:2",
+      "net": "HEATER_RETURN",
+      "kind": "net_label",
+      "pinX": 530,
+      "pinY": 500,
+      "selected": {
+        "direction": "right",
+        "offset": 18,
+        "endPoint": {
+          "x": 550,
+          "y": 500
+        },
+        "score": -18.2,
+        "reasons": [
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 999999991.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 1000000001.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "left",
+          "offset": 46,
+          "score": 1000000504.6,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        }
+      ],
+      "wirePrimitiveId": "118d8891acde6126",
+      "flagPrimitiveId": "1d8223e2f7d0dc35",
+      "state": "new"
+    },
+    {
+      "pin": "J4:1",
+      "net": "+3V3",
+      "kind": "power",
+      "pinX": 70,
+      "pinY": 305,
+      "selected": {
+        "direction": "left",
+        "offset": 18,
+        "endPoint": {
+          "x": 50,
+          "y": 305
+        },
+        "score": 81.8,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 1000000091.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "right",
+          "offset": 66,
+          "score": 1000000606.6,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 48,
+          "score": 2000000004.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "1264228813eee77c",
+      "flagPrimitiveId": "5826daf93084bec8",
+      "state": "new"
+    },
+    {
+      "pin": "J4:2",
+      "net": "GND",
+      "kind": "ground",
+      "pinX": 70,
+      "pinY": 295,
+      "selected": {
+        "direction": "left",
+        "offset": 48,
+        "endPoint": {
+          "x": 20,
+          "y": 295
+        },
+        "score": 84.8,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 4.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "right",
+          "offset": 60,
+          "score": 1000000606,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 2000000091.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        },
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 3000000101.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "08e4b0e2714199ec",
+      "flagPrimitiveId": "34dd1369b3d1ac8e",
+      "state": "new"
+    },
+    {
+      "pin": "J4:3",
+      "net": "SDA",
+      "kind": "net_label",
+      "pinX": 70,
+      "pinY": 285,
+      "selected": {
+        "direction": "left",
+        "offset": 18,
+        "endPoint": {
+          "x": 50,
+          "y": 285
+        },
+        "score": 81.8,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "right",
+          "offset": 42,
+          "score": 1000000604.2,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 2000000091.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        },
+        {
+          "direction": "up",
+          "offset": 30,
+          "score": 3000000103,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "c58dd21aec75b57d",
+      "flagPrimitiveId": "b5dd73b24049c95f",
+      "state": "new"
+    },
+    {
+      "pin": "J4:4",
+      "net": "SCL",
+      "kind": "net_label",
+      "pinX": 70,
+      "pinY": 275,
+      "selected": {
+        "direction": "left",
+        "offset": 30,
+        "endPoint": {
+          "x": 40,
+          "y": 275
+        },
+        "score": 83,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 3,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "right",
+          "offset": 42,
+          "score": 1000000604.2,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 2000000091.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        },
+        {
+          "direction": "up",
+          "offset": 42,
+          "score": 3000000104.2,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "3df7edfec2a70e7e",
+      "flagPrimitiveId": "a049217d717b548c",
+      "state": "new"
+    },
+    {
+      "pin": "J4:5",
+      "net": "HEATER_VCC",
+      "kind": "net_label",
+      "pinX": 70,
+      "pinY": 265,
+      "selected": {
+        "direction": "left",
+        "offset": 18,
+        "endPoint": {
+          "x": 50,
+          "y": 265
+        },
+        "score": 81.8,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "right",
+          "offset": 42,
+          "score": 1000000604.2,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 2000000091.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        },
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 3000000101.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "bdf94c929f07666a",
+      "flagPrimitiveId": "cda1377a73624a7e",
+      "state": "new"
+    },
+    {
+      "pin": "J4:6",
+      "net": "HEATER_RETURN",
+      "kind": "net_label",
+      "pinX": 70,
+      "pinY": 255,
+      "selected": {
+        "direction": "left",
+        "offset": 30,
+        "endPoint": {
+          "x": 40,
+          "y": 255
+        },
+        "score": 83,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 3,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 1000000091.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "right",
+          "offset": 42,
+          "score": 1000000604.2,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "up",
+          "offset": 60,
+          "score": 3000000006,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "bdc8d8f8950ef13c",
+      "flagPrimitiveId": "bbbabd8821df3f41",
+      "state": "new"
+    }
+  ],
+  "titleBlockProvisional": true,
+  "note": "no sheet bbox exposed — title-block keep-out is provisional and was NOT geometrically enforced"
+}

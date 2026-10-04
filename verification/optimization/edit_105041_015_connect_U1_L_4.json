@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "succeeded": [
+    "U1_L:4"
+  ],
+  "connections": [
+    {
+      "pin": "U1_L:4",
+      "net": "SDA",
+      "kind": "netport",
+      "pinX": 140,
+      "pinY": 555,
+      "selected": {
+        "direction": "left",
+        "offset": 24,
+        "endPoint": {
+          "x": 115,
+          "y": 555
+        },
+        "score": 82.4,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 2.4,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "right",
+          "offset": 24,
+          "score": 1000000592.4,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 2000000251.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        },
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 3000000251.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "d7ec2444ba9191cb",
+      "flagPrimitiveId": "2995383322efef02",
+      "state": "new"
+    }
+  ]
+}

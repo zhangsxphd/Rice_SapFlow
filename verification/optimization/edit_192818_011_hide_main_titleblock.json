@@ -1,0 +1,191 @@
+{
+  "id": "req_3627",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T11:28:31.720222Z",
+  "ok": true,
+  "result": {
+    "alreadySet": [],
+    "applied": [],
+    "ok": true,
+    "titleBlockBefore": {
+      "@Assembly Variant": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "Basic"
+      },
+      "@Board Name": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "Main_Controller_V01"
+      },
+      "@Create Date": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "2026-10-03"
+      },
+      "@Create Time": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "01:36:36"
+      },
+      "@Page Count": {
+        "showTitle": null,
+        "showValue": null,
+        "value": 1
+      },
+      "@Page Name": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "Main_Controller"
+      },
+      "@Page No": {
+        "showTitle": null,
+        "showValue": null,
+        "value": 1
+      },
+      "@Project Name": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "Rice_SapFlow"
+      },
+      "@Schematic Name": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "Schematic1"
+      },
+      "@Update Date": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "2026-10-03"
+      },
+      "@Update Time": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "19:28:29"
+      },
+      "Blade Width": {
+        "showTitle": null,
+        "showValue": null,
+        "value": 10
+      },
+      "Border": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "1"
+      },
+      "Color": {
+        "showTitle": null,
+        "showValue": null,
+        "value": ""
+      },
+      "Company": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "嘉立创EDA"
+      },
+      "Description": {
+        "showTitle": false,
+        "showValue": true,
+        "value": "Rice Sap Flow Main Controller Board"
+      },
+      "Device": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "Drawing-Symbol_A4"
+      },
+      "Drawed": {
+        "showTitle": false,
+        "showValue": true,
+        "value": "Antigravity"
+      },
+      "Height": {
+        "showTitle": null,
+        "showValue": null,
+        "value": 825
+      },
+      "ID": {},
+      "Name": {
+        "showTitle": false,
+        "showValue": true,
+        "value": "Main_Controller_V01"
+      },
+      "Page Size": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "A4"
+      },
+      "Part Number": {
+        "showTitle": false,
+        "showValue": true,
+        "value": ""
+      },
+      "Region Start": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "1"
+      },
+      "Reviewed": {
+        "showTitle": false,
+        "showValue": true,
+        "value": ""
+      },
+      "Size": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "A4"
+      },
+      "Symbol": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "Drawing-Symbol_A4"
+      },
+      "Title Block": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "1"
+      },
+      "Title Block Position": {
+        "showTitle": null,
+        "showValue": null,
+        "value": "3"
+      },
+      "Version": {
+        "showTitle": false,
+        "showValue": false,
+        "value": "V1.0"
+      },
+      "Width": {
+        "showTitle": null,
+        "showValue": null,
+        "value": 1170
+      },
+      "X Region Count": {
+        "showTitle": null,
+        "showValue": null,
+        "value": 6
+      },
+      "Y Region Count": {
+        "showTitle": null,
+        "showValue": null,
+        "value": 4
+      }
+    },
+    "verified": true,
+    "visibilityApplied": true
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "2d01061a63b3efa0",
+    "documentType": "schematic",
+    "tabId": "2d01061a63b3efa0@a422d704ace24952ae3d8c1eb5094d0b"
+  },
+  "seq": 6046,
+  "seqAbandoned": 3,
+  "abandonedIds": [
+    "req_706",
+    "req_829",
+    "req_840"
+  ]
+}

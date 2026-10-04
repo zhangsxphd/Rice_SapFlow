@@ -1,0 +1,16 @@
+{
+  "board": "Sensor_FPC_2MM",
+  "tool": "KiCad",
+  "passed": false,
+  "violations": 4,
+  "unconnected_items": 15,
+  "schematic_parity_verified": false,
+  "easyeda_live_verified": false,
+  "fabrication_released": false,
+  "physical_review_required": [
+    "Confirm the actual SuperMini model, 17.78 mm header spacing and pin order; the reference 18 mm wide module uses a different header arrangement.",
+    "Confirm FH12 bottom-contact orientation, FPC mating width, contact length and total inserted thickness against the supplier drawing.",
+    "Validate heater power, pulse duration and plant temperature rise with a calibrated prototype; PRF18 is a sensing thermistor, not a qualified heater.",
+    "Finish routing and supply return paths; obtain schematic/PCB parity and native EasyEDA save/reload/readback/ERC/DRC evidence."
+  ]
+}

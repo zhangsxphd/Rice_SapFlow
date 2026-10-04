@@ -1,0 +1,22 @@
+playbook "Rice SapFlow main measurement seed" — 20 step(s), project=cf823b99abc3472f86efd2c874825dfb
+  [1/20] place-J2         run     sch place
+  [2/20] place-J3         run     sch place
+  [3/20] place-C1         run     sch place
+  [4/20] place-C2         run     sch place
+  [5/20] place-C3         run     sch place
+  [6/20] place-C4         run     sch place
+  [7/20] place-R1         run     sch place
+  [8/20] place-R2         run     sch place
+  [9/20] place-Q1         run     sch place
+  [10/20] place-R3         run     sch place
+  [11/20] place-R4         run     sch place
+  [12/20] place-SJ1        run     sch place
+  [13/20] place-J1         run     sch place
+  [14/20] place-TP1        run     sch place
+  [15/20] place-TP2        run     sch place
+  [16/20] place-TP3        run     sch place
+  [17/20] place-TP4        run     sch place
+  [18/20] place-TP5        run     sch place
+  [19/20] place-TP6        run     sch place
+  [20/20] save-measurement-seed run     sch save
+dry-run: preflight passed, nothing executed

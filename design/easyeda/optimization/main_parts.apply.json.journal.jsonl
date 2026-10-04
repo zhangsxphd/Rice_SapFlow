@@ -1,0 +1,2 @@
+{"playbookSha256":"6bba736d8308a892137f2da9e1008eab3590a9277033ac3076b61486f0b2cc45","name":"Rice SapFlow optimized parts and heater supply","project":"a422d704ace24952ae3d8c1eb5094d0b","startedAt":"2026-10-03T10:41:10+08:00"}
+{"idx":1,"id":"replace-U1_L","status":"fail","ms":1283,"error":"run \"sch replace\" exited 1: }"}

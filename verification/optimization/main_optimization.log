@@ -1,0 +1,11 @@
+001 start_main
+Traceback (most recent call last):
+  File "/Users/zhangshuxuan/本地文稿/Rice_SapFlow_V01/scripts/optimize_easyeda.py", line 110, in <module>
+    main_parts()
+  File "/Users/zhangshuxuan/本地文稿/Rice_SapFlow_V01/scripts/optimize_easyeda.py", line 82, in main_parts
+    replace_candidate(doc,old,uuid,nets,nc)
+  File "/Users/zhangshuxuan/本地文稿/Rice_SapFlow_V01/scripts/optimize_easyeda.py", line 47, in replace_candidate
+    r = run(['sch','place','--lib',library,'--uuid',uuid,'--designator',candidate,
+  File "/Users/zhangshuxuan/本地文稿/Rice_SapFlow_V01/scripts/optimize_easyeda.py", line 34, in run
+    raise RuntimeError('%s: %s' % (label, data.get('error', r.stdout[-500:])))
+RuntimeError: candidate_U1_L: {'code': 'EDA_CALL_FAILED', 'message': 'Placed component "67ad539c61cf9423" but failed to assign designator "J901".', 'detail': "Cannot read properties of undefined (reading 'getState_ComponentType')"}

@@ -1,0 +1,81 @@
+{
+  "id": "req_396",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T02:32:55.660726Z",
+  "ok": true,
+  "result": {
+    "device": {
+      "association": {
+        "footprint": {
+          "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+          "uuid": "48800962145d482ea181649f9e68f607"
+        },
+        "footprintUuid": "48800962145d482ea181649f9e68f607",
+        "images": [
+          ""
+        ],
+        "symbol": {
+          "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+          "type": 2,
+          "uuid": "0474fbf76a4942a895f5fa03bdc32b3c"
+        },
+        "symbolType": 2,
+        "symbolUuid": "0474fbf76a4942a895f5fa03bdc32b3c"
+      },
+      "classification": [],
+      "description": "",
+      "libraryType": "3",
+      "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+      "name": "EA_AGENT__RICE_OPT_TESTPOINT_1MM",
+      "property": {
+        "addIntoBom": false,
+        "addIntoPcb": true,
+        "designator": "TP",
+        "name": "EA_AGENT__RICE_OPT_TESTPOINT_1MM",
+        "otherProperty": {
+          "Add into BOM": "no",
+          "Convert to PCB": "yes",
+          "Description": "",
+          "Designator": "TP",
+          "Footprint": "48800962145d482ea181649f9e68f607",
+          "FootprintName": {
+            "name": "EA_AGENT__RICE_OPT_TP1MM_20261003",
+            "source": "",
+            "uuid": "48800962145d482ea181649f9e68f607"
+          },
+          "Name": "",
+          "Symbol": "0474fbf76a4942a895f5fa03bdc32b3c",
+          "SymbolName": {
+            "name": "EA_AGENT__RICE_OPT_TESTPOINT_20261003",
+            "source": "",
+            "uuid": "0474fbf76a4942a895f5fa03bdc32b3c"
+          }
+        }
+      },
+      "subPartNames": [
+        "EA_AGENT__RICE_OPT_TESTPOINT_20261003.1",
+        "EA_AGENT__RICE_OPT_TESTPOINT_20261003.1"
+      ],
+      "uuid": "e75f2c5a27584d84b3fe328dd52cbb39"
+    },
+    "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+    "name": "EA_AGENT__RICE_OPT_TESTPOINT_1MM",
+    "namespace": "EA_AGENT",
+    "requestedName": "RICE_OPT_TESTPOINT_1MM",
+    "uuid": "e75f2c5a27584d84b3fe328dd52cbb39",
+    "verified": true
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "2df9b0b2fed1462fad4ae117afd42f31",
+    "documentType": "footprint",
+    "tabId": "2df9b0b2fed1462fad4ae117afd42f31@9e05c206bff14f5b91e051328bc4efe6"
+  },
+  "seq": 4104,
+  "seqAbandoned": 1,
+  "abandonedIds": [
+    "req_706"
+  ]
+}

@@ -1,0 +1,8 @@
+playbook "Rice SapFlow board and document identities" — 6 step(s), project=cf823b99abc3472f86efd2c874825dfb
+  [1/6] rename-main-board run     board rename
+  [2/6] rename-sensor-board run     board rename
+  [3/6] name-main-schematic run     sch rename
+  [4/6] name-sensor-schematic run     sch rename
+  [5/6] name-main-page   run     sch page-rename
+  [6/6] name-sensor-page run     sch page-rename
+dry-run: preflight passed, nothing executed

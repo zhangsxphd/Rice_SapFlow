@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1450 820" width="1450" height="820" style="background:#ffffff; font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#f1f5f9" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1.5 L 10 5 L 0 8.5 z" fill="#16a34a"/>
+    </marker>
+    <marker id="dim-arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 2 L 10 5 L 0 8 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+
+  <!-- Frame -->
+  <rect x="20" y="20" width="1410" height="780" fill="none" stroke="#334155" stroke-width="2"/>
+  <text x="50" y="60" font-size="18" font-weight="bold" fill="#0f172a">Sensor_FPC_V01: Probe Geometry, Spacing Variants &amp; Thermal Symmetry</text>
+  <text x="50" y="85" font-size="12" fill="#475569">Physical Layout Strategy for Sap Flow Measurement (Heat Pulse / Constant Heat / Heat Ratio Method)</text>
+
+  <!-- Flow Direction Vector -->
+  <g transform="translate(50, 110)">
+    <rect x="0" y="0" width="1350" height="40" rx="6" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+    <text x="20" y="25" font-size="13" font-weight="bold" fill="#15803d">PLANT TRANSPIRATION STREAM (水稻茎流方向):</text>
+    <line x1="380" y1="20" x2="1280" y2="20" stroke="#16a34a" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="830" y="15" text-anchor="middle" font-size="11" font-weight="bold" fill="#16a34a">UPSTREAM (基部/下部) ➔➔➔ HEATER (热脉冲施加点) ➔➔➔ DOWNSTREAM (穗部/上部)</text>
+  </g>
+
+  <!-- Physical Comparison of 3 Pitch Versions: 2mm, 3mm, 4mm -->
+  <!-- Variant A: 2 mm Spacing -->
+  <g transform="translate(60, 190)">
+    <!-- FPC Substrate Outline -->
+    <path d="M 0 35 L 20 10 L 320 10 L 340 35 L 320 60 L 20 60 Z" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="15" y="-10" font-size="14" font-weight="bold" fill="#b45309">Variant 1: 2.0 mm Center-to-Center Spacing (微细茎秆适用)</text>
+    <!-- Components -->
+    <!-- TMP117 UP -->
+    <rect x="70" y="23" width="24" height="24" rx="2" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+    <text x="82" y="39" text-anchor="middle" font-size="9" font-weight="bold" fill="#ffffff">UP</text>
+    <!-- PTC Heater -->
+    <rect x="160" y="26" width="20" height="18" rx="2" fill="#ea580c" stroke="#9a3412" stroke-width="1.5"/>
+    <text x="170" y="39" text-anchor="middle" font-size="8" font-weight="bold" fill="#ffffff">PTC</text>
+    <!-- TMP117 DOWN -->
+    <rect x="246" y="23" width="24" height="24" rx="2" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+    <text x="258" y="39" text-anchor="middle" font-size="9" font-weight="bold" fill="#ffffff">DN</text>
+
+    <!-- Dimension lines -->
+    <!-- d1: UP to PTC -->
+    <line x1="82" y1="75" x2="170" y2="75" stroke="#2563eb" stroke-width="1.5" marker-start="url(#dim-arrow)" marker-end="url(#dim-arrow)"/>
+    <line x1="82" y1="50" x2="82" y2="82" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,2"/>
+    <line x1="170" y1="46" x2="170" y2="82" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="126" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#2563eb">d = 2.0 mm</text>
+
+    <!-- d2: PTC to DN -->
+    <line x1="170" y1="75" x2="258" y2="75" stroke="#2563eb" stroke-width="1.5" marker-start="url(#dim-arrow)" marker-end="url(#dim-arrow)"/>
+    <line x1="258" y1="50" x2="258" y2="82" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="214" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#2563eb">d = 2.0 mm</text>
+
+    <!-- Description -->
+    <text x="360" y="38" font-size="11" fill="#475569">总探测跨距: 4.0 mm | 候选间距，灵敏度与响应时间待实测</text>
+  </g>
+
+  <!-- Variant B: 3 mm Spacing -->
+  <g transform="translate(60, 320)">
+    <path d="M 0 35 L 20 10 L 400 10 L 420 35 L 400 60 L 20 60 Z" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="15" y="-10" font-size="14" font-weight="bold" fill="#b45309">Variant 2: 3.0 mm Center-to-Center Spacing (标准水稻基部适用)</text>
+    <!-- TMP117 UP -->
+    <rect x="70" y="23" width="24" height="24" rx="2" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+    <text x="82" y="39" text-anchor="middle" font-size="9" font-weight="bold" fill="#ffffff">UP</text>
+    <!-- PTC Heater -->
+    <rect x="205" y="26" width="20" height="18" rx="2" fill="#ea580c" stroke="#9a3412" stroke-width="1.5"/>
+    <text x="215" y="39" text-anchor="middle" font-size="8" font-weight="bold" fill="#ffffff">PTC</text>
+    <!-- TMP117 DOWN -->
+    <rect x="336" y="23" width="24" height="24" rx="2" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+    <text x="348" y="39" text-anchor="middle" font-size="9" font-weight="bold" fill="#ffffff">DN</text>
+
+    <!-- Dimension lines -->
+    <line x1="82" y1="75" x2="215" y2="75" stroke="#2563eb" stroke-width="1.5" marker-start="url(#dim-arrow)" marker-end="url(#dim-arrow)"/>
+    <line x1="82" y1="50" x2="82" y2="82" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,2"/>
+    <line x1="215" y1="46" x2="215" y2="82" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="148" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#2563eb">d = 3.0 mm</text>
+
+    <line x1="215" y1="75" x2="348" y2="75" stroke="#2563eb" stroke-width="1.5" marker-start="url(#dim-arrow)" marker-end="url(#dim-arrow)"/>
+    <line x1="348" y1="50" x2="348" y2="82" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="281" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#2563eb">d = 3.0 mm</text>
+
+    <text x="440" y="38" font-size="11" fill="#475569">总探测跨距: 6.0 mm | 候选间距，热传导与对流比例待标定</text>
+  </g>
+
+  <!-- Variant C: 4 mm Spacing -->
+  <g transform="translate(60, 450)">
+    <path d="M 0 35 L 20 10 L 480 10 L 500 35 L 480 60 L 20 60 Z" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="15" y="-10" font-size="14" font-weight="bold" fill="#b45309">Variant 3: 4.0 mm Center-to-Center Spacing (粗节茎秆/灌浆期适用)</text>
+    <!-- TMP117 UP -->
+    <rect x="70" y="23" width="24" height="24" rx="2" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+    <text x="82" y="39" text-anchor="middle" font-size="9" font-weight="bold" fill="#ffffff">UP</text>
+    <!-- PTC Heater -->
+    <rect x="250" y="26" width="20" height="18" rx="2" fill="#ea580c" stroke="#9a3412" stroke-width="1.5"/>
+    <text x="260" y="39" text-anchor="middle" font-size="8" font-weight="bold" fill="#ffffff">PTC</text>
+    <!-- TMP117 DOWN -->
+    <rect x="426" y="23" width="24" height="24" rx="2" fill="#3b82f6" stroke="#1d4ed8" stroke-width="1.5"/>
+    <text x="438" y="39" text-anchor="middle" font-size="9" font-weight="bold" fill="#ffffff">DN</text>
+
+    <!-- Dimension lines -->
+    <line x1="82" y1="75" x2="260" y2="75" stroke="#2563eb" stroke-width="1.5" marker-start="url(#dim-arrow)" marker-end="url(#dim-arrow)"/>
+    <line x1="82" y1="50" x2="82" y2="82" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,2"/>
+    <line x1="260" y1="46" x2="260" y2="82" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="171" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#2563eb">d = 4.0 mm</text>
+
+    <line x1="260" y1="75" x2="438" y2="75" stroke="#2563eb" stroke-width="1.5" marker-start="url(#dim-arrow)" marker-end="url(#dim-arrow)"/>
+    <line x1="438" y1="50" x2="438" y2="82" stroke="#94a3b8" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="349" y="90" text-anchor="middle" font-size="11" font-weight="bold" fill="#2563eb">d = 4.0 mm</text>
+
+    <text x="520" y="38" font-size="11" fill="#475569">总探测跨距: 8.0 mm | 候选间距，量程与热响应待标定</text>
+  </g>
+
+  <!-- Cross-sectional Stackup & Thermal Routing Rules -->
+  <g transform="translate(850, 190)">
+    <rect x="0" y="0" width="550" height="370" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="20" y="30" font-size="14" font-weight="bold" fill="#0f172a">FPC 叠层结构与热传导物理边界控制</text>
+
+    <!-- Exploded Layers Visualization -->
+    <!-- Layer 1: Coverlay -->
+    <rect x="25" y="55" width="500" height="18" rx="2" fill="#fef08a" stroke="#ca8a04"/>
+    <text x="275" y="68" text-anchor="middle" font-size="10" font-weight="bold" fill="#854d0e">Top Coverlay (聚酰亚胺 PI 覆盖膜 + 胶层: 12.5µm + 15µm)</text>
+
+    <!-- Layer 2: Copper Traces -->
+    <rect x="25" y="85" width="500" height="14" rx="2" fill="#fed7aa" stroke="#ea580c"/>
+    <text x="275" y="96" text-anchor="middle" font-size="10" font-weight="bold" fill="#9a3412">Top Copper (18µm 压延铜 RA Cu) — 严格细线上下对称走线</text>
+
+    <!-- Layer 3: Base PI Core -->
+    <rect x="25" y="110" width="500" height="24" rx="2" fill="#fef9c3" stroke="#eab308"/>
+    <text x="275" y="126" text-anchor="middle" font-size="10" font-weight="bold" fill="#713f12">PI Substrate Core (聚酰亚胺基材: 25µm) — 低热导率基底 (k ≈ 0.12 W/m·K)</text>
+
+    <!-- Layer 4: Bottom Coverlay -->
+    <rect x="25" y="145" width="500" height="18" rx="2" fill="#fef08a" stroke="#ca8a04"/>
+    <text x="275" y="158" text-anchor="middle" font-size="10" font-weight="bold" fill="#854d0e">Bottom Coverlay (底层 PI 覆盖膜: 12.5µm + 15µm)</text>
+
+    <!-- Thermal Pad & Keepout Highlights -->
+    <rect x="20" y="180" width="510" height="175" rx="6" fill="#ffffff" stroke="#ef4444" stroke-width="1.2"/>
+    <text x="35" y="202" font-size="11" font-weight="bold" fill="#dc2626">核心工艺与布局禁忌 (Design Rule Highlights):</text>
+    <text x="35" y="222" font-size="10" fill="#334155">1. <tspan font-weight="bold">铜箔禁铺 (Copper Keepout):</tspan> PTC 与两颗 TMP117 之间严禁铺设 GND 或电源铜皮！</text>
+    <text x="35" y="242" font-size="10" fill="#334155">2. <tspan font-weight="bold">横向热隔离:</tspan> 铜导热系数高达 398 W/m·K，大面积铺铜会造成严重横向热短路；</text>
+    <text x="35" y="262" font-size="10" fill="#334155">3. <tspan font-weight="bold">走线对称性:</tspan> I2C 与电源走线沿两侧边缘对称延伸，线宽保持一致 (4~6 mil)；</text>
+    <text x="35" y="282" font-size="10" fill="#334155">4. <tspan font-weight="bold">Thermal Pad 工艺:</tspan> TMP117 底部散热焊盘保留铜，但第一版严禁开钢网 (No Paste Mask)；</text>
+    <text x="35" y="302" font-size="10" fill="#334155">5. <tspan font-weight="bold">焊盘电气悬空:</tspan> Thermal Pad 保持电气 Floating，避免引入杂散地电位与热串扰；</text>
+    <text x="35" y="322" font-size="10" fill="#334155">6. <tspan font-weight="bold">微热电势抑制:</tspan> 采用对称差分温度测量，同温环境下两传感器零位对齐标定。</text>
+  </g>
+
+  <!-- Bottom Spec Summary -->
+  <g transform="translate(50, 610)">
+    <rect x="0" y="0" width="1350" height="150" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="25" y="30" font-size="13" font-weight="bold" fill="#0f172a">FPC 尾部金手指与补强板工程参数 (FPC ZIF Tail &amp; Stiffener Specs):</text>
+    <text x="25" y="55" font-size="11" fill="#334155">• 引脚定义: 1=3V3, 2=GND, 3=SDA, 4=SCL, 5=HEATER_VCC, 6=HEATER_RETURN</text>
+    <text x="25" y="78" font-size="11" fill="#334155">• 金手指间距: 0.50 mm Pitch | 导体宽度: 0.30 mm | 裸铜表面处理: ENIG (化学镍金 / 沉金 ≥ 2u")</text>
+    <text x="25" y="101" font-size="11" fill="#334155">• 补强板材质: PI 补强 (Polyimide Stiffener) 或 FR-4 补强，金手指插入端总厚度严格匹配 ZIF 规范为 0.30 ± 0.03 mm</text>
+    <text x="25" y="124" font-size="11" fill="#334155">• 翻盖插拔锁紧方向: 配合主控板水平翻盖式 0.5mm 6P 连接器 (C202118) 严密锁合，防脱拔抗拉扯</text>
+  </g>
+
+</svg>

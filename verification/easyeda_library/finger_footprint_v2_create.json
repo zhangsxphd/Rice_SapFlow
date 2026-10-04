@@ -1,0 +1,33 @@
+{
+  "id": "req_55",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:47:01.968451Z",
+  "ok": true,
+  "result": {
+    "footprint": {
+      "classification": [],
+      "description": "Existing KiCad candidate: 6 x 2.5 by 0.30 mm fingers, 0.5 mm pitch; fit, exposed copper and paste must be verified",
+      "libraryType": "4",
+      "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+      "name": "EA_AGENT__RICE_SAPFLOW_FPC6_20261003_FPV2",
+      "otherProperty": {},
+      "uuid": "c6cd31f96d354f89b1228e634dedc3f1"
+    },
+    "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+    "name": "EA_AGENT__RICE_SAPFLOW_FPC6_20261003_FPV2",
+    "namespace": "EA_AGENT",
+    "requestedName": "Rice_SapFlow_FPC6_20261003_FPv2",
+    "uuid": "c6cd31f96d354f89b1228e634dedc3f1",
+    "verified": true
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "796afcdd366b41ac87021ae949ddc74d",
+    "documentType": "footprint",
+    "tabId": "796afcdd366b41ac87021ae949ddc74d@9e05c206bff14f5b91e051328bc4efe6"
+  },
+  "seq": 50,
+  "seqAbandoned": 0
+}

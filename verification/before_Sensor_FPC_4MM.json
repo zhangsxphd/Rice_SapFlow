@@ -1,0 +1,1835 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-03T00:31:43",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "Sensor_FPC_4MM.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [SCL] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.0
+                    },
+                    "uuid": "48aad798-6f64-49a9-b899-580a5020719d"
+                },
+                {
+                    "description": "F.Cu 上 J1_FPC 的焊盘 4 [SCL]",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 100.25
+                    },
+                    "uuid": "72118981-911e-4ba4-ac35-a499e1fa6d44"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U1 的焊盘 1 [SCL]",
+                    "pos": {
+                        "x": 117.35,
+                        "y": 100.8875
+                    },
+                    "uuid": "ce19cbc2-c5cc-42bb-966b-3aaac1454ea6"
+                },
+                {
+                    "description": "F.Cu 上 U2 的焊盘 1 [SCL]",
+                    "pos": {
+                        "x": 125.35,
+                        "y": 100.8875
+                    },
+                    "uuid": "08bfee5c-ec8f-4a7f-968b-039d6b4b23e8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U2 的焊盘 1 [SCL]",
+                    "pos": {
+                        "x": 125.35,
+                        "y": 100.8875
+                    },
+                    "uuid": "08bfee5c-ec8f-4a7f-968b-039d6b4b23e8"
+                },
+                {
+                    "description": "走线 [SCL] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.0
+                    },
+                    "uuid": "48aad798-6f64-49a9-b899-580a5020719d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 J1_FPC 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 99.25
+                    },
+                    "uuid": "bd7b8ebf-e9eb-43c8-bc49-8cbac704a6e0"
+                },
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 101.35
+                    },
+                    "uuid": "60ad71b2-f465-4d1a-87b7-7001c31515a5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C1 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 116.2,
+                        "y": 99.52
+                    },
+                    "uuid": "d1bc86b9-8bf5-4ca8-b089-62c40b71599c"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 100.8875
+                    },
+                    "uuid": "5d366b8b-3122-4e56-acb0-1323632a856d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U1 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 100.8875
+                    },
+                    "uuid": "5d366b8b-3122-4e56-acb0-1323632a856d"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 118.65,
+                        "y": 99.1125
+                    },
+                    "uuid": "7d144915-8e07-4c69-986f-206e97f49550"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U1 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 118.65,
+                        "y": 99.1125
+                    },
+                    "uuid": "7d144915-8e07-4c69-986f-206e97f49550"
+                },
+                {
+                    "description": "F.Cu 上 U2 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 100.8875
+                    },
+                    "uuid": "0ab4d9ab-92f8-4205-bafb-b65bbf36592d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U2 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 100.8875
+                    },
+                    "uuid": "0ab4d9ab-92f8-4205-bafb-b65bbf36592d"
+                },
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 101.35
+                    },
+                    "uuid": "60ad71b2-f465-4d1a-87b7-7001c31515a5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 101.35
+                    },
+                    "uuid": "60ad71b2-f465-4d1a-87b7-7001c31515a5"
+                },
+                {
+                    "description": "F.Cu 上 C2 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 127.8,
+                        "y": 99.52
+                    },
+                    "uuid": "16053e17-3ab2-43a0-9743-c2495a63e69d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [+3V3] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 98.65
+                    },
+                    "uuid": "3018a9b9-fca1-4701-8155-63554faed465"
+                },
+                {
+                    "description": "F.Cu 上 J1_FPC 的焊盘 1 [+3V3]",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 98.75
+                    },
+                    "uuid": "08824494-75b4-4575-8c24-d007b7c4320e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C1 的焊盘 1 [+3V3]",
+                    "pos": {
+                        "x": 116.2,
+                        "y": 100.48
+                    },
+                    "uuid": "3ff93453-e947-4a2d-9b46-e5918f6cce44"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 5 [+3V3]",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 99.1125
+                    },
+                    "uuid": "6db94d30-1336-4720-aea3-e7f4319f39b1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U1 的焊盘 5 [+3V3]",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 99.1125
+                    },
+                    "uuid": "6db94d30-1336-4720-aea3-e7f4319f39b1"
+                },
+                {
+                    "description": "F.Cu 上 U2 的焊盘 5 [+3V3]",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 99.1125
+                    },
+                    "uuid": "c1bfd31d-050e-49e1-9143-a9fea0bba809"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U2 的焊盘 4 [+3V3]",
+                    "pos": {
+                        "x": 126.65,
+                        "y": 99.1125
+                    },
+                    "uuid": "6c4af84d-a940-4108-b504-483e39aaa4e3"
+                },
+                {
+                    "description": "F.Cu 上 U2 的焊盘 5 [+3V3]",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 99.1125
+                    },
+                    "uuid": "c1bfd31d-050e-49e1-9143-a9fea0bba809"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 U2 的焊盘 4 [+3V3]",
+                    "pos": {
+                        "x": 126.65,
+                        "y": 99.1125
+                    },
+                    "uuid": "6c4af84d-a940-4108-b504-483e39aaa4e3"
+                },
+                {
+                    "description": "走线 [+3V3] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 98.65
+                    },
+                    "uuid": "3018a9b9-fca1-4701-8155-63554faed465"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "F.Cu 上 C2 的焊盘 1 [+3V3]",
+                    "pos": {
+                        "x": 127.8,
+                        "y": 100.48
+                    },
+                    "uuid": "26c6bb0c-d0fa-4aeb-b5c7-80c94db5872b"
+                },
+                {
+                    "description": "F.Cu 上 U2 的焊盘 4 [+3V3]",
+                    "pos": {
+                        "x": 126.65,
+                        "y": 99.1125
+                    },
+                    "uuid": "6c4af84d-a940-4108-b504-483e39aaa4e3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [SDA] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.35
+                    },
+                    "uuid": "1dfb0c88-257a-47be-a446-02309c109b4d"
+                },
+                {
+                    "description": "F.Cu 上 J1_FPC 的焊盘 3 [SDA]",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 99.75
+                    },
+                    "uuid": "c9476537-b4c4-42d0-9d5b-abdf7fc92007"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [HEATER_VCC] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 100.65
+                    },
+                    "uuid": "cee4f544-51c8-42eb-ab0b-03ab61be3259"
+                },
+                {
+                    "description": "F.Cu 上 J1_FPC 的焊盘 5 [HEATER_VCC]",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 100.75
+                    },
+                    "uuid": "7fbafc10-6958-4ddc-ba83-bcc408a224b1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [HEATER_RETURN] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 101.0
+                    },
+                    "uuid": "59c1c60c-d794-4df0-a628-ad7c108b2ff6"
+                },
+                {
+                    "description": "F.Cu 上 J1_FPC 的焊盘 6 [HEATER_RETURN]",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 101.25
+                    },
+                    "uuid": "5da6fad8-6982-4f29-881d-42a205ebd1e4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [HEATER_RETURN] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 101.0
+                    },
+                    "uuid": "59c1c60c-d794-4df0-a628-ad7c108b2ff6"
+                },
+                {
+                    "description": "F.Cu 上 R_HEAT 的焊盘 2 [HEATER_RETURN]",
+                    "pos": {
+                        "x": 122.0,
+                        "y": 99.175
+                    },
+                    "uuid": "3db4bf8e-be89-49c6-bb55-99807bace3d3"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 101.35
+                    },
+                    "uuid": "60ad71b2-f465-4d1a-87b7-7001c31515a5"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "走线 [+3V3] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 98.65
+                    },
+                    "uuid": "3018a9b9-fca1-4701-8155-63554faed465"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "走线 [SDA] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.35
+                    },
+                    "uuid": "1dfb0c88-257a-47be-a446-02309c109b4d"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "走线 [SCL] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.0
+                    },
+                    "uuid": "48aad798-6f64-49a9-b899-580a5020719d"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "走线 [HEATER_VCC] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 100.65
+                    },
+                    "uuid": "cee4f544-51c8-42eb-ab0b-03ab61be3259"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "Items not allowed",
+            "items": [
+                {
+                    "description": "走线 [HEATER_RETURN] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 101.0
+                    },
+                    "uuid": "59c1c60c-d794-4df0-a628-ad7c108b2ff6"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 U2 的焊盘 1 [SCL]",
+                    "pos": {
+                        "x": 125.35,
+                        "y": 100.8875
+                    },
+                    "uuid": "08bfee5c-ec8f-4a7f-968b-039d6b4b23e8"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 U2 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 100.8875
+                    },
+                    "uuid": "0ab4d9ab-92f8-4205-bafb-b65bbf36592d"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 U2 的焊盘 3 [<no net>]",
+                    "pos": {
+                        "x": 126.65,
+                        "y": 100.8875
+                    },
+                    "uuid": "af72a8eb-f8ca-47e0-a727-ff56bfd8e0cc"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 U2 的焊盘 4 [+3V3]",
+                    "pos": {
+                        "x": 126.65,
+                        "y": 99.1125
+                    },
+                    "uuid": "6c4af84d-a940-4108-b504-483e39aaa4e3"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 U2 的焊盘 5 [+3V3]",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 99.1125
+                    },
+                    "uuid": "c1bfd31d-050e-49e1-9143-a9fea0bba809"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 U2 的焊盘 6 [SDA]",
+                    "pos": {
+                        "x": 125.35,
+                        "y": 99.1125
+                    },
+                    "uuid": "e12ffd89-c507-439d-907c-c5cd10ca19c3"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 U2 的焊盘 7 [<no net>]",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 100.0
+                    },
+                    "uuid": "cbc64e74-42ef-467f-b01a-cb547e588abb"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 C2 的焊盘 1 [+3V3]",
+                    "pos": {
+                        "x": 127.8,
+                        "y": 100.48
+                    },
+                    "uuid": "26c6bb0c-d0fa-4aeb-b5c7-80c94db5872b"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 C2 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 127.8,
+                        "y": 99.52
+                    },
+                    "uuid": "16053e17-3ab2-43a0-9743-c2495a63e69d"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 R_HEAT 的焊盘 1 [HEATER_VCC]",
+                    "pos": {
+                        "x": 122.0,
+                        "y": 100.825
+                    },
+                    "uuid": "9e020ab5-3105-408c-b44f-e59c0a976454"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 R_HEAT 的焊盘 2 [HEATER_RETURN]",
+                    "pos": {
+                        "x": 122.0,
+                        "y": 99.175
+                    },
+                    "uuid": "3db4bf8e-be89-49c6-bb55-99807bace3d3"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 U1 的焊盘 1 [SCL]",
+                    "pos": {
+                        "x": 117.35,
+                        "y": 100.8875
+                    },
+                    "uuid": "ce19cbc2-c5cc-42bb-966b-3aaac1454ea6"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 U1 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 100.8875
+                    },
+                    "uuid": "5d366b8b-3122-4e56-acb0-1323632a856d"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 U1 的焊盘 3 [<no net>]",
+                    "pos": {
+                        "x": 118.65,
+                        "y": 100.8875
+                    },
+                    "uuid": "5ea98ec6-a5c5-46d0-a25c-7899d80eea3e"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 U1 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 118.65,
+                        "y": 99.1125
+                    },
+                    "uuid": "7d144915-8e07-4c69-986f-206e97f49550"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 U1 的焊盘 5 [+3V3]",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 99.1125
+                    },
+                    "uuid": "6db94d30-1336-4720-aea3-e7f4319f39b1"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 U1 的焊盘 6 [SDA]",
+                    "pos": {
+                        "x": 117.35,
+                        "y": 99.1125
+                    },
+                    "uuid": "d3f7e127-4aa1-4562-9318-bf3411883240"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 U1 的焊盘 7 [<no net>]",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 100.0
+                    },
+                    "uuid": "e18a94ef-f675-45e5-a760-038c1122264e"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 C1 的焊盘 1 [+3V3]",
+                    "pos": {
+                        "x": 116.2,
+                        "y": 100.48
+                    },
+                    "uuid": "3ff93453-e947-4a2d-9b46-e5918f6cce44"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "不允许的项目 (keepout 域)",
+            "items": [
+                {
+                    "description": "F.Cu 上 C1 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 116.2,
+                        "y": 99.52
+                    },
+                    "uuid": "d1bc86b9-8bf5-4ca8-b089-62c40b71599c"
+                }
+            ],
+            "severity": "error",
+            "type": "items_not_allowed"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 SCL 和 +3V3)",
+            "items": [
+                {
+                    "description": "走线 [SCL] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.0
+                    },
+                    "uuid": "48aad798-6f64-49a9-b899-580a5020719d"
+                },
+                {
+                    "description": "F.Cu 上 U2 的焊盘 5 [+3V3]",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 99.1125
+                    },
+                    "uuid": "c1bfd31d-050e-49e1-9143-a9fea0bba809"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "短路了两个不同网络的项目 (网络 SDA 和 +3V3)",
+            "items": [
+                {
+                    "description": "走线 [SDA] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.35
+                    },
+                    "uuid": "1dfb0c88-257a-47be-a446-02309c109b4d"
+                },
+                {
+                    "description": "F.Cu 上 U2 的焊盘 5 [+3V3]",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 99.1125
+                    },
+                    "uuid": "c1bfd31d-050e-49e1-9143-a9fea0bba809"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "间距违规 ( 间距 0.2000 mm; 实际 0.1750 mm)",
+            "items": [
+                {
+                    "description": "走线 [+3V3] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 98.65
+                    },
+                    "uuid": "3018a9b9-fca1-4701-8155-63554faed465"
+                },
+                {
+                    "description": "F.Cu 上 U2 的焊盘 6 [SDA]",
+                    "pos": {
+                        "x": 125.35,
+                        "y": 99.1125
+                    },
+                    "uuid": "e12ffd89-c507-439d-907c-c5cd10ca19c3"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 ( 间距 0.2000 mm; 实际 0.1000 mm)",
+            "items": [
+                {
+                    "description": "走线 [HEATER_RETURN] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 101.0
+                    },
+                    "uuid": "59c1c60c-d794-4df0-a628-ad7c108b2ff6"
+                },
+                {
+                    "description": "走线 [HEATER_VCC] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 100.65
+                    },
+                    "uuid": "cee4f544-51c8-42eb-ab0b-03ab61be3259"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 ( 间距 0.2000 mm; 实际 0.1750 mm)",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 101.35
+                    },
+                    "uuid": "60ad71b2-f465-4d1a-87b7-7001c31515a5"
+                },
+                {
+                    "description": "F.Cu 上 U2 的焊盘 3 [<no net>]",
+                    "pos": {
+                        "x": 126.65,
+                        "y": 100.8875
+                    },
+                    "uuid": "af72a8eb-f8ca-47e0-a727-ff56bfd8e0cc"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "间距违规 ( 间距 0.2000 mm; 实际 0.1443 mm)",
+            "items": [
+                {
+                    "description": "走线 [HEATER_RETURN] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 101.0
+                    },
+                    "uuid": "59c1c60c-d794-4df0-a628-ad7c108b2ff6"
+                },
+                {
+                    "description": "F.Cu 上 J1_FPC 的焊盘 5 [HEATER_VCC]",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 100.75
+                    },
+                    "uuid": "7fbafc10-6958-4ddc-ba83-bcc408a224b1"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "电路板边缘间距违规 (<电路板配置> 中的 \"板边\" 约束 间距 0.5000 mm; 实际 0.3500 mm)",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 线段",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 101.8
+                    },
+                    "uuid": "ceb33213-5382-4d86-8695-4a8ef667c605"
+                },
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 101.35
+                    },
+                    "uuid": "60ad71b2-f465-4d1a-87b7-7001c31515a5"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "电路板边缘间距违规 (<电路板配置> 中的 \"板边\" 约束 间距 0.5000 mm; 实际 0.3500 mm)",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 线段",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 98.2
+                    },
+                    "uuid": "0dad8f27-1936-480d-8b5f-7dd785530d50"
+                },
+                {
+                    "description": "走线 [+3V3] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 98.65
+                    },
+                    "uuid": "3018a9b9-fca1-4701-8155-63554faed465"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "电路板边缘间距违规 (<电路板配置> 中的 \"板边\" 约束 间距 0.5000 mm; 实际 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 线段",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 98.2
+                    },
+                    "uuid": "0dad8f27-1936-480d-8b5f-7dd785530d50"
+                },
+                {
+                    "description": "F.Cu 上 J1_FPC 的焊盘 1 [+3V3]",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 98.75
+                    },
+                    "uuid": "08824494-75b4-4575-8c24-d007b7c4320e"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "电路板边缘间距违规 (<电路板配置> 中的 \"板边\" 约束 间距 0.5000 mm; 实际 0.4000 mm)",
+            "items": [
+                {
+                    "description": "Edge.Cuts 上的 线段",
+                    "pos": {
+                        "x": 108.0,
+                        "y": 101.8
+                    },
+                    "uuid": "ceb33213-5382-4d86-8695-4a8ef667c605"
+                },
+                {
+                    "description": "F.Cu 上 J1_FPC 的焊盘 6 [HEATER_RETURN]",
+                    "pos": {
+                        "x": 103.5,
+                        "y": 101.25
+                    },
+                    "uuid": "5da6fad8-6982-4f29-881d-42a205ebd1e4"
+                }
+            ],
+            "severity": "error",
+            "type": "copper_edge_clearance"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [SCL] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.0
+                    },
+                    "uuid": "48aad798-6f64-49a9-b899-580a5020719d"
+                },
+                {
+                    "description": "F.Cu 上 U2 的焊盘 5 [+3V3]",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 99.1125
+                    },
+                    "uuid": "c1bfd31d-050e-49e1-9143-a9fea0bba809"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [SDA] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.35
+                    },
+                    "uuid": "1dfb0c88-257a-47be-a446-02309c109b4d"
+                },
+                {
+                    "description": "F.Cu 上 U2 的焊盘 5 [+3V3]",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 99.1125
+                    },
+                    "uuid": "c1bfd31d-050e-49e1-9143-a9fea0bba809"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [SCL] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.0
+                    },
+                    "uuid": "48aad798-6f64-49a9-b899-580a5020719d"
+                },
+                {
+                    "description": "F.Cu 上 U2 的焊盘 6 [SDA]",
+                    "pos": {
+                        "x": 125.35,
+                        "y": 99.1125
+                    },
+                    "uuid": "e12ffd89-c507-439d-907c-c5cd10ca19c3"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [SDA] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.35
+                    },
+                    "uuid": "1dfb0c88-257a-47be-a446-02309c109b4d"
+                },
+                {
+                    "description": "F.Cu 上 R_HEAT 的焊盘 2 [HEATER_RETURN]",
+                    "pos": {
+                        "x": 122.0,
+                        "y": 99.175
+                    },
+                    "uuid": "3db4bf8e-be89-49c6-bb55-99807bace3d3"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [SDA] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.35
+                    },
+                    "uuid": "1dfb0c88-257a-47be-a446-02309c109b4d"
+                },
+                {
+                    "description": "F.Cu 上 U2 的焊盘 4 [+3V3]",
+                    "pos": {
+                        "x": 126.65,
+                        "y": 99.1125
+                    },
+                    "uuid": "6c4af84d-a940-4108-b504-483e39aaa4e3"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [SCL] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.0
+                    },
+                    "uuid": "48aad798-6f64-49a9-b899-580a5020719d"
+                },
+                {
+                    "description": "F.Cu 上 R_HEAT 的焊盘 2 [HEATER_RETURN]",
+                    "pos": {
+                        "x": 122.0,
+                        "y": 99.175
+                    },
+                    "uuid": "3db4bf8e-be89-49c6-bb55-99807bace3d3"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [SDA] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.35
+                    },
+                    "uuid": "1dfb0c88-257a-47be-a446-02309c109b4d"
+                },
+                {
+                    "description": "F.Cu 上 C1 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 116.2,
+                        "y": 99.52
+                    },
+                    "uuid": "d1bc86b9-8bf5-4ca8-b089-62c40b71599c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [SCL] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.0
+                    },
+                    "uuid": "48aad798-6f64-49a9-b899-580a5020719d"
+                },
+                {
+                    "description": "F.Cu 上 U2 的焊盘 4 [+3V3]",
+                    "pos": {
+                        "x": 126.65,
+                        "y": 99.1125
+                    },
+                    "uuid": "6c4af84d-a940-4108-b504-483e39aaa4e3"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [SDA] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.35
+                    },
+                    "uuid": "1dfb0c88-257a-47be-a446-02309c109b4d"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 118.65,
+                        "y": 99.1125
+                    },
+                    "uuid": "7d144915-8e07-4c69-986f-206e97f49550"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [SCL] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.0
+                    },
+                    "uuid": "48aad798-6f64-49a9-b899-580a5020719d"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 6 [SDA]",
+                    "pos": {
+                        "x": 117.35,
+                        "y": 99.1125
+                    },
+                    "uuid": "d3f7e127-4aa1-4562-9318-bf3411883240"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [SDA] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.35
+                    },
+                    "uuid": "1dfb0c88-257a-47be-a446-02309c109b4d"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 5 [+3V3]",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 99.1125
+                    },
+                    "uuid": "6db94d30-1336-4720-aea3-e7f4319f39b1"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [SCL] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.0
+                    },
+                    "uuid": "48aad798-6f64-49a9-b899-580a5020719d"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 118.65,
+                        "y": 99.1125
+                    },
+                    "uuid": "7d144915-8e07-4c69-986f-206e97f49550"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [SCL] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.0
+                    },
+                    "uuid": "48aad798-6f64-49a9-b899-580a5020719d"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 5 [+3V3]",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 99.1125
+                    },
+                    "uuid": "6db94d30-1336-4720-aea3-e7f4319f39b1"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [HEATER_VCC] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 100.65
+                    },
+                    "uuid": "cee4f544-51c8-42eb-ab0b-03ab61be3259"
+                },
+                {
+                    "description": "F.Cu 上 C1 的焊盘 1 [+3V3]",
+                    "pos": {
+                        "x": 116.2,
+                        "y": 100.48
+                    },
+                    "uuid": "3ff93453-e947-4a2d-9b46-e5918f6cce44"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [HEATER_VCC] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 100.65
+                    },
+                    "uuid": "cee4f544-51c8-42eb-ab0b-03ab61be3259"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 1 [SCL]",
+                    "pos": {
+                        "x": 117.35,
+                        "y": 100.8875
+                    },
+                    "uuid": "ce19cbc2-c5cc-42bb-966b-3aaac1454ea6"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [HEATER_VCC] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 100.65
+                    },
+                    "uuid": "cee4f544-51c8-42eb-ab0b-03ab61be3259"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 100.8875
+                    },
+                    "uuid": "5d366b8b-3122-4e56-acb0-1323632a856d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [HEATER_VCC] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 100.65
+                    },
+                    "uuid": "cee4f544-51c8-42eb-ab0b-03ab61be3259"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 3 [<no net>]",
+                    "pos": {
+                        "x": 118.65,
+                        "y": 100.8875
+                    },
+                    "uuid": "5ea98ec6-a5c5-46d0-a25c-7899d80eea3e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [HEATER_RETURN] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 101.0
+                    },
+                    "uuid": "59c1c60c-d794-4df0-a628-ad7c108b2ff6"
+                },
+                {
+                    "description": "F.Cu 上 R_HEAT 的焊盘 1 [HEATER_VCC]",
+                    "pos": {
+                        "x": 122.0,
+                        "y": 100.825
+                    },
+                    "uuid": "9e020ab5-3105-408c-b44f-e59c0a976454"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [HEATER_RETURN] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 101.0
+                    },
+                    "uuid": "59c1c60c-d794-4df0-a628-ad7c108b2ff6"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 1 [SCL]",
+                    "pos": {
+                        "x": 117.35,
+                        "y": 100.8875
+                    },
+                    "uuid": "ce19cbc2-c5cc-42bb-966b-3aaac1454ea6"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [HEATER_RETURN] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 101.0
+                    },
+                    "uuid": "59c1c60c-d794-4df0-a628-ad7c108b2ff6"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 118.0,
+                        "y": 100.8875
+                    },
+                    "uuid": "5d366b8b-3122-4e56-acb0-1323632a856d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "顶层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "走线 [HEATER_RETURN] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 101.0
+                    },
+                    "uuid": "59c1c60c-d794-4df0-a628-ad7c108b2ff6"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 3 [<no net>]",
+                    "pos": {
+                        "x": 118.65,
+                        "y": 100.8875
+                    },
+                    "uuid": "5ea98ec6-a5c5-46d0-a25c-7899d80eea3e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [GND] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 101.35
+                    },
+                    "uuid": "60ad71b2-f465-4d1a-87b7-7001c31515a5"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [+3V3] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 98.65
+                    },
+                    "uuid": "3018a9b9-fca1-4701-8155-63554faed465"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [SDA] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.35
+                    },
+                    "uuid": "1dfb0c88-257a-47be-a446-02309c109b4d"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [SCL] (F.Cu), 长度: 22.2000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 99.0
+                    },
+                    "uuid": "48aad798-6f64-49a9-b899-580a5020719d"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [HEATER_VCC] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 100.65
+                    },
+                    "uuid": "cee4f544-51c8-42eb-ab0b-03ab61be3259"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [HEATER_RETURN] (F.Cu), 长度: 17.0000 mm",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 101.0
+                    },
+                    "uuid": "59c1c60c-d794-4df0-a628-ad7c108b2ff6"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "文字高度超出范围 (<电路板配置> 中的 \"丝印文本高度\" 约束 最小高度 0.8000 mm; 实际 0.4500 mm)",
+            "items": [
+                {
+                    "description": "F.Silkscreen 上的 PCB 文本 'UP'",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 98.75
+                    },
+                    "uuid": "d3f6b8bd-5bb1-4e9a-aa35-67cccb1306ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字高度超出范围 (<电路板配置> 中的 \"丝印文本高度\" 约束 最小高度 0.8000 mm; 实际 0.4500 mm)",
+            "items": [
+                {
+                    "description": "F.Silkscreen 上的 PCB 文本 'PTC'",
+                    "pos": {
+                        "x": 121.3,
+                        "y": 98.75
+                    },
+                    "uuid": "5c5f8093-acee-4b82-bb4d-32e697cd9218"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字高度超出范围 (<电路板配置> 中的 \"丝印文本高度\" 约束 最小高度 0.8000 mm; 实际 0.4500 mm)",
+            "items": [
+                {
+                    "description": "F.Silkscreen 上的 PCB 文本 'DN'",
+                    "pos": {
+                        "x": 125.5,
+                        "y": 98.75
+                    },
+                    "uuid": "ae4d08d8-6dbb-4b84-ab7e-84d8b0b897e8"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字高度超出范围 (<电路板配置> 中的 \"丝印文本高度\" 约束 最小高度 0.8000 mm; 实际 0.5000 mm)",
+            "items": [
+                {
+                    "description": "F.Silkscreen 上的 PCB 文本 '1'",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 98.75
+                    },
+                    "uuid": "8327acc1-d65b-4d98-a617-0697b56bb030"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "文字高度超出范围 (<电路板配置> 中的 \"丝印文本高度\" 约束 最小高度 0.8000 mm; 实际 0.5000 mm)",
+            "items": [
+                {
+                    "description": "F.Silkscreen 上的 PCB 文本 '6'",
+                    "pos": {
+                        "x": 101.5,
+                        "y": 101.25
+                    },
+                    "uuid": "0fdbdcf0-8b46-4f72-9852-d71932064399"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "F.Silkscreen 上的 PCB 文本 'UP'",
+                    "pos": {
+                        "x": 117.5,
+                        "y": 98.75
+                    },
+                    "uuid": "d3f6b8bd-5bb1-4e9a-aa35-67cccb1306ee"
+                },
+                {
+                    "description": "F.Cu 上 U1 的焊盘 6 [SDA]",
+                    "pos": {
+                        "x": 117.35,
+                        "y": 99.1125
+                    },
+                    "uuid": "d3f7e127-4aa1-4562-9318-bf3411883240"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "F.Silkscreen 上的 PCB 文本 'PTC'",
+                    "pos": {
+                        "x": 121.3,
+                        "y": 98.75
+                    },
+                    "uuid": "5c5f8093-acee-4b82-bb4d-32e697cd9218"
+                },
+                {
+                    "description": "F.Cu 上 R_HEAT 的焊盘 2 [HEATER_RETURN]",
+                    "pos": {
+                        "x": 122.0,
+                        "y": 99.175
+                    },
+                    "uuid": "3db4bf8e-be89-49c6-bb55-99807bace3d3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "F.Silkscreen 上的 PCB 文本 'DN'",
+                    "pos": {
+                        "x": 125.5,
+                        "y": 98.75
+                    },
+                    "uuid": "ae4d08d8-6dbb-4b84-ab7e-84d8b0b897e8"
+                },
+                {
+                    "description": "F.Cu 上 U2 的焊盘 5 [+3V3]",
+                    "pos": {
+                        "x": 126.0,
+                        "y": 99.1125
+                    },
+                    "uuid": "c1bfd31d-050e-49e1-9143-a9fea0bba809"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "F.Silkscreen 上的 PCB 文本 'DN'",
+                    "pos": {
+                        "x": 125.5,
+                        "y": 98.75
+                    },
+                    "uuid": "ae4d08d8-6dbb-4b84-ab7e-84d8b0b897e8"
+                },
+                {
+                    "description": "F.Cu 上 U2 的焊盘 6 [SDA]",
+                    "pos": {
+                        "x": 125.35,
+                        "y": 99.1125
+                    },
+                    "uuid": "e12ffd89-c507-439d-907c-c5cd10ca19c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

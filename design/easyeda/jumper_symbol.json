@@ -1,0 +1,43 @@
+{
+  "outline": [
+    -20,
+    -20,
+    20,
+    -20,
+    20,
+    20,
+    -20,
+    20,
+    -20,
+    -20
+  ],
+  "pins": [
+    {
+      "number": "1",
+      "name": "3V3",
+      "x": -40,
+      "y": 10,
+      "rotation": 0,
+      "length": 20,
+      "pinType": "Passive"
+    },
+    {
+      "number": "2",
+      "name": "HEATER_VCC",
+      "x": 0,
+      "y": -40,
+      "rotation": 90,
+      "length": 20,
+      "pinType": "Passive"
+    },
+    {
+      "number": "3",
+      "name": "5V",
+      "x": 40,
+      "y": 10,
+      "rotation": 180,
+      "length": 20,
+      "pinType": "Passive"
+    }
+  ]
+}

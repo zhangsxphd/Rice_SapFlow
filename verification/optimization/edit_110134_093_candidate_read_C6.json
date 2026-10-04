@@ -1,0 +1,783 @@
+{
+  "id": "req_1337",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T03:03:07.191266Z",
+  "ok": true,
+  "result": {
+    "check": null,
+    "componentCount": 30,
+    "components": [
+      {
+        "componentType": "sheet",
+        "designator": "",
+        "footprint": "",
+        "name": "Sensor_FPC_V01",
+        "pins": [],
+        "primitiveId": "26dd123c3409a793",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "componentType": "part",
+        "designator": "U2",
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "WSON-6_L2.0-W2.0-P0.65-BL-EP",
+          "uuid": "12249f97d2ca06ce"
+        },
+        "name": "={Manufacturer Part}",
+        "pins": [
+          {
+            "name": "SCL",
+            "net": "SCL",
+            "number": "1"
+          },
+          {
+            "name": "GND",
+            "net": "GND",
+            "number": "2"
+          },
+          {
+            "name": "ALERT",
+            "net": null,
+            "number": "3"
+          },
+          {
+            "name": "ADD0",
+            "net": "GND",
+            "number": "4"
+          },
+          {
+            "name": "V+",
+            "net": "+3V3",
+            "number": "5"
+          },
+          {
+            "name": "SDA",
+            "net": "SDA",
+            "number": "6"
+          },
+          {
+            "name": "EP",
+            "net": null,
+            "number": "7"
+          }
+        ],
+        "primitiveId": "1fe453026b98ba23",
+        "supplierId": "C2803242",
+        "uniqueId": "gge20",
+        "x": 450,
+        "y": 550
+      },
+      {
+        "componentType": "part",
+        "designator": "U3",
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "WSON-6_L2.0-W2.0-P0.65-BL-EP",
+          "uuid": "12249f97d2ca06ce"
+        },
+        "name": "={Manufacturer Part}",
+        "pins": [
+          {
+            "name": "SCL",
+            "net": "SCL",
+            "number": "1"
+          },
+          {
+            "name": "GND",
+            "net": "GND",
+            "number": "2"
+          },
+          {
+            "name": "ALERT",
+            "net": null,
+            "number": "3"
+          },
+          {
+            "name": "ADD0",
+            "net": "+3V3",
+            "number": "4"
+          },
+          {
+            "name": "V+",
+            "net": "+3V3",
+            "number": "5"
+          },
+          {
+            "name": "SDA",
+            "net": "SDA",
+            "number": "6"
+          },
+          {
+            "name": "EP",
+            "net": null,
+            "number": "7"
+          }
+        ],
+        "primitiveId": "5084872fa46ea1eb",
+        "supplierId": "C2803242",
+        "uniqueId": "gge23",
+        "x": 860,
+        "y": 550
+      },
+      {
+        "componentType": "part",
+        "designator": "C6",
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "C0402",
+          "uuid": "1a08dfc5462838bd"
+        },
+        "name": "={Value}",
+        "pins": [
+          {
+            "name": "2",
+            "net": "GND",
+            "number": "2"
+          },
+          {
+            "name": "1",
+            "net": "+3V3",
+            "number": "1"
+          }
+        ],
+        "primitiveId": "22383f10a5916ab3",
+        "supplierId": "C1525",
+        "uniqueId": "gge24",
+        "x": 860,
+        "y": 420
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "SCL",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "262b8e9e459955b7",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 795,
+        "y": 560
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "SDA",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "9cd24281f87bd3be",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 1005,
+        "y": 560
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "SCL",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "e8a27e00dbf99928",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 325,
+        "y": 560
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "SDA",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "1928b841b5f213b5",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 565,
+        "y": 560
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "c483c4427c5eeca7",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 710,
+        "y": 550
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "0892a61439da52f1",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 515,
+        "y": 540
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "0389bcc896d13f61",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 385,
+        "y": 550
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "954466a6ee13489c",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 900,
+        "y": 420
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "+3V3",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "25f1f824577fc0f4",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 925,
+        "y": 540
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "+3V3",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "6df55c4734036cca",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 560,
+        "y": 550
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "+3V3",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "969a24b611e1e562",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 960,
+        "y": 550
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "+3V3",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "1d8ea044d5012884",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 820,
+        "y": 420
+      },
+      {
+        "componentType": "part",
+        "designator": "R5",
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "R0603",
+          "uuid": "dda943025428e70b"
+        },
+        "name": "={Value}",
+        "pins": [
+          {
+            "name": "2",
+            "net": "HEATER_RETURN",
+            "number": "2"
+          },
+          {
+            "name": "1",
+            "net": "HEATER_VCC",
+            "number": "1"
+          }
+        ],
+        "primitiveId": "d83a4e4b5e0414d9",
+        "supplierId": "C227500",
+        "uniqueId": "gge22",
+        "x": 600,
+        "y": 360
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "HEATER_VCC",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "eaa911bfdd57de9f",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 520,
+        "y": 360
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "HEATER_RETURN",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "6b2ae68c5944b074",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 640,
+        "y": 360
+      },
+      {
+        "componentType": "part",
+        "designator": "J4",
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "FPC-SMD_FH12-6S-0.5SH-55",
+          "uuid": "e68ca77e75a7820f"
+        },
+        "name": "={Manufacturer Part}",
+        "pins": [
+          {
+            "name": "2",
+            "net": "GND",
+            "number": "2"
+          },
+          {
+            "name": "3",
+            "net": "SDA",
+            "number": "3"
+          },
+          {
+            "name": "4",
+            "net": "SCL",
+            "number": "4"
+          },
+          {
+            "name": "5",
+            "net": "HEATER_VCC",
+            "number": "5"
+          },
+          {
+            "name": "6",
+            "net": "HEATER_RETURN",
+            "number": "6"
+          },
+          {
+            "name": "7",
+            "net": null,
+            "number": "7"
+          },
+          {
+            "name": "8",
+            "net": null,
+            "number": "8"
+          },
+          {
+            "name": "1",
+            "net": "+3V3",
+            "number": "1"
+          }
+        ],
+        "primitiveId": "edfa74487aa725ad",
+        "supplierId": "C202118",
+        "uniqueId": "gge25",
+        "x": 325,
+        "y": 240
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "6ab77828ba3a08bf",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 275,
+        "y": 255
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "SDA",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "d27e151b0144b74e",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 265,
+        "y": 245
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "SCL",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "e78d0911159c6d71",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 210,
+        "y": 235
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "HEATER_VCC",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "5709e8dffc210445",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 250,
+        "y": 225
+      },
+      {
+        "componentType": "netport",
+        "designator": "",
+        "footprint": "",
+        "name": "HEATER_RETURN",
+        "pins": [
+          {
+            "name": "BI",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "f6b7d1ea9d6e5fbb",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 150,
+        "y": 215
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "+3V3",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "659909d00d3a3882",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 230,
+        "y": 265
+      },
+      {
+        "componentType": "part",
+        "designator": "C5",
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "C0603",
+          "uuid": "7a7511a97c055d9a"
+        },
+        "name": "={Value}",
+        "pins": [
+          {
+            "name": "1",
+            "net": "+3V3",
+            "number": "1"
+          },
+          {
+            "name": "2",
+            "net": "GND",
+            "number": "2"
+          }
+        ],
+        "primitiveId": "c650a8f6e35a68cc",
+        "supplierId": "C14663",
+        "uniqueId": "gge21",
+        "x": 380,
+        "y": 420
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "GND",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "cd59c2619716a112",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 420,
+        "y": 420
+      },
+      {
+        "componentType": "netflag",
+        "designator": "",
+        "footprint": "",
+        "name": "+3V3",
+        "pins": [
+          {
+            "name": "Pin1",
+            "net": null,
+            "number": "1"
+          }
+        ],
+        "primitiveId": "ac8e49622534a3e6",
+        "supplierId": "",
+        "uniqueId": "",
+        "x": 340,
+        "y": 420
+      },
+      {
+        "componentType": "part",
+        "designator": "J901",
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "C0603",
+          "uuid": "7a7511a97c055d9a"
+        },
+        "name": "={Value}",
+        "pins": [
+          {
+            "name": "1",
+            "net": null,
+            "number": "1"
+          },
+          {
+            "name": "2",
+            "net": null,
+            "number": "2"
+          }
+        ],
+        "primitiveId": "6aea3afbf56d2999",
+        "supplierId": "C14663",
+        "uniqueId": "",
+        "x": 1800,
+        "y": 1000
+      }
+    ],
+    "floatingPinCount": 8,
+    "floatingPins": [
+      "U2.3",
+      "U2.7",
+      "U3.3",
+      "U3.7",
+      "J4.7",
+      "J4.8",
+      "J901.1",
+      "J901.2"
+    ],
+    "netCount": 6,
+    "netlistAvailable": true,
+    "nets": [
+      {
+        "degree": 6,
+        "isGlobal": true,
+        "net": "+3V3",
+        "pins": [
+          "U2.5",
+          "U3.4",
+          "U3.5",
+          "C6.1",
+          "J4.1",
+          "C5.1"
+        ]
+      },
+      {
+        "degree": 6,
+        "isGlobal": true,
+        "net": "GND",
+        "pins": [
+          "U2.2",
+          "U2.4",
+          "U3.2",
+          "C6.2",
+          "J4.2",
+          "C5.2"
+        ]
+      },
+      {
+        "degree": 2,
+        "isGlobal": false,
+        "net": "HEATER_RETURN",
+        "pins": [
+          "R5.2",
+          "J4.6"
+        ]
+      },
+      {
+        "degree": 2,
+        "isGlobal": true,
+        "net": "HEATER_VCC",
+        "pins": [
+          "R5.1",
+          "J4.5"
+        ]
+      },
+      {
+        "degree": 3,
+        "isGlobal": false,
+        "net": "SCL",
+        "pins": [
+          "U2.1",
+          "U3.1",
+          "J4.4"
+        ]
+      },
+      {
+        "degree": 3,
+        "isGlobal": false,
+        "net": "SDA",
+        "pins": [
+          "U2.6",
+          "U3.6",
+          "J4.3"
+        ]
+      }
+    ]
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "fda1ce33cb7e4c7a",
+    "documentType": "schematic",
+    "tabId": "fda1ce33cb7e4c7a@a422d704ace24952ae3d8c1eb5094d0b"
+  },
+  "seq": 4768,
+  "seqAbandoned": 3,
+  "abandonedIds": [
+    "req_706",
+    "req_829",
+    "req_840"
+  ]
+}

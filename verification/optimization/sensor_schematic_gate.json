@@ -1,0 +1,342 @@
+{
+  "ok": true,
+  "verdict": "pass",
+  "stages": [
+    {
+      "name": "layout-lint",
+      "status": "pass",
+      "errors": 0,
+      "warnings": 0,
+      "summary": "0 overlap, 0 pin-coincidence, 0 tight, 0 off-grid, 0 out-of-sheet, 0 no-bbox, 0 unchecked-pin, 0 unproven-pin, 0 nets-unproven, 0 invalid-geometry (zone-check=not-configured sheet-check=checked)",
+      "detail": {
+        "schemaVersion": 2,
+        "ok": true,
+        "minGap": 2.54,
+        "componentCount": 6,
+        "withBBox": 6,
+        "skippedNonParts": 23,
+        "overlaps": null,
+        "tightSpacing": null,
+        "pinCoincidences": null,
+        "measurementUnit": "mm",
+        "coordinateUnit": "0.01inch",
+        "anchorGridRaw": 5,
+        "anchorGridUnit": "0.01inch",
+        "zoneCheckStatus": "not-configured",
+        "sheetCheckStatus": "checked",
+        "pinEps": 0,
+        "summary": "strict=false: 6 components (6 with bbox): 0 overlap, 0 tight (\u003c2.54mm), 0 pin-coincidence, 0 off-grid, 0 out-of-sheet, 0 unchecked-bbox, 0 unchecked-pins, 0 unproven-pins, 0 nets-unproven, 0 invalid-geometry; zoneCheck=not-configured sheetCheck=checked"
+      }
+    },
+    {
+      "name": "clusters",
+      "status": "pass",
+      "errors": 0,
+      "warnings": 0,
+      "summary": "6 个虚拟组:0 重叠 / 0 出图纸 / 0 过近",
+      "detail": {
+        "clusters": [
+          {
+            "designator": "J4",
+            "primitiveId": "edfa74487aa725ad",
+            "body": {
+              "minX": 314.5,
+              "minY": 204.5,
+              "maxX": 335.5999999999999,
+              "maxY": 275.5
+            },
+            "box": {
+              "minX": 23.49999999999997,
+              "minY": 204.5,
+              "maxX": 335.5999999999999,
+              "maxY": 277
+            },
+            "markers": 6,
+            "wires": 6,
+            "members": [
+              "part     J4       x=[314,336] y=[204,276]",
+              "wire              x=[274,296] y=[254,256]",
+              "wire              x=[264,296] y=[244,246]",
+              "wire              x=[210,296] y=[234,236]",
+              "wire              x=[250,296] y=[224,226]",
+              "wire              x=[150,296] y=[214,216]",
+              "wire              x=[230,296] y=[264,266]",
+              "netflag  GND      x=[256,293] y=[244,267]",
+              "netport  SDA      x=[198,255] y=[240,251]",
+              "netport  SCL      x=[143,200] y=[230,241]",
+              "netflag  HEATER_VCC x=[240,246] y=[220,230]",
+              "netport  HEATER_RETURN x=[23,140] y=[210,221]",
+              "netflag  +3V3     x=[220,254] y=[260,277]"
+            ]
+          },
+          {
+            "designator": "U2",
+            "primitiveId": "1fe453026b98ba23",
+            "body": {
+              "minX": 414.5,
+              "minY": 529.5,
+              "maxX": 485.5,
+              "maxY": 570.5
+            },
+            "box": {
+              "minX": 258.49999999999994,
+              "minY": 529.5,
+              "maxX": 631.5,
+              "maxY": 570.5
+            },
+            "markers": 5,
+            "wires": 5,
+            "members": [
+              "part     U2       x=[414,486] y=[530,570]",
+              "wire              x=[494,560] y=[550,550]",
+              "wire              x=[494,516] y=[540,540]",
+              "wire              x=[324,406] y=[560,560]",
+              "wire              x=[494,566] y=[560,560]",
+              "wire              x=[384,406] y=[550,550]",
+              "netport  SCL      x=[258,315] y=[554,566]",
+              "netport  SDA      x=[574,632] y=[554,566]",
+              "netflag  GND      x=[497,534] y=[530,552]",
+              "netflag  GND      x=[366,403] y=[540,562]",
+              "netflag  +3V3     x=[536,570] y=[544,562]"
+            ]
+          },
+          {
+            "designator": "C5",
+            "primitiveId": "c650a8f6e35a68cc",
+            "body": {
+              "minX": 369.5,
+              "minY": 411.5,
+              "maxX": 390.5,
+              "maxY": 428.5
+            },
+            "box": {
+              "minX": 329.5,
+              "minY": 409.5,
+              "maxX": 439.5,
+              "maxY": 432
+            },
+            "markers": 2,
+            "wires": 2,
+            "members": [
+              "part     C5       x=[370,390] y=[412,428]",
+              "wire              x=[400,420] y=[420,420]",
+              "wire              x=[340,360] y=[420,420]",
+              "netflag  GND      x=[402,440] y=[410,432]",
+              "netflag  +3V3     x=[330,364] y=[414,432]"
+            ]
+          },
+          {
+            "designator": "R5",
+            "primitiveId": "d83a4e4b5e0414d9",
+            "body": {
+              "minX": 589.5,
+              "minY": 354.5,
+              "maxX": 610.5,
+              "maxY": 365.5
+            },
+            "box": {
+              "minX": 509.5,
+              "minY": 354.5,
+              "maxX": 766.5,
+              "maxY": 365.5
+            },
+            "markers": 2,
+            "wires": 2,
+            "members": [
+              "part     R5       x=[590,610] y=[354,366]",
+              "wire              x=[520,580] y=[360,360]",
+              "wire              x=[620,640] y=[360,360]",
+              "netflag  HEATER_VCC x=[510,516] y=[354,366]",
+              "netport  HEATER_RETURN x=[650,766] y=[354,366]"
+            ]
+          },
+          {
+            "designator": "U3",
+            "primitiveId": "5084872fa46ea1eb",
+            "body": {
+              "minX": 824.5,
+              "minY": 529.5,
+              "maxX": 895.5,
+              "maxY": 570.5
+            },
+            "box": {
+              "minX": 690.5,
+              "minY": 529.5,
+              "maxX": 1071.5,
+              "maxY": 570.5
+            },
+            "markers": 5,
+            "wires": 5,
+            "members": [
+              "part     U3       x=[824,896] y=[530,570]",
+              "wire              x=[794,816] y=[560,560]",
+              "wire              x=[710,816] y=[550,550]",
+              "wire              x=[904,926] y=[540,540]",
+              "wire              x=[904,1006] y=[560,560]",
+              "wire              x=[904,960] y=[550,550]",
+              "netport  SCL      x=[728,785] y=[555,566]",
+              "netport  SDA      x=[1014,1072] y=[554,566]",
+              "netflag  GND      x=[690,728] y=[539,562]",
+              "netflag  +3V3     x=[901,936] y=[534,552]",
+              "netflag  +3V3     x=[936,970] y=[544,562]"
+            ]
+          },
+          {
+            "designator": "C6",
+            "primitiveId": "6aea3afbf56d2999",
+            "body": {
+              "minX": 849.5,
+              "minY": 411.5,
+              "maxX": 870.5,
+              "maxY": 428.5
+            },
+            "box": {
+              "minX": 809.5,
+              "minY": 409.5,
+              "maxX": 919.5,
+              "maxY": 432
+            },
+            "markers": 2,
+            "wires": 2,
+            "members": [
+              "part     C6       x=[850,870] y=[412,428]",
+              "wire              x=[880,900] y=[420,420]",
+              "wire              x=[820,840] y=[420,420]",
+              "netflag  GND      x=[882,920] y=[410,432]",
+              "netflag  +3V3     x=[810,844] y=[414,432]"
+            ]
+          }
+        ],
+        "findings": null,
+        "sheetUsable": {
+          "minX": 12,
+          "minY": 12,
+          "maxX": 1158,
+          "maxY": 813
+        }
+      }
+    },
+    {
+      "name": "check",
+      "status": "pass",
+      "errors": 0,
+      "warnings": 2,
+      "summary": "2 finding(s): 0 error/fatal, 2 warn/info",
+      "detail": {
+        "passed": false,
+        "summary": {
+          "floatingPins": 2,
+          "componentsWithFloating": 1,
+          "geomNetMismatches": 0,
+          "netMarkerMismatches": 0,
+          "multiNetWires": 0,
+          "wireCrossings": 0,
+          "wireOverPins": 0,
+          "zeroLengthWires": 0,
+          "danglingWires": 0,
+          "duplicateNetMarkers": 0,
+          "titleblockOverlaps": 0,
+          "markerOverlaps": 0,
+          "missingPartitions": 1,
+          "redundantNetMarkers": 0,
+          "foldedNetLabels": 0,
+          "reversedNetFlags": 0,
+          "polarityConventionOutliers": 0,
+          "total": 2
+        },
+        "findings": [
+          {
+            "type": "floating-pin",
+            "level": "warn",
+            "designator": "J4",
+            "primitiveId": "edfa74487aa725ad",
+            "pins": [
+              "7",
+              "8"
+            ],
+            "pinDetails": [
+              {
+                "number": "7",
+                "name": "7",
+                "x": 355,
+                "y": 225
+              },
+              {
+                "number": "8",
+                "name": "8",
+                "x": 355,
+                "y": 215
+              }
+            ],
+            "count": 2,
+            "message": "2 个引脚悬空(无导线连接,未打 NC 标识)"
+          },
+          {
+            "type": "missing-partition",
+            "level": "warn",
+            "count": 6,
+            "message": "6 个器件的页没有功能分区框 — 铁律#15:`sch zones set` → `sch zone-draw`(整纸版式 `--mode partition`);交付前必须有"
+          }
+        ]
+      }
+    },
+    {
+      "name": "bridge-check",
+      "status": "pass",
+      "errors": 0,
+      "warnings": 0,
+      "summary": "0 bridge(short), 0 orphan-stub, 0 orphan-flag, 0 orphan-tree (22 wire tree(s))",
+      "detail": {
+        "passed": true,
+        "summary": {
+          "trees": 0,
+          "bridges": 0,
+          "orphans": 0,
+          "orphanFlags": 0,
+          "orphanTrees": 0,
+          "wireTreesTotal": 22
+        },
+        "trees": []
+      }
+    },
+    {
+      "name": "drc",
+      "status": "pass",
+      "errors": 0,
+      "warnings": 1,
+      "summary": "0 fatal, 0 error, 1 warn, 0 info (total 1); native verdict PASS",
+      "detail": {
+        "passed": true,
+        "nativePassed": true,
+        "strict": false,
+        "fatal": 0,
+        "summary": {
+          "fatal": 0,
+          "error": 0,
+          "warn": 1,
+          "info": 0,
+          "unknown": 0,
+          "total": 1
+        },
+        "violations": [
+          {
+            "level": "warn",
+            "type": "warn",
+            "count": 1,
+            "raw": {
+              "count": 1,
+              "type": "warn"
+            }
+          }
+        ],
+        "countsAvailable": true,
+        "detailsAvailable": false
+      }
+    }
+  ],
+  "blockers": null,
+  "warnings": [
+    "check: 2 条告警",
+    "drc: 1 条告警"
+  ]
+}

@@ -1,0 +1,65 @@
+12:47:53 AM: Debug: Adding duplicate image handler for 'PNG file'
+12:47:53 AM: Debug: Adding duplicate image handler for 'JPEG file'
+12:47:53 AM: Debug: Adding duplicate image handler for 'TIFF file'
+12:47:53 AM: Debug: Adding duplicate image handler for 'GIF file'
+12:47:53 AM: Debug: Adding duplicate image handler for 'PNM file'
+12:47:53 AM: Debug: Adding duplicate image handler for 'PCX file'
+12:47:53 AM: Debug: Adding duplicate image handler for 'IFF file'
+12:47:53 AM: Debug: Adding duplicate image handler for 'Windows icon file'
+12:47:53 AM: Debug: Adding duplicate image handler for 'Windows cursor file'
+12:47:53 AM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+12:47:53 AM: Debug: Adding duplicate image handler for 'TGA file'
+12:47:53 AM: Debug: Adding duplicate image handler for 'XPM file'
+12:47:55 AM: Debug: Adding duplicate image handler for 'PNG file'
+12:47:55 AM: Debug: Adding duplicate image handler for 'JPEG file'
+12:47:55 AM: Debug: Adding duplicate image handler for 'TIFF file'
+12:47:55 AM: Debug: Adding duplicate image handler for 'GIF file'
+12:47:55 AM: Debug: Adding duplicate image handler for 'PNM file'
+12:47:55 AM: Debug: Adding duplicate image handler for 'PCX file'
+12:47:55 AM: Debug: Adding duplicate image handler for 'IFF file'
+12:47:55 AM: Debug: Adding duplicate image handler for 'Windows icon file'
+12:47:55 AM: Debug: Adding duplicate image handler for 'Windows cursor file'
+12:47:55 AM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+12:47:55 AM: Debug: Adding duplicate image handler for 'TGA file'
+12:47:55 AM: Debug: Adding duplicate image handler for 'XPM file'
+12:47:57 AM: Debug: Adding duplicate image handler for 'PNG file'
+12:47:57 AM: Debug: Adding duplicate image handler for 'JPEG file'
+12:47:57 AM: Debug: Adding duplicate image handler for 'TIFF file'
+12:47:57 AM: Debug: Adding duplicate image handler for 'GIF file'
+12:47:57 AM: Debug: Adding duplicate image handler for 'PNM file'
+12:47:57 AM: Debug: Adding duplicate image handler for 'PCX file'
+12:47:57 AM: Debug: Adding duplicate image handler for 'IFF file'
+12:47:57 AM: Debug: Adding duplicate image handler for 'Windows icon file'
+12:47:57 AM: Debug: Adding duplicate image handler for 'Windows cursor file'
+12:47:57 AM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+12:47:57 AM: Debug: Adding duplicate image handler for 'TGA file'
+12:47:57 AM: Debug: Adding duplicate image handler for 'XPM file'
+12:47:58 AM: Debug: Adding duplicate image handler for 'PNG file'
+12:47:58 AM: Debug: Adding duplicate image handler for 'JPEG file'
+12:47:58 AM: Debug: Adding duplicate image handler for 'TIFF file'
+12:47:58 AM: Debug: Adding duplicate image handler for 'GIF file'
+12:47:58 AM: Debug: Adding duplicate image handler for 'PNM file'
+12:47:58 AM: Debug: Adding duplicate image handler for 'PCX file'
+12:47:58 AM: Debug: Adding duplicate image handler for 'IFF file'
+12:47:58 AM: Debug: Adding duplicate image handler for 'Windows icon file'
+12:47:58 AM: Debug: Adding duplicate image handler for 'Windows cursor file'
+12:47:58 AM: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+12:47:58 AM: Debug: Adding duplicate image handler for 'TGA file'
+12:47:58 AM: Debug: Adding duplicate image handler for 'XPM file'
+Generating Main_Controller_V01 PCB...
+Main_Controller_V01 saved to /Users/zhangshuxuan/本地文稿/Rice_SapFlow_V01/Main_Controller_V01/Main_Controller_V01.kicad_pcb
+Generating BOM & CPL for Main_Controller_V01...
+Main_Controller_V01: DRC FAIL, 34 violations, 25 unconnected
+Generating Sensor_FPC_2MM (pitch=2.0mm, length=36.0mm)...
+Sensor_FPC_2MM saved to /Users/zhangshuxuan/本地文稿/Rice_SapFlow_V01/Sensor_FPC_V01/Sensor_FPC_2MM/Sensor_FPC_2MM.kicad_pcb
+Generating BOM & CPL for Sensor_FPC_2MM...
+Sensor_FPC_2MM: DRC FAIL, 4 violations, 15 unconnected
+Generating Sensor_FPC_3MM (pitch=3.0mm, length=40.0mm)...
+Sensor_FPC_3MM saved to /Users/zhangshuxuan/本地文稿/Rice_SapFlow_V01/Sensor_FPC_V01/Sensor_FPC_3MM/Sensor_FPC_3MM.kicad_pcb
+Generating BOM & CPL for Sensor_FPC_3MM...
+Sensor_FPC_3MM: DRC FAIL, 2 violations, 15 unconnected
+Generating Sensor_FPC_4MM (pitch=4.0mm, length=45.0mm)...
+Sensor_FPC_4MM saved to /Users/zhangshuxuan/本地文稿/Rice_SapFlow_V01/Sensor_FPC_V01/Sensor_FPC_4MM/Sensor_FPC_4MM.kicad_pcb
+Generating BOM & CPL for Sensor_FPC_4MM...
+Sensor_FPC_4MM: DRC FAIL, 2 violations, 15 unconnected
+Layout candidates and reports generated; fabrication has NOT been approved.

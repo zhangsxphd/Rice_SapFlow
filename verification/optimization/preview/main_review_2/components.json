@@ -1,0 +1,465 @@
+{
+  "components": [
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 809.0550000000001,
+        "maxY": 583.087,
+        "minX": 684.6429999999999,
+        "minY": 456.913
+      },
+      "designator": "Q1",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "AO3400A",
+      "name": "={Manufacturer Part}",
+      "primitiveId": "3d4a6f019650c32d",
+      "rotation": 180,
+      "supplierId": "C700953",
+      "uniqueId": "gge10",
+      "x": 750,
+      "y": 520
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 407.53100000000006,
+        "maxY": 1329.008,
+        "minX": 292.469,
+        "minY": 1270.992
+      },
+      "designator": "R1",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "HoLTT0603-1/10W-4.7K-1%",
+      "name": "={Value}",
+      "primitiveId": "6c017d07375014f9",
+      "rotation": 180,
+      "supplierId": "C2904521",
+      "uniqueId": "gge7",
+      "x": 350,
+      "y": 1300
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 407.53100000000006,
+        "maxY": 1229.008,
+        "minX": 292.469,
+        "minY": 1170.992
+      },
+      "designator": "R2",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "HoLTT0603-1/10W-4.7K-1%",
+      "name": "={Value}",
+      "primitiveId": "76f2fe881e5297ed",
+      "rotation": 180,
+      "supplierId": "C2904521",
+      "uniqueId": "gge8",
+      "x": 350,
+      "y": 1200
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 407.53100000000006,
+        "maxY": 1029.008,
+        "minX": 292.469,
+        "minY": 970.992
+      },
+      "designator": "R3",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "QR0603J100RP05Z",
+      "name": "={Value}",
+      "primitiveId": "0ed2ed320fd5f1df",
+      "rotation": 0,
+      "supplierId": "C176159",
+      "uniqueId": "gge9",
+      "x": 350,
+      "y": 1000
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 537.5310000000001,
+        "maxY": 1029.008,
+        "minX": 422.46899999999994,
+        "minY": 970.992
+      },
+      "designator": "R4",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "RT0603LRC07100KL",
+      "name": "={Value}",
+      "primitiveId": "680520ffe97766a6",
+      "rotation": 0,
+      "supplierId": "C6668830",
+      "uniqueId": "gge11",
+      "x": 480,
+      "y": 1000
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 252.24000000000004,
+        "maxY": 1664.4499999999998,
+        "minX": 147.75,
+        "minY": 835.5500000000001
+      },
+      "designator": "J2",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "2.54-1*8P母环保",
+      "name": "={Manufacturer Part}",
+      "primitiveId": "ca35d9b1060251f5",
+      "rotation": -90,
+      "supplierId": "C27438",
+      "uniqueId": "gge1",
+      "x": 200,
+      "y": 1250
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 952.24,
+        "maxY": 1664.4499999999998,
+        "minX": 847.7499999999999,
+        "minY": 835.5500000000001
+      },
+      "designator": "J3",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "2.54-1*8P母环保",
+      "name": "={Manufacturer Part}",
+      "primitiveId": "63df99f2dc7830c0",
+      "rotation": -90,
+      "supplierId": "C27438",
+      "uniqueId": "gge2",
+      "x": 900,
+      "y": 1250
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 430.307,
+        "maxY": 1638.5749999999998,
+        "minX": 269.693,
+        "minY": 1561.4250000000002
+      },
+      "designator": "C1",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "GRM21BR61H106KE43L",
+      "name": "={Value}",
+      "primitiveId": "b752d7f948a33a30",
+      "rotation": 0,
+      "supplierId": "C440198",
+      "uniqueId": "gge3",
+      "x": 350,
+      "y": 1600
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 539.7250000410136,
+        "maxY": 1632.957,
+        "minX": 420.27899983599895,
+        "minY": 1567.046
+      },
+      "designator": "C2",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "CC0603KRX7R9BB104",
+      "name": "={Value}",
+      "primitiveId": "56786078836ea154",
+      "rotation": 0,
+      "supplierId": "C14663",
+      "uniqueId": "gge4",
+      "x": 480,
+      "y": 1600
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 430.307,
+        "maxY": 1438.5749999999998,
+        "minX": 269.693,
+        "minY": 1361.4250000000002
+      },
+      "designator": "C3",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "GRM21BR61H106KE43L",
+      "name": "={Value}",
+      "primitiveId": "85acca08fb641d94",
+      "rotation": 0,
+      "supplierId": "C440198",
+      "uniqueId": "gge5",
+      "x": 350,
+      "y": 1400
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 539.7250000410136,
+        "maxY": 1432.957,
+        "minX": 420.27899983599895,
+        "minY": 1367.046
+      },
+      "designator": "C4",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "CC0603KRX7R9BB104",
+      "name": "={Value}",
+      "primitiveId": "6beb8a2ca7d160c3",
+      "rotation": 0,
+      "supplierId": "C14663",
+      "uniqueId": "gge6",
+      "x": 480,
+      "y": 1400
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 710.46,
+        "maxY": 337.56500000000005,
+        "minX": 391.54,
+        "minY": 62.99499999999998
+      },
+      "designator": "J1",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "FH12-6S-0.5SH(55)",
+      "name": "={Manufacturer Part}",
+      "primitiveId": "c4cf2456293e6860",
+      "rotation": 180,
+      "supplierId": "C202118",
+      "uniqueId": "gge13",
+      "x": 551,
+      "y": 248
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 813.087,
+        "maxY": 778.5500000000001,
+        "minX": 673.1845,
+        "minY": 632.733
+      },
+      "designator": "U4",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "HT7530-7",
+      "name": "={Manufacturer Part}",
+      "primitiveId": "6270d4893fd0ee7f",
+      "rotation": 0,
+      "supplierId": "C259866",
+      "uniqueId": "rice-opt-U4",
+      "x": 750,
+      "y": 710
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 688.575,
+        "maxY": 850.307,
+        "minX": 611.425,
+        "minY": 689.693
+      },
+      "designator": "C7",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "GRM21BR61H106KE43L",
+      "name": "={Value}",
+      "primitiveId": "f57be94dd8c46d2c",
+      "rotation": 90,
+      "supplierId": "C440198",
+      "uniqueId": "rice-opt-C7",
+      "x": 650,
+      "y": 770
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 830.307,
+        "maxY": 938.575,
+        "minX": 669.693,
+        "minY": 861.425
+      },
+      "designator": "C8",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "GRM21BR61H106KE43L",
+      "name": "={Value}",
+      "primitiveId": "e7589a5ce2a461c6",
+      "rotation": 0,
+      "supplierId": "C440198",
+      "uniqueId": "rice-opt-C8",
+      "x": 750,
+      "y": 900
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 709.7250000410136,
+        "maxY": 682.957,
+        "minX": 590.278999835999,
+        "minY": 617.046
+      },
+      "designator": "C9",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "CC0603KRX7R9BB104",
+      "name": "={Value}",
+      "primitiveId": "ea7e9f3783b34876",
+      "rotation": 0,
+      "supplierId": "C14663",
+      "uniqueId": "rice-opt-C9",
+      "x": 650,
+      "y": 650
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 682.954,
+        "maxY": 989.7250000410136,
+        "minX": 617.043,
+        "minY": 870.278999835999
+      },
+      "designator": "C10",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "CC0603KRX7R9BB104",
+      "name": "={Value}",
+      "primitiveId": "dd9ebb86a2bb1faf",
+      "rotation": 90,
+      "supplierId": "C14663",
+      "uniqueId": "rice-opt-C10",
+      "x": 650,
+      "y": 930
+    },
+    {
+      "addIntoBom": false,
+      "bbox": {
+        "maxX": 695.9000000000001,
+        "maxY": 1105,
+        "minX": 585.9000000000001,
+        "minY": 995
+      },
+      "designator": "TP3",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "2.54-1*1P针",
+      "name": "Test pad (DNP)",
+      "primitiveId": "b3d2916eb4c68ef9",
+      "rotation": 0,
+      "supplierId": "C81276",
+      "uniqueId": "gge16",
+      "x": 640.9000000000001,
+      "y": 1050
+    },
+    {
+      "addIntoBom": false,
+      "bbox": {
+        "maxX": 1045.9,
+        "maxY": 1555,
+        "minX": 935.9000000000001,
+        "minY": 1445
+      },
+      "designator": "TP1",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "2.54-1*1P针",
+      "name": "Test pad (DNP)",
+      "primitiveId": "7046045e28b4637e",
+      "rotation": 0,
+      "supplierId": "C81276",
+      "uniqueId": "gge14",
+      "x": 990.9000000000001,
+      "y": 1500
+    },
+    {
+      "addIntoBom": false,
+      "bbox": {
+        "maxX": 695.9000000000001,
+        "maxY": 1555,
+        "minX": 585.9000000000001,
+        "minY": 1445
+      },
+      "designator": "TP2",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "2.54-1*1P针",
+      "name": "Test pad (DNP)",
+      "primitiveId": "3e9d80ecb4794dc2",
+      "rotation": 0,
+      "supplierId": "C81276",
+      "uniqueId": "gge15",
+      "x": 640.9000000000001,
+      "y": 1500
+    },
+    {
+      "addIntoBom": false,
+      "bbox": {
+        "maxX": 1045.9,
+        "maxY": 1055,
+        "minX": 935.9000000000001,
+        "minY": 945
+      },
+      "designator": "TP4",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "2.54-1*1P针",
+      "name": "Test pad (DNP)",
+      "primitiveId": "981ff7fd75412dee",
+      "rotation": 0,
+      "supplierId": "C81276",
+      "uniqueId": "gge17",
+      "x": 990.9000000000001,
+      "y": 1000
+    },
+    {
+      "addIntoBom": false,
+      "bbox": {
+        "maxX": 1045.9,
+        "maxY": 555,
+        "minX": 935.9000000000001,
+        "minY": 445
+      },
+      "designator": "TP5",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "2.54-1*1P针",
+      "name": "Test pad (DNP)",
+      "primitiveId": "87c6504b69d410b8",
+      "rotation": 0,
+      "supplierId": "C81276",
+      "uniqueId": "gge18",
+      "x": 990.9000000000001,
+      "y": 500
+    },
+    {
+      "addIntoBom": false,
+      "bbox": {
+        "maxX": 795.9000000000001,
+        "maxY": 405,
+        "minX": 685.9000000000001,
+        "minY": 295
+      },
+      "designator": "TP6",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "2.54-1*1P针",
+      "name": "Test pad (DNP)",
+      "primitiveId": "d4919fb222ab6297",
+      "rotation": 0,
+      "supplierId": "C81276",
+      "uniqueId": "gge19",
+      "x": 740.9000000000001,
+      "y": 350
+    }
+  ],
+  "count": 23
+}

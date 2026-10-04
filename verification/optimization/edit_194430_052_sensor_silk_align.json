@@ -1,0 +1,157 @@
+{
+  "id": "req_4641",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T11:45:13.251439Z",
+  "ok": true,
+  "result": {
+    "aligned": 4,
+    "appliedIds": [
+      "313b7d2c11db900fe2",
+      "72e9340d4d5c57a2e2",
+      "8f83d7c5de034b97e16",
+      "0eb71d3c57bdd9e9e34"
+    ],
+    "details": [
+      {
+        "clean": true,
+        "designator": "C6",
+        "ok": true,
+        "primitiveId": "313b7d2c11db900fe2",
+        "x": 1243.9999999999998,
+        "y": 999.098
+      },
+      {
+        "clean": true,
+        "designator": "C5",
+        "ok": true,
+        "primitiveId": "72e9340d4d5c57a2e2",
+        "x": 1243.3999999999999,
+        "y": 1419.9019999999998
+      },
+      {
+        "clean": true,
+        "designator": "R5",
+        "ok": true,
+        "primitiveId": "8f83d7c5de034b97e16",
+        "x": 1207.969,
+        "y": 1209.5000000000002
+      },
+      {
+        "clean": true,
+        "designator": "J4",
+        "ok": true,
+        "primitiveId": "0eb71d3c57bdd9e9e34",
+        "x": 1325.85,
+        "y": 422.06500000000005
+      }
+    ],
+    "geometryScope": "rendered component envelopes, measured pads and text; outline bounding-box containment",
+    "normalization": [
+      {
+        "designator": "J4",
+        "ok": true,
+        "primitiveId": "0eb71d3c57bdd9e9e34",
+        "requested": {
+          "layer": 3,
+          "mirror": false,
+          "reverse": false,
+          "rotation": 0
+        }
+      },
+      {
+        "designator": "C5",
+        "ok": true,
+        "primitiveId": "72e9340d4d5c57a2e2",
+        "requested": {
+          "layer": 3,
+          "mirror": false,
+          "reverse": false,
+          "rotation": 0
+        }
+      },
+      {
+        "designator": "C6",
+        "ok": true,
+        "primitiveId": "313b7d2c11db900fe2",
+        "requested": {
+          "layer": 3,
+          "mirror": false,
+          "reverse": false,
+          "rotation": 0
+        }
+      }
+    ],
+    "partial": false,
+    "skipped": 0,
+    "skippedDetails": [],
+    "unresolved": 0,
+    "unresolvedDetails": [],
+    "verification": [
+      {
+        "bbox": {
+          "maxX": 1296,
+          "maxY": 1044.098,
+          "minX": 1243.9999999999998,
+          "minY": 999.098
+        },
+        "clean": true,
+        "conflicts": [],
+        "designator": "C6",
+        "primitiveId": "313b7d2c11db900fe2"
+      },
+      {
+        "bbox": {
+          "maxX": 1296.5999999999997,
+          "maxY": 1464.9019999999998,
+          "minX": 1243.3999999999999,
+          "minY": 1419.9019999999998
+        },
+        "clean": true,
+        "conflicts": [],
+        "designator": "C5",
+        "primitiveId": "72e9340d4d5c57a2e2"
+      },
+      {
+        "bbox": {
+          "maxX": 1259.969,
+          "maxY": 1254.5,
+          "minX": 1207.969,
+          "minY": 1209.5000000000002
+        },
+        "clean": true,
+        "conflicts": [],
+        "designator": "R5",
+        "primitiveId": "8f83d7c5de034b97e16"
+      },
+      {
+        "bbox": {
+          "maxX": 1374.1499999999999,
+          "maxY": 467.06500000000005,
+          "minX": 1325.85,
+          "minY": 422.06500000000005
+        },
+        "clean": true,
+        "conflicts": [],
+        "designator": "J4",
+        "primitiveId": "0eb71d3c57bdd9e9e34"
+      }
+    ],
+    "verified": true,
+    "warned": 0
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "a35176e7ddcb0d7d",
+    "documentType": "pcb",
+    "tabId": "a35176e7ddcb0d7d@a422d704ace24952ae3d8c1eb5094d0b"
+  },
+  "seq": 6565,
+  "seqAbandoned": 3,
+  "abandonedIds": [
+    "req_706",
+    "req_829",
+    "req_840"
+  ]
+}

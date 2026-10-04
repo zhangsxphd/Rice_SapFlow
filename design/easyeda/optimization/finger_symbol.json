@@ -1,0 +1,76 @@
+{
+  "outline": [
+    0,
+    -35,
+    40,
+    -35,
+    40,
+    35,
+    0,
+    35,
+    0,
+    -35
+  ],
+  "pins": [
+    {
+      "number": "1",
+      "name": "1",
+      "x": -20,
+      "y": 25,
+      "rotation": 0,
+      "length": 20,
+      "pinType": "Passive",
+      "shape": "None"
+    },
+    {
+      "number": "2",
+      "name": "2",
+      "x": -20,
+      "y": 15,
+      "rotation": 0,
+      "length": 20,
+      "pinType": "Passive",
+      "shape": "None"
+    },
+    {
+      "number": "3",
+      "name": "3",
+      "x": -20,
+      "y": 5,
+      "rotation": 0,
+      "length": 20,
+      "pinType": "Passive",
+      "shape": "None"
+    },
+    {
+      "number": "4",
+      "name": "4",
+      "x": -20,
+      "y": -5,
+      "rotation": 0,
+      "length": 20,
+      "pinType": "Passive",
+      "shape": "None"
+    },
+    {
+      "number": "5",
+      "name": "5",
+      "x": -20,
+      "y": -15,
+      "rotation": 0,
+      "length": 20,
+      "pinType": "Passive",
+      "shape": "None"
+    },
+    {
+      "number": "6",
+      "name": "6",
+      "x": -20,
+      "y": -25,
+      "rotation": 0,
+      "length": 20,
+      "pinType": "Passive",
+      "shape": "None"
+    }
+  ]
+}

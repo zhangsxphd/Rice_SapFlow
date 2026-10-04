@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "succeeded": [
+    "C10:2"
+  ],
+  "connections": [
+    {
+      "pin": "C10:2",
+      "net": "GND",
+      "kind": "gnd",
+      "pinX": 1380,
+      "pinY": 550,
+      "selected": {
+        "direction": "right",
+        "offset": 18,
+        "endPoint": {
+          "x": 1400,
+          "y": 550
+        },
+        "score": -18.2,
+        "reasons": [
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 999999991.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 1000000001.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "left",
+          "offset": 18,
+          "score": 1000010501.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        }
+      ],
+      "wirePrimitiveId": "b6b3343858eed40e",
+      "flagPrimitiveId": "e0f71f4975e70aad",
+      "state": "new"
+    }
+  ]
+}

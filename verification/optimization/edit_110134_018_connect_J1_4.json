@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "succeeded": [
+    "J1:4"
+  ],
+  "connections": [
+    {
+      "pin": "J1:4",
+      "net": "SCL",
+      "kind": "netport",
+      "pinX": 170,
+      "pinY": 135,
+      "selected": {
+        "direction": "left",
+        "offset": 18,
+        "endPoint": {
+          "x": 150,
+          "y": 135
+        },
+        "score": 81.8,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "right",
+          "offset": 36,
+          "score": 1000000593.6,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 2000000251.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        },
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 3000000251.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "dda8e674dbafd906",
+      "flagPrimitiveId": "70705403f3e3f030",
+      "state": "new"
+    }
+  ]
+}

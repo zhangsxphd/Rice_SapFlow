@@ -1,0 +1,212 @@
+{
+  "count": 23,
+  "vias": [
+    {
+      "diameter": 24,
+      "holeDiameter": 12,
+      "locked": false,
+      "net": "HEATER_GATE",
+      "primitiveId": "55c0a016c72dc928",
+      "x": 450.34,
+      "y": 600
+    },
+    {
+      "diameter": 24,
+      "holeDiameter": 12,
+      "locked": false,
+      "net": "HEATER_GATE",
+      "primitiveId": "e63b2296feefc569",
+      "x": 710.63,
+      "y": 600
+    },
+    {
+      "diameter": 24,
+      "holeDiameter": 12,
+      "locked": false,
+      "net": "+3V3",
+      "primitiveId": "04047284e7d1d24e",
+      "x": 310.6,
+      "y": 1460
+    },
+    {
+      "diameter": 24,
+      "holeDiameter": 12,
+      "locked": false,
+      "net": "+3V3",
+      "primitiveId": "eb19cce4159af607",
+      "x": 452.4,
+      "y": 1460
+    },
+    {
+      "diameter": 24,
+      "holeDiameter": 12,
+      "locked": false,
+      "net": "SDA",
+      "primitiveId": "18952ad9c98e57d7",
+      "x": 320.34,
+      "y": 1260
+    },
+    {
+      "diameter": 24,
+      "holeDiameter": 12,
+      "locked": false,
+      "net": "SDA",
+      "primitiveId": "751228238cbd17cb",
+      "x": 541.16,
+      "y": 1260
+    },
+    {
+      "diameter": 24,
+      "holeDiameter": 12,
+      "locked": false,
+      "net": "SCL",
+      "primitiveId": "520d2719a08b1726",
+      "x": 320.34,
+      "y": 1150
+    },
+    {
+      "diameter": 24,
+      "holeDiameter": 12,
+      "locked": false,
+      "net": "SCL",
+      "primitiveId": "2511037e4e21811c",
+      "x": 580,
+      "y": 1210
+    },
+    {
+      "diameter": 24,
+      "holeDiameter": 12,
+      "locked": false,
+      "net": "GND",
+      "primitiveId": "d9f7f445f8773d87",
+      "x": 250,
+      "y": 1500
+    },
+    {
+      "diameter": 24,
+      "holeDiameter": 12,
+      "locked": false,
+      "net": "GND",
+      "primitiveId": "086eb39378f9a774",
+      "x": 389.4,
+      "y": 1540
+    },
+    {
+      "diameter": 24,
+      "holeDiameter": 12,
+      "locked": false,
+      "net": "GND",
+      "primitiveId": "b15f50ad9aef2cbe",
+      "x": 507.6,
+      "y": 1540
+    },
+    {
+      "diameter": 24,
+      "holeDiameter": 12,
+      "locked": false,
+      "net": "GND",
+      "primitiveId": "828e60fd1a08ee90",
+      "x": 389.4,
+      "y": 1340
+    },
+    {
+      "diameter": 24,
+      "holeDiameter": 12,
+      "locked": false,
+      "net": "GND",
+      "primitiveId": "9e3cedd8c88011f6",
+      "x": 507.6,
+      "y": 1340
+    },
+    {
+      "diameter": 24,
+      "holeDiameter": 12,
+      "locked": false,
+      "net": "GND",
+      "primitiveId": "0127299ef8b38fba",
+      "x": 509.66,
+      "y": 920
+    },
+    {
+      "diameter": 24,
+      "holeDiameter": 12,
+      "locked": false,
+      "net": "GND",
+      "primitiveId": "dea26fdfc088adba",
+      "x": 670,
+      "y": 482.6
+    },
+    {
+      "diameter": 24,
+      "holeDiameter": 12,
+      "locked": false,
+      "net": "GND",
+      "primitiveId": "bb0a934c92cab781",
+      "x": 521.47,
+      "y": 230
+    },
+    {
+      "diameter": 24,
+      "holeDiameter": 12,
+      "locked": false,
+      "net": "GND",
+      "primitiveId": "e4b88fa41ecb5375",
+      "x": 640.94,
+      "y": 1120
+    },
+    {
+      "diameter": 24.2,
+      "holeDiameter": 12.2,
+      "locked": false,
+      "net": "HEATER_GATE",
+      "primitiveId": "056d82dce55b7d59",
+      "x": 787.4,
+      "y": 710
+    },
+    {
+      "diameter": 24.2,
+      "holeDiameter": 12.2,
+      "locked": false,
+      "net": "GND",
+      "primitiveId": "b5f0cba5f221fc87",
+      "x": 750,
+      "y": 700
+    },
+    {
+      "diameter": 24.2,
+      "holeDiameter": 12.2,
+      "locked": false,
+      "net": "GND",
+      "primitiveId": "ec21a5e389e8f458",
+      "x": 650,
+      "y": 845
+    },
+    {
+      "diameter": 24.2,
+      "holeDiameter": 12.2,
+      "locked": false,
+      "net": "GND",
+      "primitiveId": "902c215db98e202a",
+      "x": 789.4,
+      "y": 940
+    },
+    {
+      "diameter": 24.2,
+      "holeDiameter": 12.2,
+      "locked": false,
+      "net": "GND",
+      "primitiveId": "8483015989405409",
+      "x": 677.6,
+      "y": 670
+    },
+    {
+      "diameter": 24.2,
+      "holeDiameter": 12.2,
+      "locked": false,
+      "net": "GND",
+      "primitiveId": "22c36576ce1764b2",
+      "x": 650,
+      "y": 980
+    }
+  ]
+}

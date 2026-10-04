@@ -1,0 +1,29 @@
+{
+  "id": "req_4606",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T11:44:55.850959Z",
+  "ok": true,
+  "result": {
+    "diameter": 24.2,
+    "holeDiameter": 12.1,
+    "net": "+3V3",
+    "primitiveId": "4926c5a30080f726",
+    "x": 1280,
+    "y": 1065
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "a35176e7ddcb0d7d",
+    "documentType": "pcb",
+    "tabId": "a35176e7ddcb0d7d@a422d704ace24952ae3d8c1eb5094d0b"
+  },
+  "seq": 6548,
+  "seqAbandoned": 3,
+  "abandonedIds": [
+    "req_706",
+    "req_829",
+    "req_840"
+  ]
+}

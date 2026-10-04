@@ -1,0 +1,21 @@
+{
+  "id": "req_26",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:42:25.693633Z",
+  "ok": true,
+  "result": {
+    "components": [],
+    "count": 0,
+    "query": "焊接跳线"
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "e59b6979d877fc6f",
+    "documentType": "schematic",
+    "tabId": "e59b6979d877fc6f@cf823b99abc3472f86efd2c874825dfb"
+  },
+  "seq": 22,
+  "seqAbandoned": 0
+}

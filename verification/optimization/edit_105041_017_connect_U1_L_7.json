@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "succeeded": [
+    "U1_L:7"
+  ],
+  "connections": [
+    {
+      "pin": "U1_L:7",
+      "net": "HEATER_EN",
+      "kind": "netport",
+      "pinX": 140,
+      "pinY": 525,
+      "selected": {
+        "direction": "left",
+        "offset": 18,
+        "endPoint": {
+          "x": 120,
+          "y": 525
+        },
+        "score": 81.8,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "right",
+          "offset": 24,
+          "score": 1000000592.4,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 2000000251.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        },
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 3000000251.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "5ebe51b60645facf",
+      "flagPrimitiveId": "db7d736422944bcb",
+      "state": "new"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "archiveCrcValid": true,
+  "documents": [
+    {
+      "docType": "BOARD",
+      "uuid": "7b9652439476fb5b",
+      "recordCounts": {
+        "META": 1,
+        "META_MODIFY": 1
+      }
+    },
+    {
+      "docType": "BOARD",
+      "uuid": "d52e0d60f1fc2ee9",
+      "recordCounts": {
+        "META": 1,
+        "META_MODIFY": 1
+      }
+    },
+    {
+      "docType": "SCH",
+      "uuid": "ec018d91a5446131",
+      "recordCounts": {
+        "META": 1,
+        "RULE": 2
+      }
+    },
+    {
+      "docType": "SCH",
+      "uuid": "1e00497d0f54951f",
+      "recordCounts": {
+        "META": 1,
+        "RULE": 2
+      }
+    },
+    {
+      "docType": "SCH_PAGE",
+      "uuid": "2d01061a63b3efa0",
+      "recordCounts": {
+        "META": 1,
+        "COMPONENT": 74,
+        "ATTR": 1059,
+        "ELE_PLACEHOLDER": 47,
+        "WIRE": 50,
+        "LINE": 50,
+        "RECT": 2,
+        "TEXT": 2
+      }
+    },
+    {
+      "docType": "SCH_PAGE",
+      "uuid": "dcd81dd7309a356a",
+      "recordCounts": {
+        "DELETE_DOC": 1,
+        "META": 1
+      }
+    },
+    {
+      "docType": "SCH_PAGE",
+      "uuid": "0b27b98b0c475384",
+      "recordCounts": {
+        "DELETE_DOC": 1,
+        "META": 1
+      }
+    },
+    {
+      "docType": "SCH_PAGE",
+      "uuid": "fda1ce33cb7e4c7a",
+      "recordCounts": {
+        "COMPONENT": 29,
+        "ATTR": 345,
+        "ELE_PLACEHOLDER": 25,
+        "WIRE": 22,
+        "LINE": 22,
+        "META": 1,
+        "RECT": 2,
+        "TEXT": 1
+      }
+    },
+    {
+      "docType": "PCB",
+      "uuid": "82d38807b4b94fc9",
+      "recordCounts": {
+        "META": 1,
+        "PRIMITIVE": 53,
+        "CANVAS": 1,
+        "LAYER": 60,
+        "LAYER_PHYS": 9,
+        "ACTIVE_LAYER": 1,
+        "RULE_TEMPLATE": 1,
+        "RULE": 16,
+        "SILK_OPTS": 2,
+        "D3_ATTRIBUTE": 1,
+        "PREFERENCE": 1,
+        "PANELIZE": 1,
+        "NET": 11,
+        "PAD_NET": 62,
+        "ELE_PLACEHOLDER": 19,
+        "COMPONENT": 23,
+        "ATTR": 69,
+        "POURED": 4,
+        "POLY": 1,
+        "POUR": 1,
+        "VIA": 23,
+        "LINE": 82
+      }
+    },
+    {
+      "docType": "PCB",
+      "uuid": "a35176e7ddcb0d7d",
+      "recordCounts": {
+        "PRIMITIVE": 53,
+        "CANVAS": 1,
+        "LAYER": 60,
+        "LAYER_PHYS": 9,
+        "ACTIVE_LAYER": 1,
+        "RULE_TEMPLATE": 1,
+        "RULE": 16,
+        "SILK_OPTS": 2,
+        "D3_ATTRIBUTE": 1,
+        "PREFERENCE": 1,
+        "PANELIZE": 1,
+        "NET": 7,
+        "PAD_NET": 28,
+        "ELE_PLACEHOLDER": 19,
+        "COMPONENT": 6,
+        "ATTR": 20,
+        "POURED": 2,
+        "META": 1,
+        "VIA": 38,
+        "LINE": 64,
+        "POLY": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "succeeded": [
+    "U2:2"
+  ],
+  "connections": [
+    {
+      "pin": "U2:2",
+      "net": "GND",
+      "kind": "ground",
+      "pinX": 255,
+      "pinY": 500,
+      "state": "already-connected",
+      "currentNet": "GND"
+    }
+  ],
+  "titleBlockProvisional": true,
+  "note": "no sheet bbox exposed — title-block keep-out is provisional and was NOT geometrically enforced"
+}

@@ -1,0 +1,287 @@
+{
+  "finger": {
+    "name": "Rice_SapFlow_FPC6_20261003",
+    "designator": "J",
+    "source": "Existing KiCad candidate: 6 x 2.5 by 0.30 mm fingers, 0.5 mm pitch; fit, exposed copper and paste must be verified",
+    "symbol": {
+      "outline": [
+        -20,
+        -35,
+        20,
+        -35,
+        20,
+        35,
+        -20,
+        35,
+        -20,
+        -35
+      ],
+      "pins": [
+        {
+          "number": "1",
+          "name": "3V3",
+          "x": -40,
+          "y": 25,
+          "rotation": 0,
+          "length": 20,
+          "pinType": "Passive"
+        },
+        {
+          "number": "2",
+          "name": "GND",
+          "x": -40,
+          "y": 15,
+          "rotation": 0,
+          "length": 20,
+          "pinType": "Passive"
+        },
+        {
+          "number": "3",
+          "name": "SDA",
+          "x": -40,
+          "y": 5,
+          "rotation": 0,
+          "length": 20,
+          "pinType": "Passive"
+        },
+        {
+          "number": "4",
+          "name": "SCL",
+          "x": -40,
+          "y": -5,
+          "rotation": 0,
+          "length": 20,
+          "pinType": "Passive"
+        },
+        {
+          "number": "5",
+          "name": "HTR_VCC",
+          "x": -40,
+          "y": -15,
+          "rotation": 0,
+          "length": 20,
+          "pinType": "Passive"
+        },
+        {
+          "number": "6",
+          "name": "HTR_RET",
+          "x": -40,
+          "y": -25,
+          "rotation": 0,
+          "length": 20,
+          "pinType": "Passive"
+        }
+      ]
+    },
+    "footprint": {
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "x": 0,
+          "y": 49.21259842519685,
+          "rotation": 0,
+          "shape": [
+            1,
+            98.4251968503937,
+            11.811023622047244
+          ]
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "x": 0,
+          "y": 29.52755905511811,
+          "rotation": 0,
+          "shape": [
+            1,
+            98.4251968503937,
+            11.811023622047244
+          ]
+        },
+        {
+          "number": "3",
+          "layer": 1,
+          "x": 0,
+          "y": 9.84251968503937,
+          "rotation": 0,
+          "shape": [
+            1,
+            98.4251968503937,
+            11.811023622047244
+          ]
+        },
+        {
+          "number": "4",
+          "layer": 1,
+          "x": 0,
+          "y": -9.84251968503937,
+          "rotation": 0,
+          "shape": [
+            1,
+            98.4251968503937,
+            11.811023622047244
+          ]
+        },
+        {
+          "number": "5",
+          "layer": 1,
+          "x": 0,
+          "y": -29.52755905511811,
+          "rotation": 0,
+          "shape": [
+            1,
+            98.4251968503937,
+            11.811023622047244
+          ]
+        },
+        {
+          "number": "6",
+          "layer": 1,
+          "x": 0,
+          "y": -49.21259842519685,
+          "rotation": 0,
+          "shape": [
+            1,
+            98.4251968503937,
+            11.811023622047244
+          ]
+        }
+      ]
+    }
+  },
+  "jumper": {
+    "name": "Rice_SapFlow_SJ3_Open_20261003",
+    "designator": "SJ",
+    "source": "KiCad SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm; open by default, never bridge both inputs",
+    "symbol": {
+      "outline": [
+        -20,
+        -20,
+        20,
+        -20,
+        20,
+        20,
+        -20,
+        20,
+        -20,
+        -20
+      ],
+      "pins": [
+        {
+          "number": "1",
+          "name": "3V3",
+          "x": -40,
+          "y": 10,
+          "rotation": 0,
+          "length": 20,
+          "pinType": "Passive"
+        },
+        {
+          "number": "2",
+          "name": "HEATER_VCC",
+          "x": 0,
+          "y": -40,
+          "rotation": 90,
+          "length": 20,
+          "pinType": "Passive"
+        },
+        {
+          "number": "3",
+          "name": "5V",
+          "x": 40,
+          "y": 10,
+          "rotation": 180,
+          "length": 20,
+          "pinType": "Passive"
+        }
+      ]
+    },
+    "footprint": {
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "x": -51.181102362204726,
+          "y": 0,
+          "rotation": 0,
+          "shape": [
+            1,
+            39.37007874015748,
+            59.05511811023622
+          ]
+        },
+        {
+          "number": "2",
+          "layer": 1,
+          "x": 0.0,
+          "y": 0,
+          "rotation": 0,
+          "shape": [
+            1,
+            39.37007874015748,
+            59.05511811023622
+          ]
+        },
+        {
+          "number": "3",
+          "layer": 1,
+          "x": 51.181102362204726,
+          "y": 0,
+          "rotation": 0,
+          "shape": [
+            1,
+            39.37007874015748,
+            59.05511811023622
+          ]
+        }
+      ]
+    }
+  },
+  "testpoint": {
+    "name": "Rice_SapFlow_TP1mm_20261003",
+    "designator": "TP",
+    "source": "1 mm square copper test pad candidate; no fitted part; mask/paste verification pending",
+    "symbol": {
+      "outline": [
+        -5,
+        0,
+        5,
+        0,
+        5,
+        10,
+        -5,
+        10,
+        -5,
+        0
+      ],
+      "pins": [
+        {
+          "number": "1",
+          "name": "TP",
+          "x": 0,
+          "y": -15,
+          "rotation": 90,
+          "length": 15,
+          "pinType": "Passive"
+        }
+      ]
+    },
+    "footprint": {
+      "pads": [
+        {
+          "number": "1",
+          "layer": 1,
+          "x": 0,
+          "y": 0,
+          "rotation": 0,
+          "shape": [
+            1,
+            39.37007874015748,
+            39.37007874015748
+          ]
+        }
+      ]
+    }
+  }
+}

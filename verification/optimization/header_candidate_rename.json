@@ -1,0 +1,16 @@
+{
+  "id": "req_428",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T02:44:42.959619Z",
+  "ok": false,
+  "error": {
+    "code": "INVALID_STATE",
+    "message": "No schematic component found with primitiveId \"6d18697a5d56d992\" on any page."
+  },
+  "seq": 4133,
+  "seqAbandoned": 1,
+  "abandonedIds": [
+    "req_706"
+  ]
+}

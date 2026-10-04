@@ -1,0 +1,15 @@
+{
+  "id": "req_598",
+  "ok": true,
+  "result": {
+    "bytes": 129840,
+    "format": "epro2",
+    "path": "/Users/zhangshuxuan/本地文稿/Rice_SapFlow_V01/verification/Rice_SapFlow_V01_EasyEDA.epro2",
+    "restoreVerified": false,
+    "sha256": "7c1fe9e610a9dcc826ff8b8e25f701ab13802f477af3489416e53b7ba0e3de4e",
+    "uuid": "cf823b99abc3472f86efd2c874825dfb",
+    "zipIntegrityVerified": true
+  },
+  "type": "response",
+  "version": "v1"
+}

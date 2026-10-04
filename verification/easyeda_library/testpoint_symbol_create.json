@@ -1,0 +1,41 @@
+{
+  "id": "req_43",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:45:19.720227Z",
+  "ok": true,
+  "result": {
+    "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+    "name": "EA_AGENT__RICE_SAPFLOW_TP1MM_20261003",
+    "namespace": "EA_AGENT",
+    "requestedName": "Rice_SapFlow_TP1mm_20261003",
+    "symbol": {
+      "classification": [],
+      "description": "1 mm square copper test pad candidate; no fitted part; mask/paste verification pending",
+      "libraryType": "2",
+      "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+      "name": "EA_AGENT__RICE_SAPFLOW_TP1MM_20261003",
+      "otherProperty": {
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "PCB Layer": "Default"
+      },
+      "subPartNames": [
+        "EA_AGENT__RICE_SAPFLOW_TP1MM_20261003.1"
+      ],
+      "type": 2,
+      "uuid": "bde766870bb74dfe9512f3f8a95fa6f6"
+    },
+    "uuid": "bde766870bb74dfe9512f3f8a95fa6f6",
+    "verified": true
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "fe504d2680e1467fa9d6c1a2da7dfafe",
+    "documentType": "footprint",
+    "tabId": "fe504d2680e1467fa9d6c1a2da7dfafe@9e05c206bff14f5b91e051328bc4efe6"
+  },
+  "seq": 39,
+  "seqAbandoned": 0
+}

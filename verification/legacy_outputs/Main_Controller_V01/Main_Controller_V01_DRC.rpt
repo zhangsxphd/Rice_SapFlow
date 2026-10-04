@@ -1,0 +1,325 @@
+** Drc report for Main_Controller_V01.kicad_pcb **
+** Created on 2026-10-02T20:49:42 **
+** Report includes: Errors, Warnings **
+
+** Found 54 DRC violations **
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(137.8250 mm, 122.5000 mm): 走线 [HEATER_GATE] (F.Cu), 长度: 1.8500 mm
+    @(139.0000 mm, 110.0000 mm): 走线 [HEATER_VCC] (F.Cu), 长度: 17.8500 mm
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(124.2500 mm, 127.8500 mm): 走线 [HEATER_VCC] (F.Cu), 长度: 3.0000 mm
+    @(139.9375 mm, 128.8500 mm): 走线 [HEATER_RETURN] (F.Cu), 长度: 16.1875 mm
+[shorting_items]: 短路了两个不同网络的项目 (网络 HEATER_GATE 和 HEATER_VCC)
+    Local override; error
+    @(139.6750 mm, 122.5000 mm): F.Cu 上 R4 的焊盘 1 [HEATER_GATE]
+    @(139.0000 mm, 110.0000 mm): 走线 [HEATER_VCC] (F.Cu), 长度: 17.8500 mm
+[shorting_items]: 短路了两个不同网络的项目 (网络 GND 和 HEATER_GATE)
+    Local override; error
+    @(138.0625 mm, 118.4500 mm): F.Cu 上 Q1 的焊盘 2 [GND]
+    @(137.8250 mm, 122.5000 mm): 走线 [HEATER_GATE] (F.Cu), 长度: 5.9547 mm
+[shorting_items]: 短路了两个不同网络的项目 (网络 HEATER_GATE 和 HEATER_RETURN)
+    Local override; error
+    @(139.6750 mm, 122.5000 mm): F.Cu 上 R4 的焊盘 1 [HEATER_GATE]
+    @(139.9375 mm, 117.5000 mm): 走线 [HEATER_RETURN] (F.Cu), 长度: 11.3500 mm
+[shorting_items]: 短路了两个不同网络的项目 (网络 GND 和 HEATER_VCC)
+    Local override; error
+    @(128.1500 mm, 127.6000 mm): F.Cu 上 J1 的焊盘 MP [GND]
+    @(139.0000 mm, 127.8500 mm): 走线 [HEATER_VCC] (F.Cu), 长度: 14.7500 mm
+[shorting_items]: 短路了两个不同网络的项目 (网络 GND 和 HEATER_RETURN)
+    Local override; error
+    @(128.1500 mm, 127.6000 mm): F.Cu 上 J1 的焊盘 MP [GND]
+    @(139.9375 mm, 128.8500 mm): 走线 [HEATER_RETURN] (F.Cu), 长度: 16.1875 mm
+[clearance]: 间距违规 ( 间距 0.2000 mm; 实际 0.0325 mm)
+    Local override; error
+    @(124.2500 mm, 130.8500 mm): F.Cu 上 J1 的焊盘 5 [HEATER_VCC]
+    @(123.7500 mm, 128.8500 mm): 走线 [HEATER_RETURN] (F.Cu), 长度: 2.0000 mm
+[shorting_items]: 短路了两个不同网络的项目 (网络 +5V 和 GND)
+    Local override; error
+    @(111.7250 mm, 106.0000 mm): F.Cu 上 C2 的焊盘 1 [+5V]
+    @(110.9500 mm, 106.0000 mm): F.Cu 上 C1 的焊盘 2 [GND]
+[shorting_items]: 短路了两个不同网络的项目 (网络 GND 和 +3V3)
+    Local override; error
+    @(110.9500 mm, 111.0000 mm): F.Cu 上 C3 的焊盘 2 [GND]
+    @(111.7250 mm, 111.0000 mm): F.Cu 上 C4 的焊盘 1 [+3V3]
+[courtyards_overlap]: Courtyards overlap
+    Rule: <电路板配置> 中的 "元件外框" 约束; error
+    @(137.0000 mm, 122.5000 mm): 封装 R3
+    @(133.8900 mm, 106.0000 mm): 封装 U1_R
+[courtyards_overlap]: Courtyards overlap
+    Rule: <电路板配置> 中的 "元件外框" 约束; error
+    @(112.5000 mm, 106.0000 mm): 封装 C2
+    @(110.0000 mm, 106.0000 mm): 封装 C1
+[courtyards_overlap]: Courtyards overlap
+    Rule: <电路板配置> 中的 "元件外框" 约束; error
+    @(145.5000 mm, 124.5000 mm): 封装 TP6
+    @(146.0000 mm, 128.0000 mm): 封装 H4
+[courtyards_overlap]: Courtyards overlap
+    Rule: <电路板配置> 中的 "元件外框" 约束; error
+    @(145.5000 mm, 107.0000 mm): 封装 TP1
+    @(146.0000 mm, 104.0000 mm): 封装 H2
+[courtyards_overlap]: Courtyards overlap
+    Rule: <电路板配置> 中的 "元件外框" 约束; error
+    @(110.0000 mm, 111.0000 mm): 封装 C3
+    @(112.5000 mm, 111.0000 mm): 封装 C4
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(137.8250 mm, 122.5000 mm): 走线 [HEATER_GATE] (F.Cu), 长度: 5.9547 mm
+    @(138.0625 mm, 118.4500 mm): F.Cu 上 Q1 的焊盘 2 [GND]
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(139.9375 mm, 117.5000 mm): 走线 [HEATER_RETURN] (F.Cu), 长度: 11.3500 mm
+    @(139.6750 mm, 122.5000 mm): F.Cu 上 R4 的焊盘 1 [HEATER_GATE]
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(139.0000 mm, 110.0000 mm): 走线 [HEATER_VCC] (F.Cu), 长度: 17.8500 mm
+    @(139.9375 mm, 117.5000 mm): F.Cu 上 Q1 的焊盘 3 [HEATER_RETURN]
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(139.0000 mm, 110.0000 mm): 走线 [HEATER_VCC] (F.Cu), 长度: 17.8500 mm
+    @(139.6750 mm, 122.5000 mm): F.Cu 上 R4 的焊盘 1 [HEATER_GATE]
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(139.9375 mm, 128.8500 mm): 走线 [HEATER_RETURN] (F.Cu), 长度: 16.1875 mm
+    @(128.1500 mm, 127.6000 mm): F.Cu 上 J1 的焊盘 MP [GND]
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(139.0000 mm, 110.0000 mm): 走线 [HEATER_VCC] (F.Cu), 长度: 17.8500 mm
+    @(138.0625 mm, 118.4500 mm): F.Cu 上 Q1 的焊盘 2 [GND]
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(139.0000 mm, 110.0000 mm): 走线 [HEATER_VCC] (F.Cu), 长度: 17.8500 mm
+    @(138.0625 mm, 116.5500 mm): F.Cu 上 Q1 的焊盘 1 [HEATER_GATE]
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(139.0000 mm, 127.8500 mm): 走线 [HEATER_VCC] (F.Cu), 长度: 14.7500 mm
+    @(128.1500 mm, 127.6000 mm): F.Cu 上 J1 的焊盘 MP [GND]
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(111.7250 mm, 106.0000 mm): F.Cu 上 C2 的焊盘 1 [+5V]
+    @(110.9500 mm, 106.0000 mm): F.Cu 上 C1 的焊盘 2 [GND]
+[solder_mask_bridge]: 顶层阻焊开窗区域与不同网络的项目相连
+    Rule: <电路板配置> 中的 "阻焊层最小宽度"; error
+    @(110.9500 mm, 111.0000 mm): F.Cu 上 C3 的焊盘 2 [GND]
+    @(111.7250 mm, 111.0000 mm): F.Cu 上 C4 的焊盘 1 [+3V3]
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(100.0000 mm, 131.0000 mm): Edge.Cuts 上的 线段
+    @(108.5000 mm, 126.5000 mm): F.Silkscreen 上的 PCB 文本 'J1: 1=3V3 2=GND 3=SDA 4=SCL 5=VCC 6=RET'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(101.0000 mm, 100.0000 mm): Edge.Cuts 上的 线段
+    @(104.0000 mm, 99.8500 mm): H1 的参考字段
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(101.0000 mm, 100.0000 mm): Edge.Cuts 上的 线段
+    @(146.0000 mm, 99.8500 mm): H2 的参考字段
+[text_height]: 文字高度超出范围 (<电路板配置> 中的 "丝印文本高度" 约束 最小高度 0.8000 mm; 实际 0.6500 mm)
+    Rule: <电路板配置> 中的 "丝印文本高度" 约束; warning
+    @(108.5000 mm, 126.5000 mm): F.Silkscreen 上的 PCB 文本 'J1: 1=3V3 2=GND 3=SDA 4=SCL 5=VCC 6=RET'
+[text_height]: 文字高度超出范围 (<电路板配置> 中的 "丝印文本高度" 约束 最小高度 0.8000 mm; 实际 0.6500 mm)
+    Rule: <电路板配置> 中的 "丝印文本高度" 约束; warning
+    @(132.5000 mm, 107.2000 mm): F.Silkscreen 上的 PCB 文本 'SJ1: 1=3V3 2=VCC 3=5V'
+[text_height]: 文字高度超出范围 (<电路板配置> 中的 "丝印文本高度" 约束 最小高度 0.8000 mm; 实际 0.7000 mm)
+    Rule: <电路板配置> 中的 "丝印文本高度" 约束; warning
+    @(142.3000 mm, 106.6000 mm): F.Silkscreen 上的 PCB 文本 '5V'
+[text_height]: 文字高度超出范围 (<电路板配置> 中的 "丝印文本高度" 约束 最小高度 0.8000 mm; 实际 0.7000 mm)
+    Rule: <电路板配置> 中的 "丝印文本高度" 约束; warning
+    @(142.3000 mm, 110.1000 mm): F.Silkscreen 上的 PCB 文本 '3V3'
+[text_height]: 文字高度超出范围 (<电路板配置> 中的 "丝印文本高度" 约束 最小高度 0.8000 mm; 实际 0.7000 mm)
+    Rule: <电路板配置> 中的 "丝印文本高度" 约束; warning
+    @(142.3000 mm, 113.6000 mm): F.Silkscreen 上的 PCB 文本 'GND'
+[text_height]: 文字高度超出范围 (<电路板配置> 中的 "丝印文本高度" 约束 最小高度 0.8000 mm; 实际 0.7000 mm)
+    Rule: <电路板配置> 中的 "丝印文本高度" 约束; warning
+    @(142.3000 mm, 117.1000 mm): F.Silkscreen 上的 PCB 文本 'SDA'
+[text_height]: 文字高度超出范围 (<电路板配置> 中的 "丝印文本高度" 约束 最小高度 0.8000 mm; 实际 0.7000 mm)
+    Rule: <电路板配置> 中的 "丝印文本高度" 约束; warning
+    @(142.3000 mm, 120.6000 mm): F.Silkscreen 上的 PCB 文本 'SCL'
+[text_height]: 文字高度超出范围 (<电路板配置> 中的 "丝印文本高度" 约束 最小高度 0.8000 mm; 实际 0.7000 mm)
+    Rule: <电路板配置> 中的 "丝印文本高度" 约束; warning
+    @(142.3000 mm, 124.1000 mm): F.Silkscreen 上的 PCB 文本 'HTR_RET'
+[text_height]: 文字高度超出范围 (<电路板配置> 中的 "丝印文本高度" 约束 最小高度 0.8000 mm; 实际 0.7500 mm)
+    Rule: <电路板配置> 中的 "丝印文本高度" 约束; warning
+    @(117.0000 mm, 104.0000 mm): F.Silkscreen 上的 PCB 文本 'Main_Controller_V1.0'
+[silk_overlap]: Silkscreen clearance
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(117.5000 mm, 107.0000 mm): F.Silkscreen 上的 PCB 文本 'ESP32-C3 SuperMini'
+    @(114.7800 mm, 107.2700 mm): U1_L 的 线段, 位于 F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(117.5000 mm, 107.0000 mm): F.Silkscreen 上的 PCB 文本 'ESP32-C3 SuperMini'
+    @(114.7800 mm, 107.2700 mm): U1_L 的 线段, 位于 F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(112.5000 mm, 104.5700 mm): C2 的参考字段
+    @(117.0000 mm, 104.0000 mm): F.Silkscreen 上的 PCB 文本 'Main_Controller_V1.0'
+[silk_overlap]: Silkscreen clearance
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(112.3594 mm, 106.5100 mm): C2 的 线段, 位于 F.Silkscreen
+    @(117.5000 mm, 107.0000 mm): F.Silkscreen 上的 PCB 文本 'ESP32-C3 SuperMini'
+[silk_overlap]: Silkscreen clearance
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(117.4400 mm, 107.2700 mm): U1_L 的 线段, 位于 F.Silkscreen
+    @(117.5000 mm, 107.0000 mm): F.Silkscreen 上的 PCB 文本 'ESP32-C3 SuperMini'
+[silk_overlap]: Silkscreen clearance
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(132.5600 mm, 107.2700 mm): U1_R 的 线段, 位于 F.Silkscreen
+    @(132.5000 mm, 107.2000 mm): F.Silkscreen 上的 PCB 文本 'SJ1: 1=3V3 2=VCC 3=5V'
+[silk_overlap]: Silkscreen clearance
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(135.2200 mm, 107.2700 mm): U1_R 的 线段, 位于 F.Silkscreen
+    @(132.5000 mm, 107.2000 mm): F.Silkscreen 上的 PCB 文本 'SJ1: 1=3V3 2=VCC 3=5V'
+[silk_overlap]: Silkscreen clearance
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(132.5600 mm, 107.2700 mm): U1_R 的 线段, 位于 F.Silkscreen
+    @(132.5000 mm, 107.2000 mm): F.Silkscreen 上的 PCB 文本 'SJ1: 1=3V3 2=VCC 3=5V'
+[silk_overlap]: Silkscreen clearance
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(142.3000 mm, 110.1000 mm): F.Silkscreen 上的 PCB 文本 '3V3'
+    @(141.6000 mm, 110.0000 mm): SJ1 的封装文本 (3),
+[silk_overlap]: Silkscreen clearance
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(145.5000 mm, 123.0520 mm): TP6 的参考字段
+    @(146.0000 mm, 123.8500 mm): H4 的参考字段
+[silk_overlap]: Silkscreen clearance
+    Rule: <电路板配置> 中的 "丝印" 约束; warning
+    @(145.5000 mm, 124.5000 mm): TP6 的 圆形, 位于 F.Silkscreen
+    @(146.0000 mm, 123.8500 mm): H4 的参考字段
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(108.5000 mm, 126.5000 mm): F.Silkscreen 上的 PCB 文本 'J1: 1=3V3 2=GND 3=SDA 4=SCL 5=VCC 6=RET'
+    @(104.0000 mm, 128.0000 mm): H3 的 NPTH 焊盘
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(117.5000 mm, 107.0000 mm): F.Silkscreen 上的 PCB 文本 'ESP32-C3 SuperMini'
+    @(116.1100 mm, 106.0000 mm): U1_L 的PTH 焊盘 1 [+5V]
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(117.5000 mm, 107.0000 mm): F.Silkscreen 上的 PCB 文本 'ESP32-C3 SuperMini'
+    @(110.9500 mm, 106.0000 mm): F.Cu 上 C1 的焊盘 2 [GND]
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(132.5000 mm, 107.2000 mm): F.Silkscreen 上的 PCB 文本 'SJ1: 1=3V3 2=VCC 3=5V'
+    @(133.8900 mm, 106.0000 mm): U1_R 的PTH 焊盘 1 [<no net>]
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.0000 mm, 123.8500 mm): H4 的参考字段
+    @(145.5000 mm, 124.5000 mm): F.Cu 上 TP6 的焊盘 1 [HEATER_RETURN]
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(145.5000 mm, 105.5520 mm): TP1 的参考字段
+    @(146.0000 mm, 104.0000 mm): H2 的 NPTH 焊盘
+
+** Found 25 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.1100 mm, 116.0000 mm): 走线 [SDA] (F.Cu), 长度: 3.1088 mm
+    @(125.2500 mm, 130.8500 mm): F.Cu 上 J1 的焊盘 3 [SDA]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.2500 mm, 130.8500 mm): F.Cu 上 J1 的焊盘 3 [SDA]
+    @(145.5000 mm, 117.5000 mm): F.Cu 上 TP4 的焊盘 1 [SDA]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(111.7250 mm, 106.0000 mm): F.Cu 上 C2 的焊盘 1 [+5V]
+    @(109.0500 mm, 106.0000 mm): F.Cu 上 C1 的焊盘 1 [+5V]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.1100 mm, 106.0000 mm): U1_L 的PTH 焊盘 1 [+5V]
+    @(111.7250 mm, 106.0000 mm): F.Cu 上 C2 的焊盘 1 [+5V]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.3000 mm, 110.0000 mm): F.Cu 上 SJ1 的焊盘 3 [+5V]
+    @(145.5000 mm, 107.0000 mm): F.Cu 上 TP1 的焊盘 1 [+5V]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.3000 mm, 110.0000 mm): F.Cu 上 SJ1 的焊盘 3 [+5V]
+    @(116.1100 mm, 106.0000 mm): U1_L 的PTH 焊盘 1 [+5V]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.9500 mm, 111.0000 mm): F.Cu 上 C3 的焊盘 2 [GND]
+    @(113.2750 mm, 111.0000 mm): F.Cu 上 C4 的焊盘 2 [GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.2750 mm, 106.0000 mm): F.Cu 上 C2 的焊盘 2 [GND]
+    @(110.9500 mm, 106.0000 mm): F.Cu 上 C1 的焊盘 2 [GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.2750 mm, 111.0000 mm): F.Cu 上 C4 的焊盘 2 [GND]
+    @(116.1100 mm, 108.5400 mm): U1_L 的PTH 焊盘 2 [GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.2750 mm, 111.0000 mm): F.Cu 上 C4 的焊盘 2 [GND]
+    @(121.8500 mm, 127.6000 mm): F.Cu 上 J1 的焊盘 MP [GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.1100 mm, 108.5400 mm): U1_L 的PTH 焊盘 2 [GND]
+    @(113.2750 mm, 106.0000 mm): F.Cu 上 C2 的焊盘 2 [GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(121.8500 mm, 127.6000 mm): F.Cu 上 J1 的焊盘 MP [GND]
+    @(125.7500 mm, 130.8500 mm): F.Cu 上 J1 的焊盘 2 [GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.7500 mm, 130.8500 mm): F.Cu 上 J1 的焊盘 2 [GND]
+    @(128.1500 mm, 127.6000 mm): F.Cu 上 J1 的焊盘 MP [GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(128.1500 mm, 127.6000 mm): F.Cu 上 J1 的焊盘 MP [GND]
+    @(138.0625 mm, 118.4500 mm): F.Cu 上 Q1 的焊盘 2 [GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.3250 mm, 122.5000 mm): F.Cu 上 R4 的焊盘 2 [GND]
+    @(138.0625 mm, 118.4500 mm): F.Cu 上 Q1 的焊盘 2 [GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.5000 mm, 114.0000 mm): F.Cu 上 TP3 的焊盘 1 [GND]
+    @(138.0625 mm, 118.4500 mm): F.Cu 上 Q1 的焊盘 2 [GND]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.6750 mm, 116.0000 mm): F.Cu 上 R1 的焊盘 1 [+3V3]
+    @(109.0500 mm, 111.0000 mm): F.Cu 上 C3 的焊盘 1 [+3V3]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.6750 mm, 116.0000 mm): 走线 [+3V3] (F.Cu), 长度: 3.0000 mm
+    @(126.2500 mm, 130.8500 mm): F.Cu 上 J1 的焊盘 1 [+3V3]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(111.7250 mm, 111.0000 mm): F.Cu 上 C4 的焊盘 1 [+3V3]
+    @(109.0500 mm, 111.0000 mm): F.Cu 上 C3 的焊盘 1 [+3V3]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(111.7250 mm, 111.0000 mm): F.Cu 上 C4 的焊盘 1 [+3V3]
+    @(116.1100 mm, 111.0800 mm): U1_L 的PTH 焊盘 3 [+3V3]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.1100 mm, 111.0800 mm): U1_L 的PTH 焊盘 3 [+3V3]
+    @(137.7000 mm, 110.0000 mm): F.Cu 上 SJ1 的焊盘 1 [+3V3]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.5000 mm, 110.5000 mm): F.Cu 上 TP2 的焊盘 1 [+3V3]
+    @(137.7000 mm, 110.0000 mm): F.Cu 上 SJ1 的焊盘 1 [+3V3]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(111.3250 mm, 119.0000 mm): 走线 [SCL] (F.Cu), 长度: 2.7850 mm
+    @(124.7500 mm, 130.8500 mm): F.Cu 上 J1 的焊盘 4 [SCL]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(124.7500 mm, 130.8500 mm): F.Cu 上 J1 的焊盘 4 [SCL]
+    @(145.5000 mm, 121.0000 mm): F.Cu 上 TP5 的焊盘 1 [SCL]
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.9375 mm, 128.8500 mm): 走线 [HEATER_RETURN] (F.Cu), 长度: 16.1875 mm
+    @(145.5000 mm, 124.5000 mm): F.Cu 上 TP6 的焊盘 1 [HEATER_RETURN]
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

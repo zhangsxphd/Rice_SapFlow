@@ -1,0 +1,160 @@
+{
+  "passed": false,
+  "total": 10,
+  "counts": {
+    "Clearance Error": 7,
+    "Connection Error": 2,
+    "Netlist Error": 1
+  },
+  "violations": [
+    {
+      "rule": "Clearance Error",
+      "objType": "SMD Pad to TH Pad",
+      "ruleName": "copperThickness1oz",
+      "net": "GND",
+      "x": 761.61,
+      "y": 873.43,
+      "layer": "Top Layer",
+      "objs": [
+        "e7589a5ce2a461c6e15",
+        "9a1606510d668d86e26"
+      ],
+      "message": "(GND): C8_2 to : TP3_3 distance is 0mil, should be \u003e= 6mil",
+      "globalIndex": "err36"
+    },
+    {
+      "rule": "Clearance Error",
+      "objType": "Hole to SMD Pad",
+      "ruleName": "copperThickness1oz",
+      "net": "GND",
+      "x": 770.87,
+      "y": 898.42,
+      "layer": "Top Layer",
+      "objs": [
+        "e7589a5ce2a461c6e15",
+        "9a1606510d668d86e26"
+      ],
+      "message": "(GND): C8_2 to : TP3_3 distance is 0mil, should be \u003e= 6.9mil",
+      "globalIndex": "err37"
+    },
+    {
+      "rule": "Clearance Error",
+      "objType": "TH Pad to Via",
+      "ruleName": "copperThickness1oz",
+      "net": "GND",
+      "x": 778.74,
+      "y": 940,
+      "layer": "Top Layer",
+      "objs": [
+        "9a1606510d668d86e26",
+        "902c215db98e202a"
+      ],
+      "message": ": TP3_3 to (GND): e126 distance is 0mil, should be \u003e= 6mil",
+      "globalIndex": "err38"
+    },
+    {
+      "rule": "Clearance Error",
+      "objType": "Hole to Via",
+      "ruleName": "copperThickness1oz",
+      "net": "GND",
+      "x": 774.08,
+      "y": 940,
+      "layer": "Top Layer",
+      "objs": [
+        "9a1606510d668d86e26",
+        "902c215db98e202a"
+      ],
+      "message": ": TP3_3 to (GND): e126 distance is 6.4mil, should be \u003e= 6.9mil",
+      "globalIndex": "err39"
+    },
+    {
+      "rule": "Clearance Error",
+      "objType": "Hole to TH Pad",
+      "ruleName": "copperThickness1oz",
+      "net": "GND",
+      "x": 781.05,
+      "y": 940,
+      "layer": "Top Layer",
+      "objs": [
+        "9a1606510d668d86e26",
+        "902c215db98e202a"
+      ],
+      "message": ": TP3_3 to (GND): e126 distance is 4.6mil, should be \u003e= 6.9mil",
+      "globalIndex": "err40"
+    },
+    {
+      "rule": "Clearance Error",
+      "objType": "SMD Pad to TH Pad",
+      "ruleName": "copperThickness1oz",
+      "net": "HEATER_VCC",
+      "x": 738.88,
+      "y": 926.58,
+      "layer": "Top Layer",
+      "objs": [
+        "e7589a5ce2a461c6e16",
+        "9a1606510d668d86e26"
+      ],
+      "message": "(HEATER_VCC): C8_1 to : TP3_3 distance is 1mil, should be \u003e= 6mil",
+      "globalIndex": "err35"
+    },
+    {
+      "rule": "Clearance Error",
+      "objType": "TH Pad to Track",
+      "ruleName": "copperThickness1oz",
+      "net": "SDA",
+      "x": 900,
+      "y": 1263.27,
+      "layer": "Bottom Layer",
+      "objs": [
+        "37786e3456d24cae",
+        "63df99f2dc7830c0e17"
+      ],
+      "message": "(SDA): e474 to : U1_R_4 distance is 2.5mil, should be \u003e= 6mil",
+      "globalIndex": "err34"
+    },
+    {
+      "rule": "Connection Error",
+      "objType": "Track",
+      "ruleName": "Common",
+      "net": "HEATER_GATE",
+      "x": 787.4,
+      "y": 655,
+      "objs": [
+        "88b098e7edbac5c2"
+      ],
+      "message": "(HEATER_GATE): e512 is disconnected from other objects of the same network",
+      "globalIndex": "err42"
+    },
+    {
+      "rule": "Connection Error",
+      "objType": "Track",
+      "ruleName": "Common",
+      "net": "HEATER_GATE",
+      "x": 787.4,
+      "y": 687.3,
+      "objs": [
+        "4f6465a8d225a401"
+      ],
+      "message": "(HEATER_GATE): e511 is disconnected from other objects of the same network",
+      "globalIndex": "err43"
+    },
+    {
+      "rule": "Netlist Error",
+      "objType": "Netlist Error",
+      "ruleName": "Import Changes",
+      "objs": [
+        "err41"
+      ],
+      "message": "PCB and schematic netlist does not match. You can click on the rule name \"Import Changes\" to view the difference.",
+      "globalIndex": "err41"
+    }
+  ],
+  "binding": {
+    "boardName": "Main_Controller_V01",
+    "hint": "Netlist Error is often a stale Board binding — verify the schematic UUID matches the open schematic; if not, run `easyeda board rebind --schematic \u003cuuid\u003e --pcb \u003cuuid\u003e`.",
+    "pcbName": "PCB1",
+    "pcbUuid": "82d38807b4b94fc9",
+    "schematicName": "Schematic1",
+    "schematicUuid": "ec018d91a5446131"
+  }
+}

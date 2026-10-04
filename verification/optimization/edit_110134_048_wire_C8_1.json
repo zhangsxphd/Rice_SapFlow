@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "succeeded": [
+    "C8:1"
+  ],
+  "connections": [
+    {
+      "pin": "C8:1",
+      "net": "HEATER_VCC",
+      "kind": "power",
+      "pinX": 1200,
+      "pinY": 550,
+      "selected": {
+        "direction": "left",
+        "offset": 60,
+        "endPoint": {
+          "x": 1140,
+          "y": 550
+        },
+        "score": -14,
+        "reasons": [
+          {
+            "cost": 6,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 999999991.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 1000000001.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "right",
+          "offset": 18,
+          "score": 1000010501.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        }
+      ],
+      "wirePrimitiveId": "2e32500cd8649bc7",
+      "flagPrimitiveId": "ef5df655a8e74ff8",
+      "state": "new"
+    }
+  ]
+}

@@ -1,0 +1,3017 @@
+{
+  "id": "req_4902",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T11:52:43.166387Z",
+  "ok": true,
+  "result": {
+    "components": [
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Drawing-Symbol_A4",
+          "uuid": "d4c1d15aa9f9a925"
+        },
+        "componentType": "sheet",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Main_Controller_V01",
+          "uuid": "d4c1d15aa9f9a925"
+        },
+        "mirror": false,
+        "name": "Main_Controller_V01",
+        "net": "",
+        "otherProperty": {
+          "@Assembly Variant": "Basic",
+          "@Board Name": "Main_Controller_V01",
+          "@Create Date": "2026-10-03",
+          "@Create Time": "01:36:36",
+          "@Page Count": "1",
+          "@Page Name": "Main_Controller",
+          "@Page No": "1",
+          "@Project Name": "Rice_SapFlow",
+          "@Schematic Name": "Schematic1",
+          "@Update Date": "2026-10-03",
+          "@Update Time": "19:50:21",
+          "Blade Width": "10",
+          "Border": "1",
+          "Color": "",
+          "Company": "嘉立创EDA",
+          "Description": "Rice Sap Flow Main Controller Board",
+          "Drawed": "Antigravity",
+          "Height": "825",
+          "Page Size": "A4",
+          "Part Number": "",
+          "Region Start": "1",
+          "Reviewed": "",
+          "Size": "A4",
+          "Title Block": "1",
+          "Title Block Position": "3",
+          "Version": "V1.0",
+          "Width": "1170",
+          "X Region Count": "6",
+          "Y Region Count": "4"
+        },
+        "primitiveId": "fffe26a7aae44718",
+        "rotation": 0,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Drawing-Symbol_A4",
+          "uuid": "4416763614e23601"
+        },
+        "x": 0,
+        "y": 0
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HoLTT0603-1/10W-4.7K-1%",
+          "uuid": "de2345e93f2f94f8"
+        },
+        "componentType": "part",
+        "designator": "R1",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Value}",
+          "uuid": "de2345e93f2f94f8"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "R0603",
+          "uuid": "dda943025428e70b"
+        },
+        "manufacturer": "Milliohm(毫欧)",
+        "manufacturerId": "HoLTT0603-1/10W-4.7K-1%",
+        "mirror": false,
+        "name": "={Value}",
+        "net": "",
+        "otherProperty": {
+          "Datasheet": "https://item.szlcsc.com/datasheet/HoLTT0603-1%252F10W-4.7K-1%2525/3164221.html",
+          "Description": "电阻类型:厚膜电阻;阻值:4.7kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "厚膜电阻 4.7kΩ ±1% 停产",
+          "Operating Temperature": "-55℃~+155℃",
+          "PCB Layer": "",
+          "Power(Watts)": "100mW",
+          "Supplier Footprint": "0603",
+          "Temperature Coefficient": "±100ppm/℃",
+          "Tolerance": "±1%",
+          "Type": "厚膜电阻",
+          "Value": "4.7kΩ",
+          "Voltage-Supply(Max)": "75V"
+        },
+        "primitiveId": "8bc9603ddb484498",
+        "rotation": 0,
+        "subPartName": "HOLTT0603-1/10W-4.7K-1%.1",
+        "supplier": "LCSC",
+        "supplierId": "C2904521",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HOLTT0603-1/10W-4.7K-1%",
+          "uuid": "810c5bf9f6907681"
+        },
+        "uniqueId": "gge7",
+        "x": 160,
+        "y": 360
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HoLTT0603-1/10W-4.7K-1%",
+          "uuid": "de2345e93f2f94f8"
+        },
+        "componentType": "part",
+        "designator": "R2",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Value}",
+          "uuid": "de2345e93f2f94f8"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "R0603",
+          "uuid": "dda943025428e70b"
+        },
+        "manufacturer": "Milliohm(毫欧)",
+        "manufacturerId": "HoLTT0603-1/10W-4.7K-1%",
+        "mirror": false,
+        "name": "={Value}",
+        "net": "",
+        "otherProperty": {
+          "Datasheet": "https://item.szlcsc.com/datasheet/HoLTT0603-1%252F10W-4.7K-1%2525/3164221.html",
+          "Description": "电阻类型:厚膜电阻;阻值:4.7kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "厚膜电阻 4.7kΩ ±1% 停产",
+          "Operating Temperature": "-55℃~+155℃",
+          "PCB Layer": "",
+          "Power(Watts)": "100mW",
+          "Supplier Footprint": "0603",
+          "Temperature Coefficient": "±100ppm/℃",
+          "Tolerance": "±1%",
+          "Type": "厚膜电阻",
+          "Value": "4.7kΩ",
+          "Voltage-Supply(Max)": "75V"
+        },
+        "primitiveId": "1ce6817fc1a709f4",
+        "rotation": 0,
+        "subPartName": "HOLTT0603-1/10W-4.7K-1%.1",
+        "supplier": "LCSC",
+        "supplierId": "C2904521",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HOLTT0603-1/10W-4.7K-1%",
+          "uuid": "810c5bf9f6907681"
+        },
+        "uniqueId": "gge8",
+        "x": 360,
+        "y": 360
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "QR0603J100RP05Z",
+          "uuid": "2d0a45b4bb6eccd3"
+        },
+        "componentType": "part",
+        "designator": "R3",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Value}",
+          "uuid": "2d0a45b4bb6eccd3"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "R0603",
+          "uuid": "dda943025428e70b"
+        },
+        "manufacturer": "EVER OHMS(天二科技)",
+        "manufacturerId": "QR0603J100RP05Z",
+        "mirror": false,
+        "name": "={Value}",
+        "net": "",
+        "otherProperty": {
+          "Datasheet": "https://item.szlcsc.com/datasheet/QR0603J100RP05Z/187549.html",
+          "Description": "电阻类型:厚膜电阻;阻值:100Ω;精度:±5%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "厚膜电阻 100Ω ±5% 100mW",
+          "Operating Temperature": "-55℃~+155℃",
+          "PCB Layer": "",
+          "Power(Watts)": "100mW",
+          "Supplier Footprint": "0603",
+          "Temperature Coefficient": "±100ppm/℃",
+          "Tolerance": "±5%",
+          "Type": "厚膜电阻",
+          "Value": "100Ω",
+          "Voltage-Supply(Max)": "75V"
+        },
+        "primitiveId": "ecc937e969d692c5",
+        "rotation": 0,
+        "subPartName": "QR0603J100RP05.1",
+        "supplier": "LCSC",
+        "supplierId": "C176159",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "QR0603J100RP05",
+          "uuid": "4d6a3945e01c4791"
+        },
+        "uniqueId": "gge9",
+        "x": 620,
+        "y": 650
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "AO3400A",
+          "uuid": "b6f3e2150b744413"
+        },
+        "componentType": "part",
+        "designator": "Q1",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Manufacturer Part}",
+          "uuid": "b6f3e2150b744413"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+          "uuid": "3e0ca0b57b885e6f"
+        },
+        "manufacturer": "HUASHUO(华朔)",
+        "manufacturerId": "AO3400A",
+        "mirror": false,
+        "name": "={Manufacturer Part}",
+        "net": "",
+        "otherProperty": {
+          "Configuration": "-",
+          "Current - Continuous Drain(Id)": "5.2A",
+          "Datasheet": "https://item.szlcsc.com/datasheet/AO3400A/736021.html",
+          "Description": "数量:1个N沟道;漏源电压(Vdss):30V;连续漏极电流(Id):5.2A;导通电阻(RDS(on)):27mΩ@4.5V;耗散功率(Pd):1W;阈值电压(Vgs(th)):850mV;",
+          "Drain to Source Voltage": "30V",
+          "Gate Charge(Qg)": "11.7nC@4.5V",
+          "Gate Threshold Voltage (Vgs(th))": "850mV",
+          "Input Capacitance(Ciss)": "927pF",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "1个N沟道 耐压:30V 电流:5.2A",
+          "Number": "1个N沟道",
+          "Operating Temperature": "-55℃~+150℃",
+          "Output Capacitance(Coss)": "-",
+          "PCB Layer": "",
+          "Pd - Power Dissipation": "1W",
+          "RDS(on)": "27mΩ@4.5V",
+          "Reverse Transfer Capacitance (Crss@Vds)": "61pF",
+          "Supplier Footprint": "SOT-23",
+          "Type": "N沟道",
+          "Vgs": "±12V"
+        },
+        "primitiveId": "0807127f3cc520d8",
+        "rotation": 0,
+        "subPartName": "AO3400A_C700953.1",
+        "supplier": "LCSC",
+        "supplierId": "C700953",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "AO3400A_C700953",
+          "uuid": "7d6d3ca943dcb5c2"
+        },
+        "uniqueId": "gge10",
+        "x": 760,
+        "y": 440
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "RT0603LRC07100KL",
+          "uuid": "e8ccc36f59e13963"
+        },
+        "componentType": "part",
+        "designator": "R4",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Value}",
+          "uuid": "e8ccc36f59e13963"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "R0603",
+          "uuid": "dda943025428e70b"
+        },
+        "manufacturer": "YAGEO(国巨)",
+        "manufacturerId": "RT0603LRC07100KL",
+        "mirror": false,
+        "name": "={Value}",
+        "net": "",
+        "otherProperty": {
+          "Datasheet": "https://item.szlcsc.com/datasheet/RT0603LRC07100KL/7623862.html",
+          "Description": "电阻类型:薄膜电阻;阻值:100kΩ;精度:±0.01%;功率:100mW;温度系数:±15ppm/℃;",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "薄膜电阻 100kΩ ±0.01% 100mW",
+          "Operating Temperature": "-55℃~+155℃",
+          "PCB Layer": "",
+          "Power(Watts)": "100mW",
+          "Supplier Footprint": "0603",
+          "Temperature Coefficient": "±15ppm/℃",
+          "Tolerance": "±0.01%",
+          "Type": "薄膜电阻",
+          "Value": "100kΩ"
+        },
+        "primitiveId": "fc33eeab4884ef3a",
+        "rotation": 0,
+        "subPartName": "RT0603LRC07100KL.1",
+        "supplier": "LCSC",
+        "supplierId": "C6668830",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "RT0603LRC07100KL",
+          "uuid": "ab255b9f9006c9ea"
+        },
+        "uniqueId": "gge11",
+        "x": 620,
+        "y": 380
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "+3V3",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "+3V3",
+        "net": "+3V3",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "+3V3",
+          "Relevance": "[]"
+        },
+        "primitiveId": "0909009544a9db95",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 120,
+        "y": 360
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "+3V3",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "+3V3",
+        "net": "+3V3",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "+3V3",
+          "Relevance": "[]"
+        },
+        "primitiveId": "2bb843c0601d08ef",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 320,
+        "y": 360
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "+5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "+5V",
+        "net": "+5V",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "+5V",
+          "Relevance": "[]"
+        },
+        "primitiveId": "d5de3a53a6d74717",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 420,
+        "y": 700
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "+3V3",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "+3V3",
+        "net": "+3V3",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "+3V3",
+          "Relevance": "[]"
+        },
+        "primitiveId": "41f779275d5ed4ae",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 690,
+        "y": 700
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "+5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "+5V",
+        "net": "+5V",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "+5V",
+          "Relevance": "[]"
+        },
+        "primitiveId": "d871f46f7735b43d",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 550,
+        "y": 700
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "+3V3",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "+3V3",
+        "net": "+3V3",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "+3V3",
+          "Relevance": "[]"
+        },
+        "primitiveId": "1978eba6f2758c9a",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 830,
+        "y": 700
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "+5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "+5V",
+        "net": "+5V",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "+5V",
+          "Relevance": "[]"
+        },
+        "primitiveId": "7ecdbbcdcb97832c",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 945,
+        "y": 550
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "+3V3",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "+3V3",
+        "net": "+3V3",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "+3V3",
+          "Relevance": "[]"
+        },
+        "primitiveId": "71ccdbd72e301572",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 945,
+        "y": 490
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "+3V3",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "+3V3",
+        "net": "+3V3",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "+3V3",
+          "Relevance": "[]"
+        },
+        "primitiveId": "39af81038bedd5c6",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 300,
+        "y": 165
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HEATER_VCC",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "HEATER_VCC",
+        "net": "HEATER_VCC",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "HEATER_VCC",
+          "Relevance": "[]"
+        },
+        "primitiveId": "c0f661dd11d9c02b",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 275,
+        "y": 125
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "+3V3",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "+3V3",
+        "net": "+3V3",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "+3V3",
+          "Relevance": "[]"
+        },
+        "primitiveId": "194a3a007f220214",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 200,
+        "y": 615
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "+5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "+5V",
+        "net": "+5V",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "+5V",
+          "Relevance": "[]"
+        },
+        "primitiveId": "1fe92ee46f8356ae",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 200,
+        "y": 635
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "+5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "+5V",
+        "net": "+5V",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "+5V",
+          "Relevance": "[]"
+        },
+        "primitiveId": "1e2180463f017a48",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 620,
+        "y": 290
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HEATER_VCC",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "HEATER_VCC",
+        "net": "HEATER_VCC",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "HEATER_VCC",
+          "Relevance": "[]"
+        },
+        "primitiveId": "b9f50cf483bee3ea",
+        "rotation": 270,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 780,
+        "y": 290
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HEATER_VCC",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "HEATER_VCC",
+        "net": "HEATER_VCC",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "HEATER_VCC",
+          "Relevance": "[]"
+        },
+        "primitiveId": "844236c423f244e4",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 420,
+        "y": 320
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HEATER_VCC",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "HEATER_VCC",
+        "net": "HEATER_VCC",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "HEATER_VCC",
+          "Relevance": "[]"
+        },
+        "primitiveId": "e4da25c2e0ba13b5",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 600,
+        "y": 320
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "+5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "+5V",
+        "net": "+5V",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "+5V",
+          "Relevance": "[]"
+        },
+        "primitiveId": "16d9c7e9eaace15d",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 460,
+        "y": 410
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "+5V",
+          "uuid": "375e99228fe6b64f"
+        },
+        "mirror": false,
+        "name": "+5V",
+        "net": "+5V",
+        "otherProperty": {
+          "Description": "Power-5V",
+          "Global Net Name": "+5V",
+          "Relevance": "[]"
+        },
+        "primitiveId": "0316d04404225b9d",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Power-5V",
+          "uuid": "876992ac11ef64d9"
+        },
+        "x": 610,
+        "y": 410
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "SDA",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "SDA",
+        "net": "SDA",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "2075695cb24de984",
+        "rotation": 0,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 200,
+        "y": 360
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "SCL",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "SCL",
+        "net": "SCL",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "0bdaeaba4b6604b3",
+        "rotation": 0,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 400,
+        "y": 360
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HEATER_GATE",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "HEATER_GATE",
+        "net": "HEATER_GATE",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "469cf892174429ed",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 580,
+        "y": 380
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HEATER_GATE",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "HEATER_GATE",
+        "net": "HEATER_GATE",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "a275d62a8e7f01a2",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 720,
+        "y": 440
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HEATER_RETURN",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "HEATER_RETURN",
+        "net": "HEATER_RETURN",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "be518dbf94d9e96b",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 760,
+        "y": 480
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "SDA",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "SDA",
+        "net": "SDA",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "0249a87a40f86f25",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 945,
+        "y": 370
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "SCL",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "SCL",
+        "net": "SCL",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "a69b9475bb5a0d68",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 945,
+        "y": 310
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HEATER_RETURN",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "HEATER_RETURN",
+        "net": "HEATER_RETURN",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "f5a6eba1d6ff1570",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 945,
+        "y": 250
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HEATER_RETURN",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "HEATER_RETURN",
+        "net": "HEATER_RETURN",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "e3bed563c321538e",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 175,
+        "y": 115
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "SCL",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "SCL",
+        "net": "SCL",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "4d31ae2b1e888d0e",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 300,
+        "y": 135
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "SDA",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "SDA",
+        "net": "SDA",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "69d3a01c3bc9323a",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 235,
+        "y": 145
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HEATER_EN",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "HEATER_EN",
+        "net": "HEATER_EN",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "177647b2dfcd684f",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 200,
+        "y": 575
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "SCL",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "SCL",
+        "net": "SCL",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "58eaf8922368a806",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 135,
+        "y": 595
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "SDA",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "SDA",
+        "net": "SDA",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "5142bf0bed517d0a",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 195,
+        "y": 605
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GPIO10_RES",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "GPIO10_RES",
+        "net": "GPIO10_RES",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "9988c1f9ab3a48ad",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 400,
+        "y": 585
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HEATER_EN",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "HEATER_EN",
+        "net": "HEATER_EN",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "67e695757c07dcea",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 580,
+        "y": 650
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HEATER_GATE",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "HEATER_GATE",
+        "net": "HEATER_GATE",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "ab62d0a69e315767",
+        "rotation": 0,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 660,
+        "y": 650
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "componentType": "netport",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HEATER_GATE",
+          "uuid": "2420eaaf3bf34534"
+        },
+        "mirror": false,
+        "name": "HEATER_GATE",
+        "net": "HEATER_GATE",
+        "otherProperty": {
+          "Description": "Netport-BI",
+          "Relevance": ""
+        },
+        "primitiveId": "2aad09ff2740d128",
+        "rotation": 180,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Netport-BI",
+          "uuid": "5792b3ceec989dd6"
+        },
+        "x": 510,
+        "y": 270
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "primitiveId": "1ad5f07cbdec8398",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "7383e3145575f0a8"
+        },
+        "x": 660,
+        "y": 380
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "primitiveId": "846622edd2658a88",
+        "rotation": 0,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "7383e3145575f0a8"
+        },
+        "x": 760,
+        "y": 400
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "primitiveId": "818f0f08dbf63989",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "7383e3145575f0a8"
+        },
+        "x": 500,
+        "y": 700
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "primitiveId": "fbbb9b1bbb0c6981",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "7383e3145575f0a8"
+        },
+        "x": 770,
+        "y": 700
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "primitiveId": "3c749e56437d5ac2",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "7383e3145575f0a8"
+        },
+        "x": 630,
+        "y": 700
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "primitiveId": "27cdab95a0955244",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "7383e3145575f0a8"
+        },
+        "x": 910,
+        "y": 700
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "primitiveId": "1600a9afff2720e4",
+        "rotation": 270,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "7383e3145575f0a8"
+        },
+        "x": 945,
+        "y": 430
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "primitiveId": "57a976e3b7fd9293",
+        "rotation": 270,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "7383e3145575f0a8"
+        },
+        "x": 265,
+        "y": 155
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "primitiveId": "740794fef7af9e41",
+        "rotation": 270,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "7383e3145575f0a8"
+        },
+        "x": 165,
+        "y": 625
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "primitiveId": "0123ecad14a3f753",
+        "rotation": 270,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "7383e3145575f0a8"
+        },
+        "x": 585,
+        "y": 280
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "primitiveId": "fa1d0ca44a7de830",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "7383e3145575f0a8"
+        },
+        "x": 540,
+        "y": 320
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "primitiveId": "d71d13d6f8e0f058",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "7383e3145575f0a8"
+        },
+        "x": 720,
+        "y": 320
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "primitiveId": "83ec34b3eb8ee8f4",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "7383e3145575f0a8"
+        },
+        "x": 540,
+        "y": 410
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "componentType": "netflag",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GND",
+          "uuid": "0afca08a5c5e9bed"
+        },
+        "mirror": false,
+        "name": "GND",
+        "net": "GND",
+        "otherProperty": {
+          "Description": "",
+          "Global Net Name": "GND",
+          "Relevance": "[]"
+        },
+        "primitiveId": "7d717412657125df",
+        "rotation": 90,
+        "subPartName": "pid8a0e77bacb214e",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Ground-GND",
+          "uuid": "7383e3145575f0a8"
+        },
+        "x": 690,
+        "y": 410
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HT7530-7",
+          "uuid": "88a5fedb33b3fac2"
+        },
+        "componentType": "part",
+        "designator": "U4",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Manufacturer Part}",
+          "uuid": "88a5fedb33b3fac2"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL",
+          "uuid": "1940ca8347a62eb4"
+        },
+        "manufacturer": "HOLTEK(合泰/盛群)",
+        "manufacturerId": "HT7530-7",
+        "mirror": false,
+        "name": "={Manufacturer Part}",
+        "net": "",
+        "otherProperty": {
+          "Datasheet": "https://www.holtek.com.cn/webapi/116706/simHT75xx-7v140.pdf",
+          "Description": "输出极性:正极;工作电压:30V;输出电压:3V;输出电流:100mA;电源纹波抑制比(PSRR):-;输出类型:固定;",
+          "Features": "过流保护；使能控制；输出放电；热关断",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "3V 100mA 30V",
+          "Number of Outputs": "1",
+          "Operating Temperature": "-40℃~+85℃@(Ta)",
+          "Output Configuration": "正极",
+          "Output Current": "100mA",
+          "Output Type": "固定",
+          "Output Voltage": "3V",
+          "PCB Layer": "",
+          "Power Supply Rejection Ratio (PSRR)": "-",
+          "Supplier Footprint": "SOT-23-5",
+          "Voltage - Supply": "30V",
+          "Voltage Dropout": "30mV@(1mA)",
+          "standby current": "4uA"
+        },
+        "primitiveId": "8a68692462469b29",
+        "rotation": 0,
+        "subPartName": "HT7530-7_C259866.1",
+        "supplier": "LCSC",
+        "supplierId": "C259866",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HT7530-7_C259866",
+          "uuid": "e201af34c25b33c5"
+        },
+        "uniqueId": "rice-opt-U4",
+        "x": 680,
+        "y": 280
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "2.54-1*8P母环保",
+          "uuid": "c159314d37675ec2"
+        },
+        "componentType": "part",
+        "designator": "J2",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Manufacturer Part}",
+          "uuid": "c159314d37675ec2"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HDR-TH_8P-P2.54-V-F",
+          "uuid": "ecb69841ada288a9"
+        },
+        "manufacturer": "BOOMELE(博穆精密)",
+        "manufacturerId": "2.54-1*8P母环保",
+        "mirror": false,
+        "name": "={Manufacturer Part}",
+        "net": "",
+        "otherProperty": {
+          "Circular Hole / Square Hole": "方孔",
+          "Contact Material": "黄铜",
+          "Contact Plating": "金",
+          "Current Rating": "3A",
+          "Datasheet": "https://item.szlcsc.com/datasheet/2.54-1*8P%25E6%25AF%258D%25E7%258E%25AF%25E4%25BF%259D/28187.html",
+          "Description": "插孔结构:1x8P;间距:2.54mm;行距:-;圆孔/方孔:方孔;安装方式:直插;排数:单排;总孔位数:8P;额定电流:3A;插孔方向:顶部;塑高:8.5mm;触头材质:黄铜;触头镀层:金;工作温度:-55℃~+105℃;",
+          "Holes Direction": "顶部",
+          "Holes Structure": "1x8P",
+          "Insulation Height": "8.5mm",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "1x8P 间距:2.54mm 直插",
+          "Mounting Type": "直插",
+          "Number of Positions": "8P",
+          "Number of Rows": "单排",
+          "Operating Temperature": "-55℃~+105℃",
+          "PCB Layer": "",
+          "PIN Length": "3.2mm",
+          "Pitch": "2.54mm",
+          "Row Spacing": "-",
+          "Supplier Footprint": "插件,P=2.54mm"
+        },
+        "primitiveId": "f4ae94fb7756b288",
+        "rotation": 0,
+        "subPartName": "Header-Female-2.54_1x8.1",
+        "supplier": "LCSC",
+        "supplierId": "C27438",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Header-Female-2.54_1x8",
+          "uuid": "8991342c5b1b5170"
+        },
+        "uniqueId": "gge1",
+        "x": 240,
+        "y": 600
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "2.54-1*8P母环保",
+          "uuid": "c159314d37675ec2"
+        },
+        "componentType": "part",
+        "designator": "J3",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Manufacturer Part}",
+          "uuid": "c159314d37675ec2"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HDR-TH_8P-P2.54-V-F",
+          "uuid": "ecb69841ada288a9"
+        },
+        "manufacturer": "BOOMELE(博穆精密)",
+        "manufacturerId": "2.54-1*8P母环保",
+        "mirror": false,
+        "name": "={Manufacturer Part}",
+        "net": "",
+        "otherProperty": {
+          "Circular Hole / Square Hole": "方孔",
+          "Contact Material": "黄铜",
+          "Contact Plating": "金",
+          "Current Rating": "3A",
+          "Datasheet": "https://item.szlcsc.com/datasheet/2.54-1*8P%25E6%25AF%258D%25E7%258E%25AF%25E4%25BF%259D/28187.html",
+          "Description": "插孔结构:1x8P;间距:2.54mm;行距:-;圆孔/方孔:方孔;安装方式:直插;排数:单排;总孔位数:8P;额定电流:3A;插孔方向:顶部;塑高:8.5mm;触头材质:黄铜;触头镀层:金;工作温度:-55℃~+105℃;",
+          "Holes Direction": "顶部",
+          "Holes Structure": "1x8P",
+          "Insulation Height": "8.5mm",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "1x8P 间距:2.54mm 直插",
+          "Mounting Type": "直插",
+          "Number of Positions": "8P",
+          "Number of Rows": "单排",
+          "Operating Temperature": "-55℃~+105℃",
+          "PCB Layer": "",
+          "PIN Length": "3.2mm",
+          "Pitch": "2.54mm",
+          "Row Spacing": "-",
+          "Supplier Footprint": "插件,P=2.54mm"
+        },
+        "primitiveId": "a9748afe87072abb",
+        "rotation": 0,
+        "subPartName": "Header-Female-2.54_1x8.1",
+        "supplier": "LCSC",
+        "supplierId": "C27438",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Header-Female-2.54_1x8",
+          "uuid": "8991342c5b1b5170"
+        },
+        "uniqueId": "gge2",
+        "x": 440,
+        "y": 600
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GRM21BR61H106KE43L",
+          "uuid": "f619a9da28e5a58a"
+        },
+        "componentType": "part",
+        "designator": "C1",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Value}",
+          "uuid": "f619a9da28e5a58a"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "C0805",
+          "uuid": "a77b59e55bdc4713"
+        },
+        "manufacturer": "muRata(村田)",
+        "manufacturerId": "GRM21BR61H106KE43L",
+        "mirror": false,
+        "name": "={Value}",
+        "net": "",
+        "otherProperty": {
+          "Datasheet": "https://item.szlcsc.com/datasheet/GRM21BR61H106KE43L/439567.html",
+          "Description": "容值:10uF;精度:±10%;额定电压:50V;温度系数:X5R;",
+          "JLCPCB Part Class": "Basic Part",
+          "LCSC Part Name": "10uF ±10% 50V",
+          "PCB Layer": "",
+          "Supplier Footprint": "0805",
+          "Temperature Coefficient": "X5R",
+          "Tolerance": "±10%",
+          "Value": "10uF",
+          "Voltage Rating": "50V"
+        },
+        "primitiveId": "c44cb2a11417950c",
+        "rotation": 0,
+        "subPartName": "GRM21BR61H106KE43L.1",
+        "supplier": "LCSC",
+        "supplierId": "C440198",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GRM21BR61H106KE43L",
+          "uuid": "7f717a09b0bf94f5"
+        },
+        "uniqueId": "gge3",
+        "x": 460,
+        "y": 700
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GRM21BR61H106KE43L",
+          "uuid": "f619a9da28e5a58a"
+        },
+        "componentType": "part",
+        "designator": "C3",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Value}",
+          "uuid": "f619a9da28e5a58a"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "C0805",
+          "uuid": "a77b59e55bdc4713"
+        },
+        "manufacturer": "muRata(村田)",
+        "manufacturerId": "GRM21BR61H106KE43L",
+        "mirror": false,
+        "name": "={Value}",
+        "net": "",
+        "otherProperty": {
+          "Datasheet": "https://item.szlcsc.com/datasheet/GRM21BR61H106KE43L/439567.html",
+          "Description": "容值:10uF;精度:±10%;额定电压:50V;温度系数:X5R;",
+          "JLCPCB Part Class": "Basic Part",
+          "LCSC Part Name": "10uF ±10% 50V",
+          "PCB Layer": "",
+          "Supplier Footprint": "0805",
+          "Temperature Coefficient": "X5R",
+          "Tolerance": "±10%",
+          "Value": "10uF",
+          "Voltage Rating": "50V"
+        },
+        "primitiveId": "7814407d84b83d43",
+        "rotation": 0,
+        "subPartName": "GRM21BR61H106KE43L.1",
+        "supplier": "LCSC",
+        "supplierId": "C440198",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GRM21BR61H106KE43L",
+          "uuid": "7f717a09b0bf94f5"
+        },
+        "uniqueId": "gge5",
+        "x": 730,
+        "y": 700
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GRM21BR61H106KE43L",
+          "uuid": "f619a9da28e5a58a"
+        },
+        "componentType": "part",
+        "designator": "C7",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Value}",
+          "uuid": "f619a9da28e5a58a"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "C0805",
+          "uuid": "a77b59e55bdc4713"
+        },
+        "manufacturer": "muRata(村田)",
+        "manufacturerId": "GRM21BR61H106KE43L",
+        "mirror": false,
+        "name": "={Value}",
+        "net": "",
+        "otherProperty": {
+          "Datasheet": "https://item.szlcsc.com/datasheet/GRM21BR61H106KE43L/439567.html",
+          "Description": "容值:10uF;精度:±10%;额定电压:50V;温度系数:X5R;",
+          "JLCPCB Part Class": "Basic Part",
+          "LCSC Part Name": "10uF ±10% 50V",
+          "PCB Layer": "",
+          "Supplier Footprint": "0805",
+          "Temperature Coefficient": "X5R",
+          "Tolerance": "±10%",
+          "Value": "10uF",
+          "Voltage Rating": "50V"
+        },
+        "primitiveId": "1bd2e2aff51426fb",
+        "rotation": 0,
+        "subPartName": "GRM21BR61H106KE43L.1",
+        "supplier": "LCSC",
+        "supplierId": "C440198",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GRM21BR61H106KE43L",
+          "uuid": "7f717a09b0bf94f5"
+        },
+        "uniqueId": "rice-opt-C7",
+        "x": 500,
+        "y": 410
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GRM21BR61H106KE43L",
+          "uuid": "f619a9da28e5a58a"
+        },
+        "componentType": "part",
+        "designator": "C8",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Value}",
+          "uuid": "f619a9da28e5a58a"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "C0805",
+          "uuid": "a77b59e55bdc4713"
+        },
+        "manufacturer": "muRata(村田)",
+        "manufacturerId": "GRM21BR61H106KE43L",
+        "mirror": false,
+        "name": "={Value}",
+        "net": "",
+        "otherProperty": {
+          "Datasheet": "https://item.szlcsc.com/datasheet/GRM21BR61H106KE43L/439567.html",
+          "Description": "容值:10uF;精度:±10%;额定电压:50V;温度系数:X5R;",
+          "JLCPCB Part Class": "Basic Part",
+          "LCSC Part Name": "10uF ±10% 50V",
+          "PCB Layer": "",
+          "Supplier Footprint": "0805",
+          "Temperature Coefficient": "X5R",
+          "Tolerance": "±10%",
+          "Value": "10uF",
+          "Voltage Rating": "50V"
+        },
+        "primitiveId": "4a8aba03148bbce1",
+        "rotation": 0,
+        "subPartName": "GRM21BR61H106KE43L.1",
+        "supplier": "LCSC",
+        "supplierId": "C440198",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "GRM21BR61H106KE43L",
+          "uuid": "7f717a09b0bf94f5"
+        },
+        "uniqueId": "rice-opt-C8",
+        "x": 500,
+        "y": 320
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "CC0603KRX7R9BB104",
+          "uuid": "caae07bf58e1e91c"
+        },
+        "componentType": "part",
+        "designator": "C2",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Value}",
+          "uuid": "caae07bf58e1e91c"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "C0603",
+          "uuid": "7a7511a97c055d9a"
+        },
+        "manufacturer": "YAGEO(国巨)",
+        "manufacturerId": "CC0603KRX7R9BB104",
+        "mirror": false,
+        "name": "={Value}",
+        "net": "",
+        "otherProperty": {
+          "Datasheet": "https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html",
+          "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+          "JLCPCB Part Class": "Basic Part",
+          "LCSC Part Name": "100nF ±10% 50V",
+          "PCB Layer": "",
+          "Supplier Footprint": "0603",
+          "Temperature Coefficient": "X7R",
+          "Tolerance": "±10%",
+          "Value": "100nF",
+          "Voltage Rating": "50V"
+        },
+        "primitiveId": "268d8d3b778eb3f5",
+        "rotation": 0,
+        "subPartName": "CC0603KRX7R9BB104.1",
+        "supplier": "LCSC",
+        "supplierId": "C14663",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "CC0603KRX7R9BB104",
+          "uuid": "c2ed2b98f524174f"
+        },
+        "uniqueId": "gge4",
+        "x": 590,
+        "y": 700
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "CC0603KRX7R9BB104",
+          "uuid": "caae07bf58e1e91c"
+        },
+        "componentType": "part",
+        "designator": "C4",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Value}",
+          "uuid": "caae07bf58e1e91c"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "C0603",
+          "uuid": "7a7511a97c055d9a"
+        },
+        "manufacturer": "YAGEO(国巨)",
+        "manufacturerId": "CC0603KRX7R9BB104",
+        "mirror": false,
+        "name": "={Value}",
+        "net": "",
+        "otherProperty": {
+          "Datasheet": "https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html",
+          "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+          "JLCPCB Part Class": "Basic Part",
+          "LCSC Part Name": "100nF ±10% 50V",
+          "PCB Layer": "",
+          "Supplier Footprint": "0603",
+          "Temperature Coefficient": "X7R",
+          "Tolerance": "±10%",
+          "Value": "100nF",
+          "Voltage Rating": "50V"
+        },
+        "primitiveId": "891ce00aff55c1ed",
+        "rotation": 0,
+        "subPartName": "CC0603KRX7R9BB104.1",
+        "supplier": "LCSC",
+        "supplierId": "C14663",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "CC0603KRX7R9BB104",
+          "uuid": "c2ed2b98f524174f"
+        },
+        "uniqueId": "gge6",
+        "x": 870,
+        "y": 700
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "CC0603KRX7R9BB104",
+          "uuid": "caae07bf58e1e91c"
+        },
+        "componentType": "part",
+        "designator": "C9",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Value}",
+          "uuid": "caae07bf58e1e91c"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "C0603",
+          "uuid": "7a7511a97c055d9a"
+        },
+        "manufacturer": "YAGEO(国巨)",
+        "manufacturerId": "CC0603KRX7R9BB104",
+        "mirror": false,
+        "name": "={Value}",
+        "net": "",
+        "otherProperty": {
+          "Datasheet": "https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html",
+          "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+          "JLCPCB Part Class": "Basic Part",
+          "LCSC Part Name": "100nF ±10% 50V",
+          "PCB Layer": "",
+          "Supplier Footprint": "0603",
+          "Temperature Coefficient": "X7R",
+          "Tolerance": "±10%",
+          "Value": "100nF",
+          "Voltage Rating": "50V"
+        },
+        "primitiveId": "7910527b8562ddcd",
+        "rotation": 0,
+        "subPartName": "CC0603KRX7R9BB104.1",
+        "supplier": "LCSC",
+        "supplierId": "C14663",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "CC0603KRX7R9BB104",
+          "uuid": "c2ed2b98f524174f"
+        },
+        "uniqueId": "rice-opt-C9",
+        "x": 650,
+        "y": 410
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "CC0603KRX7R9BB104",
+          "uuid": "caae07bf58e1e91c"
+        },
+        "componentType": "part",
+        "designator": "C10",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Value}",
+          "uuid": "caae07bf58e1e91c"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "C0603",
+          "uuid": "7a7511a97c055d9a"
+        },
+        "manufacturer": "YAGEO(国巨)",
+        "manufacturerId": "CC0603KRX7R9BB104",
+        "mirror": false,
+        "name": "={Value}",
+        "net": "",
+        "otherProperty": {
+          "Datasheet": "https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html",
+          "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+          "JLCPCB Part Class": "Basic Part",
+          "LCSC Part Name": "100nF ±10% 50V",
+          "PCB Layer": "",
+          "Supplier Footprint": "0603",
+          "Temperature Coefficient": "X7R",
+          "Tolerance": "±10%",
+          "Value": "100nF",
+          "Voltage Rating": "50V"
+        },
+        "primitiveId": "93e0a2f5b440b235",
+        "rotation": 0,
+        "subPartName": "CC0603KRX7R9BB104.1",
+        "supplier": "LCSC",
+        "supplierId": "C14663",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "CC0603KRX7R9BB104",
+          "uuid": "c2ed2b98f524174f"
+        },
+        "uniqueId": "rice-opt-C10",
+        "x": 680,
+        "y": 320
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "FH12-6S-0.5SH(55)",
+          "uuid": "5602ce7e179eaaf5"
+        },
+        "componentType": "part",
+        "designator": "J1",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Manufacturer Part}",
+          "uuid": "5602ce7e179eaaf5"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "FPC-SMD_FH12-6S-0.5SH-55",
+          "uuid": "e68ca77e75a7820f"
+        },
+        "manufacturer": "HRS(广濑)",
+        "manufacturerId": "FH12-6S-0.5SH(55)",
+        "mirror": false,
+        "name": "={Manufacturer Part}",
+        "net": "",
+        "otherProperty": {
+          "Contact Material": "磷青铜",
+          "Contact Plating": "金",
+          "Contact Type": "下接",
+          "Datasheet": "https://item.szlcsc.com/datasheet/FH12-6S-0.5SH(55)/203295.html",
+          "Description": "锁定特性:翻盖式;触点类型:下接;触点数量:6P;间距:0.5mm;安装方式:卧贴;工作温度:-40℃~+85℃;",
+          "FFC, FCB Thickness": "0.3mm",
+          "Height Above Board": "2mm",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "间距:0.5mm P数:6P 翻盖式 下接",
+          "Locking Feature": "翻盖式",
+          "Mounting Type": "卧贴",
+          "Number of Contacts": "6P",
+          "Operating Temperature": "-40℃~+85℃",
+          "PCB Layer": "",
+          "Pitch": "0.5mm",
+          "Supplier Footprint": "SMD,P=0.5mm,卧贴"
+        },
+        "primitiveId": "9e6b222bd675743c",
+        "rotation": 0,
+        "subPartName": "FH12-6S-0.5SH(55).1",
+        "supplier": "LCSC",
+        "supplierId": "C202118",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "FH12-6S-0.5SH(55)",
+          "uuid": "cd7d04948e9e6b39"
+        },
+        "uniqueId": "gge13",
+        "x": 350,
+        "y": 140
+      },
+      {
+        "addIntoBom": false,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "2.54-1*1P针",
+          "uuid": "01c920a3e3a43ec1"
+        },
+        "componentType": "part",
+        "designator": "TP3",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Test pad (DNP)",
+          "uuid": "01c920a3e3a43ec1"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HDR-TH_1P-P2.54-V-M",
+          "uuid": "bd4b821e7b5fb964"
+        },
+        "manufacturer": "BOOMELE(博穆精密)",
+        "manufacturerId": "2.54-1*1P针",
+        "mirror": false,
+        "name": "Test pad (DNP)",
+        "net": "",
+        "otherProperty": {
+          "Circluar Pins/Square Pins": "方针",
+          "Color": "黑色",
+          "Contact Material": "黄铜",
+          "Contact Plating": "金",
+          "Current Rating": "3A",
+          "Datasheet": "https://item.szlcsc.com/datasheet/2.54-1*1P%25E9%2592%2588/82426.html",
+          "Description": "插针结构:1x1P;间距:-;行距:-;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:1P;额定电流:3A;额定电压:-;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:金;工作温度:-55℃~+105℃;颜色:黑色;",
+          "Insulation Height": "2.5mm",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "1x1P 方针 直插",
+          "Length of End Connection Pin": "3mm",
+          "Length of Mating Pin": "6mm",
+          "Mounting Type": "直插",
+          "Number of Pins": "1P",
+          "Number of Rows": "单排",
+          "Operating Temperature": "-55℃~+105℃",
+          "PCB Layer": "",
+          "Pin Structure": "1x1P",
+          "Pitch": "-",
+          "Row Spacing": "-",
+          "Supplier Footprint": "插件,P=2.54mm",
+          "Voltage Rating (Max)": "-"
+        },
+        "primitiveId": "39e91a304e5bc7bb",
+        "rotation": 0,
+        "subPartName": "Header-Male-2.54_1x1.1",
+        "supplier": "LCSC",
+        "supplierId": "C81276",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Header-Male-2.54_1x1",
+          "uuid": "dbc4f92cbe527043"
+        },
+        "uniqueId": "gge16",
+        "x": 980,
+        "y": 430
+      },
+      {
+        "addIntoBom": false,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "2.54-1*1P针",
+          "uuid": "01c920a3e3a43ec1"
+        },
+        "componentType": "part",
+        "designator": "TP1",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Test pad (DNP)",
+          "uuid": "01c920a3e3a43ec1"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HDR-TH_1P-P2.54-V-M",
+          "uuid": "bd4b821e7b5fb964"
+        },
+        "manufacturer": "BOOMELE(博穆精密)",
+        "manufacturerId": "2.54-1*1P针",
+        "mirror": false,
+        "name": "Test pad (DNP)",
+        "net": "",
+        "otherProperty": {
+          "Circluar Pins/Square Pins": "方针",
+          "Color": "黑色",
+          "Contact Material": "黄铜",
+          "Contact Plating": "金",
+          "Current Rating": "3A",
+          "Datasheet": "https://item.szlcsc.com/datasheet/2.54-1*1P%25E9%2592%2588/82426.html",
+          "Description": "插针结构:1x1P;间距:-;行距:-;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:1P;额定电流:3A;额定电压:-;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:金;工作温度:-55℃~+105℃;颜色:黑色;",
+          "Insulation Height": "2.5mm",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "1x1P 方针 直插",
+          "Length of End Connection Pin": "3mm",
+          "Length of Mating Pin": "6mm",
+          "Mounting Type": "直插",
+          "Number of Pins": "1P",
+          "Number of Rows": "单排",
+          "Operating Temperature": "-55℃~+105℃",
+          "PCB Layer": "",
+          "Pin Structure": "1x1P",
+          "Pitch": "-",
+          "Row Spacing": "-",
+          "Supplier Footprint": "插件,P=2.54mm",
+          "Voltage Rating (Max)": "-"
+        },
+        "primitiveId": "24d9b0127b1f59e1",
+        "rotation": 0,
+        "subPartName": "Header-Male-2.54_1x1.1",
+        "supplier": "LCSC",
+        "supplierId": "C81276",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Header-Male-2.54_1x1",
+          "uuid": "dbc4f92cbe527043"
+        },
+        "uniqueId": "gge14",
+        "x": 980,
+        "y": 550
+      },
+      {
+        "addIntoBom": false,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "2.54-1*1P针",
+          "uuid": "01c920a3e3a43ec1"
+        },
+        "componentType": "part",
+        "designator": "TP2",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Test pad (DNP)",
+          "uuid": "01c920a3e3a43ec1"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HDR-TH_1P-P2.54-V-M",
+          "uuid": "bd4b821e7b5fb964"
+        },
+        "manufacturer": "BOOMELE(博穆精密)",
+        "manufacturerId": "2.54-1*1P针",
+        "mirror": false,
+        "name": "Test pad (DNP)",
+        "net": "",
+        "otherProperty": {
+          "Circluar Pins/Square Pins": "方针",
+          "Color": "黑色",
+          "Contact Material": "黄铜",
+          "Contact Plating": "金",
+          "Current Rating": "3A",
+          "Datasheet": "https://item.szlcsc.com/datasheet/2.54-1*1P%25E9%2592%2588/82426.html",
+          "Description": "插针结构:1x1P;间距:-;行距:-;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:1P;额定电流:3A;额定电压:-;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:金;工作温度:-55℃~+105℃;颜色:黑色;",
+          "Insulation Height": "2.5mm",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "1x1P 方针 直插",
+          "Length of End Connection Pin": "3mm",
+          "Length of Mating Pin": "6mm",
+          "Mounting Type": "直插",
+          "Number of Pins": "1P",
+          "Number of Rows": "单排",
+          "Operating Temperature": "-55℃~+105℃",
+          "PCB Layer": "",
+          "Pin Structure": "1x1P",
+          "Pitch": "-",
+          "Row Spacing": "-",
+          "Supplier Footprint": "插件,P=2.54mm",
+          "Voltage Rating (Max)": "-"
+        },
+        "primitiveId": "660d076433ac5c90",
+        "rotation": 0,
+        "subPartName": "Header-Male-2.54_1x1.1",
+        "supplier": "LCSC",
+        "supplierId": "C81276",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Header-Male-2.54_1x1",
+          "uuid": "dbc4f92cbe527043"
+        },
+        "uniqueId": "gge15",
+        "x": 980,
+        "y": 490
+      },
+      {
+        "addIntoBom": false,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "2.54-1*1P针",
+          "uuid": "01c920a3e3a43ec1"
+        },
+        "componentType": "part",
+        "designator": "TP4",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Test pad (DNP)",
+          "uuid": "01c920a3e3a43ec1"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HDR-TH_1P-P2.54-V-M",
+          "uuid": "bd4b821e7b5fb964"
+        },
+        "manufacturer": "BOOMELE(博穆精密)",
+        "manufacturerId": "2.54-1*1P针",
+        "mirror": false,
+        "name": "Test pad (DNP)",
+        "net": "",
+        "otherProperty": {
+          "Circluar Pins/Square Pins": "方针",
+          "Color": "黑色",
+          "Contact Material": "黄铜",
+          "Contact Plating": "金",
+          "Current Rating": "3A",
+          "Datasheet": "https://item.szlcsc.com/datasheet/2.54-1*1P%25E9%2592%2588/82426.html",
+          "Description": "插针结构:1x1P;间距:-;行距:-;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:1P;额定电流:3A;额定电压:-;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:金;工作温度:-55℃~+105℃;颜色:黑色;",
+          "Insulation Height": "2.5mm",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "1x1P 方针 直插",
+          "Length of End Connection Pin": "3mm",
+          "Length of Mating Pin": "6mm",
+          "Mounting Type": "直插",
+          "Number of Pins": "1P",
+          "Number of Rows": "单排",
+          "Operating Temperature": "-55℃~+105℃",
+          "PCB Layer": "",
+          "Pin Structure": "1x1P",
+          "Pitch": "-",
+          "Row Spacing": "-",
+          "Supplier Footprint": "插件,P=2.54mm",
+          "Voltage Rating (Max)": "-"
+        },
+        "primitiveId": "4ce5d3b0e131116a",
+        "rotation": 0,
+        "subPartName": "Header-Male-2.54_1x1.1",
+        "supplier": "LCSC",
+        "supplierId": "C81276",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Header-Male-2.54_1x1",
+          "uuid": "dbc4f92cbe527043"
+        },
+        "uniqueId": "gge17",
+        "x": 980,
+        "y": 370
+      },
+      {
+        "addIntoBom": false,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "2.54-1*1P针",
+          "uuid": "01c920a3e3a43ec1"
+        },
+        "componentType": "part",
+        "designator": "TP5",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Test pad (DNP)",
+          "uuid": "01c920a3e3a43ec1"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HDR-TH_1P-P2.54-V-M",
+          "uuid": "bd4b821e7b5fb964"
+        },
+        "manufacturer": "BOOMELE(博穆精密)",
+        "manufacturerId": "2.54-1*1P针",
+        "mirror": false,
+        "name": "Test pad (DNP)",
+        "net": "",
+        "otherProperty": {
+          "Circluar Pins/Square Pins": "方针",
+          "Color": "黑色",
+          "Contact Material": "黄铜",
+          "Contact Plating": "金",
+          "Current Rating": "3A",
+          "Datasheet": "https://item.szlcsc.com/datasheet/2.54-1*1P%25E9%2592%2588/82426.html",
+          "Description": "插针结构:1x1P;间距:-;行距:-;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:1P;额定电流:3A;额定电压:-;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:金;工作温度:-55℃~+105℃;颜色:黑色;",
+          "Insulation Height": "2.5mm",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "1x1P 方针 直插",
+          "Length of End Connection Pin": "3mm",
+          "Length of Mating Pin": "6mm",
+          "Mounting Type": "直插",
+          "Number of Pins": "1P",
+          "Number of Rows": "单排",
+          "Operating Temperature": "-55℃~+105℃",
+          "PCB Layer": "",
+          "Pin Structure": "1x1P",
+          "Pitch": "-",
+          "Row Spacing": "-",
+          "Supplier Footprint": "插件,P=2.54mm",
+          "Voltage Rating (Max)": "-"
+        },
+        "primitiveId": "c2162b9b3bf5b2c8",
+        "rotation": 0,
+        "subPartName": "Header-Male-2.54_1x1.1",
+        "supplier": "LCSC",
+        "supplierId": "C81276",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Header-Male-2.54_1x1",
+          "uuid": "dbc4f92cbe527043"
+        },
+        "uniqueId": "gge18",
+        "x": 980,
+        "y": 310
+      },
+      {
+        "addIntoBom": false,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "2.54-1*1P针",
+          "uuid": "01c920a3e3a43ec1"
+        },
+        "componentType": "part",
+        "designator": "TP6",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Test pad (DNP)",
+          "uuid": "01c920a3e3a43ec1"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "HDR-TH_1P-P2.54-V-M",
+          "uuid": "bd4b821e7b5fb964"
+        },
+        "manufacturer": "BOOMELE(博穆精密)",
+        "manufacturerId": "2.54-1*1P针",
+        "mirror": false,
+        "name": "Test pad (DNP)",
+        "net": "",
+        "otherProperty": {
+          "Circluar Pins/Square Pins": "方针",
+          "Color": "黑色",
+          "Contact Material": "黄铜",
+          "Contact Plating": "金",
+          "Current Rating": "3A",
+          "Datasheet": "https://item.szlcsc.com/datasheet/2.54-1*1P%25E9%2592%2588/82426.html",
+          "Description": "插针结构:1x1P;间距:-;行距:-;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:1P;额定电流:3A;额定电压:-;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:金;工作温度:-55℃~+105℃;颜色:黑色;",
+          "Insulation Height": "2.5mm",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "1x1P 方针 直插",
+          "Length of End Connection Pin": "3mm",
+          "Length of Mating Pin": "6mm",
+          "Mounting Type": "直插",
+          "Number of Pins": "1P",
+          "Number of Rows": "单排",
+          "Operating Temperature": "-55℃~+105℃",
+          "PCB Layer": "",
+          "Pin Structure": "1x1P",
+          "Pitch": "-",
+          "Row Spacing": "-",
+          "Supplier Footprint": "插件,P=2.54mm",
+          "Voltage Rating (Max)": "-"
+        },
+        "primitiveId": "7220b28b13e046a2",
+        "rotation": 0,
+        "subPartName": "Header-Male-2.54_1x1.1",
+        "supplier": "LCSC",
+        "supplierId": "C81276",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "Header-Male-2.54_1x1",
+          "uuid": "dbc4f92cbe527043"
+        },
+        "uniqueId": "gge19",
+        "x": 980,
+        "y": 250
+      }
+    ],
+    "count": 74,
+    "wires": []
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "2d01061a63b3efa0",
+    "documentType": "schematic",
+    "tabId": "2d01061a63b3efa0@a422d704ace24952ae3d8c1eb5094d0b"
+  },
+  "seq": 6700,
+  "seqAbandoned": 3,
+  "abandonedIds": [
+    "req_706",
+    "req_829",
+    "req_840"
+  ]
+}

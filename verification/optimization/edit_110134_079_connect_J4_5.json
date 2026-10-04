@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "succeeded": [
+    "J4:5"
+  ],
+  "connections": [
+    {
+      "pin": "J4:5",
+      "net": "HEATER_VCC",
+      "kind": "power",
+      "pinX": 295,
+      "pinY": 225,
+      "selected": {
+        "direction": "left",
+        "offset": 46,
+        "endPoint": {
+          "x": 250,
+          "y": 225
+        },
+        "score": 84.6,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 4.6,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "right",
+          "offset": 18,
+          "score": 1000010601.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 2000000101.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        },
+        {
+          "direction": "up",
+          "offset": 60,
+          "score": 3000000096,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "1f2627f6b4baa794",
+      "flagPrimitiveId": "5709e8dffc210445",
+      "state": "new"
+    }
+  ]
+}

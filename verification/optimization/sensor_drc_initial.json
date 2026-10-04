@@ -1,0 +1,27 @@
+{
+  "passed": false,
+  "total": 1,
+  "counts": {
+    "Netlist Error": 1
+  },
+  "violations": [
+    {
+      "rule": "Netlist Error",
+      "objType": "Netlist Error",
+      "ruleName": "Import Changes",
+      "objs": [
+        "err0"
+      ],
+      "message": "PCB and schematic netlist does not match. You can click on the rule name \"Import Changes\" to view the difference.",
+      "globalIndex": "err0"
+    }
+  ],
+  "binding": {
+    "boardName": "Sensor_FPC_V01",
+    "hint": "Netlist Error is often a stale Board binding — verify the schematic UUID matches the open schematic; if not, run `easyeda board rebind --schematic \u003cuuid\u003e --pcb \u003cuuid\u003e`.",
+    "pcbName": "PCB1_1",
+    "pcbUuid": "a35176e7ddcb0d7d",
+    "schematicName": "Schematic1_1",
+    "schematicUuid": "1e00497d0f54951f"
+  }
+}

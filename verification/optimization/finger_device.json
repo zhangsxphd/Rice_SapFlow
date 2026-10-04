@@ -1,0 +1,81 @@
+{
+  "id": "req_402",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T02:35:07.718638Z",
+  "ok": true,
+  "result": {
+    "device": {
+      "association": {
+        "footprint": {
+          "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+          "uuid": "2df9b0b2fed1462fad4ae117afd42f31"
+        },
+        "footprintUuid": "2df9b0b2fed1462fad4ae117afd42f31",
+        "images": [
+          ""
+        ],
+        "symbol": {
+          "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+          "type": 2,
+          "uuid": "353c4e4d48654daeb0d155872410ca82"
+        },
+        "symbolType": 2,
+        "symbolUuid": "353c4e4d48654daeb0d155872410ca82"
+      },
+      "classification": [],
+      "description": "",
+      "libraryType": "3",
+      "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+      "name": "EA_AGENT__RICE_OPT_FPC6_CONTACTS",
+      "property": {
+        "addIntoBom": false,
+        "addIntoPcb": true,
+        "designator": "J",
+        "name": "EA_AGENT__RICE_OPT_FPC6_CONTACTS",
+        "otherProperty": {
+          "Add into BOM": "no",
+          "Convert to PCB": "yes",
+          "Description": "",
+          "Designator": "J",
+          "Footprint": "2df9b0b2fed1462fad4ae117afd42f31",
+          "FootprintName": {
+            "name": "EA_AGENT__RICE_OPT_FPC6_CONTACTS_20261003",
+            "source": "",
+            "uuid": "2df9b0b2fed1462fad4ae117afd42f31"
+          },
+          "Name": "",
+          "Symbol": "353c4e4d48654daeb0d155872410ca82",
+          "SymbolName": {
+            "name": "EA_AGENT__RICE_OPT_FPC6_CONTACTS_SYMBOL",
+            "source": "",
+            "uuid": "353c4e4d48654daeb0d155872410ca82"
+          }
+        }
+      },
+      "subPartNames": [
+        "EA_AGENT__RICE_OPT_FPC6_CONTACTS_SYMBOL.1",
+        "EA_AGENT__RICE_OPT_FPC6_CONTACTS_SYMBOL.1"
+      ],
+      "uuid": "379ba1804539408398d9ce30721a03bc"
+    },
+    "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+    "name": "EA_AGENT__RICE_OPT_FPC6_CONTACTS",
+    "namespace": "EA_AGENT",
+    "requestedName": "RICE_OPT_FPC6_CONTACTS",
+    "uuid": "379ba1804539408398d9ce30721a03bc",
+    "verified": true
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "353c4e4d48654daeb0d155872410ca82",
+    "documentType": "symbol",
+    "tabId": "353c4e4d48654daeb0d155872410ca82@9e05c206bff14f5b91e051328bc4efe6"
+  },
+  "seq": 4110,
+  "seqAbandoned": 1,
+  "abandonedIds": [
+    "req_706"
+  ]
+}

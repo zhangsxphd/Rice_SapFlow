@@ -1,0 +1,6 @@
+"Comment","Designator","Footprint","LCSC Part #"
+"TMP117MAIDRVR ±0.1°C High-Accuracy Temp Sensor (ADD0=GND, 0x48)","U1","WSON-6-1EP_2x2mm_P0.65mm","C2803242"
+"TMP117MAIDRVR ±0.1°C High-Accuracy Temp Sensor (ADD0=3V3, 0x49)","U2","WSON-6-1EP_2x2mm_P0.65mm","C2803242"
+"PRF18BC471QB5RB PTC Thermistor Heater (470Ω 0603)","R_HEAT","R_0603_1608Metric","C152572"
+"100nF 16V X7R 0402 SMD Capacitor (CL05B104KO5NNNC)","C1, C2","C_0402_1005Metric","C1525"
+"6P 0.5mm Gold Fingers (ENIG); mating dimensions and total thickness UNVERIFIED","J1_FPC","FPC_GoldFinger_6P","FPC_INTEGRATED"

@@ -1,0 +1,44 @@
+{
+  "id": "req_1692",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T03:06:00.455304Z",
+  "ok": true,
+  "result": {
+    "applied": [
+      "designator",
+      "uniqueId",
+      "x",
+      "y"
+    ],
+    "component": {
+      "addIntoBom": true,
+      "designator": "C3",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "GRM21BR61H106KE43L",
+      "name": "={Value}",
+      "primitiveId": "85acca08fb641d94",
+      "rotation": 0,
+      "supplierId": "C440198",
+      "uniqueId": "gge5",
+      "x": 350,
+      "y": 1400
+    },
+    "verified": true
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "82d38807b4b94fc9",
+    "documentType": "pcb",
+    "tabId": "82d38807b4b94fc9@a422d704ace24952ae3d8c1eb5094d0b"
+  },
+  "seq": 4957,
+  "seqAbandoned": 3,
+  "abandonedIds": [
+    "req_706",
+    "req_829",
+    "req_840"
+  ]
+}

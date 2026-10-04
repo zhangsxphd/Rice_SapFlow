@@ -1,0 +1,70 @@
+{
+  "outline": [
+    -20,
+    -35,
+    20,
+    -35,
+    20,
+    35,
+    -20,
+    35,
+    -20,
+    -35
+  ],
+  "pins": [
+    {
+      "number": "1",
+      "name": "3V3",
+      "x": -40,
+      "y": 25,
+      "rotation": 0,
+      "length": 20,
+      "pinType": "Passive"
+    },
+    {
+      "number": "2",
+      "name": "GND",
+      "x": -40,
+      "y": 15,
+      "rotation": 0,
+      "length": 20,
+      "pinType": "Passive"
+    },
+    {
+      "number": "3",
+      "name": "SDA",
+      "x": -40,
+      "y": 5,
+      "rotation": 0,
+      "length": 20,
+      "pinType": "Passive"
+    },
+    {
+      "number": "4",
+      "name": "SCL",
+      "x": -40,
+      "y": -5,
+      "rotation": 0,
+      "length": 20,
+      "pinType": "Passive"
+    },
+    {
+      "number": "5",
+      "name": "HTR_VCC",
+      "x": -40,
+      "y": -15,
+      "rotation": 0,
+      "length": 20,
+      "pinType": "Passive"
+    },
+    {
+      "number": "6",
+      "name": "HTR_RET",
+      "x": -40,
+      "y": -25,
+      "rotation": 0,
+      "length": 20,
+      "pinType": "Passive"
+    }
+  ]
+}

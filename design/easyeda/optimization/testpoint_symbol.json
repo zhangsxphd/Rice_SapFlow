@@ -1,0 +1,26 @@
+{
+  "outline": [
+    0,
+    -8,
+    12,
+    -8,
+    12,
+    8,
+    0,
+    8,
+    0,
+    -8
+  ],
+  "pins": [
+    {
+      "number": "1",
+      "name": "TP",
+      "x": -20,
+      "y": 0,
+      "rotation": 0,
+      "length": 20,
+      "pinType": "Passive",
+      "shape": "None"
+    }
+  ]
+}

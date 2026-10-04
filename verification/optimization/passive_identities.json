@@ -1,0 +1,65 @@
+{
+  "id": "req_382",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T02:30:53.7621Z",
+  "ok": true,
+  "result": {
+    "components": [
+      {
+        "footprintName": "C0603",
+        "lcsc": "C14663",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "YAGEO(国巨)",
+        "manufacturerId": "CC0603KRX7R9BB104",
+        "uuid": "96b39256cc3f4d80bd3b503deb4f3328",
+        "value": "100nF"
+      },
+      {
+        "footprintName": "R0603",
+        "lcsc": "C227500",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "YAGEO(国巨)",
+        "manufacturerId": "AC0603DR-07470RL",
+        "uuid": "e1c8a72135064443813373d5985314e1",
+        "value": "470Ω"
+      },
+      {
+        "footprintName": "HDR-TH_8P-P2.54-V-F",
+        "lcsc": "C27438",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "BOOMELE(博穆精密)",
+        "manufacturerId": "2.54-1*8P母环保",
+        "uuid": "0a4d2569e740414d92321f53f6972245"
+      },
+      {
+        "footprintName": "C0805",
+        "lcsc": "C440198",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "muRata(村田)",
+        "manufacturerId": "GRM21BR61H106KE43L",
+        "uuid": "6e5726223dd84f70bc3b626fc7d1f72c",
+        "value": "10uF"
+      }
+    ],
+    "count": 4,
+    "requested": [
+      "C440198",
+      "C14663",
+      "C227500",
+      "C27438"
+    ]
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "2d01061a63b3efa0",
+    "documentType": "schematic",
+    "tabId": "2d01061a63b3efa0@a422d704ace24952ae3d8c1eb5094d0b"
+  },
+  "seq": 4093,
+  "seqAbandoned": 1,
+  "abandonedIds": [
+    "req_706"
+  ]
+}

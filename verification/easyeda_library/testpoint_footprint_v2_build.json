@@ -1,0 +1,28 @@
+{
+  "id": "req_62",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:47:09.594697Z",
+  "ok": true,
+  "result": {
+    "created": {
+      "lines": [],
+      "pads": [
+        "2dc51ff280b0cd13"
+      ]
+    },
+    "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+    "tabId": "631f487ce33e4317b7c1e12ea2efedb3@9e05c206bff14f5b91e051328bc4efe6",
+    "uuid": "631f487ce33e4317b7c1e12ea2efedb3",
+    "verified": true
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "631f487ce33e4317b7c1e12ea2efedb3",
+    "documentType": "footprint",
+    "tabId": "631f487ce33e4317b7c1e12ea2efedb3@9e05c206bff14f5b91e051328bc4efe6"
+  },
+  "seq": 57,
+  "seqAbandoned": 0
+}

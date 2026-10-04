@@ -1,0 +1,194 @@
+{
+  "passed": false,
+  "summary": {
+    "danglingEnds": 0,
+    "acuteAngles": 0,
+    "nonOrthogonal": 0,
+    "trackOverPad": 0,
+    "clearance": 0,
+    "silkscreenFlipped": 0,
+    "overlappingVias": 0,
+    "singleLayerVias": 0,
+    "widthMismatches": 2,
+    "duplicateSegments": 0,
+    "parallelCoupling": 1,
+    "antennaKeepout": 0,
+    "netlessPours": 0,
+    "viaCrossesPlane": 0,
+    "floatingIslands": 0,
+    "powerNotPoured": 3,
+    "netlessViaInPad": 0,
+    "widthUnderSpec": 3,
+    "silkOverPad": 0,
+    "decapTooFar": 4,
+    "viaInPad": 0,
+    "copperNearEdge": 0,
+    "fiducialMissing": 1,
+    "zoneViolation": 0,
+    "internalOnEdge": 0,
+    "connectorPlugClearance": 0,
+    "connectorMatingBlocked": 0,
+    "errors": 0,
+    "warnings": 11,
+    "total": 14
+  },
+  "trackCount": 82,
+  "viaCount": 23,
+  "padCount": 62,
+  "findings": [
+    {
+      "type": "width-mismatch",
+      "level": "INFO",
+      "net": "GND",
+      "designator": "C1",
+      "widths": [
+        10,
+        16
+      ],
+      "message": "2-pin part C1: entering track widths differ (10.0 vs 16.0 mil) [规范 §1.2 推荐线宽 — pcb-design-rules.md]"
+    },
+    {
+      "type": "width-mismatch",
+      "level": "INFO",
+      "net": "GND",
+      "designator": "C2",
+      "widths": [
+        10,
+        16
+      ],
+      "message": "2-pin part C2: entering track widths differ (10.0 vs 16.0 mil) [规范 §1.2 推荐线宽 — pcb-design-rules.md]"
+    },
+    {
+      "type": "parallel-coupling",
+      "level": "WARN",
+      "nets": [
+        "SCL",
+        "SDA"
+      ],
+      "layer": 1,
+      "primitives": [
+        "9e51a97728e07de3",
+        "d0c9648619d37747"
+      ],
+      "message": "parallel traces 19.7 mil apart over 859 mil (\u003c 24.0 mil = 3×W) — crosstalk/3W risk [规范 §4.2 减少串扰 — pcb-design-rules.md]"
+    },
+    {
+      "type": "decap-too-far",
+      "level": "WARN",
+      "net": "+5V",
+      "designator": "C1",
+      "message": "decoupling cap C1 sits 1018mil (25.9mm) from the nearest +5V pin U4.1 — a decap must hug its IC (≤2mm) [规范 §3.1 去耦电容紧贴IC — pcb-design-rules.md]",
+      "at": {
+        "x": 310.6,
+        "y": 1600
+      }
+    },
+    {
+      "type": "decap-too-far",
+      "level": "WARN",
+      "net": "HEATER_VCC",
+      "designator": "C10",
+      "message": "decoupling cap C10 sits 160mil (4.1mm) from the nearest HEATER_VCC pin U4.5 — a decap must hug its IC (≤2mm) [规范 §3.1 去耦电容紧贴IC — pcb-design-rules.md]",
+      "at": {
+        "x": 650,
+        "y": 902.4
+      }
+    },
+    {
+      "type": "decap-too-far",
+      "level": "WARN",
+      "net": "+5V",
+      "designator": "C2",
+      "message": "decoupling cap C2 sits 971mil (24.7mm) from the nearest +5V pin U4.1 — a decap must hug its IC (≤2mm) [规范 §3.1 去耦电容紧贴IC — pcb-design-rules.md]",
+      "at": {
+        "x": 452.4,
+        "y": 1600
+      }
+    },
+    {
+      "type": "decap-too-far",
+      "level": "WARN",
+      "net": "HEATER_VCC",
+      "designator": "C8",
+      "message": "decoupling cap C8 sits 145mil (3.7mm) from the nearest HEATER_VCC pin U4.5 — a decap must hug its IC (≤2mm) [规范 §3.1 去耦电容紧贴IC — pcb-design-rules.md]",
+      "at": {
+        "x": 710.6,
+        "y": 900
+      }
+    },
+    {
+      "type": "fiducial-missing",
+      "level": "INFO",
+      "message": "board has 40 top-layer pads (SMT-scale) but only 0 fiducial(s) (FID*/MARK*) — SMT wants ≥3 non-collinear 1mm marks (JLC panel rails add their own; local marks needed for fine-pitch) [规范 §9 Mark点设计 — pcb-design-rules.md]"
+    },
+    {
+      "type": "power-not-poured",
+      "level": "WARN",
+      "net": "+3V3",
+      "message": "power net +3V3 (7 pads) has no copper pour/plane — power should be poured, not carried by thin tracks: `pcb pour-fit --net +3V3` (2-layer) or `pcb power-planes` (4-layer) [规范 §5.2 铺铜策略 — pcb-design-rules.md]"
+    },
+    {
+      "type": "power-not-poured",
+      "level": "WARN",
+      "net": "+5V",
+      "message": "power net +5V (7 pads) has no copper pour/plane — power should be poured, not carried by thin tracks: `pcb pour-fit --net +5V` (2-layer) or `pcb power-planes` (4-layer) [规范 §5.2 铺铜策略 — pcb-design-rules.md]"
+    },
+    {
+      "type": "power-not-poured",
+      "level": "WARN",
+      "net": "HEATER_VCC",
+      "message": "power net HEATER_VCC (4 pads) has no copper pour/plane — power should be poured, not carried by thin tracks: `pcb pour-fit --net HEATER_VCC` (2-layer) or `pcb power-planes` (4-layer) [规范 §5.2 铺铜策略 — pcb-design-rules.md]"
+    },
+    {
+      "type": "width-under-spec",
+      "level": "WARN",
+      "net": "+5V",
+      "primitives": [
+        "0b7eddc5ff025ea9"
+      ],
+      "widths": [
+        6,
+        15.75
+      ],
+      "message": "power net +5V: 9 track(s) below the power-trunk spec width 15.7 mil (thinnest 6 mil) — widen for current capacity (route-short sizes by role; pour it instead, or --width-power to override) [规范 §1.2 推荐线宽 — pcb-design-rules.md]",
+      "at": {
+        "x": 650,
+        "y": 720.3
+      }
+    },
+    {
+      "type": "width-under-spec",
+      "level": "WARN",
+      "net": "GND",
+      "primitives": [
+        "656b9eb14222558f"
+      ],
+      "widths": [
+        10,
+        19.69
+      ],
+      "message": "power net GND: 2 track(s) below the gnd spec width 19.7 mil (thinnest 10 mil) — widen for current capacity (route-short sizes by role; pour it instead, or --width-power to override) [规范 §1.2 推荐线宽 — pcb-design-rules.md]",
+      "at": {
+        "x": 509.66,
+        "y": 960
+      }
+    },
+    {
+      "type": "width-under-spec",
+      "level": "WARN",
+      "net": "HEATER_VCC",
+      "primitives": [
+        "00e202cdf0ecaab9"
+      ],
+      "widths": [
+        8,
+        9.84
+      ],
+      "message": "power net HEATER_VCC: 4 track(s) below the power-branch spec width 9.84 mil (thinnest 8 mil) — widen for current capacity (route-short sizes by role; pour it instead, or --width-power to override) [规范 §1.2 推荐线宽 — pcb-design-rules.md]",
+      "at": {
+        "x": 711.6,
+        "y": 755.4
+      }
+    }
+  ]
+}

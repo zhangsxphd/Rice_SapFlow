@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "succeeded": [
+    "TP3:1"
+  ],
+  "connections": [
+    {
+      "pin": "TP3:1",
+      "net": "GND",
+      "kind": "gnd",
+      "pinX": 965,
+      "pinY": 430,
+      "selected": {
+        "direction": "left",
+        "offset": 18,
+        "endPoint": {
+          "x": 945,
+          "y": 430
+        },
+        "score": -18.2,
+        "reasons": [
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "down",
+          "offset": 72,
+          "score": 1000000097.2,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "up",
+          "offset": 72,
+          "score": 1000000107.2,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "right",
+          "offset": 54,
+          "score": 1000000505.4,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        }
+      ],
+      "wirePrimitiveId": "82cce32b8aa8d3ff",
+      "flagPrimitiveId": "1600a9afff2720e4",
+      "state": "new"
+    }
+  ]
+}

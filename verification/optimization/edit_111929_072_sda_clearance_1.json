@@ -1,0 +1,35 @@
+{
+  "id": "req_2598",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T03:20:35.683914Z",
+  "ok": true,
+  "result": {
+    "end": {
+      "x": 880,
+      "y": 1250
+    },
+    "layer": 2,
+    "lineWidth": 8,
+    "net": "SDA",
+    "primitiveId": "17323c895fb75358",
+    "start": {
+      "x": 870,
+      "y": 1260
+    }
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "82d38807b4b94fc9",
+    "documentType": "pcb",
+    "tabId": "82d38807b4b94fc9@a422d704ace24952ae3d8c1eb5094d0b"
+  },
+  "seq": 5477,
+  "seqAbandoned": 3,
+  "abandonedIds": [
+    "req_706",
+    "req_829",
+    "req_840"
+  ]
+}

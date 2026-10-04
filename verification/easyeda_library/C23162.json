@@ -1,0 +1,35 @@
+{
+  "id": "req_11",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:35:05.197595Z",
+  "ok": true,
+  "result": {
+    "components": [
+      {
+        "description": "电阻类型:厚膜电阻;阻值:4.7kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;",
+        "footprintName": "R0603",
+        "lcsc": "C23162",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "UNI-ROYAL(厚声)",
+        "manufacturerId": "0603WAF4701T5E",
+        "name": "0603WAF4701T5E",
+        "symbolName": "0603WAF4701T5E",
+        "uuid": "0f0661658cdd4f45888ea39caf7e9650",
+        "value": "4.7kΩ"
+      }
+    ],
+    "count": 1,
+    "exactMatch": true,
+    "query": "C23162"
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "e59b6979d877fc6f",
+    "documentType": "schematic",
+    "tabId": "e59b6979d877fc6f@cf823b99abc3472f86efd2c874825dfb"
+  },
+  "seq": 9,
+  "seqAbandoned": 0
+}

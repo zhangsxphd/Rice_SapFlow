@@ -1,0 +1,8 @@
+{"playbookSha256":"dfb6dc7218bc0f2640d2aa8041d0c84222f94c5907bab40ce3848494ea6eef12","name":"Rice SapFlow sensor schematic","project":"cf823b99abc3472f86efd2c874825dfb","startedAt":"2026-10-03T00:54:29+08:00"}
+{"idx":1,"id":"place-U2","status":"ok","ms":427}
+{"idx":2,"id":"place-C5","status":"ok","ms":557}
+{"idx":3,"id":"place-R5","status":"ok","ms":582}
+{"idx":4,"id":"place-U3","status":"ok","ms":357}
+{"idx":5,"id":"place-C6","status":"ok","ms":517}
+{"idx":6,"id":"place-J4","status":"ok","ms":487}
+{"idx":7,"id":"save-sensor-complete","status":"ok","ms":19}

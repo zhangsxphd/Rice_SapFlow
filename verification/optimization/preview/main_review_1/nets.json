@@ -1,0 +1,105 @@
+{
+  "count": 10,
+  "nets": [
+    {
+      "color": {
+        "alpha": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "length": 716.03,
+      "net": "GND"
+    },
+    {
+      "color": {
+        "alpha": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "length": 120.33999999999999,
+      "net": "HEATER_EN"
+    },
+    {
+      "color": {
+        "alpha": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "length": 1005.74,
+      "net": "HEATER_GATE"
+    },
+    {
+      "color": {
+        "alpha": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "length": 2729.1499999999996,
+      "net": "+5V"
+    },
+    {
+      "color": {
+        "alpha": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "length": 2509.76,
+      "net": "+3V3"
+    },
+    {
+      "color": {
+        "alpha": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "length": 397.15999999999997,
+      "net": "HEATER_RETURN"
+    },
+    {
+      "color": {
+        "alpha": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "length": 2033.092135623731,
+      "net": "SDA"
+    },
+    {
+      "color": {
+        "alpha": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "length": 2516.8863318550684,
+      "net": "SCL"
+    },
+    {
+      "color": {
+        "alpha": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "length": 867.07,
+      "net": "HEATER_VCC"
+    },
+    {
+      "color": {
+        "alpha": 1,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "length": 0,
+      "net": "GPIO10_RES"
+    }
+  ]
+}

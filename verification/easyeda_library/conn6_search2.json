@@ -1,0 +1,121 @@
+{
+  "id": "req_133",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:53:48.160473Z",
+  "ok": true,
+  "result": {
+    "components": [
+      {
+        "description": "插孔结构:1x6P;间距:2.54mm;圆孔/方孔:方孔;安装方式:弯插;排数:单排;总孔位数:6P;额定电流:2A;插孔方向:侧面;塑高:2.5mm;触头镀层:金;工作温度:-55℃~+105℃;",
+        "footprintName": "HDR-TH_6P-P2.54-H-F-W10.0-N",
+        "lcsc": "C49569780",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "WingTAT(格林柏)",
+        "manufacturerId": "2044-1X06G00RA",
+        "name": "2044-1X06G00RA",
+        "score": 5,
+        "symbolName": "2044-1X06G00RA",
+        "uuid": "370e1459f51b41128e8774a4fd099c78"
+      },
+      {
+        "description": "插针结构:1x6P;间距:2.54mm;圆针/方针:方针;安装方式:直插;排数:单排;总PIN位数:6P;额定电流:3A;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;颜色:黑色;",
+        "footprintName": "HDR-TH_PZ-2.54-1X06-8.5-ZZ",
+        "lcsc": "C53207331",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "BXCONN(宝讯)",
+        "manufacturerId": "PZ-2.54-1*06-8.5-ZZ",
+        "name": "PZ-2.54-1*06-8.5-ZZ",
+        "score": 5,
+        "symbolName": "PZ-2.54-1*06-8.5-ZZ",
+        "uuid": "5298bfdd98be43479e905883b571c570"
+      },
+      {
+        "description": "插针结构:1x6P;间距:2.54mm;圆针/方针:方针;安装方式:弯插;排数:单排;总PIN位数:6P;额定电流:3A;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;颜色:黑色;",
+        "footprintName": "HDR-TH_PZ-2.54-1X06-8.5-WZ",
+        "lcsc": "C53207367",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "BXCONN(宝讯)",
+        "manufacturerId": "PZ-2.54-1*06-8.5-WZ",
+        "name": "PZ-2.54-1*06-8.5-WZ",
+        "score": 5,
+        "symbolName": "PZ-2.54-1*06-8.5-WZ",
+        "uuid": "92eccb719e66482383ef2b7f191e1152"
+      },
+      {
+        "description": "插针结构:1x6P;间距:2.54mm;圆针/方针:方针;安装方式:弯插;排数:单排;总PIN位数:6P;额定电流:3A;额定电压:600V;配合针长度:6mm;塑高:2.5mm;端接针长度:3mm;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;颜色:黑色;",
+        "footprintName": "HDR-TH_2011-1X06G00LB",
+        "lcsc": "C49569552",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "WingTAT(格林柏)",
+        "manufacturerId": "2011-1X06G00LB",
+        "name": "2011-1X06G00LB",
+        "score": 4,
+        "symbolName": "2011-1X06G00LB",
+        "uuid": "f595755afe1d4dc1831daef9c27d004c"
+      },
+      {
+        "description": "",
+        "footprintName": "CONN-SMD_6P-P2.00_2008WVS-1X06-9TNB05RR02CQ",
+        "lcsc": "C9900302302",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "",
+        "manufacturerId": "2008WVS-1x06-9TNB05RR02CQ",
+        "name": "2008WVS-1x06-9TNB05RR02CQ",
+        "score": 3,
+        "symbolName": "2008WVS-1X06-9TNB05RR02CQ",
+        "uuid": "2308db2fbcfd45879923741088770ae6"
+      },
+      {
+        "description": "",
+        "footprintName": "TQFN-20_L4.0-W4.0-P0.50-TL-EP2.0",
+        "lcsc": "C479510",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "AMICCOM(笙科)",
+        "manufacturerId": "A71X06AQFI/Q",
+        "name": "A71X06AQFI/Q",
+        "score": 3,
+        "symbolName": "A71X06AQFI/Q",
+        "uuid": "4259ed830a42430fa4a680c55b74984d"
+      },
+      {
+        "description": "插孔结构:1x6P;间距:2.54mm;圆孔/方孔:方孔;安装方式:直插;排数:单排;总孔位数:6P;额定电流:3A;插孔方向:顶部;塑高:8.5mm;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;",
+        "footprintName": "HDR-TH_HMT-PM254-1X06Z-H85",
+        "lcsc": "C54620427",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "HMTCONN(华明通)",
+        "manufacturerId": "HMT-PM254-1*06Z-H85",
+        "name": "HMT-PM254-1*06Z-H85",
+        "score": 3,
+        "symbolName": "HMT-PM254-1*06Z-H85",
+        "uuid": "9ef70f59790d41a5b8db3615b8800a17"
+      },
+      {
+        "description": "",
+        "footprintName": "HDR-TH_8P-P2.54-V-F-R2-C4-S2.54-1",
+        "lcsc": "C9900004313",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "",
+        "manufacturerId": "2.54mm,2×4Doublerowfemale",
+        "name": "2.54mm,2×4Doublerowfemale",
+        "score": 3,
+        "symbolName": "2.54MM,2×4DOUBLEROWFEMALE",
+        "uuid": "10caf19989e24d74b679103841af757f"
+      }
+    ],
+    "count": 8,
+    "query": "1x06 2.54"
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "e59b6979d877fc6f",
+    "documentType": "schematic",
+    "tabId": "e59b6979d877fc6f@cf823b99abc3472f86efd2c874825dfb"
+  },
+  "seq": 129,
+  "seqAbandoned": 1,
+  "abandonedIds": [
+    "req_120"
+  ]
+}

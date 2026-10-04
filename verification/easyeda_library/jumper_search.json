@@ -1,0 +1,70 @@
+{
+  "id": "req_19",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:41:51.428763Z",
+  "ok": true,
+  "result": {
+    "components": [
+      {
+        "description": "",
+        "footprintName": "SMD-1_BD5.5-D4.0",
+        "lcsc": "C9900029862",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "",
+        "manufacturerId": "Solder_Nut_M3X3",
+        "name": "Solder_Nut_M3X3_C9900029862",
+        "score": 6,
+        "symbolName": "SOLDER_NUT_M3X3_C9900029862",
+        "uuid": "18c1da06ed8f45889a64ae64b3806236"
+      },
+      {
+        "description": "",
+        "footprintName": "SMD-1_BD5.5-D4.0",
+        "lcsc": "C9900029861",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "",
+        "manufacturerId": "Solder_Nut_M3X3",
+        "name": "Solder_Nut_M3X3",
+        "score": 6,
+        "symbolName": "SOLDER_NUT_M3X3",
+        "uuid": "d5dda395ef2a48cbb3c123c8a256e1cd"
+      },
+      {
+        "description": "",
+        "footprintName": "IND-SMD_L6.6-W6.4_XAL6060-103ME",
+        "lcsc": "C9900020709",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "",
+        "manufacturerId": "LCOIL,0.000022H,3.6A,SMDSOLDERING",
+        "name": "LCOIL,0.000022H,3.6A,SMDSOLDERING",
+        "score": 6,
+        "symbolName": "LCOIL,0.000022H,3.6A,SMDSOLDERING",
+        "uuid": "a6dc7f6dbb2e46f68fe3bc1b1f67483b"
+      },
+      {
+        "description": "",
+        "footprintName": "HDR-TH_3P-P2.54-V-M-A",
+        "lcsc": "C2940050",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "",
+        "manufacturerId": "Jumper3",
+        "name": "Jumper3",
+        "score": 6,
+        "symbolName": "JUMPER3",
+        "uuid": "83fc2d4e73bd47169f3ef59bbad62430"
+      }
+    ],
+    "count": 4,
+    "query": "Solder Jumper 3"
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "e59b6979d877fc6f",
+    "documentType": "schematic",
+    "tabId": "e59b6979d877fc6f@cf823b99abc3472f86efd2c874825dfb"
+  },
+  "seq": 17,
+  "seqAbandoned": 0
+}

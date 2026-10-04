@@ -1,0 +1,29 @@
+{
+  "count": 1,
+  "pours": [
+    {
+      "fillMethod": "solid",
+      "geometryAvailable": true,
+      "layer": 2,
+      "lineWidth": 0.2,
+      "locked": false,
+      "net": "GND",
+      "pourName": "GND_PLANE_BTM",
+      "primitiveId": "a652e6f31835f8f4",
+      "priority": 1,
+      "source": [
+        15,
+        15,
+        "L",
+        15,
+        1795,
+        1165,
+        1795,
+        1165,
+        15,
+        15,
+        15
+      ]
+    }
+  ]
+}

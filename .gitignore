@@ -1,0 +1,23 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Firmware build temporary objects (keep .bin and sources)
+verification/optimization/firmware_build/core/
+verification/optimization/firmware_build/libraries/
+verification/optimization/firmware_build/sketch/
+verification/optimization/firmware_build/*.o
+verification/optimization/firmware_build/*.a
+verification/optimization/firmware_build/*.d
+verification/optimization/firmware_build/*.elf
+verification/optimization/firmware_build/*.map

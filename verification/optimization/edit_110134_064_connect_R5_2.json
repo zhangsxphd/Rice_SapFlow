@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "succeeded": [
+    "R5:2"
+  ],
+  "connections": [
+    {
+      "pin": "R5:2",
+      "net": "HEATER_RETURN",
+      "kind": "netport",
+      "pinX": 620,
+      "pinY": 360,
+      "selected": {
+        "direction": "right",
+        "offset": 18,
+        "endPoint": {
+          "x": 640,
+          "y": 360
+        },
+        "score": -28.2,
+        "reasons": [
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          },
+          {
+            "cost": -10,
+            "desc": "matches kind default direction"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 1000000151.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 1000000151.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "left",
+          "offset": 24,
+          "score": 1000001502.4,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        }
+      ],
+      "wirePrimitiveId": "7ff9f6b2354c4f00",
+      "flagPrimitiveId": "6b2ae68c5944b074",
+      "state": "new"
+    }
+  ]
+}

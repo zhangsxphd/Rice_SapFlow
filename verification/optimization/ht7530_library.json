@@ -1,0 +1,61 @@
+{
+  "id": "req_372",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T02:27:47.688286Z",
+  "ok": true,
+  "result": {
+    "components": [
+      {
+        "description": "输出极性:正极;工作电压:30V;输出电压:3V;输出电流:100mA;电源纹波抑制比(PSRR):-;输出类型:固定;",
+        "footprintName": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL",
+        "lcsc": "C259866",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "HOLTEK(合泰/盛群)",
+        "manufacturerId": "HT7530-7",
+        "name": "HT7530-7",
+        "score": 3,
+        "symbolName": "HT7530-7_C259866",
+        "uuid": "0a16327ad4de4a2dba5da488f65ca73f"
+      },
+      {
+        "description": "输出极性:正极;工作电压:27V;输出电压:3V;输出电流:150mA;电源纹波抑制比(PSRR):70dB@(1kHz);输出类型:固定;",
+        "footprintName": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR",
+        "lcsc": "C41348179",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "TECH PUBLIC(台舟)",
+        "manufacturerId": "HT7530-7",
+        "name": "HT7530-7_C41348179",
+        "score": 3,
+        "symbolName": "HT7530-7_C41348179",
+        "uuid": "250062b2c1944ccaa62b9e75dcb76903"
+      },
+      {
+        "description": "输出极性:正极;工作电压:30V;输出电压:3V;输出电流:100mA;电源纹波抑制比(PSRR):-;输出类型:固定;",
+        "footprintName": "SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR",
+        "lcsc": "C259526",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "manufacturer": "HOLTEK(合泰/盛群)",
+        "manufacturerId": "HT7530-7",
+        "name": "HT7530-7_C259526",
+        "score": 3,
+        "symbolName": "HT7530-7",
+        "uuid": "0cbc9cdace80401f9963d77cfa37792f"
+      }
+    ],
+    "count": 3,
+    "query": "HT7530-7"
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "2d01061a63b3efa0",
+    "documentType": "schematic",
+    "tabId": "2d01061a63b3efa0@a422d704ace24952ae3d8c1eb5094d0b"
+  },
+  "seq": 4083,
+  "seqAbandoned": 1,
+  "abandonedIds": [
+    "req_706"
+  ]
+}

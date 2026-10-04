@@ -1,0 +1,22 @@
+{
+  "id": "req_439",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:56:56.746718Z",
+  "ok": true,
+  "result": {
+    "saved": true
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "c890760ef8f7474f",
+    "documentType": "schematic",
+    "tabId": "c890760ef8f7474f@cf823b99abc3472f86efd2c874825dfb"
+  },
+  "seq": 450,
+  "seqAbandoned": 1,
+  "abandonedIds": [
+    "req_120"
+  ]
+}

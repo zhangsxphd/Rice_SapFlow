@@ -1,0 +1,80 @@
+{
+  "id": "req_63",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:47:09.790856Z",
+  "ok": true,
+  "result": {
+    "device": {
+      "association": {
+        "footprint": {
+          "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+          "uuid": "631f487ce33e4317b7c1e12ea2efedb3"
+        },
+        "footprintUuid": "631f487ce33e4317b7c1e12ea2efedb3",
+        "images": [
+          ""
+        ],
+        "symbol": {
+          "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+          "type": 2,
+          "uuid": "bde766870bb74dfe9512f3f8a95fa6f6"
+        },
+        "symbolType": 2,
+        "symbolUuid": "bde766870bb74dfe9512f3f8a95fa6f6"
+      },
+      "classification": [],
+      "description": "1 mm circular copper test pad candidate; no fitted part; mask/paste verification pending",
+      "libraryType": "3",
+      "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+      "name": "EA_AGENT__RICE_SAPFLOW_TP1MM_20261003_V2",
+      "property": {
+        "addIntoBom": false,
+        "addIntoPcb": true,
+        "designator": "TP",
+        "name": "EA_AGENT__RICE_SAPFLOW_TP1MM_20261003_V2",
+        "otherProperty": {
+          "Add into BOM": "no",
+          "Convert to PCB": "yes",
+          "Description": "1 mm circular copper test pad candidate; no fitted part; mask/paste verification pending",
+          "Designator": "TP",
+          "Footprint": "631f487ce33e4317b7c1e12ea2efedb3",
+          "FootprintName": {
+            "name": "EA_AGENT__RICE_SAPFLOW_TP1MM_20261003_FPV2",
+            "source": "",
+            "uuid": "631f487ce33e4317b7c1e12ea2efedb3"
+          },
+          "Name": "",
+          "Source": "1 mm circular copper test pad candidate; no fitted part; mask/paste verification pending",
+          "Symbol": "bde766870bb74dfe9512f3f8a95fa6f6",
+          "SymbolName": {
+            "name": "EA_AGENT__RICE_SAPFLOW_TP1MM_20261003",
+            "source": "",
+            "uuid": "bde766870bb74dfe9512f3f8a95fa6f6"
+          },
+          "Validation": "CANDIDATE-UNVERIFIED"
+        }
+      },
+      "subPartNames": [
+        "EA_AGENT__RICE_SAPFLOW_TP1MM_20261003.1",
+        "EA_AGENT__RICE_SAPFLOW_TP1MM_20261003.1"
+      ],
+      "uuid": "ac5f3e3cbf824090a08ca634d3414438"
+    },
+    "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+    "name": "EA_AGENT__RICE_SAPFLOW_TP1MM_20261003_V2",
+    "namespace": "EA_AGENT",
+    "requestedName": "Rice_SapFlow_TP1mm_20261003_v2",
+    "uuid": "ac5f3e3cbf824090a08ca634d3414438",
+    "verified": true
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "631f487ce33e4317b7c1e12ea2efedb3",
+    "documentType": "footprint",
+    "tabId": "631f487ce33e4317b7c1e12ea2efedb3@9e05c206bff14f5b91e051328bc4efe6"
+  },
+  "seq": 58,
+  "seqAbandoned": 0
+}

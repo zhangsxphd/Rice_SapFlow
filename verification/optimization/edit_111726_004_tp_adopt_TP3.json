@@ -1,0 +1,28 @@
+{
+  "id": "req_2260",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T03:17:32.093997Z",
+  "ok": false,
+  "result": {
+    "geometryGuard": {
+      "findings": [
+        {
+          "type": "wire-geometry-unverified",
+          "level": "ERROR",
+          "designator": "J901",
+          "primitiveId": "923929a9516cfcb6",
+          "message": "component body bbox is missing or invalid"
+        }
+      ],
+      "mutationApplied": false,
+      "passed": false,
+      "phase": "preflight"
+    }
+  },
+  "error": {
+    "code": "SCHEMATIC_GEOMETRY_INVALID",
+    "message": "schematic geometry guard failed (preflight)",
+    "detail": "Required geometry is missing; no mutation was dispatched. wire-geometry-unverified (J901): component body bbox is missing or invalid"
+  }
+}

@@ -1,0 +1,303 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" style="background:#0f172a; font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;">
+  <defs>
+    <pattern id="pcb-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1e293b" stroke-width="0.8"/>
+    </pattern>
+    <filter id="pcb-shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity="0.3" flood-color="#000000"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#0b1120"/>
+  <rect width="100%" height="100%" fill="url(#pcb-grid)"/>
+
+  <!-- Title & Banner -->
+  <text x="60" y="50" font-size="22" font-weight="bold" fill="#38bdf8">Main_Controller_V01: PCB Concept (Not a CAD Export)</text>
+  <text x="60" y="78" font-size="13" fill="#94a3b8">2-Layer FR-4 (1.6 mm, 1 oz) | Dimensions: 50.0 mm × 32.0 mm | SMT + THT Mixed Assembly</text>
+
+  <!-- PCB Board Body -->
+  <!-- Origin at (150, 120), Width: 800px (50mm, 16px/mm), Height: 512px (32mm) -->
+  <g transform="translate(180, 130)" filter="url(#pcb-shadow)">
+    <!-- Board Substrate (FR4 Dark Green Solder Mask) -->
+    <rect x="0" y="0" width="800" height="512" rx="24" fill="#064e3b" stroke="#047857" stroke-width="3"/>
+    <!-- Copper Pour Simulation (Hatched/Darker Green) -->
+    <rect x="12" y="12" width="776" height="488" rx="16" fill="#043828" opacity="0.8"/>
+
+    <!-- 4x Mounting Holes (M3, Dia 3.2mm, Pad Dia 6.0mm) -->
+    <!-- Top-Left -->
+    <circle cx="35" cy="35" r="24" fill="#d97706" stroke="#b45309" stroke-width="2"/>
+    <circle cx="35" cy="35" r="14" fill="#0b1120"/>
+    <!-- Bottom-Left -->
+    <circle cx="35" cy="477" r="24" fill="#d97706" stroke="#b45309" stroke-width="2"/>
+    <circle cx="35" cy="477" r="14" fill="#0b1120"/>
+    <!-- Top-Right -->
+    <circle cx="765" cy="35" r="24" fill="#d97706" stroke="#b45309" stroke-width="2"/>
+    <circle cx="765" cy="35" r="14" fill="#0b1120"/>
+    <!-- Bottom-Right -->
+    <circle cx="765" cy="477" r="24" fill="#d97706" stroke="#b45309" stroke-width="2"/>
+    <circle cx="765" cy="477" r="14" fill="#0b1120"/>
+
+    <!-- Silkscreen Border -->
+    <rect x="18" y="18" width="764" height="476" rx="14" fill="none" stroke="#f8fafc" stroke-width="1.2" stroke-dasharray="8,6"/>
+    <text x="35" y="90" font-size="14" font-weight="bold" fill="#f8fafc">Rice_SapFlow_V01</text>
+    <text x="35" y="110" font-size="11" fill="#cbd5e1">Main_Controller_V1.0</text>
+
+    <!-- Component 1: ESP32-C3 Super Mini Headers (U1) -->
+    <!-- Centered horizontally, x = 160 to 500 (Width 340, Height 340) -->
+    <rect x="160" y="80" width="340" height="340" rx="8" fill="#0f2b1d" stroke="#f8fafc" stroke-width="1.5"/>
+
+    <!-- Super Mini USB-C / RF Antenna Keepout Zone (Overhanging top edge) -->
+    <rect x="260" y="60" width="140" height="42" rx="4" fill="#1e293b" stroke="#cbd5e1" stroke-width="1.2"/>
+    <text x="330" y="85" text-anchor="middle" font-size="10" font-weight="bold" fill="#f8fafc">USB-C Receptacle</text>
+
+    <!-- Super Mini Label inside body -->
+    <text x="330" y="125" text-anchor="middle" font-size="13" font-weight="bold" fill="#38bdf8">U1: ESP32-C3 Super Mini</text>
+    <text x="330" y="143" text-anchor="middle" font-size="10" fill="#94a3b8">2×8 2.54mm Socket (Row Pitch: 17.78 mm / 700 mil)</text>
+
+    <!-- PCB Antenna on top edge -->
+    <path d="M 270 42 L 390 42" stroke="#f59e0b" stroke-width="3"/>
+    <text x="330" y="35" text-anchor="middle" font-size="10" font-weight="bold" fill="#f59e0b">2.4GHz Antenna Keepout (Top Edge)</text>
+
+    <!-- 1x8 Header Pin Left -->
+    <g transform="translate(180, 160)">
+      <!-- Pins 1 to 8: 5V, GND, 3V3, IO0, IO1, IO2, IO3, IO4 -->
+      <!-- Pitch 2.54mm = ~30px -->
+      <!-- Pin 1: 5V -->
+      <circle cx="15" cy="15" r="10" fill="#dc2626" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="15" cy="15" r="5" fill="#fef2f2"/>
+      <text x="35" y="20" font-size="11" font-weight="bold" fill="#f8fafc">1: 5V</text>
+
+      <!-- Pin 2: GND -->
+      <circle cx="15" cy="45" r="10" fill="#334155" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="15" cy="45" r="5" fill="#fef2f2"/>
+      <text x="35" y="50" font-size="11" font-weight="bold" fill="#f8fafc">2: GND</text>
+
+      <!-- Pin 3: 3V3 -->
+      <circle cx="15" cy="75" r="10" fill="#2563eb" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="15" cy="75" r="5" fill="#fef2f2"/>
+      <text x="35" y="80" font-size="11" font-weight="bold" fill="#f8fafc">3: 3V3</text>
+
+      <!-- Pin 4: IO0 (SDA) -->
+      <circle cx="15" cy="105" r="10" fill="#0891b2" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="15" cy="105" r="5" fill="#fef2f2"/>
+      <text x="35" y="110" font-size="11" font-weight="bold" fill="#38bdf8">4: IO0 (SDA)</text>
+
+      <!-- Pin 5: IO1 (SCL) -->
+      <circle cx="15" cy="135" r="10" fill="#0891b2" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="15" cy="135" r="5" fill="#fef2f2"/>
+      <text x="35" y="140" font-size="11" font-weight="bold" fill="#38bdf8">5: IO1 (SCL)</text>
+
+      <!-- Pin 6: IO2 -->
+      <circle cx="15" cy="165" r="10" fill="#475569" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="15" cy="165" r="5" fill="#fef2f2"/>
+      <text x="35" y="170" font-size="10" fill="#94a3b8">6: IO2</text>
+
+      <!-- Pin 7: IO3 (HEATER_EN) -->
+      <circle cx="15" cy="195" r="10" fill="#ea580c" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="15" cy="195" r="5" fill="#fef2f2"/>
+      <text x="35" y="200" font-size="11" font-weight="bold" fill="#fb923c">7: IO3 (HTR_EN)</text>
+
+      <!-- Pin 8: IO4 -->
+      <circle cx="15" cy="225" r="10" fill="#475569" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="15" cy="225" r="5" fill="#fef2f2"/>
+      <text x="35" y="230" font-size="10" fill="#94a3b8">8: IO4</text>
+    </g>
+
+    <!-- 1x8 Header Pin Right -->
+    <g transform="translate(465, 160)">
+      <!-- Pins 9 to 16: IO5 to IO10, etc. -->
+      <circle cx="15" cy="15" r="10" fill="#475569" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="15" cy="15" r="5" fill="#fef2f2"/>
+      <text x="-10" y="20" text-anchor="end" font-size="10" fill="#94a3b8">IO5 :9</text>
+
+      <circle cx="15" cy="45" r="10" fill="#475569" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="15" cy="45" r="5" fill="#fef2f2"/>
+      <text x="-10" y="50" text-anchor="end" font-size="10" fill="#94a3b8">IO6 :10</text>
+
+      <circle cx="15" cy="75" r="10" fill="#475569" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="15" cy="75" r="5" fill="#fef2f2"/>
+      <text x="-10" y="80" text-anchor="end" font-size="10" fill="#94a3b8">IO7 :11</text>
+
+      <circle cx="15" cy="105" r="10" fill="#475569" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="15" cy="105" r="5" fill="#fef2f2"/>
+      <text x="-10" y="110" text-anchor="end" font-size="10" fill="#94a3b8">IO8 :12</text>
+
+      <circle cx="15" cy="135" r="10" fill="#475569" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="15" cy="135" r="5" fill="#fef2f2"/>
+      <text x="-10" y="140" text-anchor="end" font-size="10" fill="#94a3b8">IO9 :13</text>
+
+      <!-- Pin 14: IO10 (RESERVED) -->
+      <circle cx="15" cy="165" r="10" fill="#6366f1" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="15" cy="165" r="5" fill="#fef2f2"/>
+      <text x="-10" y="170" text-anchor="end" font-size="11" font-weight="bold" fill="#a5b4fc">IO10 (RES) :14</text>
+
+      <circle cx="15" cy="195" r="10" fill="#475569" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="15" cy="195" r="5" fill="#fef2f2"/>
+      <text x="-10" y="200" text-anchor="end" font-size="10" fill="#94a3b8">IO20 :15</text>
+
+      <circle cx="15" cy="225" r="10" fill="#475569" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="15" cy="225" r="5" fill="#fef2f2"/>
+      <text x="-10" y="230" text-anchor="end" font-size="10" fill="#94a3b8">IO21 :16</text>
+    </g>
+
+
+    <!-- Power Decoupling Area (Near Pin 1 & Pin 3) -->
+    <!-- C1: 10uF (0805) + C2: 100nF (0603) for 5V -->
+    <rect x="70" y="165" width="28" height="16" rx="2" fill="#d97706" stroke="#f8fafc" stroke-width="1"/>
+    <text x="84" y="196" text-anchor="middle" font-size="9" fill="#f8fafc">C1: 10uF</text>
+    <rect x="110" y="165" width="22" height="14" rx="2" fill="#d97706" stroke="#f8fafc" stroke-width="1"/>
+    <text x="121" y="194" text-anchor="middle" font-size="8" fill="#f8fafc">C2: 100n</text>
+
+    <!-- C3: 10uF (0805) + C4: 100nF (0603) for 3.3V -->
+    <rect x="70" y="225" width="28" height="16" rx="2" fill="#d97706" stroke="#f8fafc" stroke-width="1"/>
+    <text x="84" y="256" text-anchor="middle" font-size="9" fill="#f8fafc">C3: 10uF</text>
+    <rect x="110" y="225" width="22" height="14" rx="2" fill="#d97706" stroke="#f8fafc" stroke-width="1"/>
+    <text x="121" y="254" text-anchor="middle" font-size="8" fill="#f8fafc">C4: 100n</text>
+
+    <!-- I2C Pullup Resistors R1 & R2 (0603) -->
+    <rect x="110" y="280" width="22" height="14" rx="2" fill="#d97706" stroke="#f8fafc" stroke-width="1"/>
+    <text x="121" y="308" text-anchor="middle" font-size="9" fill="#38bdf8">R1: 4.7k</text>
+    <rect x="110" y="320" width="22" height="14" rx="2" fill="#d97706" stroke="#f8fafc" stroke-width="1"/>
+    <text x="121" y="348" text-anchor="middle" font-size="9" fill="#38bdf8">R2: 4.7k</text>
+
+
+    <!-- Component 2: MOSFET Switch & Gate Circuit (Q1, R3, R4) -->
+    <g transform="translate(540, 260)">
+      <rect x="0" y="0" width="110" height="120" rx="6" fill="#0f2b1d" stroke="#ea580c" stroke-width="1.2" stroke-dasharray="4,3"/>
+      <text x="55" y="20" text-anchor="middle" font-size="10" font-weight="bold" fill="#ea580c">Heater Low-Side</text>
+
+      <!-- Q1: AO3400A (SOT-23) -->
+      <rect x="35" y="35" width="40" height="30" rx="3" fill="#1e293b" stroke="#f8fafc" stroke-width="1"/>
+      <text x="55" y="53" text-anchor="middle" font-size="9" font-weight="bold" fill="#f8fafc">Q1</text>
+      <!-- SOT-23 Pads (G, S, D) -->
+      <rect x="25" y="40" width="8" height="6" fill="#f59e0b"/>
+      <rect x="25" y="52" width="8" height="6" fill="#f59e0b"/>
+      <rect x="77" y="46" width="8" height="8" fill="#f59e0b"/>
+      <text x="18" y="45" font-size="8" fill="#fb923c">G</text>
+      <text x="18" y="58" font-size="8" fill="#cbd5e1">S</text>
+      <text x="90" y="53" font-size="8" fill="#fb923c">D</text>
+
+      <!-- R3: 100R (0603) Gate Series -->
+      <rect x="10" y="80" width="22" height="14" rx="2" fill="#d97706" stroke="#f8fafc" stroke-width="1"/>
+      <text x="21" y="105" text-anchor="middle" font-size="8" fill="#f8fafc">R3:100Ω</text>
+
+      <!-- R4: 100k (0603) Gate Pull-down -->
+      <rect x="55" y="80" width="22" height="14" rx="2" fill="#d97706" stroke="#f8fafc" stroke-width="1"/>
+      <text x="66" y="105" text-anchor="middle" font-size="8" fill="#f8fafc">R4:100k</text>
+    </g>
+
+
+    <!-- Component 3: Solder Jumper SJ1 (3-Pad) -->
+    <g transform="translate(540, 150)">
+      <rect x="0" y="0" width="110" height="70" rx="6" fill="#0f2b1d" stroke="#f59e0b" stroke-width="1.2" stroke-dasharray="4,3"/>
+      <text x="55" y="18" text-anchor="middle" font-size="10" font-weight="bold" fill="#f59e0b">SJ1 Voltage Select</text>
+
+      <!-- 3 Pads -->
+      <rect x="20" y="28" width="18" height="24" rx="2" fill="#2563eb" stroke="#f8fafc" stroke-width="1"/>
+      <text x="29" y="44" text-anchor="middle" font-size="9" font-weight="bold" fill="#ffffff">1</text>
+      <text x="29" y="62" text-anchor="middle" font-size="8" fill="#93c5fd">3.3V</text>
+
+      <rect x="46" y="28" width="18" height="24" rx="2" fill="#ea580c" stroke="#f8fafc" stroke-width="1"/>
+      <text x="55" y="44" text-anchor="middle" font-size="9" font-weight="bold" fill="#ffffff">2</text>
+      <text x="55" y="62" text-anchor="middle" font-size="8" fill="#fdba74">VCC</text>
+
+      <rect x="72" y="28" width="18" height="24" rx="2" fill="#dc2626" stroke="#f8fafc" stroke-width="1"/>
+      <text x="81" y="44" text-anchor="middle" font-size="9" font-weight="bold" fill="#ffffff">3</text>
+      <text x="81" y="62" text-anchor="middle" font-size="8" fill="#fca5a5">5V</text>
+
+      <!-- Jumper is open by default -->
+      
+      <text x="68" y="25" text-anchor="middle" font-size="7" font-weight="bold" fill="#facc15">OPEN</text>
+    </g>
+
+
+    <!-- Component 4: J1 FPC Connector 6P 0.5mm Horizontal Flip-Lock -->
+    <!-- Positioned at bottom center, opening facing downwards -->
+    <g transform="translate(300, 425)">
+      <rect x="0" y="0" width="200" height="75" rx="4" fill="#022c22" stroke="#10b981" stroke-width="2"/>
+      <text x="100" y="22" text-anchor="middle" font-size="12" font-weight="bold" fill="#34d399">J1: FPC-0.5-6P (SMT Flip-Lock)</text>
+      <text x="100" y="38" text-anchor="middle" font-size="9" fill="#a7f3d0">LCSC C202118 | Bottom Edge Insertion</text>
+
+      <!-- 6 SMT Pins -->
+      <!-- 1: 3V3, 2: GND, 3: SDA, 4: SCL, 5: HTR_VCC, 6: HTR_RETURN -->
+      <g transform="translate(30, 48)">
+        <!-- Pin 1 -->
+        <rect x="0" y="0" width="10" height="20" rx="1" fill="#2563eb" stroke="#f8fafc" stroke-width="0.8"/>
+        <text x="5" y="-4" text-anchor="middle" font-size="8" fill="#93c5fd">1</text>
+
+        <!-- Pin 2 -->
+        <rect x="25" y="0" width="10" height="20" rx="1" fill="#475569" stroke="#f8fafc" stroke-width="0.8"/>
+        <text x="30" y="-4" text-anchor="middle" font-size="8" fill="#cbd5e1">2</text>
+
+        <!-- Pin 3 -->
+        <rect x="50" y="0" width="10" height="20" rx="1" fill="#0891b2" stroke="#f8fafc" stroke-width="0.8"/>
+        <text x="55" y="-4" text-anchor="middle" font-size="8" fill="#67e8f9">3</text>
+
+        <!-- Pin 4 -->
+        <rect x="75" y="0" width="10" height="20" rx="1" fill="#0891b2" stroke="#f8fafc" stroke-width="0.8"/>
+        <text x="80" y="-4" text-anchor="middle" font-size="8" fill="#67e8f9">4</text>
+
+        <!-- Pin 5 -->
+        <rect x="100" y="0" width="10" height="20" rx="1" fill="#dc2626" stroke="#f8fafc" stroke-width="0.8"/>
+        <text x="105" y="-4" text-anchor="middle" font-size="8" fill="#fca5a5">5</text>
+
+        <!-- Pin 6 -->
+        <rect x="125" y="0" width="10" height="20" rx="1" fill="#ea580c" stroke="#f8fafc" stroke-width="0.8"/>
+        <text x="130" y="-4" text-anchor="middle" font-size="8" fill="#fdba74">6</text>
+      </g>
+      <!-- Plug Direction Arrow -->
+      <polygon points="100,78 95,70 105,70" fill="#34d399"/>
+      <text x="100" y="68" text-anchor="middle" font-size="8" fill="#34d399">FPC Entry</text>
+    </g>
+
+
+    <!-- Test Points TP1 to TP6 (Arrayed along right board edge) -->
+    <g transform="translate(680, 100)">
+      <rect x="0" y="0" width="100" height="300" rx="6" fill="#0f2b1d" stroke="#8b5cf6" stroke-width="1.2" stroke-dasharray="4,3"/>
+      <text x="50" y="20" text-anchor="middle" font-size="11" font-weight="bold" fill="#c084fc">Test Points</text>
+
+      <!-- TP1: 5V -->
+      <circle cx="50" cy="50" r="12" fill="#dc2626" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="50" cy="50" r="5" fill="#fef2f2"/>
+      <text x="50" y="74" text-anchor="middle" font-size="9" font-weight="bold" fill="#fca5a5">TP1: 5V</text>
+
+      <!-- TP2: 3V3 -->
+      <circle cx="50" cy="95" r="12" fill="#2563eb" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="50" cy="95" r="5" fill="#fef2f2"/>
+      <text x="50" y="119" text-anchor="middle" font-size="9" font-weight="bold" fill="#93c5fd">TP2: 3V3</text>
+
+      <!-- TP3: GND -->
+      <circle cx="50" cy="140" r="12" fill="#334155" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="50" cy="140" r="5" fill="#fef2f2"/>
+      <text x="50" y="164" text-anchor="middle" font-size="9" font-weight="bold" fill="#cbd5e1">TP3: GND</text>
+
+      <!-- TP4: SDA -->
+      <circle cx="50" cy="185" r="12" fill="#0891b2" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="50" cy="185" r="5" fill="#fef2f2"/>
+      <text x="50" y="209" text-anchor="middle" font-size="9" font-weight="bold" fill="#67e8f9">TP4: SDA</text>
+
+      <!-- TP5: SCL -->
+      <circle cx="50" cy="230" r="12" fill="#0891b2" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="50" cy="230" r="5" fill="#fef2f2"/>
+      <text x="50" y="254" text-anchor="middle" font-size="9" font-weight="bold" fill="#67e8f9">TP5: SCL</text>
+
+      <!-- TP6: HTR_RET -->
+      <circle cx="50" cy="275" r="12" fill="#ea580c" stroke="#f8fafc" stroke-width="1.5"/>
+      <circle cx="50" cy="275" r="5" fill="#fef2f2"/>
+      <text x="50" y="299" text-anchor="middle" font-size="8" font-weight="bold" fill="#fdba74">TP6: HTR_RET</text>
+    </g>
+
+  </g>
+
+  <!-- Technical Spec Legend at bottom -->
+  <g transform="translate(180, 690)">
+    <rect x="0" y="0" width="800" height="160" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="25" y="30" font-size="14" font-weight="bold" fill="#38bdf8">Main_Controller_V01 物理布线与层叠规范 (PCB Layout Guidelines):</text>
+    <text x="25" y="55" font-size="11" fill="#cbd5e1">1. <tspan font-weight="bold">板框尺寸：</tspan>50.0 mm × 32.0 mm，四角带 M3 安装定位孔 (孔心距板边 4.0 mm)；</text>
+    <text x="25" y="75" font-size="11" fill="#cbd5e1">2. <tspan font-weight="bold">天线净空：</tspan>ESP32-C3 Super Mini 顶部 PCB 天线外凸或区域正下方顶底层净空铺铜，严禁有铜箔覆盖天线区；</text>
+    <text x="25" y="95" font-size="11" fill="#cbd5e1">3. <tspan font-weight="bold">大电流回路：</tspan>5V ➔ SJ1 ➔ J1.Pin5 (HEATER_VCC) 与 J1.Pin6 ➔ Q1.Drain ➔ Source ➔ GND 干线参考 0.25 mm；0.5 mm 间距连接器处细化至 0.15 mm；</text>
+    <text x="25" y="115" font-size="11" fill="#cbd5e1">4. <tspan font-weight="bold">I²C 信号布线：</tspan>SDA 与 SCL 等长平行引出至 J1 插座，线宽 8 mil，间距 8 mil，底层敷设完整接地参考平面；</text>
+    <text x="25" y="135" font-size="11" fill="#cbd5e1">5. <tspan font-weight="bold">去耦电容就近：</tspan>C1/C2 与 C3/C4 分别紧贴 5V 与 3.3V 排针引脚，过孔直接打入底层主地平面。</text>
+  </g>
+
+</svg>

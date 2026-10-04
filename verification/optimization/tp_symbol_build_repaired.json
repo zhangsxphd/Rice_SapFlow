@@ -1,0 +1,16 @@
+{
+  "id": "req_398",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T02:33:37.817927Z",
+  "ok": false,
+  "error": {
+    "code": "PRECONDITION_REFUSED",
+    "message": "Symbol build requires outline[] with at least four finite x/y points."
+  },
+  "seq": 4106,
+  "seqAbandoned": 1,
+  "abandonedIds": [
+    "req_706"
+  ]
+}

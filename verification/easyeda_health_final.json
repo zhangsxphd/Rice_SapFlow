@@ -1,0 +1,89 @@
+{
+  "status": "found",
+  "host": "127.0.0.1",
+  "ports": "60832-60841",
+  "found": {
+    "port": 60832,
+    "service": "easyeda-agent",
+    "raw": {
+      "pid": 93616,
+      "service": "easyeda-agent",
+      "version": "v1.9.0",
+      "status": "ok",
+      "port": 60832,
+      "windows": [
+        {
+          "windowId": "d28746ee-8db9-4849-9312-810f0cb6c307",
+          "connectorVersion": "1.8.0",
+          "easyedaVersion": "4.1.60",
+          "capabilities": [
+            "schematic.v1",
+            "pcb.v1"
+          ],
+          "context": {
+            "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+            "projectName": "New Project_2026-10-03_00-31-06",
+            "documentUuid": "c890760ef8f7474f",
+            "documentType": "schematic",
+            "tabId": "c890760ef8f7474f@cf823b99abc3472f86efd2c874825dfb"
+          },
+          "connectedAt": "2026-10-02T16:32:10.019273Z",
+          "lastSeen": "2026-10-02T16:58:35.485829Z",
+          "connectorVersionOk": false
+        }
+      ],
+      "writeHealth": {
+        "d28746ee-8db9-4849-9312-810f0cb6c307": {
+          "samples": 20,
+          "failures": 0,
+          "failureRate": 0,
+          "consecutiveFailures": 0,
+          "degraded": false,
+          "verified": 0
+        }
+      }
+    }
+  },
+  "versionGate": {
+    "cli": "v1.9.0",
+    "daemon": "v1.9.0",
+    "connectors": [
+      "1.8.0"
+    ],
+    "verdict": "block",
+    "findings": [
+      {
+        "component": "daemon",
+        "version": "v1.9.0",
+        "severity": "ok",
+        "reason": "与 CLI 同版 v1.9.0"
+      },
+      {
+        "component": "connector",
+        "version": "1.8.0",
+        "severity": "block",
+        "reason": "CLI v1.9.0 ≠ connector v1.8.0(差 minor 及以上)—— 连接器可能根本没有这版 CLI 要调的 handler,动作会静默走偏",
+        "fix": "重装连接器 .eext(跨 major/minor 兼容线时需要):\n  1. 下载 latest .eext:https://github.com/zhoushoujianwork/easyeda-agent/releases/latest\n  2. EasyEDA「扩展管理 → 已安装」**先卸载旧的**(uuid 相同,不卸载直接导入会静默失败)\n  3. 导入新的 .eext\n  4. **完全退出并重启 EasyEDA** —— 重导入不会重载已开窗口,旧窗口会继续跑旧代码并抢 daemon\n  (插件市场版可原地自动更新但可能滞后;同 major.minor 的 patch 差异无需处理。)"
+      }
+    ]
+  },
+  "hostCompatibility": {
+    "baseline": "4.0.0",
+    "recommended": "4.1.60",
+    "verdict": "ok",
+    "findings": [
+      {
+        "windowId": "d28746ee-8db9-4849-9312-810f0cb6c307",
+        "version": "4.1.60",
+        "severity": "ok",
+        "reason": "EasyEDA Pro 4.1.60 满足 V4 主线基线"
+      }
+    ]
+  },
+  "checked": [
+    {
+      "port": 60832,
+      "status": "ok"
+    }
+  ]
+}

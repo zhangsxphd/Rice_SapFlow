@@ -1,0 +1,53 @@
+{
+  "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+  "mainSchematic": "2d01061a63b3efa0",
+  "mainPcb": "82d38807b4b94fc9",
+  "sensorSchematic": "fda1ce33cb7e4c7a",
+  "sensorPcb": "a35176e7ddcb0d7d",
+  "source": "User supplied paper figures 1.png through 5.png; probe circuit and experimental protocol not supplied",
+  "architecture": {
+    "controller": "ESP32-C3 SuperMini; exact physical pinout confirmation pending",
+    "temperatureSensors": "TMP117MAIDRVR at 0x48 and 0x49",
+    "sensorSpacingMm": 3.0,
+    "heaterRegulator": "HT7530-7 C259866, VIN=+5V, OUT=HEATER_VCC (nominal 3.0V), CE=HEATER_GATE",
+    "heaterSwitch": "Retain AO3400A low-side switch and existing 100R gate resistor / 100k pull-down",
+    "voltageSelector": "Remove SJ1; no 5V bypass",
+    "heater": "AC0603DR-07470RL C227500, 470 ohm +/-0.5%, 0.1W; replaces PRF18 overheat sensing thermistor",
+    "nominalHeaterPowerMw": 19.1489361702,
+    "interface": {
+      "1": "+3V3",
+      "2": "GND",
+      "3": "SDA",
+      "4": "SCL",
+      "5": "HEATER_VCC",
+      "6": "HEATER_RETURN"
+    },
+    "interfaceImplementation": "Two matching Hirose FH12-6S-0.5SH(55) C202118 bottom-contact sockets and a verified 6-pin 0.5mm FFC; no gold fingers",
+    "testPoints": "Unpopulated single-pin plated-hole footprints, excluded from BOM",
+    "sensorDecoupling": "C5/C6 Samsung CL05B104KO5NNNC C1525, 100nF 0402; vias moved outside solder pads",
+    "moduleHeaders": "J2/J3 female BOOMELE C27438; physical module identity pending"
+  },
+  "safety": {
+    "bootHeaterEnabled": false,
+    "defaultPulseMs": 200,
+    "maxPulseMs": 3000,
+    "minPulseIntervalMs": 120000,
+    "measurementWindowMs": 90000,
+    "maxSensorTemperatureC": 40.0,
+    "maxSensorRiseC": 2.0,
+    "i2cTimeoutMs": 25,
+    "heaterOffTimerIndependentOfLoop": true,
+    "requiresExplicitArmAndFreshSensors": true
+  },
+  "acceptance": {
+    "nativeSchematicAndPcbChecks": "Fresh saved-state readback, pin-to-net parity and DRC required",
+    "physical": "Header identity, insertion/FFC pin correspondence, 3.0V output, actual current and pulse turn-off measured before attachment to a plant",
+    "thermal": "No signal amplitude or sap-flow accuracy claim until probe coupling and zero-flow/known-flow calibration are measured",
+    "flowOutput": "Raw temperatures and baseline-corrected rises; no invented calibrated sap-flow value"
+  },
+  "datasheets": {
+    "HT7530": "https://www.holtek.com.cn/webapi/116706/simHT75xx-7v141.pdf",
+    "TMP117": "https://www.ti.com/lit/ds/symlink/tmp117.pdf",
+    "PRF18": "https://www.murata.com/-/media/webrenewal/products/thermistor/ptc/prf/bc-e0225x-e.ashx?cvid=20231016060000000000&la=en"
+  }
+}

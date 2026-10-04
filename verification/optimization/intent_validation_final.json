@@ -1,0 +1,184 @@
+{
+  "digitalChecksPassed": true,
+  "manufacturingReleased": false,
+  "physicalTestingPerformed": false,
+  "sapFlowCalibrated": false,
+  "partCount": 29,
+  "bomPositionCount": 23,
+  "copperPathProofCount": 17,
+  "boards": {
+    "main": {
+      "parts": 23,
+      "pads": 62,
+      "nativePcbDrc": {
+        "passed": true,
+        "total": 0,
+        "counts": {},
+        "violations": []
+      },
+      "dfmSummary": {
+        "danglingEnds": 0,
+        "acuteAngles": 0,
+        "nonOrthogonal": 0,
+        "trackOverPad": 0,
+        "clearance": 0,
+        "silkscreenFlipped": 0,
+        "overlappingVias": 0,
+        "singleLayerVias": 0,
+        "widthMismatches": 2,
+        "duplicateSegments": 0,
+        "parallelCoupling": 1,
+        "antennaKeepout": 0,
+        "netlessPours": 0,
+        "viaCrossesPlane": 0,
+        "floatingIslands": 0,
+        "powerNotPoured": 3,
+        "netlessViaInPad": 0,
+        "widthUnderSpec": 3,
+        "silkOverPad": 0,
+        "decapTooFar": 4,
+        "viaInPad": 0,
+        "copperNearEdge": 0,
+        "fiducialMissing": 1,
+        "zoneViolation": 0,
+        "internalOnEdge": 0,
+        "connectorPlugClearance": 0,
+        "connectorMatingBlocked": 0,
+        "errors": 0,
+        "warnings": 11,
+        "total": 14
+      },
+      "schematicStages": [
+        {
+          "name": "layout-lint",
+          "status": "pass",
+          "errors": 0,
+          "warnings": 0
+        },
+        {
+          "name": "clusters",
+          "status": "pass",
+          "errors": 0,
+          "warnings": 0
+        },
+        {
+          "name": "check",
+          "status": "pass",
+          "errors": 0,
+          "warnings": 0
+        },
+        {
+          "name": "bridge-check",
+          "status": "pass",
+          "errors": 0,
+          "warnings": 0
+        },
+        {
+          "name": "drc",
+          "status": "pass",
+          "errors": 0,
+          "warnings": 2
+        }
+      ]
+    },
+    "sensor": {
+      "parts": 6,
+      "pads": 28,
+      "nativePcbDrc": {
+        "passed": true,
+        "total": 0,
+        "counts": {},
+        "violations": []
+      },
+      "dfmSummary": {
+        "danglingEnds": 0,
+        "acuteAngles": 0,
+        "nonOrthogonal": 0,
+        "trackOverPad": 0,
+        "clearance": 0,
+        "silkscreenFlipped": 0,
+        "overlappingVias": 0,
+        "singleLayerVias": 0,
+        "widthMismatches": 0,
+        "duplicateSegments": 0,
+        "parallelCoupling": 0,
+        "antennaKeepout": 0,
+        "netlessPours": 0,
+        "viaCrossesPlane": 0,
+        "floatingIslands": 0,
+        "powerNotPoured": 3,
+        "netlessViaInPad": 0,
+        "widthUnderSpec": 3,
+        "silkOverPad": 0,
+        "decapTooFar": 0,
+        "viaInPad": 0,
+        "copperNearEdge": 0,
+        "fiducialMissing": 0,
+        "zoneViolation": 0,
+        "internalOnEdge": 0,
+        "connectorPlugClearance": 0,
+        "connectorMatingBlocked": 0,
+        "errors": 0,
+        "warnings": 6,
+        "total": 6
+      },
+      "schematicStages": [
+        {
+          "name": "layout-lint",
+          "status": "pass",
+          "errors": 0,
+          "warnings": 0
+        },
+        {
+          "name": "clusters",
+          "status": "pass",
+          "errors": 0,
+          "warnings": 0
+        },
+        {
+          "name": "check",
+          "status": "pass",
+          "errors": 0,
+          "warnings": 0
+        },
+        {
+          "name": "bridge-check",
+          "status": "pass",
+          "errors": 0,
+          "warnings": 0
+        },
+        {
+          "name": "drc",
+          "status": "pass",
+          "errors": 0,
+          "warnings": 0
+        }
+      ],
+      "U2HeaterDistanceMm": 2.9972,
+      "U3HeaterDistanceMm": 2.9972
+    }
+  },
+  "errors": [],
+  "limitations": [
+    "SuperMini exact identity and physical pinout pending",
+    "Main native ERC has 2 warning counts without item details",
+    "DFM advisory findings require documented review",
+    "FFC mapping, TMP117 stencil/EP, power and pulse timing require physical acceptance",
+    "Thermal coupling and sap-flow calibration require measurements"
+  ],
+  "sourceSha256": {
+    "main_sch_read_final.json": "acc674ca0b27ad6eaca71761ea4f00c5032b9ef63cdbb96c991b346a1cb552c9",
+    "main_sch_list_final.json": "29e69b053feb8459bb17dc915af101fc9a26e13251edb88e4d98d662ab80806c",
+    "main_pcb_list_final.json": "5eed7f04db49cab188ba23495bb0e7f7076304fb5e60134177ab65db63b3bf23",
+    "main_pcb_final.json": "2cf9455e77b714f89cfa598365bf52c367e39ec55f130279f9c588c59da65f42",
+    "main_pcb_drc_final.json": "04e254e2e82122280d8a61299e09b819a5e4867dc9508b8c32cccf1e2b845701",
+    "main_schematic_gate_final.json": "435071e4de7a20098c5b92fadcb8f7ccad9e2e9a896dce76e0b00259700fc539",
+    "sensor_sch_read_final.json": "d50e4cbf09b8e55d02ce09d833eed3e273cbfbbe04f284703b481dbcb0348b5d",
+    "sensor_sch_list_final.json": "5f2ba52e4476976e52ed3c38df3edfd0f689b47b1634860e8d03745b0b4888da",
+    "sensor_pcb_list_final.json": "6bf76b61700bf0bfc0a8433b96e65d181079b29db49ee8f6149ff2f097377155",
+    "sensor_pcb_final.json": "22ee1b40a9426b1501c0eb10788f7fd1cfc4b52c4d227cf7b60b3d71169a8f58",
+    "sensor_pcb_drc_final.json": "04e254e2e82122280d8a61299e09b819a5e4867dc9508b8c32cccf1e2b845701",
+    "sensor_schematic_gate_final.json": "4add080c4145634b1bd711954c036eded3b10d6263bb8c0a04bd080de26a0688"
+  },
+  "firmwareSha256": "d50d688593deaaf7a0f90a96fe79707ea9f8916599b2816aa548a6aa6b764af6"
+}

@@ -1,0 +1,328 @@
+{
+  "measurementPathKind": "exact-centerline",
+  "connected": true,
+  "net": "+5V",
+  "from": "J2.1",
+  "to": "U4.1",
+  "waypointOrder": [
+    "J2.1",
+    "U4.1"
+  ],
+  "layers": [
+    1
+  ],
+  "layerSequence": [
+    1
+  ],
+  "widthsMil": [
+    8,
+    16
+  ],
+  "minWidthMil": 8,
+  "maxWidthMil": 16,
+  "viaCount": 0,
+  "primitiveCount": 8,
+  "lengthMil": 2032,
+  "turnCount": 5,
+  "path": [
+    {
+      "kind": "pad",
+      "primitiveId": "ca35d9b1060251f5e20",
+      "ref": "J2.1",
+      "layer": 12,
+      "at": {
+        "x": 200,
+        "y": 1600
+      }
+    },
+    {
+      "kind": "track",
+      "primitiveId": "a7166f375a8f45de",
+      "layer": 1,
+      "widthMil": 16,
+      "start": {
+        "x": 200,
+        "y": 1600
+      },
+      "end": {
+        "x": 310.6,
+        "y": 1600
+      }
+    },
+    {
+      "kind": "track",
+      "primitiveId": "5b8f4c05d12fe7ca",
+      "layer": 1,
+      "widthMil": 16,
+      "start": {
+        "x": 310.6,
+        "y": 1600
+      },
+      "end": {
+        "x": 310.6,
+        "y": 1720
+      }
+    },
+    {
+      "kind": "track",
+      "primitiveId": "4c914eea55222f0e",
+      "layer": 1,
+      "widthMil": 16,
+      "start": {
+        "x": 310.6,
+        "y": 1720
+      },
+      "end": {
+        "x": 452.4,
+        "y": 1720
+      }
+    },
+    {
+      "kind": "track",
+      "primitiveId": "7df78e36a308b124",
+      "layer": 1,
+      "widthMil": 16,
+      "start": {
+        "x": 452.4,
+        "y": 1720
+      },
+      "end": {
+        "x": 850,
+        "y": 1720
+      }
+    },
+    {
+      "kind": "track",
+      "primitiveId": "3beae295052702a9",
+      "layer": 1,
+      "widthMil": 16,
+      "start": {
+        "x": 850,
+        "y": 1720
+      },
+      "end": {
+        "x": 850,
+        "y": 700
+      }
+    },
+    {
+      "kind": "track",
+      "primitiveId": "fea5f2148c5b01a6",
+      "layer": 1,
+      "widthMil": 8,
+      "start": {
+        "x": 850,
+        "y": 630
+      },
+      "end": {
+        "x": 850,
+        "y": 700
+      }
+    },
+    {
+      "kind": "track",
+      "primitiveId": "ab94d1d531e942ea",
+      "layer": 1,
+      "widthMil": 8,
+      "start": {
+        "x": 712.6,
+        "y": 630
+      },
+      "end": {
+        "x": 850,
+        "y": 630
+      }
+    },
+    {
+      "kind": "track",
+      "primitiveId": "d5cd8c8ffa004303",
+      "layer": 1,
+      "widthMil": 8,
+      "start": {
+        "x": 712.6,
+        "y": 664.6
+      },
+      "end": {
+        "x": 712.6,
+        "y": 630
+      }
+    },
+    {
+      "kind": "pad",
+      "primitiveId": "6270d4893fd0ee7fe4",
+      "ref": "U4.1",
+      "layer": 1,
+      "at": {
+        "x": 712.6,
+        "y": 664.6
+      }
+    }
+  ],
+  "legs": [
+    {
+      "from": "J2.1",
+      "to": "U4.1",
+      "connected": true,
+      "layers": [
+        1
+      ],
+      "widthsMil": [
+        8,
+        16
+      ],
+      "minWidthMil": 8,
+      "maxWidthMil": 16,
+      "viaCount": 0,
+      "primitiveCount": 8,
+      "lengthMil": 2032,
+      "turnCount": 5,
+      "path": [
+        {
+          "kind": "pad",
+          "primitiveId": "ca35d9b1060251f5e20",
+          "ref": "J2.1",
+          "layer": 12,
+          "at": {
+            "x": 200,
+            "y": 1600
+          }
+        },
+        {
+          "kind": "track",
+          "primitiveId": "a7166f375a8f45de",
+          "layer": 1,
+          "widthMil": 16,
+          "start": {
+            "x": 200,
+            "y": 1600
+          },
+          "end": {
+            "x": 310.6,
+            "y": 1600
+          }
+        },
+        {
+          "kind": "track",
+          "primitiveId": "5b8f4c05d12fe7ca",
+          "layer": 1,
+          "widthMil": 16,
+          "start": {
+            "x": 310.6,
+            "y": 1600
+          },
+          "end": {
+            "x": 310.6,
+            "y": 1720
+          }
+        },
+        {
+          "kind": "track",
+          "primitiveId": "4c914eea55222f0e",
+          "layer": 1,
+          "widthMil": 16,
+          "start": {
+            "x": 310.6,
+            "y": 1720
+          },
+          "end": {
+            "x": 452.4,
+            "y": 1720
+          }
+        },
+        {
+          "kind": "track",
+          "primitiveId": "7df78e36a308b124",
+          "layer": 1,
+          "widthMil": 16,
+          "start": {
+            "x": 452.4,
+            "y": 1720
+          },
+          "end": {
+            "x": 850,
+            "y": 1720
+          }
+        },
+        {
+          "kind": "track",
+          "primitiveId": "3beae295052702a9",
+          "layer": 1,
+          "widthMil": 16,
+          "start": {
+            "x": 850,
+            "y": 1720
+          },
+          "end": {
+            "x": 850,
+            "y": 700
+          }
+        },
+        {
+          "kind": "track",
+          "primitiveId": "fea5f2148c5b01a6",
+          "layer": 1,
+          "widthMil": 8,
+          "start": {
+            "x": 850,
+            "y": 630
+          },
+          "end": {
+            "x": 850,
+            "y": 700
+          }
+        },
+        {
+          "kind": "track",
+          "primitiveId": "ab94d1d531e942ea",
+          "layer": 1,
+          "widthMil": 8,
+          "start": {
+            "x": 712.6,
+            "y": 630
+          },
+          "end": {
+            "x": 850,
+            "y": 630
+          }
+        },
+        {
+          "kind": "track",
+          "primitiveId": "d5cd8c8ffa004303",
+          "layer": 1,
+          "widthMil": 8,
+          "start": {
+            "x": 712.6,
+            "y": 664.6
+          },
+          "end": {
+            "x": 712.6,
+            "y": 630
+          }
+        },
+        {
+          "kind": "pad",
+          "primitiveId": "6270d4893fd0ee7fe4",
+          "ref": "U4.1",
+          "layer": 1,
+          "at": {
+            "x": 712.6,
+            "y": 664.6
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "placed pad copper + listed tracks/arcs/vias; copper pours, fills, and PLANE connectivity excluded",
+  "excludedCopper": [
+    "pours",
+    "filled regions",
+    "PLANE layers"
+  ],
+  "limitations": [
+    "does not infer connectivity through copper pours, filled regions, or PLANE layers",
+    "arc primitives are measured on their reconstructed centerlines; ambiguous or unsupported interior contacts make path measurement unknown",
+    "rotated RECT/rounded RECT and OVAL contacts use shape geometry; ELLIPSE, NGON, and pad-to-pad contacts use conservative inscribed geometry that may miss edge landings but cannot invent them",
+    "vias are modeled as through vias because pcb.via.list exposes no blind/buried layer pair",
+    "direct via-on-pad overlap is not treated as connected; a listed track/arc stub must bridge the pad and via"
+  ]
+}

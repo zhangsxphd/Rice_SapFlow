@@ -1,0 +1,46 @@
+{
+  "id": "req_2592",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T03:20:35.40381Z",
+  "ok": true,
+  "result": {
+    "applied": [
+      "addIntoBom",
+      "designator",
+      "name",
+      "uniqueId",
+      "x",
+      "y"
+    ],
+    "component": {
+      "addIntoBom": false,
+      "designator": "TP6",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "2.54-1*1P针",
+      "name": "Test pad (DNP)",
+      "primitiveId": "d4919fb222ab6297",
+      "rotation": 0,
+      "supplierId": "C81276",
+      "uniqueId": "gge19",
+      "x": 740.9000000000001,
+      "y": 350
+    },
+    "verified": true
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "82d38807b4b94fc9",
+    "documentType": "pcb",
+    "tabId": "82d38807b4b94fc9@a422d704ace24952ae3d8c1eb5094d0b"
+  },
+  "seq": 5474,
+  "seqAbandoned": 3,
+  "abandonedIds": [
+    "req_706",
+    "req_829",
+    "req_840"
+  ]
+}

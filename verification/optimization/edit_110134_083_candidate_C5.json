@@ -1,0 +1,93 @@
+{
+  "id": "req_1278",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T03:02:58.121143Z",
+  "ok": true,
+  "result": {
+    "component": {
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "component": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "CC0603KRX7R9BB104",
+        "uuid": "caae07bf58e1e91c"
+      },
+      "componentType": "part",
+      "designator": "J901",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "={Value}",
+        "uuid": "caae07bf58e1e91c"
+      },
+      "footprint": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603",
+        "uuid": "7a7511a97c055d9a"
+      },
+      "manufacturer": "YAGEO(国巨)",
+      "manufacturerId": "CC0603KRX7R9BB104",
+      "mirror": false,
+      "name": "={Value}",
+      "net": "",
+      "otherProperty": {
+        "Datasheet": "https://item.szlcsc.com/datasheet/CC0603KRX7R9BB104/15331.html",
+        "Description": "容值:100nF;精度:±10%;额定电压:50V;温度系数:X7R;",
+        "JLCPCB Part Class": "Basic Part",
+        "LCSC Part Name": "100nF ±10% 50V",
+        "PCB Layer": "",
+        "Supplier Footprint": "0603",
+        "Temperature Coefficient": "X7R",
+        "Tolerance": "±10%",
+        "Value": "100nF",
+        "Voltage Rating": "50V"
+      },
+      "primitiveId": "c650a8f6e35a68cc",
+      "rotation": 0,
+      "subPartName": "CC0603KRX7R9BB104.1",
+      "supplier": "LCSC",
+      "supplierId": "C14663",
+      "symbol": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "CC0603KRX7R9BB104",
+        "uuid": "c2ed2b98f524174f"
+      },
+      "uniqueId": "",
+      "x": 1800,
+      "y": 1000
+    },
+    "geometryGuard": {
+      "passed": true,
+      "phase": "readback",
+      "preexistingFindings": 0,
+      "readbackAttempts": 1,
+      "scope": "pin-exit-direction/wire-through-body"
+    },
+    "otherPropertyBackfilled": [
+      "Datasheet",
+      "Description",
+      "JLCPCB Part Class",
+      "LCSC Part Name",
+      "Supplier Footprint",
+      "Temperature Coefficient",
+      "Tolerance",
+      "Value",
+      "Voltage Rating"
+    ],
+    "primitiveId": "c650a8f6e35a68cc"
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "fda1ce33cb7e4c7a",
+    "documentType": "schematic",
+    "tabId": "fda1ce33cb7e4c7a@a422d704ace24952ae3d8c1eb5094d0b"
+  },
+  "seq": 4729,
+  "seqAbandoned": 3,
+  "abandonedIds": [
+    "req_706",
+    "req_829",
+    "req_840"
+  ]
+}

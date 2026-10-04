@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "meta": {
+    "name": "Rice SapFlow main schematic remainder",
+    "doc": "e59b6979d877fc6f"
+  },
+  "steps": [
+    {
+      "id": "place-SJ1",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "83fc2d4e73bd47169f3ef59bbad62430",
+        "x": 900,
+        "y": 540,
+        "designator": "SJ1"
+      }
+    },
+    {
+      "id": "place-J1",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "160476eec46a426aba7fbe1ff290a393",
+        "x": 110,
+        "y": 300,
+        "designator": "J1"
+      }
+    },
+    {
+      "id": "place-TP1",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "a0e59b8855a7442383da6e1a35112e6f",
+        "x": 900,
+        "y": 300,
+        "designator": "TP1"
+      }
+    },
+    {
+      "id": "place-TP2",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "a0e59b8855a7442383da6e1a35112e6f",
+        "x": 1010,
+        "y": 300,
+        "designator": "TP2"
+      }
+    },
+    {
+      "id": "place-TP3",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "a0e59b8855a7442383da6e1a35112e6f",
+        "x": 1120,
+        "y": 300,
+        "designator": "TP3"
+      }
+    },
+    {
+      "id": "place-TP4",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "a0e59b8855a7442383da6e1a35112e6f",
+        "x": 900,
+        "y": 420,
+        "designator": "TP4"
+      }
+    },
+    {
+      "id": "place-TP5",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "a0e59b8855a7442383da6e1a35112e6f",
+        "x": 1010,
+        "y": 420,
+        "designator": "TP5"
+      }
+    },
+    {
+      "id": "place-TP6",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "a0e59b8855a7442383da6e1a35112e6f",
+        "x": 1120,
+        "y": 420,
+        "designator": "TP6"
+      }
+    },
+    {
+      "id": "save-main-complete",
+      "run": "sch save"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "req_34",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:44:55.570977Z",
+  "ok": true,
+  "result": {
+    "created": {
+      "circles": [],
+      "outline": "ca7ebd584a86f3a2",
+      "pins": [
+        "d7f1345a2d9e9ba9",
+        "7449869530937673",
+        "cedafa1abb9a1bdc",
+        "d13b8cd4d292392f",
+        "867c107c5847459d",
+        "f0e87aa13f0e878e"
+      ]
+    },
+    "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+    "tabId": "30ba95e36df141fa8c6404f2d9538f29@9e05c206bff14f5b91e051328bc4efe6",
+    "uuid": "30ba95e36df141fa8c6404f2d9538f29",
+    "verified": true
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "30ba95e36df141fa8c6404f2d9538f29",
+    "documentType": "symbol",
+    "tabId": "30ba95e36df141fa8c6404f2d9538f29@9e05c206bff14f5b91e051328bc4efe6"
+  },
+  "seq": 30,
+  "seqAbandoned": 0
+}

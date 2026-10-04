@@ -1,0 +1,74 @@
+{
+  "id": "req_466",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:57:11.387674Z",
+  "ok": false,
+  "result": {
+    "geometryGuard": {
+      "findings": [
+        {
+          "type": "wire-through-body",
+          "level": "ERROR",
+          "designator": "U2",
+          "primitiveId": "1c389089c4d9af8c",
+          "wirePrimitiveId": "proposed-wire",
+          "message": "wire segment 0 (255,500)→(280,500) enters component body",
+          "at": {
+            "x": 255,
+            "y": 500
+          },
+          "bbox": {
+            "minX": 264.5,
+            "minY": 479.5,
+            "maxX": 335.5,
+            "maxY": 520.5
+          },
+          "segment": [
+            {
+              "x": 255,
+              "y": 500
+            },
+            {
+              "x": 280,
+              "y": 500
+            }
+          ]
+        },
+        {
+          "type": "pin-exit-direction",
+          "level": "ERROR",
+          "designator": "U2",
+          "primitiveId": "1c389089c4d9af8c",
+          "wirePrimitiveId": "proposed-wire",
+          "pins": [
+            "2"
+          ],
+          "message": "pin 2 outward rotation 180° requires its first wire segment to leave outward; segment 0 (255,500)→(280,500) does not",
+          "at": {
+            "x": 255,
+            "y": 500
+          },
+          "segment": [
+            {
+              "x": 255,
+              "y": 500
+            },
+            {
+              "x": 280,
+              "y": 500
+            }
+          ]
+        }
+      ],
+      "mutationApplied": false,
+      "passed": false,
+      "phase": "preflight"
+    }
+  },
+  "error": {
+    "code": "SCHEMATIC_GEOMETRY_INVALID",
+    "message": "schematic geometry guard failed (preflight)",
+    "detail": "Rejected before write: fix source pin exit/wire geometry and replan. wire-through-body (U2): wire segment 0 (255,500)→(280,500) enters component body; pin-exit-direction (U2:2): pin 2 outward rotation 180° requires its first wire segment to leave outward; segment 0 (255,500)→(280,500) does not"
+  }
+}

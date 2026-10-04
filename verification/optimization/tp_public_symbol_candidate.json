@@ -1,0 +1,87 @@
+{
+  "id": "req_2191",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T03:14:28.744554Z",
+  "ok": false,
+  "result": {
+    "actionResult": {
+      "component": {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "component": {
+          "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+          "name": "EA_AGENT__RICE_TP_1MM_PUBLIC_SYMBOL",
+          "uuid": "ca11cc659ee7eded"
+        },
+        "componentType": "part",
+        "designator": "J901",
+        "device": {
+          "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+          "name": "",
+          "uuid": "ca11cc659ee7eded"
+        },
+        "footprint": {
+          "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+          "name": "EA_AGENT__RICE_OPT_TP1MM_20261003",
+          "uuid": "510de8963ef8574c"
+        },
+        "manufacturer": "",
+        "manufacturerId": "",
+        "mirror": false,
+        "name": "",
+        "net": "",
+        "otherProperty": {
+          "Description": "",
+          "PCB Layer": ""
+        },
+        "primitiveId": "923929a9516cfcb6",
+        "rotation": 0,
+        "subPartName": "5011-TESTPOINTBLACK.1",
+        "supplier": "",
+        "supplierId": "",
+        "symbol": {
+          "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+          "name": "5011-TESTPOINTBLACK",
+          "uuid": "df797cbc5d7396ff"
+        },
+        "uniqueId": "",
+        "x": 1800,
+        "y": 1000
+      },
+      "primitiveId": "923929a9516cfcb6"
+    },
+    "geometryGuard": {
+      "findings": [
+        {
+          "type": "wire-geometry-unverified",
+          "level": "ERROR",
+          "designator": "J901",
+          "primitiveId": "923929a9516cfcb6",
+          "message": "component body bbox is missing or invalid"
+        }
+      ],
+      "mutationApplied": true,
+      "observations": [
+        {
+          "readId": "req_2191-geometry-after",
+          "seq": 5217,
+          "seqAbandoned": 3,
+          "wireSegments": 50
+        }
+      ],
+      "passed": false,
+      "phase": "readback",
+      "readbackAttempts": 1
+    },
+    "partial": true
+  },
+  "warnings": [
+    "Mutation may have landed. No automatic rollback/retry; read the current data and regenerate the repair."
+  ],
+  "error": {
+    "code": "SCHEMATIC_GEOMETRY_INVALID",
+    "message": "schematic geometry guard failed (readback)",
+    "detail": "New invalid geometry observed after write. Repair the measured state; API success is not validation success. wire-geometry-unverified (J901): component body bbox is missing or invalid"
+  }
+}

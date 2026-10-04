@@ -1,0 +1,1 @@
+pcb.import_changes: import not verified (confirm="no-dialog"); preserve returned identities and fresh state before recomputing; do not repeat import

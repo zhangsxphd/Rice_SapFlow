@@ -1,0 +1,82 @@
+{
+  "id": "req_2184",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T03:14:25.32605Z",
+  "ok": true,
+  "result": {
+    "device": {
+      "association": {
+        "footprint": {
+          "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+          "uuid": "48800962145d482ea181649f9e68f607"
+        },
+        "footprintUuid": "48800962145d482ea181649f9e68f607",
+        "images": [
+          ""
+        ],
+        "symbol": {
+          "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+          "type": 2,
+          "uuid": "1072b690f2784049a9c273649fb5dfc0"
+        },
+        "symbolType": 2,
+        "symbolUuid": "1072b690f2784049a9c273649fb5dfc0"
+      },
+      "classification": [],
+      "description": "",
+      "libraryType": "3",
+      "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+      "name": "EA_AGENT__RICE_TP_1MM_PUBLIC_SYMBOL",
+      "property": {
+        "addIntoBom": false,
+        "addIntoPcb": true,
+        "designator": "TP",
+        "name": "EA_AGENT__RICE_TP_1MM_PUBLIC_SYMBOL",
+        "otherProperty": {
+          "Add into BOM": "no",
+          "Convert to PCB": "yes",
+          "Description": "",
+          "Designator": "TP",
+          "Footprint": "48800962145d482ea181649f9e68f607",
+          "FootprintName": {
+            "name": "EA_AGENT__RICE_OPT_TP1MM_20261003",
+            "source": "",
+            "uuid": "48800962145d482ea181649f9e68f607"
+          },
+          "Name": "",
+          "Symbol": "1072b690f2784049a9c273649fb5dfc0",
+          "SymbolName": {
+            "name": "5011-TESTPOINTBLACK",
+            "source": "",
+            "uuid": "1072b690f2784049a9c273649fb5dfc0"
+          }
+        }
+      },
+      "subPartNames": [
+        "5011-TESTPOINTBLACK.1"
+      ],
+      "uuid": "eb8b78a14a49406f8448191b7d61e8d5"
+    },
+    "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+    "name": "EA_AGENT__RICE_TP_1MM_PUBLIC_SYMBOL",
+    "namespace": "EA_AGENT",
+    "requestedName": "RICE_TP_1MM_PUBLIC_SYMBOL",
+    "uuid": "eb8b78a14a49406f8448191b7d61e8d5",
+    "verified": true
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "a35176e7ddcb0d7d",
+    "documentType": "pcb",
+    "tabId": "a35176e7ddcb0d7d@a422d704ace24952ae3d8c1eb5094d0b"
+  },
+  "seq": 5211,
+  "seqAbandoned": 3,
+  "abandonedIds": [
+    "req_706",
+    "req_829",
+    "req_840"
+  ]
+}

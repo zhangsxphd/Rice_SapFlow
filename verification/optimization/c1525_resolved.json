@@ -1,0 +1,18 @@
+{
+  "id": "req_4426",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T11:41:45.527548Z",
+  "ok": false,
+  "error": {
+    "code": "EDA_CALL_FAILED",
+    "message": "No device exactly matches LCSC id \"C1525\". The raw search returned 10 fuzzy candidate(s) whose LCSC field differs — re-run with allowFuzzy (CLI: --allow-fuzzy) to see them, or use \"lib by-lcsc\" for a deterministic lookup."
+  },
+  "seq": 6437,
+  "seqAbandoned": 3,
+  "abandonedIds": [
+    "req_706",
+    "req_829",
+    "req_840"
+  ]
+}

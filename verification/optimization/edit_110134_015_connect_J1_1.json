@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "succeeded": [
+    "J1:1"
+  ],
+  "connections": [
+    {
+      "pin": "J1:1",
+      "net": "+3V3",
+      "kind": "power",
+      "pinX": 170,
+      "pinY": 165,
+      "selected": {
+        "direction": "left",
+        "offset": 18,
+        "endPoint": {
+          "x": 150,
+          "y": 165
+        },
+        "score": 81.8,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 1000000091.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "right",
+          "offset": 18,
+          "score": 1000010601.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 60,
+          "score": 2000000006,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "ed0021ce499a77b0",
+      "flagPrimitiveId": "bc5aed3cb702404f",
+      "state": "new"
+    }
+  ]
+}

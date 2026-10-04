@@ -1,0 +1,44 @@
+{
+  "id": "req_1778",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T03:06:03.996701Z",
+  "ok": true,
+  "result": {
+    "applied": [
+      "designator",
+      "uniqueId",
+      "x",
+      "y"
+    ],
+    "component": {
+      "addIntoBom": true,
+      "designator": "J1",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "FH12-6S-0.5SH(55)",
+      "name": "={Manufacturer Part}",
+      "primitiveId": "c4cf2456293e6860",
+      "rotation": 180,
+      "supplierId": "C202118",
+      "uniqueId": "gge13",
+      "x": 551,
+      "y": 248.0000000000001
+    },
+    "verified": true
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "82d38807b4b94fc9",
+    "documentType": "pcb",
+    "tabId": "82d38807b4b94fc9@a422d704ace24952ae3d8c1eb5094d0b"
+  },
+  "seq": 5000,
+  "seqAbandoned": 3,
+  "abandonedIds": [
+    "req_706",
+    "req_829",
+    "req_840"
+  ]
+}

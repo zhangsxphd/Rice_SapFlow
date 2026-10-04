@@ -1,0 +1,16 @@
+{
+  "id": "req_462",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:57:11.230946Z",
+  "ok": false,
+  "error": {
+    "code": "PRECONDITION_REFUSED",
+    "message": "disconnect: refused before mutation: Wire aeb77d0812abdd73 has 2 observed segments, not one; take a fresh raw snapshot and use data-driven sch compose --preserve-instances."
+  },
+  "seq": 460,
+  "seqAbandoned": 1,
+  "abandonedIds": [
+    "req_120"
+  ]
+}

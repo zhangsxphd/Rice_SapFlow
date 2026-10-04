@@ -1,0 +1,24 @@
+{
+  "blank": false,
+  "captureKind": "board-fitted-viewport-png",
+  "dataFiles": [
+    "components.json",
+    "tracks.json",
+    "vias.json",
+    "pours.json",
+    "nets.json",
+    "drc.json"
+  ],
+  "drcPassKnown": true,
+  "drcPassed": true,
+  "fitApi": "eda.pcb_Document.zoomToBoardOutline",
+  "fitMode": "board",
+  "frameColors": 156,
+  "frameContent": 0.9575790720991706,
+  "objectLevelExport": false,
+  "sha256": "e92ec530b78149cb97fa60dcf424bb41e05429af1d1d2e0ba9324e3fb36c4040",
+  "sha256Source": "cli-artifact",
+  "snapshot": "/Users/zhangshuxuan/本地文稿/Rice_SapFlow_V01/verification/optimization/preview/main_review_1/snapshot.png",
+  "stage": "main_review_1",
+  "stale": false
+}

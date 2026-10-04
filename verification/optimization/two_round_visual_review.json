@@ -1,0 +1,52 @@
+{
+  "main": {
+    "round1Reviewed": true,
+    "round2Captured": true,
+    "savedStateStable": true,
+    "sameRenderedPixels": true,
+    "images": [
+      {
+        "file": "verification/optimization/preview/main_review_1/snapshot.png",
+        "size": [
+          1377,
+          635
+        ],
+        "pixelSha256": "df82f6bcbc91bdce2189a83caf77dd02008d234783db4c5f1da1e49c43a2a18d"
+      },
+      {
+        "file": "verification/optimization/preview/main_review_2/snapshot.png",
+        "size": [
+          1377,
+          635
+        ],
+        "pixelSha256": "df82f6bcbc91bdce2189a83caf77dd02008d234783db4c5f1da1e49c43a2a18d"
+      }
+    ],
+    "semanticSha256": "5dce84bb92bf153506baadb34d51b7c073b1046e8349a047b887d3b6ada6b348"
+  },
+  "sensor": {
+    "round1Reviewed": true,
+    "round2Captured": true,
+    "savedStateStable": true,
+    "sameRenderedPixels": true,
+    "images": [
+      {
+        "file": "verification/optimization/preview/sensor_review_1/snapshot.png",
+        "size": [
+          1377,
+          635
+        ],
+        "pixelSha256": "d8b4b48eedf60afebd45a95bebe5a5ac72115e0c7f719f8e53f2bcd5177dfa58"
+      },
+      {
+        "file": "verification/optimization/preview/sensor_review_2/snapshot.png",
+        "size": [
+          1377,
+          635
+        ],
+        "pixelSha256": "d8b4b48eedf60afebd45a95bebe5a5ac72115e0c7f719f8e53f2bcd5177dfa58"
+      }
+    ],
+    "semanticSha256": "eafcb1aa4389ee85d7fd54f449dc10c214a92dea0abdc9cc8b1ab589f9b50324"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "req_4692",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T11:50:19.693635Z",
+  "ok": true,
+  "result": {
+    "applied": [
+      "designator"
+    ],
+    "component": {
+      "addIntoBom": true,
+      "designator": "J3",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "2.54-1*8P母环保",
+      "name": "={Manufacturer Part}",
+      "primitiveId": "63df99f2dc7830c0",
+      "rotation": -90.00000000000001,
+      "supplierId": "C27438",
+      "uniqueId": "gge2",
+      "x": 900,
+      "y": 1250
+    },
+    "verified": true
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "82d38807b4b94fc9",
+    "documentType": "pcb",
+    "tabId": "82d38807b4b94fc9@a422d704ace24952ae3d8c1eb5094d0b"
+  },
+  "seq": 6599,
+  "seqAbandoned": 3,
+  "abandonedIds": [
+    "req_706",
+    "req_829",
+    "req_840"
+  ]
+}

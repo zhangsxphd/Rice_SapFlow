@@ -1,0 +1,17 @@
+{
+  "id": "req_467",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T02:48:09.716699Z",
+  "ok": false,
+  "error": {
+    "code": "EDA_CALL_FAILED",
+    "message": "Placed component \"67ad539c61cf9423\" but failed to assign designator \"J901\".",
+    "detail": "Cannot read properties of undefined (reading 'getState_ComponentType')"
+  },
+  "seq": 4162,
+  "seqAbandoned": 1,
+  "abandonedIds": [
+    "req_706"
+  ]
+}

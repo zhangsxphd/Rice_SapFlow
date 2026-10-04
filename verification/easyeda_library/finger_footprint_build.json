@@ -1,0 +1,36 @@
+{
+  "id": "req_36",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:45:15.300155Z",
+  "ok": true,
+  "result": {
+    "created": {
+      "lines": [],
+      "pads": []
+    },
+    "error": "错误：无法创建焊盘图元，可能是传入的参数不正确。",
+    "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+    "partial": true,
+    "rollback": {
+      "lines": true,
+      "pads": true
+    },
+    "tabId": "430d689d67914b7bbc1cb3314df97cad@9e05c206bff14f5b91e051328bc4efe6",
+    "uuid": "430d689d67914b7bbc1cb3314df97cad",
+    "verified": false
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "430d689d67914b7bbc1cb3314df97cad",
+    "documentType": "footprint",
+    "tabId": "430d689d67914b7bbc1cb3314df97cad@9e05c206bff14f5b91e051328bc4efe6"
+  },
+  "warnings": [
+    "Footprint build failed after mutation began; inspect rollback and the opened footprint before retrying.",
+    "The platform error may be transient; re-read the target inventory and retry only after it is proven empty."
+  ],
+  "seq": 32,
+  "seqAbandoned": 0
+}

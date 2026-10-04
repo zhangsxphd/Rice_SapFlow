@@ -1,0 +1,125 @@
+{
+  "components": [
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 1395.288,
+        "maxY": 1397.2465,
+        "minX": 1301.498,
+        "minY": 1291.498
+      },
+      "designator": "U2",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "TMP117MAIDRVR",
+      "name": "={Manufacturer Part}",
+      "primitiveId": "4f7bbfdfed42057d",
+      "rotation": 0,
+      "supplierId": "C2803242",
+      "uniqueId": "gge20",
+      "x": 1350,
+      "y": 1350
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 1395.288,
+        "maxY": 1161.2465,
+        "minX": 1301.498,
+        "minY": 1055.498
+      },
+      "designator": "U3",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "TMP117MAIDRVR",
+      "name": "={Manufacturer Part}",
+      "primitiveId": "119e1e6d9449f299",
+      "rotation": 0,
+      "supplierId": "C2803242",
+      "uniqueId": "gge23",
+      "x": 1350,
+      "y": 1114
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 1407.531,
+        "maxY": 1261.008,
+        "minX": 1292.469,
+        "minY": 1202.992
+      },
+      "designator": "R5",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "AC0603DR-07470RL",
+      "name": "={Value}",
+      "primitiveId": "8f83d7c5de034b97",
+      "rotation": 0,
+      "supplierId": "C227500",
+      "uniqueId": "gge22",
+      "x": 1350,
+      "y": 1232
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 1509.46,
+        "maxY": 389.56500000000005,
+        "minX": 1190.54,
+        "minY": 114.99499999999998
+      },
+      "designator": "J4",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "FH12-6S-0.5SH(55)",
+      "name": "={Manufacturer Part}",
+      "primitiveId": "0eb71d3c57bdd9e9",
+      "rotation": 180,
+      "supplierId": "C202118",
+      "uniqueId": "gge25",
+      "x": 1350,
+      "y": 300
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 1292.671,
+        "maxY": 1387.4019999999998,
+        "minX": 1247.329,
+        "minY": 1312.5980000000002
+      },
+      "designator": "C5",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "CL05B104KO5NNNC",
+      "name": "={Value}",
+      "primitiveId": "72e9340d4d5c57a2",
+      "rotation": 90,
+      "supplierId": "C1525",
+      "uniqueId": "gge21",
+      "x": 1270,
+      "y": 1350
+    },
+    {
+      "addIntoBom": true,
+      "bbox": {
+        "maxX": 1292.671,
+        "maxY": 1151.402,
+        "minX": 1247.329,
+        "minY": 1076.598
+      },
+      "designator": "C6",
+      "layer": 1,
+      "locked": false,
+      "manufacturerId": "CL05B104KO5NNNC",
+      "name": "={Value}",
+      "primitiveId": "313b7d2c11db900f",
+      "rotation": 90,
+      "supplierId": "C1525",
+      "uniqueId": "gge24",
+      "x": 1270,
+      "y": 1114
+    }
+  ],
+  "count": 6
+}

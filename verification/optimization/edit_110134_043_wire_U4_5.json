@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "succeeded": [
+    "U4:5"
+  ],
+  "connections": [
+    {
+      "pin": "U4:5",
+      "net": "HEATER_VCC",
+      "kind": "power",
+      "pinX": 1120,
+      "pinY": 630,
+      "selected": {
+        "direction": "right",
+        "offset": 60,
+        "endPoint": {
+          "x": 1180,
+          "y": 630
+        },
+        "score": -14,
+        "reasons": [
+          {
+            "cost": 6,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 999999991.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "left",
+          "offset": 18,
+          "score": 1000010501.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 30,
+          "score": 2000000003,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "923a8b6848c4bf05",
+      "flagPrimitiveId": "310a2d73834f145c",
+      "state": "new"
+    }
+  ]
+}

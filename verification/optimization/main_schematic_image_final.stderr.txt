@@ -1,0 +1,2 @@
+📎 artifact saved: /Users/zhangshuxuan/本地文稿/Rice_SapFlow_V01/.easyeda/artifacts/20261003-195243-schematic_export-15ddf38d.png
+✓ wrote /Users/zhangshuxuan/本地文稿/Rice_SapFlow_V01/verification/optimization/main_schematic.png (780775 bytes)

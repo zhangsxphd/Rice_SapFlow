@@ -1,0 +1,66 @@
+{
+  "ok": true,
+  "succeeded": [
+    "J1:5"
+  ],
+  "connections": [
+    {
+      "pin": "J1:5",
+      "net": "HEATER_VCC",
+      "kind": "power",
+      "pinX": 170,
+      "pinY": 125,
+      "selected": {
+        "direction": "left",
+        "offset": 46,
+        "endPoint": {
+          "x": 125,
+          "y": 125
+        },
+        "score": 1084.6,
+        "reasons": [
+          {
+            "cost": 1000,
+            "desc": "label collides with an existing flag/port/label"
+          },
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 4.6,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "right",
+          "offset": 36,
+          "score": 1000010603.6,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 2000000101.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        },
+        {
+          "direction": "up",
+          "offset": 52,
+          "score": 3000000095.2,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "e19bba366816a28f",
+      "flagPrimitiveId": "a01df9ebc8fb3782",
+      "warning": "落点带痕(score=1085):label collides with an existing flag/port/label —— 建议挪件腾位后重连",
+      "state": "new"
+    }
+  ]
+}

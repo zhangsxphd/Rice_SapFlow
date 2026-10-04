@@ -1,0 +1,40 @@
+{
+  "id": "req_594",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:58:33.505698Z",
+  "ok": true,
+  "result": {
+    "boards": [
+      {
+        "name": "Main_Controller_V01",
+        "parentProjectUuid": "cf823b99abc3472f86efd2c874825dfb",
+        "pcbName": "PCB1",
+        "pcbUuid": "d2755a5c8029894a",
+        "schematicName": "Schematic1",
+        "schematicUuid": "e001a3b40ac6d07e"
+      },
+      {
+        "name": "Sensor_FPC_V01",
+        "parentProjectUuid": "cf823b99abc3472f86efd2c874825dfb",
+        "pcbName": "PCB1_1",
+        "pcbUuid": "dee7b91727c4d6ff",
+        "schematicName": "Schematic1_1",
+        "schematicUuid": "ecdff503fd148f47"
+      }
+    ],
+    "count": 2
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "c890760ef8f7474f",
+    "documentType": "schematic",
+    "tabId": "c890760ef8f7474f@cf823b99abc3472f86efd2c874825dfb"
+  },
+  "seq": 528,
+  "seqAbandoned": 1,
+  "abandonedIds": [
+    "req_120"
+  ]
+}

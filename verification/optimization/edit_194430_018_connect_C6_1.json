@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "succeeded": [
+    "C6:1"
+  ],
+  "connections": [
+    {
+      "pin": "C6:1",
+      "net": "+3V3",
+      "kind": "power",
+      "pinX": 840,
+      "pinY": 420,
+      "selected": {
+        "direction": "left",
+        "offset": 18,
+        "endPoint": {
+          "x": 820,
+          "y": 420
+        },
+        "score": -18.2,
+        "reasons": [
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 999999991.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 1000000001.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "right",
+          "offset": 18,
+          "score": 1000010501.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        }
+      ],
+      "wirePrimitiveId": "861a304a9a22c0c3",
+      "flagPrimitiveId": "ad73d12ed0933260",
+      "state": "new"
+    }
+  ]
+}

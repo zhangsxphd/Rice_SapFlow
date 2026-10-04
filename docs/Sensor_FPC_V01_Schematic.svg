@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" width="1400" height="900" style="background:#ffffff; font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#f0f2f5" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+
+  <!-- Frame -->
+  <rect x="25" y="25" width="1350" height="850" fill="none" stroke="#334155" stroke-width="2"/>
+  <rect x="27" y="27" width="1346" height="846" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+
+  <!-- Title Box -->
+  <rect x="950" y="785" width="425" height="90" fill="#f8fafc" stroke="#334155" stroke-width="1.5"/>
+  <line x1="950" y1="815" x2="1375" y2="815" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="950" y1="845" x2="1375" y2="845" stroke="#cbd5e1" stroke-width="1"/>
+  <line x1="1160" y1="815" x2="1160" y2="875" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="965" y="805" font-size="14" font-weight="bold" fill="#0f172a">PROJECT: Rice_SapFlow_V01</text>
+  <text x="965" y="833" font-size="12" fill="#475569">TITLE: Sensor_FPC_V01 Schematic</text>
+  <text x="1175" y="833" font-size="12" fill="#475569">REV: V1.0</text>
+  <text x="965" y="863" font-size="11" fill="#64748b">STAGE: Concept only; native ERC pending</text>
+  <text x="1175" y="863" font-size="11" fill="#64748b">DATE: 2026-10-02</text>
+
+  <!-- Flow Direction Banner -->
+  <rect x="50" y="45" width="870" height="40" rx="6" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="70" y="70" font-size="13" font-weight="bold" fill="#15803d">PLANT SAP FLOW VECTOR (植物蒸腾液流方向):</text>
+  <path d="M 420 65 L 820 65" stroke="#16a34a" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="830,65 815,58 815,72" fill="#16a34a"/>
+  <text x="560" y="60" text-anchor="middle" font-size="11" font-weight="bold" fill="#16a34a">TMP117_UP (Upstream) ➔ PTC Heater ➔ TMP117_DOWN (Downstream)</text>
+
+  <!-- Module 1: 6P 0.5mm Gold Finger Interface -->
+  <rect x="50" y="110" width="260" height="640" rx="8" fill="#ffffff" stroke="#047857" stroke-width="1.5" stroke-dasharray="6,4" filter="url(#shadow)"/>
+  <rect x="50" y="110" width="260" height="35" rx="8" fill="#ecfdf5"/>
+  <text x="65" y="134" font-size="13" font-weight="bold" fill="#065f46">J1: 6P 0.5mm Gold Finger</text>
+
+  <rect x="80" y="165" width="200" height="560" rx="6" fill="#f8fafc" stroke="#047857" stroke-width="2"/>
+  <text x="180" y="195" text-anchor="middle" font-size="14" font-weight="bold" fill="#065f46">FPC ZIF Tail (6P)</text>
+  <text x="180" y="215" text-anchor="middle" font-size="11" fill="#047857">0.5 mm Pitch Gold Fingers</text>
+  <text x="180" y="235" text-anchor="middle" font-size="10" fill="#64748b">Inserted thickness 0.30mm incl. stiffener</text>
+
+  <!-- Pins 1 to 6 -->
+  <!-- Pin 1: 3V3 -->
+  <line x1="280" y1="270" x2="350" y2="270" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="280" cy="270" r="4" fill="#2563eb"/>
+  <text x="265" y="275" text-anchor="end" font-size="11" font-weight="bold" fill="#2563eb">1: 3V3</text>
+  <text x="360" y="275" font-size="11" font-weight="bold" fill="#2563eb">3V3</text>
+
+  <!-- Pin 2: GND -->
+  <line x1="280" y1="340" x2="350" y2="340" stroke="#1e293b" stroke-width="2"/>
+  <circle cx="280" cy="340" r="4" fill="#1e293b"/>
+  <text x="265" y="345" text-anchor="end" font-size="11" font-weight="bold" fill="#1e293b">2: GND</text>
+  <text x="360" y="345" font-size="11" font-weight="bold" fill="#1e293b">GND</text>
+
+  <!-- Pin 3: SDA -->
+  <line x1="280" y1="410" x2="350" y2="410" stroke="#0891b2" stroke-width="2"/>
+  <circle cx="280" cy="410" r="4" fill="#0891b2"/>
+  <text x="265" y="415" text-anchor="end" font-size="11" font-weight="bold" fill="#0891b2">3: SDA</text>
+  <text x="360" y="415" font-size="11" font-weight="bold" fill="#0891b2">I2C_SDA</text>
+
+  <!-- Pin 4: SCL -->
+  <line x1="280" y1="480" x2="350" y2="480" stroke="#0891b2" stroke-width="2"/>
+  <circle cx="280" cy="480" r="4" fill="#0891b2"/>
+  <text x="265" y="485" text-anchor="end" font-size="11" font-weight="bold" fill="#0891b2">4: SCL</text>
+  <text x="360" y="485" font-size="11" font-weight="bold" fill="#0891b2">I2C_SCL</text>
+
+  <!-- Pin 5: HEATER_VCC -->
+  <line x1="280" y1="560" x2="350" y2="560" stroke="#dc2626" stroke-width="2.5"/>
+  <circle cx="280" cy="560" r="4" fill="#dc2626"/>
+  <text x="265" y="565" text-anchor="end" font-size="11" font-weight="bold" fill="#dc2626">5: HEATER_VCC</text>
+  <text x="360" y="565" font-size="11" font-weight="bold" fill="#dc2626">HEATER_VCC</text>
+
+  <!-- Pin 6: HEATER_RETURN -->
+  <line x1="280" y1="640" x2="350" y2="640" stroke="#ea580c" stroke-width="2.5"/>
+  <circle cx="280" cy="640" r="4" fill="#ea580c"/>
+  <text x="265" y="645" text-anchor="end" font-size="11" font-weight="bold" fill="#ea580c">6: HEATER_RETURN</text>
+  <text x="360" y="645" font-size="11" font-weight="bold" fill="#ea580c">HEATER_RETURN</text>
+
+
+  <!-- Module 2: TMP117_UP (Upstream Temperature Sensor, Addr: 0x48) -->
+  <rect x="340" y="110" width="310" height="640" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="6,4" filter="url(#shadow)"/>
+  <rect x="340" y="110" width="310" height="35" rx="8" fill="#eff6ff"/>
+  <text x="355" y="134" font-size="13" font-weight="bold" fill="#1d4ed8">U1: TMP117_UP (Addr 0x48)</text>
+
+  <!-- U1 Body WSON-6 -->
+  <rect x="400" y="180" width="200" height="380" rx="6" fill="#f8fafc" stroke="#1e293b" stroke-width="2"/>
+  <text x="500" y="210" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">TMP117MAIDRVR</text>
+  <text x="500" y="230" text-anchor="middle" font-size="11" fill="#2563eb">WSON-6 (2x2 mm)</text>
+  <rect x="430" y="245" width="140" height="30" rx="4" fill="#dbeafe" stroke="#93c5fd"/>
+  <text x="500" y="265" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e40af">I²C Addr: 0x48 (ADD0=GND)</text>
+
+  <!-- Pins -->
+  <!-- Pin 1: SCL -->
+  <line x1="360" y1="310" x2="400" y2="310" stroke="#0891b2" stroke-width="2"/>
+  <circle cx="400" cy="310" r="3.5" fill="#0891b2"/>
+  <text x="410" y="315" font-size="11" font-weight="bold" fill="#0891b2">1: SCL</text>
+
+  <!-- Pin 2: GND -->
+  <line x1="360" y1="360" x2="400" y2="360" stroke="#1e293b" stroke-width="2"/>
+  <circle cx="400" cy="360" r="3.5" fill="#1e293b"/>
+  <text x="410" y="365" font-size="11" font-weight="bold" fill="#1e293b">2: GND</text>
+
+  <!-- Pin 3: ALERT (NC) -->
+  <line x1="400" y1="410" x2="370" y2="410" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="410" y="415" font-size="11" fill="#64748b">3: ALERT (NC)</text>
+  <line x1="365" y1="405" x2="375" y2="415" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="365" y1="415" x2="375" y2="405" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- Pin 4: ADD0 (address strap) -->
+  <line x1="600" y1="410" x2="630" y2="410" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="600" cy="410" r="3.5" fill="#2563eb"/>
+  <text x="590" y="415" text-anchor="end" font-size="11" font-weight="bold" fill="#2563eb">4: ADD0 ➔ GND</text>
+
+  <!-- Pin 5: V+ (3V3) -->
+  <line x1="600" y1="360" x2="630" y2="360" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="600" cy="360" r="3.5" fill="#2563eb"/>
+  <text x="590" y="365" text-anchor="end" font-size="11" font-weight="bold" fill="#2563eb">5: V+ (3V3)</text>
+
+  <!-- Pin 6: SDA -->
+  <line x1="600" y1="310" x2="630" y2="310" stroke="#0891b2" stroke-width="2"/>
+  <circle cx="600" cy="310" r="3.5" fill="#0891b2"/>
+  <text x="590" y="315" text-anchor="end" font-size="11" font-weight="bold" fill="#0891b2">6: SDA</text>
+
+  <!-- Thermal Pad 7 -->
+  <rect x="460" y="460" width="80" height="50" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="500" y="482" text-anchor="middle" font-size="10" font-weight="bold" fill="#92400e">Thermal Pad</text>
+  <text x="500" y="498" text-anchor="middle" font-size="9" fill="#b45309">FLOATING (No Paste)</text>
+
+  <!-- Decoupling Cap C1 (100nF) for U1 -->
+  <rect x="420" y="585" width="160" height="90" rx="6" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+  <text x="500" y="605" text-anchor="middle" font-size="11" font-weight="bold" fill="#0f172a">C1: 100 nF (0402/0603)</text>
+  <line x1="460" y1="620" x2="460" y2="640" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="450" y1="640" x2="470" y2="640" stroke="#0f172a" stroke-width="2"/>
+  <line x1="450" y1="646" x2="470" y2="646" stroke="#0f172a" stroke-width="2"/>
+  <line x1="460" y1="646" x2="460" y2="665" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="440" y="650" font-size="9" text-anchor="end" fill="#2563eb">3V3</text>
+  <text x="480" y="650" font-size="9" fill="#1e293b">GND</text>
+  <text x="500" y="665" text-anchor="middle" font-size="9" fill="#64748b">Decoupling across V+ &amp; GND</text>
+
+
+  <!-- Module 3: PTC Heater (PRF18BC471QB5RB) -->
+  <rect x="670" y="110" width="280" height="640" rx="8" fill="#ffffff" stroke="#ea580c" stroke-width="1.5" stroke-dasharray="6,4" filter="url(#shadow)"/>
+  <rect x="670" y="110" width="280" height="35" rx="8" fill="#fff7ed"/>
+  <text x="685" y="134" font-size="13" font-weight="bold" fill="#c2410c">HEATER: PRF18BC471QB5RB</text>
+
+  <!-- Heater Box -->
+  <rect x="700" y="240" width="220" height="280" rx="6" fill="#f8fafc" stroke="#ea580c" stroke-width="2"/>
+  <text x="810" y="275" text-anchor="middle" font-size="15" font-weight="bold" fill="#9a3412">PTC HEATER</text>
+  <text x="810" y="295" text-anchor="middle" font-size="11" fill="#ea580c">PRF18BC471QB5RB (0603)</text>
+  <text x="810" y="315" text-anchor="middle" font-size="10" fill="#64748b">R25 = 470 Ω ±50% | POSISTOR</text>
+
+  <!-- Resistor symbol -->
+  <line x1="810" y1="330" x2="810" y2="350" stroke="#dc2626" stroke-width="2.5"/>
+  <circle cx="810" cy="330" r="4" fill="#dc2626"/>
+  <text x="825" y="335" font-size="11" font-weight="bold" fill="#dc2626">1: HEATER_VCC</text>
+
+  <rect x="790" y="350" width="40" height="80" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+  <path d="M 780 410 L 840 370" stroke="#ea580c" stroke-width="2"/>
+  <line x1="840" y1="370" x2="845" y2="370" stroke="#ea580c" stroke-width="2"/>
+  <text x="810" y="395" text-anchor="middle" font-size="11" font-weight="bold" fill="#0f172a">PTC</text>
+
+  <line x1="810" y1="430" x2="810" y2="470" stroke="#ea580c" stroke-width="2.5"/>
+  <circle cx="810" cy="470" r="4" fill="#ea580c"/>
+  <text x="825" y="475" font-size="11" font-weight="bold" fill="#ea580c">2: HEATER_RETURN</text>
+
+  <!-- Thermal Isolation Constraint Box -->
+  <rect x="690" y="550" width="240" height="150" rx="6" fill="#fef2f2" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="810" y="575" text-anchor="middle" font-size="11" font-weight="bold" fill="#b91c1c">THERMAL ISOLATION RULES</text>
+  <text x="705" y="598" font-size="10" fill="#991b1b">• 严格对称布线 (上下走线对称)</text>
+  <text x="705" y="618" font-size="10" fill="#991b1b">• 严禁在PTC与TMP117间大面积铺铜</text>
+  <text x="705" y="638" font-size="10" fill="#991b1b">• 禁止连续 GND/PWR 平面横向导热</text>
+  <text x="705" y="658" font-size="10" fill="#991b1b">• 保留PI基材热阻以保证温差敏感度</text>
+  <text x="705" y="678" font-size="10" fill="#991b1b">• 间距规格: 2 mm / 3 mm / 4 mm</text>
+
+
+  <!-- Module 4: TMP117_DOWN (Downstream Temperature Sensor, Addr: 0x49) -->
+  <rect x="970" y="110" width="310" height="640" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="6,4" filter="url(#shadow)"/>
+  <rect x="970" y="110" width="310" height="35" rx="8" fill="#eff6ff"/>
+  <text x="985" y="134" font-size="13" font-weight="bold" fill="#1d4ed8">U2: TMP117_DOWN (Addr 0x49)</text>
+
+  <!-- U2 Body WSON-6 -->
+  <rect x="1030" y="180" width="200" height="380" rx="6" fill="#f8fafc" stroke="#1e293b" stroke-width="2"/>
+  <text x="1130" y="210" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">TMP117MAIDRVR</text>
+  <text x="1130" y="230" text-anchor="middle" font-size="11" fill="#2563eb">WSON-6 (2x2 mm)</text>
+  <rect x="1060" y="245" width="140" height="30" rx="4" fill="#dbeafe" stroke="#93c5fd"/>
+  <text x="1130" y="265" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e40af">I²C Addr: 0x49 (ADD0=3V3)</text>
+
+  <!-- Pins -->
+  <!-- Pin 1: SCL -->
+  <line x1="990" y1="310" x2="1030" y2="310" stroke="#0891b2" stroke-width="2"/>
+  <circle cx="1030" cy="310" r="3.5" fill="#0891b2"/>
+  <text x="1040" y="315" font-size="11" font-weight="bold" fill="#0891b2">1: SCL</text>
+
+  <!-- Pin 2: GND -->
+  <line x1="990" y1="360" x2="1030" y2="360" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="1030" cy="360" r="3.5" fill="#2563eb"/>
+  <text x="1040" y="365" font-size="11" font-weight="bold" fill="#2563eb">2: GND</text>
+
+  <!-- Pin 3: ALERT (NC) -->
+  <line x1="1030" y1="410" x2="1000" y2="410" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="1040" y="415" font-size="11" fill="#64748b">3: ALERT (NC)</text>
+  <line x1="995" y1="405" x2="1005" y2="415" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="995" y1="415" x2="1005" y2="405" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- Pin 4: ADD0 (address strap) -->
+  <line x1="1230" y1="410" x2="1260" y2="410" stroke="#1e293b" stroke-width="2"/>
+  <circle cx="1230" cy="410" r="3.5" fill="#1e293b"/>
+  <text x="1220" y="415" text-anchor="end" font-size="11" font-weight="bold" fill="#1e293b">4: ADD0 ➔ 3V3</text>
+
+  <!-- Pin 5: V+ (3V3) -->
+  <line x1="1230" y1="360" x2="1260" y2="360" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="1230" cy="360" r="3.5" fill="#2563eb"/>
+  <text x="1220" y="365" text-anchor="end" font-size="11" font-weight="bold" fill="#2563eb">5: V+ (3V3)</text>
+
+  <!-- Pin 6: SDA -->
+  <line x1="1230" y1="310" x2="1260" y2="310" stroke="#0891b2" stroke-width="2"/>
+  <circle cx="1230" cy="310" r="3.5" fill="#0891b2"/>
+  <text x="1220" y="315" text-anchor="end" font-size="11" font-weight="bold" fill="#0891b2">6: SDA</text>
+
+  <!-- Thermal Pad 7 -->
+  <rect x="1090" y="460" width="80" height="50" rx="3" fill="#fef3c7" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="1130" y="482" text-anchor="middle" font-size="10" font-weight="bold" fill="#92400e">Thermal Pad</text>
+  <text x="1130" y="498" text-anchor="middle" font-size="9" fill="#b45309">FLOATING (No Paste)</text>
+
+  <!-- Decoupling Cap C2 (100nF) for U2 -->
+  <rect x="1050" y="585" width="160" height="90" rx="6" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1"/>
+  <text x="1130" y="605" text-anchor="middle" font-size="11" font-weight="bold" fill="#0f172a">C2: 100 nF (0402/0603)</text>
+  <line x1="1090" y1="620" x2="1090" y2="640" stroke="#2563eb" stroke-width="1.5"/>
+  <line x1="1080" y1="640" x2="1100" y2="640" stroke="#0f172a" stroke-width="2"/>
+  <line x1="1080" y1="646" x2="1100" y2="646" stroke="#0f172a" stroke-width="2"/>
+  <line x1="1090" y1="646" x2="1090" y2="665" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="1070" y="650" font-size="9" text-anchor="end" fill="#2563eb">3V3</text>
+  <text x="1110" y="650" font-size="9" fill="#1e293b">GND</text>
+  <text x="1130" y="665" text-anchor="middle" font-size="9" fill="#64748b">Decoupling across V+ &amp; GND</text>
+
+</svg>

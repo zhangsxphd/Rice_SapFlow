@@ -1,0 +1,33 @@
+{
+  "id": "req_45",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:45:21.081743Z",
+  "ok": true,
+  "result": {
+    "footprint": {
+      "classification": [],
+      "description": "1 mm square copper test pad candidate; no fitted part; mask/paste verification pending",
+      "libraryType": "4",
+      "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+      "name": "EA_AGENT__RICE_SAPFLOW_TP1MM_20261003_FP",
+      "otherProperty": {},
+      "uuid": "796afcdd366b41ac87021ae949ddc74d"
+    },
+    "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+    "name": "EA_AGENT__RICE_SAPFLOW_TP1MM_20261003_FP",
+    "namespace": "EA_AGENT",
+    "requestedName": "Rice_SapFlow_TP1mm_20261003_FP",
+    "uuid": "796afcdd366b41ac87021ae949ddc74d",
+    "verified": true
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "bde766870bb74dfe9512f3f8a95fa6f6",
+    "documentType": "symbol",
+    "tabId": "bde766870bb74dfe9512f3f8a95fa6f6@9e05c206bff14f5b91e051328bc4efe6"
+  },
+  "seq": 41,
+  "seqAbandoned": 0
+}

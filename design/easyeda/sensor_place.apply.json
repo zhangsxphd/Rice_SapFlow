@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "meta": {
+    "name": "Rice SapFlow sensor schematic",
+    "doc": "c890760ef8f7474f"
+  },
+  "steps": [
+    {
+      "id": "place-U2",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "86f76b7e628c438686b3f5da1e43e18d",
+        "x": 300,
+        "y": 500,
+        "designator": "U2"
+      }
+    },
+    {
+      "id": "place-C5",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "87bb635d0b2f489a9f60e7cd225beb3c",
+        "x": 170,
+        "y": 500,
+        "designator": "C5"
+      }
+    },
+    {
+      "id": "place-R5",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "f78a10f5bb0c40bda9370af14544a31d",
+        "x": 500,
+        "y": 500,
+        "designator": "R5"
+      }
+    },
+    {
+      "id": "place-U3",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "86f76b7e628c438686b3f5da1e43e18d",
+        "x": 700,
+        "y": 500,
+        "designator": "U3"
+      }
+    },
+    {
+      "id": "place-C6",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "87bb635d0b2f489a9f60e7cd225beb3c",
+        "x": 870,
+        "y": 500,
+        "designator": "C6"
+      }
+    },
+    {
+      "id": "place-J4",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "160476eec46a426aba7fbe1ff290a393",
+        "x": 100,
+        "y": 280,
+        "designator": "J4"
+      }
+    },
+    {
+      "id": "save-sensor-complete",
+      "run": "sch save"
+    }
+  ]
+}

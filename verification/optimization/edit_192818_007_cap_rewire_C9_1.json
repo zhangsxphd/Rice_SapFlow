@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "succeeded": [
+    "C9:1"
+  ],
+  "connections": [
+    {
+      "pin": "C9:1",
+      "net": "+5V",
+      "kind": "power",
+      "pinX": 630,
+      "pinY": 220,
+      "selected": {
+        "direction": "left",
+        "offset": 18,
+        "endPoint": {
+          "x": 610,
+          "y": 220
+        },
+        "score": -18.2,
+        "reasons": [
+          {
+            "cost": 1.8,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 999999991.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "right",
+          "offset": 18,
+          "score": 1000010501.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 2000000001.8,
+          "reason": "label enters title-block keep-out (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "11b0e17705cd866c",
+      "flagPrimitiveId": "2717a3880925679e",
+      "state": "new"
+    }
+  ]
+}

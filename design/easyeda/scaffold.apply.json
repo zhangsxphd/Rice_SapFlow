@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "meta": {
+    "project": "cf823b99abc3472f86efd2c874825dfb",
+    "name": "Rice SapFlow board and document identities"
+  },
+  "steps": [
+    {
+      "id": "rename-main-board",
+      "run": "board rename",
+      "flags": {
+        "name": "Board1",
+        "new": "Main_Controller_V01"
+      }
+    },
+    {
+      "id": "rename-sensor-board",
+      "run": "board rename",
+      "flags": {
+        "name": "Board1_1",
+        "new": "Sensor_FPC_V01"
+      }
+    },
+    {
+      "id": "name-main-schematic",
+      "run": "sch rename",
+      "flags": {
+        "schematic": "e001a3b40ac6d07e",
+        "name": "Main_Controller_V01"
+      }
+    },
+    {
+      "id": "name-sensor-schematic",
+      "run": "sch rename",
+      "flags": {
+        "schematic": "ecdff503fd148f47",
+        "name": "Sensor_FPC_V01"
+      }
+    },
+    {
+      "id": "name-main-page",
+      "run": "sch page-rename",
+      "flags": {
+        "page": "e59b6979d877fc6f",
+        "name": "Main_Controller"
+      }
+    },
+    {
+      "id": "name-sensor-page",
+      "run": "sch page-rename",
+      "flags": {
+        "page": "c890760ef8f7474f",
+        "name": "Sensor_FPC"
+      }
+    }
+  ]
+}

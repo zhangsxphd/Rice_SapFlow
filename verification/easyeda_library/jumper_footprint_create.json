@@ -1,0 +1,33 @@
+{
+  "id": "req_40",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:45:17.664546Z",
+  "ok": true,
+  "result": {
+    "footprint": {
+      "classification": [],
+      "description": "KiCad SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm; open by default, never bridge both inputs",
+      "libraryType": "4",
+      "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+      "name": "EA_AGENT__RICE_SAPFLOW_SJ3_OPEN_20261003_FP",
+      "otherProperty": {},
+      "uuid": "fe504d2680e1467fa9d6c1a2da7dfafe"
+    },
+    "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+    "name": "EA_AGENT__RICE_SAPFLOW_SJ3_OPEN_20261003_FP",
+    "namespace": "EA_AGENT",
+    "requestedName": "Rice_SapFlow_SJ3_Open_20261003_FP",
+    "uuid": "fe504d2680e1467fa9d6c1a2da7dfafe",
+    "verified": true
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "264347d7724d43f0b69fb705906a178e",
+    "documentType": "symbol",
+    "tabId": "264347d7724d43f0b69fb705906a178e@9e05c206bff14f5b91e051328bc4efe6"
+  },
+  "seq": 36,
+  "seqAbandoned": 0
+}

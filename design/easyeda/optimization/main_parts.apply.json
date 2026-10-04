@@ -1,0 +1,241 @@
+{
+  "version": 1,
+  "meta": {
+    "name": "Rice SapFlow optimized parts and heater supply",
+    "doc": "2d01061a63b3efa0"
+  },
+  "steps": [
+    {
+      "id": "replace-U1_L",
+      "run": "sch replace",
+      "flags": {
+        "id": "3741e20e95098db8",
+        "lcsc": "C27438"
+      }
+    },
+    {
+      "id": "replace-U1_R",
+      "run": "sch replace",
+      "flags": {
+        "id": "47e1f3756d6a5bb8",
+        "lcsc": "C27438"
+      }
+    },
+    {
+      "id": "replace-C1",
+      "run": "sch replace",
+      "flags": {
+        "id": "ecb5625e58cd2932",
+        "lcsc": "C440198"
+      }
+    },
+    {
+      "id": "replace-C3",
+      "run": "sch replace",
+      "flags": {
+        "id": "be673b47b00cf054",
+        "lcsc": "C440198"
+      }
+    },
+    {
+      "id": "replace-C2",
+      "run": "sch replace",
+      "flags": {
+        "id": "7e165b15be9fcad4",
+        "lcsc": "C14663"
+      }
+    },
+    {
+      "id": "replace-C4",
+      "run": "sch replace",
+      "flags": {
+        "id": "f4e9d29c7840cda1",
+        "lcsc": "C14663"
+      }
+    },
+    {
+      "id": "disconnect-TP1",
+      "run": "sch disconnect",
+      "flags": {
+        "pin": "TP1:1"
+      }
+    },
+    {
+      "id": "replace-TP1",
+      "run": "sch replace",
+      "flags": {
+        "id": "9903d68a22046c2a",
+        "device-uuid": "e75f2c5a27584d84b3fe328dd52cbb39",
+        "device-lib": "9e05c206bff14f5b91e051328bc4efe6"
+      }
+    },
+    {
+      "id": "disconnect-TP2",
+      "run": "sch disconnect",
+      "flags": {
+        "pin": "TP2:1"
+      }
+    },
+    {
+      "id": "replace-TP2",
+      "run": "sch replace",
+      "flags": {
+        "id": "b14131753f3fdd47",
+        "device-uuid": "e75f2c5a27584d84b3fe328dd52cbb39",
+        "device-lib": "9e05c206bff14f5b91e051328bc4efe6"
+      }
+    },
+    {
+      "id": "disconnect-TP3",
+      "run": "sch disconnect",
+      "flags": {
+        "pin": "TP3:1"
+      }
+    },
+    {
+      "id": "replace-TP3",
+      "run": "sch replace",
+      "flags": {
+        "id": "8bcbc1de8fa4ab70",
+        "device-uuid": "e75f2c5a27584d84b3fe328dd52cbb39",
+        "device-lib": "9e05c206bff14f5b91e051328bc4efe6"
+      }
+    },
+    {
+      "id": "disconnect-TP4",
+      "run": "sch disconnect",
+      "flags": {
+        "pin": "TP4:1"
+      }
+    },
+    {
+      "id": "replace-TP4",
+      "run": "sch replace",
+      "flags": {
+        "id": "398d91174eebb6be",
+        "device-uuid": "e75f2c5a27584d84b3fe328dd52cbb39",
+        "device-lib": "9e05c206bff14f5b91e051328bc4efe6"
+      }
+    },
+    {
+      "id": "disconnect-TP5",
+      "run": "sch disconnect",
+      "flags": {
+        "pin": "TP5:1"
+      }
+    },
+    {
+      "id": "replace-TP5",
+      "run": "sch replace",
+      "flags": {
+        "id": "71071445b9f6c47a",
+        "device-uuid": "e75f2c5a27584d84b3fe328dd52cbb39",
+        "device-lib": "9e05c206bff14f5b91e051328bc4efe6"
+      }
+    },
+    {
+      "id": "disconnect-TP6",
+      "run": "sch disconnect",
+      "flags": {
+        "pin": "TP6:1"
+      }
+    },
+    {
+      "id": "replace-TP6",
+      "run": "sch replace",
+      "flags": {
+        "id": "b7f53e2c047bef12",
+        "device-uuid": "e75f2c5a27584d84b3fe328dd52cbb39",
+        "device-lib": "9e05c206bff14f5b91e051328bc4efe6"
+      }
+    },
+    {
+      "id": "disconnect-SJ1-1",
+      "run": "sch disconnect",
+      "flags": {
+        "pin": "SJ1:1"
+      }
+    },
+    {
+      "id": "disconnect-SJ1-2",
+      "run": "sch disconnect",
+      "flags": {
+        "pin": "SJ1:2"
+      }
+    },
+    {
+      "id": "disconnect-SJ1-3",
+      "run": "sch disconnect",
+      "flags": {
+        "pin": "SJ1:3"
+      }
+    },
+    {
+      "id": "remove-SJ1",
+      "run": "sch prim-delete",
+      "flags": {
+        "ids": "a3fa9f3efa2e5488"
+      }
+    },
+    {
+      "id": "place-U4",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "0a16327ad4de4a2dba5da488f65ca73f",
+        "designator": "U4",
+        "x": 1080,
+        "y": 620
+      }
+    },
+    {
+      "id": "place-C7",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "6e5726223dd84f70bc3b626fc7d1f72c",
+        "designator": "C7",
+        "x": 1220,
+        "y": 700
+      }
+    },
+    {
+      "id": "place-C8",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "6e5726223dd84f70bc3b626fc7d1f72c",
+        "designator": "C8",
+        "x": 1220,
+        "y": 550
+      }
+    },
+    {
+      "id": "place-C9",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "96b39256cc3f4d80bd3b503deb4f3328",
+        "designator": "C9",
+        "x": 1360,
+        "y": 700
+      }
+    },
+    {
+      "id": "place-C10",
+      "run": "sch place",
+      "flags": {
+        "lib": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "96b39256cc3f4d80bd3b503deb4f3328",
+        "designator": "C10",
+        "x": 1360,
+        "y": 550
+      }
+    },
+    {
+      "id": "save-main",
+      "run": "sch save",
+      "flags": {}
+    }
+  ]
+}

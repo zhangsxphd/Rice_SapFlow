@@ -1,0 +1,305 @@
+{
+  "id": "req_4433",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T11:41:58.938401Z",
+  "ok": true,
+  "result": {
+    "aligned": 10,
+    "appliedIds": [
+      "f57be94dd8c46d2ce20",
+      "dd9ebb86a2bb1fafe18",
+      "ea7e9f3783b34876e18",
+      "6270d4893fd0ee7fe24",
+      "ca35d9b1060251f5e22",
+      "e7589a5ce2a461c6e20",
+      "7046045e28b4637ee10",
+      "981ff7fd75412deee10",
+      "c4cf2456293e6860e34",
+      "63df99f2dc7830c0e22"
+    ],
+    "details": [
+      {
+        "clean": true,
+        "designator": "C7",
+        "ok": true,
+        "primitiveId": "f57be94dd8c46d2ce20",
+        "x": 525.7250000000001,
+        "y": 747.5
+      },
+      {
+        "clean": true,
+        "designator": "C10",
+        "ok": true,
+        "primitiveId": "dd9ebb86a2bb1fafe18",
+        "x": 513.4429999999999,
+        "y": 907.5019999385063
+      },
+      {
+        "clean": true,
+        "designator": "C9",
+        "ok": true,
+        "primitiveId": "ea7e9f3783b34876e18",
+        "x": 505.778999835999,
+        "y": 627.5015000000001
+      },
+      {
+        "clean": true,
+        "designator": "U4",
+        "ok": true,
+        "primitiveId": "6270d4893fd0ee7fe24",
+        "x": 845.5869999999999,
+        "y": 683.1415
+      },
+      {
+        "clean": true,
+        "designator": "U1_L",
+        "ok": true,
+        "primitiveId": "ca35d9b1060251f5e22",
+        "x": 149.34500000000003,
+        "y": 758.0500000000002
+      },
+      {
+        "clean": true,
+        "designator": "C8",
+        "ok": true,
+        "primitiveId": "e7589a5ce2a461c6e20",
+        "x": 723.4,
+        "y": 971.075
+      },
+      {
+        "clean": true,
+        "designator": "TP1",
+        "ok": true,
+        "primitiveId": "7046045e28b4637ee10",
+        "x": 1078.4,
+        "y": 1477.5
+      },
+      {
+        "clean": true,
+        "designator": "TP4",
+        "ok": true,
+        "primitiveId": "981ff7fd75412deee10",
+        "x": 1078.4,
+        "y": 977.5
+      },
+      {
+        "clean": true,
+        "designator": "J1",
+        "ok": true,
+        "primitiveId": "c4cf2456293e6860e34",
+        "x": 532.95,
+        "y": 370.06500000000005
+      },
+      {
+        "clean": true,
+        "designator": "U1_R",
+        "ok": true,
+        "primitiveId": "63df99f2dc7830c0e22",
+        "x": 711.5499999999998,
+        "y": 1227.5
+      }
+    ],
+    "geometryScope": "rendered component envelopes, measured pads and text; outline bounding-box containment",
+    "normalization": [
+      {
+        "designator": "U1_L",
+        "ok": true,
+        "primitiveId": "ca35d9b1060251f5e22",
+        "requested": {
+          "layer": 3,
+          "mirror": false,
+          "reverse": false,
+          "rotation": 0
+        }
+      },
+      {
+        "designator": "U1_R",
+        "ok": true,
+        "primitiveId": "63df99f2dc7830c0e22",
+        "requested": {
+          "layer": 3,
+          "mirror": false,
+          "reverse": false,
+          "rotation": 0
+        }
+      },
+      {
+        "designator": "J1",
+        "ok": true,
+        "primitiveId": "c4cf2456293e6860e34",
+        "requested": {
+          "layer": 3,
+          "mirror": false,
+          "reverse": false,
+          "rotation": 0
+        }
+      },
+      {
+        "designator": "C7",
+        "ok": true,
+        "primitiveId": "f57be94dd8c46d2ce20",
+        "requested": {
+          "layer": 3,
+          "mirror": false,
+          "reverse": false,
+          "rotation": 0
+        }
+      },
+      {
+        "designator": "C10",
+        "ok": true,
+        "primitiveId": "dd9ebb86a2bb1fafe18",
+        "requested": {
+          "layer": 3,
+          "mirror": false,
+          "reverse": false,
+          "rotation": 0
+        }
+      }
+    ],
+    "partial": false,
+    "skipped": 0,
+    "skippedDetails": [],
+    "unresolved": 0,
+    "unresolvedDetails": [],
+    "verification": [
+      {
+        "bbox": {
+          "maxX": 578.9250000000001,
+          "maxY": 792.5,
+          "minX": 525.7250000000001,
+          "minY": 747.5
+        },
+        "clean": true,
+        "conflicts": [],
+        "designator": "C7",
+        "primitiveId": "f57be94dd8c46d2ce20"
+      },
+      {
+        "bbox": {
+          "maxX": 584.5429999999999,
+          "maxY": 952.5019999385063,
+          "minX": 513.4429999999999,
+          "minY": 907.5019999385063
+        },
+        "clean": true,
+        "conflicts": [],
+        "designator": "C10",
+        "primitiveId": "dd9ebb86a2bb1fafe18"
+      },
+      {
+        "bbox": {
+          "maxX": 557.778999835999,
+          "maxY": 672.5015000000001,
+          "minX": 505.778999835999,
+          "minY": 627.5015000000001
+        },
+        "clean": true,
+        "conflicts": [],
+        "designator": "C9",
+        "primitiveId": "ea7e9f3783b34876e18"
+      },
+      {
+        "bbox": {
+          "maxX": 898.7869999999998,
+          "maxY": 728.1415,
+          "minX": 845.5869999999999,
+          "minY": 683.1415
+        },
+        "clean": true,
+        "conflicts": [],
+        "designator": "U4",
+        "primitiveId": "6270d4893fd0ee7fe24"
+      },
+      {
+        "bbox": {
+          "maxX": 250.64500000000004,
+          "maxY": 803.0500000000002,
+          "minX": 149.34500000000003,
+          "minY": 758.0500000000002
+        },
+        "clean": true,
+        "conflicts": [],
+        "designator": "U1_L",
+        "primitiveId": "ca35d9b1060251f5e22"
+      },
+      {
+        "bbox": {
+          "maxX": 776.5999999999999,
+          "maxY": 1016.075,
+          "minX": 723.4000000000001,
+          "minY": 971.075
+        },
+        "clean": true,
+        "conflicts": [],
+        "designator": "C8",
+        "primitiveId": "e7589a5ce2a461c6e20"
+      },
+      {
+        "bbox": {
+          "maxX": 1148.3,
+          "maxY": 1522.5,
+          "minX": 1078.4,
+          "minY": 1477.5
+        },
+        "clean": true,
+        "conflicts": [],
+        "designator": "TP1",
+        "primitiveId": "7046045e28b4637ee10"
+      },
+      {
+        "bbox": {
+          "maxX": 1160.5,
+          "maxY": 1022.5,
+          "minX": 1078.4,
+          "minY": 977.5
+        },
+        "clean": true,
+        "conflicts": [],
+        "designator": "TP4",
+        "primitiveId": "981ff7fd75412deee10"
+      },
+      {
+        "bbox": {
+          "maxX": 569.05,
+          "maxY": 415.06500000000005,
+          "minX": 532.95,
+          "minY": 370.06500000000005
+        },
+        "clean": true,
+        "conflicts": [],
+        "designator": "J1",
+        "primitiveId": "c4cf2456293e6860e34"
+      },
+      {
+        "bbox": {
+          "maxX": 815.2499999999999,
+          "maxY": 1272.5,
+          "minX": 711.5499999999998,
+          "minY": 1227.5
+        },
+        "clean": true,
+        "conflicts": [],
+        "designator": "U1_R",
+        "primitiveId": "63df99f2dc7830c0e22"
+      }
+    ],
+    "verified": true,
+    "warned": 0
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "82d38807b4b94fc9",
+    "documentType": "pcb",
+    "tabId": "82d38807b4b94fc9@a422d704ace24952ae3d8c1eb5094d0b"
+  },
+  "seq": 6441,
+  "seqAbandoned": 3,
+  "abandonedIds": [
+    "req_706",
+    "req_829",
+    "req_840"
+  ]
+}

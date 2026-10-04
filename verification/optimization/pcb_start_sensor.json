@@ -1,0 +1,2068 @@
+{
+  "components": [
+    {
+      "primitiveId": "8a1804cc2d98b369",
+      "designator": "C5",
+      "name": "={Value}",
+      "device": "CL05B104KO5NNNC",
+      "layer": 1,
+      "x": 1280,
+      "y": 1350,
+      "rotation": 90,
+      "bbox": {
+        "minX": 1257.329,
+        "minY": 1312.5980000000002,
+        "maxX": 1302.671,
+        "maxY": 1387.4019999999998
+      },
+      "pads": [
+        {
+          "primitiveId": "8a1804cc2d98b369e17",
+          "padNumber": "2",
+          "net": "GND",
+          "layer": 1,
+          "x": 1280,
+          "y": 1366.5,
+          "width": 21.3,
+          "height": 19.7,
+          "rotation": 90,
+          "shape": [
+            "RECT",
+            19.7,
+            21.3,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "8a1804cc2d98b369e18",
+          "padNumber": "1",
+          "net": "+3V3",
+          "layer": 1,
+          "x": 1280,
+          "y": 1333.5,
+          "width": 21.3,
+          "height": 19.7,
+          "rotation": 90,
+          "shape": [
+            "RECT",
+            19.7,
+            21.3,
+            0
+          ],
+          "specialPad": []
+        }
+      ]
+    },
+    {
+      "primitiveId": "712ac7103098610e",
+      "designator": "C6",
+      "name": "={Value}",
+      "device": "CL05B104KO5NNNC",
+      "layer": 1,
+      "x": 1280,
+      "y": 1114,
+      "rotation": 90,
+      "bbox": {
+        "minX": 1257.329,
+        "minY": 1076.598,
+        "maxX": 1302.671,
+        "maxY": 1151.402
+      },
+      "pads": [
+        {
+          "primitiveId": "712ac7103098610ee17",
+          "padNumber": "2",
+          "net": "GND",
+          "layer": 1,
+          "x": 1280,
+          "y": 1130.5,
+          "width": 21.3,
+          "height": 19.7,
+          "rotation": 90,
+          "shape": [
+            "RECT",
+            19.7,
+            21.3,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "712ac7103098610ee18",
+          "padNumber": "1",
+          "net": "+3V3",
+          "layer": 1,
+          "x": 1280,
+          "y": 1097.5,
+          "width": 21.3,
+          "height": 19.7,
+          "rotation": 90,
+          "shape": [
+            "RECT",
+            19.7,
+            21.3,
+            0
+          ],
+          "specialPad": []
+        }
+      ]
+    },
+    {
+      "primitiveId": "4f7bbfdfed42057d",
+      "designator": "U2",
+      "name": "={Manufacturer Part}",
+      "device": "TMP117MAIDRVR",
+      "layer": 1,
+      "x": 1350,
+      "y": 1350,
+      "rotation": 0,
+      "bbox": {
+        "minX": 1301.498,
+        "minY": 1291.498,
+        "maxX": 1395.288,
+        "maxY": 1397.2465
+      },
+      "pads": [
+        {
+          "primitiveId": "4f7bbfdfed42057de7",
+          "padNumber": "7",
+          "net": "",
+          "layer": 1,
+          "x": 1350,
+          "y": 1350,
+          "width": 63,
+          "height": 39.400000000000006,
+          "rotation": 90,
+          "shape": [
+            "RECT",
+            39.4,
+            63,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "4f7bbfdfed42057de8",
+          "padNumber": "6",
+          "net": "SDA",
+          "layer": 1,
+          "x": 1324.4,
+          "y": 1388.4,
+          "width": 15.7,
+          "height": 17.7,
+          "shape": [
+            "RECT",
+            15.7,
+            17.7,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "4f7bbfdfed42057de9",
+          "padNumber": "5",
+          "net": "+3V3",
+          "layer": 1,
+          "x": 1350,
+          "y": 1388.4,
+          "width": 15.7,
+          "height": 17.7,
+          "shape": [
+            "RECT",
+            15.7,
+            17.7,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "4f7bbfdfed42057de10",
+          "padNumber": "4",
+          "net": "GND",
+          "layer": 1,
+          "x": 1375.6,
+          "y": 1388.4,
+          "width": 15.7,
+          "height": 17.7,
+          "shape": [
+            "RECT",
+            15.7,
+            17.7,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "4f7bbfdfed42057de11",
+          "padNumber": "3",
+          "net": "",
+          "layer": 1,
+          "x": 1375.6,
+          "y": 1311.6,
+          "width": 15.7,
+          "height": 17.7,
+          "shape": [
+            "RECT",
+            15.7,
+            17.7,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "4f7bbfdfed42057de12",
+          "padNumber": "2",
+          "net": "GND",
+          "layer": 1,
+          "x": 1350,
+          "y": 1311.6,
+          "width": 15.7,
+          "height": 17.7,
+          "shape": [
+            "RECT",
+            15.7,
+            17.7,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "4f7bbfdfed42057de13",
+          "padNumber": "1",
+          "net": "SCL",
+          "layer": 1,
+          "x": 1324.4,
+          "y": 1311.6,
+          "width": 15.7,
+          "height": 17.7,
+          "shape": [
+            "RECT",
+            15.7,
+            17.7,
+            0
+          ],
+          "specialPad": []
+        }
+      ]
+    },
+    {
+      "primitiveId": "119e1e6d9449f299",
+      "designator": "U3",
+      "name": "={Manufacturer Part}",
+      "device": "TMP117MAIDRVR",
+      "layer": 1,
+      "x": 1350,
+      "y": 1114,
+      "rotation": 0,
+      "bbox": {
+        "minX": 1301.498,
+        "minY": 1055.498,
+        "maxX": 1395.288,
+        "maxY": 1161.2465
+      },
+      "pads": [
+        {
+          "primitiveId": "119e1e6d9449f299e7",
+          "padNumber": "7",
+          "net": "",
+          "layer": 1,
+          "x": 1350,
+          "y": 1114,
+          "width": 63,
+          "height": 39.400000000000006,
+          "rotation": 90,
+          "shape": [
+            "RECT",
+            39.4,
+            63,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "119e1e6d9449f299e8",
+          "padNumber": "6",
+          "net": "SDA",
+          "layer": 1,
+          "x": 1324.4,
+          "y": 1152.4,
+          "width": 15.7,
+          "height": 17.7,
+          "shape": [
+            "RECT",
+            15.7,
+            17.7,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "119e1e6d9449f299e9",
+          "padNumber": "5",
+          "net": "+3V3",
+          "layer": 1,
+          "x": 1350,
+          "y": 1152.4,
+          "width": 15.7,
+          "height": 17.7,
+          "shape": [
+            "RECT",
+            15.7,
+            17.7,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "119e1e6d9449f299e10",
+          "padNumber": "4",
+          "net": "+3V3",
+          "layer": 1,
+          "x": 1375.6,
+          "y": 1152.4,
+          "width": 15.7,
+          "height": 17.7,
+          "shape": [
+            "RECT",
+            15.7,
+            17.7,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "119e1e6d9449f299e11",
+          "padNumber": "3",
+          "net": "",
+          "layer": 1,
+          "x": 1375.6,
+          "y": 1075.6,
+          "width": 15.7,
+          "height": 17.7,
+          "shape": [
+            "RECT",
+            15.7,
+            17.7,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "119e1e6d9449f299e12",
+          "padNumber": "2",
+          "net": "GND",
+          "layer": 1,
+          "x": 1350,
+          "y": 1075.6,
+          "width": 15.7,
+          "height": 17.7,
+          "shape": [
+            "RECT",
+            15.7,
+            17.7,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "119e1e6d9449f299e13",
+          "padNumber": "1",
+          "net": "SCL",
+          "layer": 1,
+          "x": 1324.4,
+          "y": 1075.6,
+          "width": 15.7,
+          "height": 17.7,
+          "shape": [
+            "RECT",
+            15.7,
+            17.7,
+            0
+          ],
+          "specialPad": []
+        }
+      ]
+    },
+    {
+      "primitiveId": "8f83d7c5de034b97",
+      "designator": "R5",
+      "name": "={Value}",
+      "device": "AC0603DR-07470RL",
+      "layer": 1,
+      "x": 1350,
+      "y": 1232,
+      "rotation": 0,
+      "bbox": {
+        "minX": 1292.469,
+        "minY": 1202.992,
+        "maxX": 1407.531,
+        "maxY": 1261.008
+      },
+      "pads": [
+        {
+          "primitiveId": "8f83d7c5de034b97e7",
+          "padNumber": "2",
+          "net": "HEATER_RETURN",
+          "layer": 1,
+          "x": 1379.7,
+          "y": 1232,
+          "width": 31.8,
+          "height": 34,
+          "shape": [
+            "RECT",
+            31.8,
+            34,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "8f83d7c5de034b97e8",
+          "padNumber": "1",
+          "net": "HEATER_VCC",
+          "layer": 1,
+          "x": 1320.3,
+          "y": 1232,
+          "width": 31.8,
+          "height": 34,
+          "shape": [
+            "RECT",
+            31.8,
+            34,
+            0
+          ],
+          "specialPad": []
+        }
+      ]
+    },
+    {
+      "primitiveId": "0eb71d3c57bdd9e9",
+      "designator": "J4",
+      "name": "={Manufacturer Part}",
+      "device": "FH12-6S-0.5SH(55)",
+      "layer": 1,
+      "x": 1350,
+      "y": 300,
+      "rotation": 180,
+      "bbox": {
+        "minX": 1190.5399999999997,
+        "minY": 114.9950000000004,
+        "maxX": 1509.4599999999996,
+        "maxY": 389.56500000000034
+      },
+      "pads": [
+        {
+          "primitiveId": "0eb71d3c57bdd9e9e11",
+          "padNumber": "1",
+          "net": "+3V3",
+          "layer": 1,
+          "x": 1300.8,
+          "y": 364,
+          "width": 11.800000000000004,
+          "height": 51.2,
+          "rotation": 90,
+          "shape": [
+            "RECT",
+            51.2,
+            11.8,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "0eb71d3c57bdd9e9e12",
+          "padNumber": "2",
+          "net": "GND",
+          "layer": 1,
+          "x": 1320.5,
+          "y": 364,
+          "width": 11.800000000000004,
+          "height": 51.2,
+          "rotation": 90,
+          "shape": [
+            "RECT",
+            51.2,
+            11.8,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "0eb71d3c57bdd9e9e13",
+          "padNumber": "3",
+          "net": "SDA",
+          "layer": 1,
+          "x": 1340.2,
+          "y": 364,
+          "width": 11.800000000000004,
+          "height": 51.2,
+          "rotation": 90,
+          "shape": [
+            "RECT",
+            51.2,
+            11.8,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "0eb71d3c57bdd9e9e14",
+          "padNumber": "4",
+          "net": "SCL",
+          "layer": 1,
+          "x": 1359.9,
+          "y": 364,
+          "width": 11.800000000000004,
+          "height": 51.2,
+          "rotation": 90,
+          "shape": [
+            "RECT",
+            51.2,
+            11.8,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "0eb71d3c57bdd9e9e15",
+          "padNumber": "5",
+          "net": "HEATER_VCC",
+          "layer": 1,
+          "x": 1379.5,
+          "y": 364,
+          "width": 11.800000000000004,
+          "height": 51.2,
+          "rotation": 90,
+          "shape": [
+            "RECT",
+            51.2,
+            11.8,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "0eb71d3c57bdd9e9e16",
+          "padNumber": "6",
+          "net": "HEATER_RETURN",
+          "layer": 1,
+          "x": 1399.2,
+          "y": 364,
+          "width": 11.800000000000004,
+          "height": 51.2,
+          "rotation": 90,
+          "shape": [
+            "RECT",
+            51.2,
+            11.8,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "0eb71d3c57bdd9e9e17",
+          "padNumber": "8",
+          "net": "",
+          "layer": 1,
+          "x": 1474,
+          "y": 236,
+          "width": 70.90000000000003,
+          "height": 86.60000000000002,
+          "rotation": -90.00000000000001,
+          "shape": [
+            "RECT",
+            86.6,
+            70.9,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "0eb71d3c57bdd9e9e18",
+          "padNumber": "7",
+          "net": "",
+          "layer": 1,
+          "x": 1226,
+          "y": 236,
+          "width": 70.90000000000003,
+          "height": 86.60000000000002,
+          "rotation": -90.00000000000001,
+          "shape": [
+            "RECT",
+            86.6,
+            70.9,
+            0
+          ],
+          "specialPad": []
+        }
+      ]
+    },
+    {
+      "primitiveId": "d5fea7d08ab4d24c",
+      "designator": "J901",
+      "name": "={Value}",
+      "device": "CC0603KRX7R9BB104",
+      "layer": 1,
+      "x": 1800,
+      "y": 2100,
+      "rotation": 90,
+      "bbox": {
+        "minX": 1767.043,
+        "minY": 2040.278999835999,
+        "maxX": 1832.954,
+        "maxY": 2159.7250000410136
+      },
+      "pads": [
+        {
+          "primitiveId": "d5fea7d08ab4d24ce14",
+          "padNumber": "2",
+          "net": "GND",
+          "layer": 1,
+          "x": 1800,
+          "y": 2127.6,
+          "width": 35.4,
+          "height": 31.500000000000004,
+          "rotation": 90,
+          "shape": [
+            "RECT",
+            31.5,
+            35.4,
+            0
+          ],
+          "specialPad": []
+        },
+        {
+          "primitiveId": "d5fea7d08ab4d24ce15",
+          "padNumber": "1",
+          "net": "+3V3",
+          "layer": 1,
+          "x": 1800,
+          "y": 2072.4,
+          "width": 35.4,
+          "height": 31.500000000000004,
+          "rotation": 90,
+          "shape": [
+            "RECT",
+            31.5,
+            35.4,
+            0
+          ],
+          "specialPad": []
+        }
+      ]
+    }
+  ],
+  "outline": {
+    "bbox": {
+      "minX": 1125,
+      "minY": 75,
+      "maxX": 1550,
+      "maxY": 1505
+    },
+    "source": "bbox",
+    "format": "unexpected-start:R"
+  },
+  "silk": [
+    {
+      "ID": "8a1804cc2d98b369e1",
+      "Kind": "attribute",
+      "Key": "Name",
+      "Text": "100nF",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 90,
+      "FontSize": 67.5,
+      "CompID": "8a1804cc2d98b369",
+      "CompLayer": 1,
+      "X": 0,
+      "Y": 0,
+      "BBox": null
+    },
+    {
+      "ID": "8a1804cc2d98b369e2",
+      "Kind": "attribute",
+      "Key": "Designator",
+      "Text": "C5",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 0,
+      "FontSize": 45,
+      "CompID": "8a1804cc2d98b369",
+      "CompLayer": 1,
+      "X": 1171.629,
+      "Y": 1327.5,
+      "BBox": {
+        "MinX": 1171.629,
+        "MinY": 1327.5,
+        "MaxX": 1224.829,
+        "MaxY": 1372.5
+      }
+    },
+    {
+      "ID": "8a1804cc2d98b369ee0",
+      "Kind": "attribute",
+      "Key": "Footprint",
+      "Text": "C0402",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 90,
+      "FontSize": 45,
+      "CompID": "8a1804cc2d98b369",
+      "CompLayer": 1,
+      "X": 0,
+      "Y": 0,
+      "BBox": null
+    },
+    {
+      "ID": "8a1804cc2d98b369e0",
+      "Kind": "attribute",
+      "Key": "Device",
+      "Text": "CL05B104KO5NNNC",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 90,
+      "FontSize": 45,
+      "CompID": "8a1804cc2d98b369",
+      "CompLayer": 1,
+      "X": 0,
+      "Y": 0,
+      "BBox": null
+    },
+    {
+      "ID": "712ac7103098610ee1",
+      "Kind": "attribute",
+      "Key": "Name",
+      "Text": "100nF",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 90,
+      "FontSize": 67.5,
+      "CompID": "712ac7103098610e",
+      "CompLayer": 1,
+      "X": 0,
+      "Y": 0,
+      "BBox": null
+    },
+    {
+      "ID": "712ac7103098610ee2",
+      "Kind": "attribute",
+      "Key": "Designator",
+      "Text": "C6",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 0,
+      "FontSize": 45,
+      "CompID": "712ac7103098610e",
+      "CompLayer": 1,
+      "X": 1254,
+      "Y": 999.098,
+      "BBox": {
+        "MinX": 1254,
+        "MinY": 999.098,
+        "MaxX": 1306,
+        "MaxY": 1044.098
+      }
+    },
+    {
+      "ID": "712ac7103098610eee0",
+      "Kind": "attribute",
+      "Key": "Footprint",
+      "Text": "C0402",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 90,
+      "FontSize": 45,
+      "CompID": "712ac7103098610e",
+      "CompLayer": 1,
+      "X": 0,
+      "Y": 0,
+      "BBox": null
+    },
+    {
+      "ID": "712ac7103098610ee0",
+      "Kind": "attribute",
+      "Key": "Device",
+      "Text": "CL05B104KO5NNNC",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 90,
+      "FontSize": 45,
+      "CompID": "712ac7103098610e",
+      "CompLayer": 1,
+      "X": 0,
+      "Y": 0,
+      "BBox": null
+    },
+    {
+      "ID": "4f7bbfdfed42057de21",
+      "Kind": "attribute",
+      "Key": "Footprint",
+      "Text": "WSON-6_L2.0-W2.0-P0.65-BL-EP",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 0,
+      "FontSize": 45,
+      "CompID": "4f7bbfdfed42057d",
+      "CompLayer": 1,
+      "X": 0,
+      "Y": 0,
+      "BBox": null
+    },
+    {
+      "ID": "4f7bbfdfed42057de22",
+      "Kind": "attribute",
+      "Key": "Designator",
+      "Text": "U2",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 0,
+      "FontSize": 45,
+      "CompID": "4f7bbfdfed42057d",
+      "CompLayer": 1,
+      "X": 1322.393,
+      "Y": 1429.7465,
+      "BBox": {
+        "MinX": 1322.393,
+        "MinY": 1429.7465,
+        "MaxX": 1374.393,
+        "MaxY": 1474.7465
+      }
+    },
+    {
+      "ID": "4f7bbfdfed42057de0",
+      "Kind": "attribute",
+      "Key": "Device",
+      "Text": "TMP117MAIDRVR",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 0,
+      "FontSize": 45,
+      "CompID": "4f7bbfdfed42057d",
+      "CompLayer": 1,
+      "X": 0,
+      "Y": 0,
+      "BBox": null
+    },
+    {
+      "ID": "119e1e6d9449f299e21",
+      "Kind": "attribute",
+      "Key": "Footprint",
+      "Text": "WSON-6_L2.0-W2.0-P0.65-BL-EP",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 0,
+      "FontSize": 45,
+      "CompID": "119e1e6d9449f299",
+      "CompLayer": 1,
+      "X": 0,
+      "Y": 0,
+      "BBox": null
+    },
+    {
+      "ID": "119e1e6d9449f299e22",
+      "Kind": "attribute",
+      "Key": "Designator",
+      "Text": "U3",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 0,
+      "FontSize": 45,
+      "CompID": "119e1e6d9449f299",
+      "CompLayer": 1,
+      "X": 1322.393,
+      "Y": 977.998,
+      "BBox": {
+        "MinX": 1322.393,
+        "MinY": 977.998,
+        "MaxX": 1374.393,
+        "MaxY": 1022.998
+      }
+    },
+    {
+      "ID": "119e1e6d9449f299e0",
+      "Kind": "attribute",
+      "Key": "Device",
+      "Text": "TMP117MAIDRVR",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 0,
+      "FontSize": 45,
+      "CompID": "119e1e6d9449f299",
+      "CompLayer": 1,
+      "X": 0,
+      "Y": 0,
+      "BBox": null
+    },
+    {
+      "ID": "8f83d7c5de034b97e15",
+      "Kind": "attribute",
+      "Key": "Footprint",
+      "Text": "R0603",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 0,
+      "FontSize": 45,
+      "CompID": "8f83d7c5de034b97",
+      "CompLayer": 1,
+      "X": 1350,
+      "Y": 1232,
+      "BBox": null
+    },
+    {
+      "ID": "8f83d7c5de034b97e16",
+      "Kind": "attribute",
+      "Key": "Designator",
+      "Text": "R5",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 0,
+      "FontSize": 45,
+      "CompID": "8f83d7c5de034b97",
+      "CompLayer": 1,
+      "X": 1292.469,
+      "Y": 1266.008,
+      "BBox": {
+        "MinX": 1292.469,
+        "MinY": 1266.008,
+        "MaxX": 1344.469,
+        "MaxY": 1311.0079999999998
+      }
+    },
+    {
+      "ID": "8f83d7c5de034b97e0",
+      "Kind": "attribute",
+      "Key": "Device",
+      "Text": "AC0603DR-07470RL",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 0,
+      "FontSize": 45,
+      "CompID": "8f83d7c5de034b97",
+      "CompLayer": 1,
+      "X": 1350,
+      "Y": 1232,
+      "BBox": null
+    },
+    {
+      "ID": "0eb71d3c57bdd9e9e33",
+      "Kind": "attribute",
+      "Key": "Footprint",
+      "Text": "FPC-SMD_FH12-6S-0.5SH-55",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 180,
+      "FontSize": 45,
+      "CompID": "0eb71d3c57bdd9e9",
+      "CompLayer": 1,
+      "X": 1350,
+      "Y": 300,
+      "BBox": null
+    },
+    {
+      "ID": "0eb71d3c57bdd9e9e34",
+      "Kind": "attribute",
+      "Key": "Designator",
+      "Text": "J4",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 180,
+      "FontSize": 45,
+      "CompID": "0eb71d3c57bdd9e9",
+      "CompLayer": 1,
+      "X": 1509.4599999999996,
+      "Y": 109.9950000000004,
+      "BBox": {
+        "MinX": 1461.1599999999996,
+        "MinY": 64.9950000000004,
+        "MaxX": 1509.4599999999996,
+        "MaxY": 109.9950000000004
+      }
+    },
+    {
+      "ID": "0eb71d3c57bdd9e9e0",
+      "Kind": "attribute",
+      "Key": "Device",
+      "Text": "FH12-6S-0.5SH(55)",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 180,
+      "FontSize": 45,
+      "CompID": "0eb71d3c57bdd9e9",
+      "CompLayer": 1,
+      "X": 1350,
+      "Y": 300,
+      "BBox": null
+    },
+    {
+      "ID": "d5fea7d08ab4d24ce17",
+      "Kind": "attribute",
+      "Key": "Footprint",
+      "Text": "C0603",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 90,
+      "FontSize": 45,
+      "CompID": "d5fea7d08ab4d24c",
+      "CompLayer": 1,
+      "X": 1800,
+      "Y": 2100,
+      "BBox": null
+    },
+    {
+      "ID": "d5fea7d08ab4d24ce18",
+      "Kind": "attribute",
+      "Key": "Designator",
+      "Text": "J901",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 90,
+      "FontSize": 45,
+      "CompID": "d5fea7d08ab4d24c",
+      "CompLayer": 1,
+      "X": 1762.043,
+      "Y": 2040.278999835999,
+      "BBox": {
+        "MinX": 1717.043,
+        "MinY": 2040.278999835999,
+        "MaxX": 1762.043,
+        "MaxY": 2132.9789998359993
+      }
+    },
+    {
+      "ID": "d5fea7d08ab4d24ce0",
+      "Kind": "attribute",
+      "Key": "Device",
+      "Text": "CC0603KRX7R9BB104",
+      "Layer": 3,
+      "Mirror": false,
+      "Reverse": false,
+      "Rotation": 90,
+      "FontSize": 45,
+      "CompID": "d5fea7d08ab4d24c",
+      "CompLayer": 1,
+      "X": 1800,
+      "Y": 2100,
+      "BBox": null
+    }
+  ],
+  "copperLayers": 2,
+  "rules": {
+    "clearanceMil": 5.98,
+    "clearanceTrackTrackMil": 4.02,
+    "trackWidthMil": 10,
+    "powerWidthMil": 20,
+    "trackWidthMinMil": 5,
+    "viaDrillMil": 12.01,
+    "viaDiameterMil": 24.02,
+    "copperToEdgeMil": 10,
+    "source": "live"
+  },
+  "copper": {
+    "availability": {
+      "fills": "available",
+      "poured": "available",
+      "pours": "available",
+      "regions": "available",
+      "routing": "available",
+      "vias": "available"
+    },
+    "lines": [
+      {
+        "endX": 1200,
+        "endY": 1210,
+        "layer": 1,
+        "lineWidth": 8,
+        "locked": false,
+        "net": "HEATER_VCC",
+        "primitiveId": "fb14a2ac01e527ff",
+        "startX": 1200,
+        "startY": 460
+      },
+      {
+        "endX": 1225,
+        "endY": 1040,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "SCL",
+        "primitiveId": "bdb009405c88c072",
+        "startX": 1225,
+        "startY": 490
+      },
+      {
+        "endX": 1225,
+        "endY": 1280,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "SCL",
+        "primitiveId": "39d89adb0b931528",
+        "startX": 1225,
+        "startY": 1040
+      },
+      {
+        "endX": 1250,
+        "endY": 1170,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "SDA",
+        "primitiveId": "bee3a4088201559d",
+        "startX": 1250,
+        "startY": 520
+      },
+      {
+        "endX": 1250,
+        "endY": 1405,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "SDA",
+        "primitiveId": "9380028f6cfdea1f",
+        "startX": 1250,
+        "startY": 1170
+      },
+      {
+        "endX": 1400,
+        "endY": 364,
+        "layer": 1,
+        "lineWidth": 8,
+        "locked": false,
+        "net": "HEATER_RETURN",
+        "primitiveId": "9846d106b6a0a156",
+        "startX": 1399.2000000000003,
+        "startY": 364
+      },
+      {
+        "endX": 1400,
+        "endY": 364,
+        "layer": 1,
+        "lineWidth": 8,
+        "locked": false,
+        "net": "HEATER_RETURN",
+        "primitiveId": "d90e2b6324bca533",
+        "startX": 1400,
+        "startY": 1232
+      },
+      {
+        "endX": 1379.7,
+        "endY": 1232,
+        "layer": 1,
+        "lineWidth": 8,
+        "locked": false,
+        "net": "HEATER_RETURN",
+        "primitiveId": "5face89ddb7e2d7a",
+        "startX": 1400,
+        "startY": 1232
+      },
+      {
+        "endX": 1430,
+        "endY": 1080,
+        "layer": 1,
+        "lineWidth": 8,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "a087b04a6c6de295",
+        "startX": 1430,
+        "startY": 400
+      },
+      {
+        "endX": 1430,
+        "endY": 1175,
+        "layer": 1,
+        "lineWidth": 8,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "c2abe352a6d70802",
+        "startX": 1430,
+        "startY": 1080
+      },
+      {
+        "endX": 1430,
+        "endY": 1320,
+        "layer": 1,
+        "lineWidth": 8,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "9f335a14a4873f98",
+        "startX": 1430,
+        "startY": 1175
+      },
+      {
+        "endX": 1430,
+        "endY": 1430,
+        "layer": 1,
+        "lineWidth": 8,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "b7ca70e78112e515",
+        "startX": 1430,
+        "startY": 1320
+      },
+      {
+        "endX": 1460,
+        "endY": 1060,
+        "layer": 1,
+        "lineWidth": 8,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "4de2fb519bf2d347",
+        "startX": 1460,
+        "startY": 430
+      },
+      {
+        "endX": 1460,
+        "endY": 1145,
+        "layer": 1,
+        "lineWidth": 8,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "97a912163714a3a3",
+        "startX": 1460,
+        "startY": 1060
+      },
+      {
+        "endX": 1460,
+        "endY": 1295,
+        "layer": 1,
+        "lineWidth": 8,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "35b2e4dfde17a160",
+        "startX": 1460,
+        "startY": 1145
+      },
+      {
+        "endX": 1460,
+        "endY": 1378,
+        "layer": 1,
+        "lineWidth": 8,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "a39e6b6ad1bb179a",
+        "startX": 1460,
+        "startY": 1295
+      },
+      {
+        "endX": 1460,
+        "endY": 1405,
+        "layer": 1,
+        "lineWidth": 8,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "6ba69f21dd46a5e2",
+        "startX": 1460,
+        "startY": 1378
+      },
+      {
+        "endX": 1300.7999999999997,
+        "endY": 400,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "b483735bb3c01cdc",
+        "startX": 1300.7999999999997,
+        "startY": 364
+      },
+      {
+        "endX": 1430,
+        "endY": 400,
+        "layer": 2,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "acb6299e10edafd3",
+        "startX": 1300.7999999999997,
+        "startY": 400
+      },
+      {
+        "endX": 1320.5,
+        "endY": 430,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "1e3b9c40951ca19f",
+        "startX": 1320.5,
+        "startY": 364
+      },
+      {
+        "endX": 1460,
+        "endY": 430,
+        "layer": 2,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "0647868e2d6d46ee",
+        "startX": 1320.5,
+        "startY": 430
+      },
+      {
+        "endX": 1379.5,
+        "endY": 460,
+        "layer": 1,
+        "lineWidth": 8,
+        "locked": false,
+        "net": "HEATER_VCC",
+        "primitiveId": "56dfdc21030a79ea",
+        "startX": 1379.5,
+        "startY": 364
+      },
+      {
+        "endX": 1200,
+        "endY": 460,
+        "layer": 2,
+        "lineWidth": 8,
+        "locked": false,
+        "net": "HEATER_VCC",
+        "primitiveId": "e3d55ddc4c928591",
+        "startX": 1379.5,
+        "startY": 460
+      },
+      {
+        "endX": 1359.9,
+        "endY": 490,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "SCL",
+        "primitiveId": "57aceb0a700c2bee",
+        "startX": 1359.9,
+        "startY": 364
+      },
+      {
+        "endX": 1225,
+        "endY": 490,
+        "layer": 2,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "SCL",
+        "primitiveId": "95703fa7c39ea81d",
+        "startX": 1359.9,
+        "startY": 490
+      },
+      {
+        "endX": 1340.2,
+        "endY": 520,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "SDA",
+        "primitiveId": "0800fcdb4abe20df",
+        "startX": 1340.2,
+        "startY": 364
+      },
+      {
+        "endX": 1250,
+        "endY": 520,
+        "layer": 2,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "SDA",
+        "primitiveId": "50d3d7ff58b0bae5",
+        "startX": 1340.2,
+        "startY": 520
+      },
+      {
+        "endX": 1324.4,
+        "endY": 1040,
+        "layer": 2,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "SCL",
+        "primitiveId": "3a9759e44f587db6",
+        "startX": 1225,
+        "startY": 1040
+      },
+      {
+        "endX": 1324.4,
+        "endY": 1075.6,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "SCL",
+        "primitiveId": "cc9143e70cce11bf",
+        "startX": 1324.4,
+        "startY": 1040
+      },
+      {
+        "endX": 1350,
+        "endY": 1060,
+        "layer": 2,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "cfd2baa768985271",
+        "startX": 1460,
+        "startY": 1060
+      },
+      {
+        "endX": 1350,
+        "endY": 1075.6,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "a87f0494d1b4466c",
+        "startX": 1350,
+        "startY": 1060
+      },
+      {
+        "endX": 1280,
+        "endY": 1080,
+        "layer": 2,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "d7a00e02d8b40147",
+        "startX": 1430,
+        "startY": 1080
+      },
+      {
+        "endX": 1280,
+        "endY": 1097.5,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "2e348511bdc180be",
+        "startX": 1280,
+        "startY": 1080
+      },
+      {
+        "endX": 1280,
+        "endY": 1145,
+        "layer": 2,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "df60d37a8964e05a",
+        "startX": 1460,
+        "startY": 1145
+      },
+      {
+        "endX": 1280,
+        "endY": 1130.5,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "1a0abb67870d6f24",
+        "startX": 1280,
+        "startY": 1145
+      },
+      {
+        "endX": 1375.6,
+        "endY": 1152.4,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "cb4ef68f1001a183",
+        "startX": 1350,
+        "startY": 1152.4
+      },
+      {
+        "endX": 1375.6,
+        "endY": 1175,
+        "layer": 2,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "ecd1f7540443b2e0",
+        "startX": 1430,
+        "startY": 1175
+      },
+      {
+        "endX": 1375.6,
+        "endY": 1152.4,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "476c8716fc2c5752",
+        "startX": 1375.6,
+        "startY": 1175
+      },
+      {
+        "endX": 1324.4,
+        "endY": 1170,
+        "layer": 2,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "SDA",
+        "primitiveId": "0dccfd480d0a0842",
+        "startX": 1250,
+        "startY": 1170
+      },
+      {
+        "endX": 1324.4,
+        "endY": 1152.4,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "SDA",
+        "primitiveId": "ba50b4493da1ccb5",
+        "startX": 1324.4,
+        "startY": 1170
+      },
+      {
+        "endX": 1320.3,
+        "endY": 1210,
+        "layer": 2,
+        "lineWidth": 8,
+        "locked": false,
+        "net": "HEATER_VCC",
+        "primitiveId": "572a3a1f4552034a",
+        "startX": 1200,
+        "startY": 1210
+      },
+      {
+        "endX": 1320.3,
+        "endY": 1232,
+        "layer": 1,
+        "lineWidth": 8,
+        "locked": false,
+        "net": "HEATER_VCC",
+        "primitiveId": "cd783e1bcb179e10",
+        "startX": 1320.3,
+        "startY": 1210
+      },
+      {
+        "endX": 1324.4,
+        "endY": 1280,
+        "layer": 2,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "SCL",
+        "primitiveId": "964c8f14c9e91a86",
+        "startX": 1225,
+        "startY": 1280
+      },
+      {
+        "endX": 1324.4,
+        "endY": 1311.6,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "SCL",
+        "primitiveId": "0350596c57415fdd",
+        "startX": 1324.4,
+        "startY": 1280
+      },
+      {
+        "endX": 1350,
+        "endY": 1295,
+        "layer": 2,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "7343c03c401f096e",
+        "startX": 1460,
+        "startY": 1295
+      },
+      {
+        "endX": 1350,
+        "endY": 1311.6,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "44eec2a70c7641f6",
+        "startX": 1350,
+        "startY": 1295
+      },
+      {
+        "endX": 1280,
+        "endY": 1320,
+        "layer": 2,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "5b76302385441be9",
+        "startX": 1430,
+        "startY": 1320
+      },
+      {
+        "endX": 1280,
+        "endY": 1333.5,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "5e7e51931704abce",
+        "startX": 1280,
+        "startY": 1320
+      },
+      {
+        "endX": 1280,
+        "endY": 1378,
+        "layer": 2,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "9d5cef3c6b630ca7",
+        "startX": 1460,
+        "startY": 1378
+      },
+      {
+        "endX": 1280,
+        "endY": 1366.5,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "f960089a511c4175",
+        "startX": 1280,
+        "startY": 1378
+      },
+      {
+        "endX": 1324.4,
+        "endY": 1405,
+        "layer": 2,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "SDA",
+        "primitiveId": "77efb81a0366c643",
+        "startX": 1250,
+        "startY": 1405
+      },
+      {
+        "endX": 1324.4,
+        "endY": 1388.4,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "SDA",
+        "primitiveId": "3d7e862e3387f183",
+        "startX": 1324.4,
+        "startY": 1405
+      },
+      {
+        "endX": 1375.6,
+        "endY": 1405,
+        "layer": 2,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "0a98e915d0bc2391",
+        "startX": 1460,
+        "startY": 1405
+      },
+      {
+        "endX": 1375.6,
+        "endY": 1388.4,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "bbb1217b7bae1061",
+        "startX": 1375.6,
+        "startY": 1405
+      },
+      {
+        "endX": 1350,
+        "endY": 1430,
+        "layer": 2,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "d2b617d9b778bbc7",
+        "startX": 1430,
+        "startY": 1430
+      },
+      {
+        "endX": 1350,
+        "endY": 1388.4,
+        "layer": 1,
+        "lineWidth": 6,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "422eead52a973364",
+        "startX": 1350,
+        "startY": 1430
+      }
+    ],
+    "arcs": [],
+    "arcsAvailable": true,
+    "vias": [
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "d49f97d71b8bd7cd",
+        "x": 1300.7999999999997,
+        "y": 400
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "d4e42c0a528b7c33",
+        "x": 1430,
+        "y": 400
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "57871d1ba66ee7b4",
+        "x": 1320.5,
+        "y": 430
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "2e2925af6a82bb8f",
+        "x": 1460,
+        "y": 430
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "HEATER_VCC",
+        "primitiveId": "ebff4ba936d3cf21",
+        "x": 1379.5,
+        "y": 460
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "HEATER_VCC",
+        "primitiveId": "13e8074a2dad140d",
+        "x": 1200,
+        "y": 460
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "SCL",
+        "primitiveId": "b5374dc27a84d35c",
+        "x": 1359.9,
+        "y": 490
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "SCL",
+        "primitiveId": "a61625f0bba9ec93",
+        "x": 1225,
+        "y": 490
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "SDA",
+        "primitiveId": "6843c42ec0e5cbdc",
+        "x": 1340.2,
+        "y": 520
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "SDA",
+        "primitiveId": "52b0b63365bf1c03",
+        "x": 1250,
+        "y": 520
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "SCL",
+        "primitiveId": "ec2e37da5cdf774e",
+        "x": 1225,
+        "y": 1040
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "SCL",
+        "primitiveId": "1810e2821c7ee3de",
+        "x": 1324.4,
+        "y": 1040
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "b66f1ae0103e5b30",
+        "x": 1460,
+        "y": 1060
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "24c6f0ad5832f357",
+        "x": 1350,
+        "y": 1060
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "c715465c70fc2f3d",
+        "x": 1430,
+        "y": 1080
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "27ccf6bc45a07d9a",
+        "x": 1280,
+        "y": 1080
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "4b48ff7b07a87809",
+        "x": 1460,
+        "y": 1145
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "e8a627278c3c892f",
+        "x": 1280,
+        "y": 1145
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "3eecaad4007240b6",
+        "x": 1430,
+        "y": 1175
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "c93693154f87e915",
+        "x": 1375.6,
+        "y": 1175
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "SDA",
+        "primitiveId": "fd5b7c1c1b90e44b",
+        "x": 1250,
+        "y": 1170
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "SDA",
+        "primitiveId": "bbc8f3b6149f6dde",
+        "x": 1324.4,
+        "y": 1170
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "HEATER_VCC",
+        "primitiveId": "aa69eb7714b53bb2",
+        "x": 1200,
+        "y": 1210
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "HEATER_VCC",
+        "primitiveId": "6024bb050cf0a147",
+        "x": 1320.3,
+        "y": 1210
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "SCL",
+        "primitiveId": "40de58844f875bf3",
+        "x": 1225,
+        "y": 1280
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "SCL",
+        "primitiveId": "6efd89d55e3a82ac",
+        "x": 1324.4,
+        "y": 1280
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "487f21c53f8043e8",
+        "x": 1460,
+        "y": 1295
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "ae5a5ac430a4fb32",
+        "x": 1350,
+        "y": 1295
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "93c290b7db300f0a",
+        "x": 1430,
+        "y": 1320
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "eb891bcec6975ff1",
+        "x": 1280,
+        "y": 1320
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "c44ca118bbbb2097",
+        "x": 1460,
+        "y": 1378
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "a5999ddc793165ed",
+        "x": 1280,
+        "y": 1378
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "SDA",
+        "primitiveId": "39ac792bf8e8edbc",
+        "x": 1250,
+        "y": 1405
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "SDA",
+        "primitiveId": "d2b747248a862b73",
+        "x": 1324.4,
+        "y": 1405
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "dc4732bf90ed5ef2",
+        "x": 1460,
+        "y": 1405
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "GND",
+        "primitiveId": "c5894445216e501c",
+        "x": 1375.6,
+        "y": 1405
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "d488a88147b30bf6",
+        "x": 1430,
+        "y": 1430
+      },
+      {
+        "diameter": 20,
+        "holeDiameter": 12,
+        "locked": false,
+        "net": "+3V3",
+        "primitiveId": "f9e87c074aab2fa1",
+        "x": 1350,
+        "y": 1430
+      }
+    ],
+    "pours": [],
+    "poured": [],
+    "regions": [],
+    "fills": []
+  },
+  "routedLines": 56,
+  "partial": [
+    "board outline is an AABB approximation (connector reported outline format unexpected-start:R) — edge distances on a non-rectangular board are approximate"
+  ],
+  "capturedAt": "2026-10-03T03:08:19Z",
+  "project": "a422d704ace24952ae3d8c1eb5094d0b",
+  "semanticSha256": "09be47bb9fca01d9a2081d0ef9947af6623d1135703937a3dae3b7a1e86b5b33"
+}

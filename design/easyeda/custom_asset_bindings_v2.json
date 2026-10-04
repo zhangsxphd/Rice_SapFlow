@@ -1,0 +1,20 @@
+{
+  "finger": {
+    "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+    "deviceUuid": "62eee3d30d3c4d11b9c16fafa2ce96e2",
+    "symbolUuid": "30ba95e36df141fa8c6404f2d9538f29",
+    "footprintUuid": "c6cd31f96d354f89b1228e634dedc3f1"
+  },
+  "jumper": {
+    "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+    "deviceUuid": "60128f78644b4ac38b9fc99a09e145ea",
+    "symbolUuid": "264347d7724d43f0b69fb705906a178e",
+    "footprintUuid": "abb37e21eee34684bd45f06c32f23e11"
+  },
+  "testpoint": {
+    "libraryUuid": "9e05c206bff14f5b91e051328bc4efe6",
+    "deviceUuid": "ac5f3e3cbf824090a08ca634d3414438",
+    "symbolUuid": "bde766870bb74dfe9512f3f8a95fa6f6",
+    "footprintUuid": "631f487ce33e4317b7c1e12ea2efedb3"
+  }
+}

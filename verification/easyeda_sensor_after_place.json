@@ -1,0 +1,832 @@
+{
+  "id": "req_169",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:54:39.961431Z",
+  "ok": true,
+  "result": {
+    "components": [
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 335.5,
+          "maxY": 520.5,
+          "minX": 264.5,
+          "minY": 479.5
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "TMP117MAIDRVR",
+          "uuid": "2539f88cd09ebcf6"
+        },
+        "componentType": "part",
+        "designator": "U2",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Manufacturer Part}",
+          "uuid": "86f76b7e628c438686b3f5da1e43e18d"
+        },
+        "deviceResolution": {
+          "footprint": "WSON-6_L2.0-W2.0-P0.65-BL-EP",
+          "footprintSource": {
+            "instanceUuid": "a66b34fd482384fe",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "sourceKind": "project-epro2",
+            "uuid": "845a5943f2f444a4902f52da0752eb16"
+          },
+          "lcsc": "C2803242",
+          "sameFootprintUUID": true,
+          "via": "lcsc-footprint-source"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "WSON-6_L2.0-W2.0-P0.65-BL-EP",
+          "uuid": "a66b34fd482384fe"
+        },
+        "manufacturer": "TI(德州仪器)",
+        "manufacturerId": "TMP117MAIDRVR",
+        "mirror": false,
+        "name": "={Manufacturer Part}",
+        "net": "",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Datasheet": "https://www.ti.com/cn/lit/ds/symlink/tmp117.pdf",
+          "Description": "检测温度:-55℃~+150℃;精度:±0.1℃;接口类型:I2C；SMBus;",
+          "Detection Temperature Range": "-55℃~+150℃",
+          "Features": "温度阈值监测；出厂温度校准；片内数字滤波/平均处理；片内非易失参数存储；低功耗待机",
+          "Interface": "I2C；SMBus",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "高精度、低功耗数字温度传感器，具备SMBus和I2C兼容接口",
+          "Operating Temperature": "-",
+          "PCB Layer": "",
+          "Standby Current": "3.1uA",
+          "Supplier Footprint": "WSON-6-EP(2x2)",
+          "Temperature Conversion Time": "15.5ms",
+          "Temperature Resolution": "16bit",
+          "Tolerance": "±0.1℃",
+          "Voltage - Supply": "1.8V~5.5V"
+        },
+        "pins": [
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "SCL",
+            "pinNumber": "1",
+            "primitiveId": "1c389089c4d9af8c-e5",
+            "rotation": 180,
+            "x": 255,
+            "y": 510
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "GND",
+            "pinNumber": "2",
+            "primitiveId": "1c389089c4d9af8c-e9",
+            "rotation": 180,
+            "x": 255,
+            "y": 500
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "ALERT",
+            "pinNumber": "3",
+            "primitiveId": "1c389089c4d9af8c-e13",
+            "rotation": 180,
+            "x": 255,
+            "y": 490
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "ADD0",
+            "pinNumber": "4",
+            "primitiveId": "1c389089c4d9af8c-e17",
+            "rotation": 0,
+            "x": 345,
+            "y": 490
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "V+",
+            "pinNumber": "5",
+            "primitiveId": "1c389089c4d9af8c-e21",
+            "rotation": 0,
+            "x": 345,
+            "y": 500
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "SDA",
+            "pinNumber": "6",
+            "primitiveId": "1c389089c4d9af8c-e25",
+            "rotation": 0,
+            "x": 345,
+            "y": 510
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "EP",
+            "pinNumber": "7",
+            "primitiveId": "1c389089c4d9af8c-e29",
+            "rotation": 90,
+            "x": 300,
+            "y": 530
+          }
+        ],
+        "pinsAvailable": true,
+        "placedDevice": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Manufacturer Part}",
+          "uuid": "2539f88cd09ebcf6"
+        },
+        "primitiveId": "1c389089c4d9af8c",
+        "rotation": 0,
+        "subPartName": "TMP117MAIDRVR.1",
+        "supplier": "LCSC",
+        "supplierId": "C2803242",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "TMP117MAIDRVR",
+          "uuid": "b9c2f68a26aca62d"
+        },
+        "uniqueId": "",
+        "x": 300,
+        "y": 500
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 180.5,
+          "maxY": 508.5,
+          "minX": 159.5,
+          "minY": 491.5
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "CL05B104KO5NNNC",
+          "uuid": "17fc964cacfba2c5"
+        },
+        "componentType": "part",
+        "designator": "C5",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Value}",
+          "uuid": "87bb635d0b2f489a9f60e7cd225beb3c"
+        },
+        "deviceResolution": {
+          "footprint": "C0402",
+          "footprintSource": {
+            "instanceUuid": "8e2131ebc8d92f0d",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "sourceKind": "project-epro2",
+            "uuid": "14a08379d3874582bdd84020bde81eba"
+          },
+          "lcsc": "C1525",
+          "sameFootprintUUID": true,
+          "via": "lcsc-footprint-source"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "C0402",
+          "uuid": "8e2131ebc8d92f0d"
+        },
+        "manufacturer": "SAMSUNG(三星)",
+        "manufacturerId": "CL05B104KO5NNNC",
+        "mirror": false,
+        "name": "={Value}",
+        "net": "",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Datasheet": "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html",
+          "Description": "容值:100nF;精度:±10%;额定电压:16V;温度系数:X7R;",
+          "JLCPCB Part Class": "Basic Part",
+          "LCSC Part Name": "100nF ±10% 16V",
+          "PCB Layer": "",
+          "Supplier Footprint": "0402",
+          "Temperature Coefficient": "X7R",
+          "Tolerance": "±10%",
+          "Value": "100nF",
+          "Voltage Rating": "16V"
+        },
+        "pins": [
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "2",
+            "pinNumber": "2",
+            "primitiveId": "097aac15096d9766-e4",
+            "rotation": 0,
+            "x": 190,
+            "y": 500
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "1",
+            "pinNumber": "1",
+            "primitiveId": "097aac15096d9766-e10",
+            "rotation": 180,
+            "x": 150,
+            "y": 500
+          }
+        ],
+        "pinsAvailable": true,
+        "placedDevice": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Value}",
+          "uuid": "17fc964cacfba2c5"
+        },
+        "primitiveId": "097aac15096d9766",
+        "rotation": 0,
+        "subPartName": "CL05B104KO5NNNC.1",
+        "supplier": "LCSC",
+        "supplierId": "C1525",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "CL05B104KO5NNNC",
+          "uuid": "321e5fd5f8862b6b"
+        },
+        "uniqueId": "",
+        "x": 170,
+        "y": 500
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 515.5,
+          "maxY": 513,
+          "minX": 484.5,
+          "minY": 490
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "PRF18BC471QB5RB",
+          "uuid": "5d8a0156207fb352"
+        },
+        "componentType": "part",
+        "designator": "R5",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Manufacturer Part}",
+          "uuid": "f78a10f5bb0c40bda9370af14544a31d"
+        },
+        "deviceResolution": {
+          "footprint": "R0603",
+          "footprintSource": {
+            "instanceUuid": "be419ecba740ea73",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "sourceKind": "project-epro2",
+            "uuid": "50b4943912284dab97752312e589e9e2"
+          },
+          "lcsc": "C152572",
+          "sameFootprintUUID": true,
+          "via": "lcsc-footprint-source"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "R0603",
+          "uuid": "be419ecba740ea73"
+        },
+        "manufacturer": "muRata(村田)",
+        "manufacturerId": "PRF18BC471QB5RB",
+        "mirror": false,
+        "name": "={Manufacturer Part}",
+        "net": "",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Datasheet": "https://item.szlcsc.com/datasheet/PRF18BC471QB5RB/163912.html",
+          "Description": "阻值:470Ω;电阻精度:±50%;工作电压:32V;功率:-;",
+          "Height": "0.8mm",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "温度传感电阻",
+          "Length": "1.6mm",
+          "Operating Temperature": "-20℃~+130℃",
+          "PCB Layer": "",
+          "Power(Watts)": "-",
+          "Resistance @ 25℃": "470Ω",
+          "Resistance Tolerance": "±50%",
+          "Supplier Footprint": "0603",
+          "Voltage-Supply(Max)": "32V",
+          "Width": "0.8mm"
+        },
+        "pins": [
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "1",
+            "pinNumber": "1",
+            "primitiveId": "71bdc0702950d4ac-e4",
+            "rotation": 180,
+            "x": 470,
+            "y": 500
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "2",
+            "pinNumber": "2",
+            "primitiveId": "71bdc0702950d4ac-e8",
+            "rotation": 0,
+            "x": 530,
+            "y": 500
+          }
+        ],
+        "pinsAvailable": true,
+        "placedDevice": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Manufacturer Part}",
+          "uuid": "5d8a0156207fb352"
+        },
+        "primitiveId": "71bdc0702950d4ac",
+        "rotation": 0,
+        "subPartName": "PRF18BC471QB5RB.1",
+        "supplier": "LCSC",
+        "supplierId": "C152572",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "PRF18BC471QB5RB",
+          "uuid": "75b23f5eacb34fc3"
+        },
+        "uniqueId": "",
+        "x": 500,
+        "y": 500
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 735.5,
+          "maxY": 520.5,
+          "minX": 664.5,
+          "minY": 479.5
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "TMP117MAIDRVR",
+          "uuid": "2539f88cd09ebcf6"
+        },
+        "componentType": "part",
+        "designator": "U3",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Manufacturer Part}",
+          "uuid": "86f76b7e628c438686b3f5da1e43e18d"
+        },
+        "deviceResolution": {
+          "footprint": "WSON-6_L2.0-W2.0-P0.65-BL-EP",
+          "footprintSource": {
+            "instanceUuid": "a66b34fd482384fe",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "sourceKind": "project-epro2",
+            "uuid": "845a5943f2f444a4902f52da0752eb16"
+          },
+          "lcsc": "C2803242",
+          "sameFootprintUUID": true,
+          "via": "lcsc-footprint-source"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "WSON-6_L2.0-W2.0-P0.65-BL-EP",
+          "uuid": "a66b34fd482384fe"
+        },
+        "manufacturer": "TI(德州仪器)",
+        "manufacturerId": "TMP117MAIDRVR",
+        "mirror": false,
+        "name": "={Manufacturer Part}",
+        "net": "",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Datasheet": "https://www.ti.com/cn/lit/ds/symlink/tmp117.pdf",
+          "Description": "检测温度:-55℃~+150℃;精度:±0.1℃;接口类型:I2C；SMBus;",
+          "Detection Temperature Range": "-55℃~+150℃",
+          "Features": "温度阈值监测；出厂温度校准；片内数字滤波/平均处理；片内非易失参数存储；低功耗待机",
+          "Interface": "I2C；SMBus",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "高精度、低功耗数字温度传感器，具备SMBus和I2C兼容接口",
+          "Operating Temperature": "-",
+          "PCB Layer": "",
+          "Standby Current": "3.1uA",
+          "Supplier Footprint": "WSON-6-EP(2x2)",
+          "Temperature Conversion Time": "15.5ms",
+          "Temperature Resolution": "16bit",
+          "Tolerance": "±0.1℃",
+          "Voltage - Supply": "1.8V~5.5V"
+        },
+        "pins": [
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "SCL",
+            "pinNumber": "1",
+            "primitiveId": "14672ba01ca2829f-e5",
+            "rotation": 180,
+            "x": 655,
+            "y": 510
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "GND",
+            "pinNumber": "2",
+            "primitiveId": "14672ba01ca2829f-e9",
+            "rotation": 180,
+            "x": 655,
+            "y": 500
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "ALERT",
+            "pinNumber": "3",
+            "primitiveId": "14672ba01ca2829f-e13",
+            "rotation": 180,
+            "x": 655,
+            "y": 490
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "ADD0",
+            "pinNumber": "4",
+            "primitiveId": "14672ba01ca2829f-e17",
+            "rotation": 0,
+            "x": 745,
+            "y": 490
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "V+",
+            "pinNumber": "5",
+            "primitiveId": "14672ba01ca2829f-e21",
+            "rotation": 0,
+            "x": 745,
+            "y": 500
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "SDA",
+            "pinNumber": "6",
+            "primitiveId": "14672ba01ca2829f-e25",
+            "rotation": 0,
+            "x": 745,
+            "y": 510
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "EP",
+            "pinNumber": "7",
+            "primitiveId": "14672ba01ca2829f-e29",
+            "rotation": 90,
+            "x": 700,
+            "y": 530
+          }
+        ],
+        "pinsAvailable": true,
+        "placedDevice": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Manufacturer Part}",
+          "uuid": "2539f88cd09ebcf6"
+        },
+        "primitiveId": "14672ba01ca2829f",
+        "rotation": 0,
+        "subPartName": "TMP117MAIDRVR.1",
+        "supplier": "LCSC",
+        "supplierId": "C2803242",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "TMP117MAIDRVR",
+          "uuid": "b9c2f68a26aca62d"
+        },
+        "uniqueId": "",
+        "x": 700,
+        "y": 500
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 880.5,
+          "maxY": 508.5,
+          "minX": 859.5,
+          "minY": 491.5
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "CL05B104KO5NNNC",
+          "uuid": "17fc964cacfba2c5"
+        },
+        "componentType": "part",
+        "designator": "C6",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Value}",
+          "uuid": "87bb635d0b2f489a9f60e7cd225beb3c"
+        },
+        "deviceResolution": {
+          "footprint": "C0402",
+          "footprintSource": {
+            "instanceUuid": "8e2131ebc8d92f0d",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "sourceKind": "project-epro2",
+            "uuid": "14a08379d3874582bdd84020bde81eba"
+          },
+          "lcsc": "C1525",
+          "sameFootprintUUID": true,
+          "via": "lcsc-footprint-source"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "C0402",
+          "uuid": "8e2131ebc8d92f0d"
+        },
+        "manufacturer": "SAMSUNG(三星)",
+        "manufacturerId": "CL05B104KO5NNNC",
+        "mirror": false,
+        "name": "={Value}",
+        "net": "",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Datasheet": "https://item.szlcsc.com/datasheet/CL05B104KO5NNNC/1877.html",
+          "Description": "容值:100nF;精度:±10%;额定电压:16V;温度系数:X7R;",
+          "JLCPCB Part Class": "Basic Part",
+          "LCSC Part Name": "100nF ±10% 16V",
+          "PCB Layer": "",
+          "Supplier Footprint": "0402",
+          "Temperature Coefficient": "X7R",
+          "Tolerance": "±10%",
+          "Value": "100nF",
+          "Voltage Rating": "16V"
+        },
+        "pins": [
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "2",
+            "pinNumber": "2",
+            "primitiveId": "a9dc75242c297427-e4",
+            "rotation": 0,
+            "x": 890,
+            "y": 500
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "1",
+            "pinNumber": "1",
+            "primitiveId": "a9dc75242c297427-e10",
+            "rotation": 180,
+            "x": 850,
+            "y": 500
+          }
+        ],
+        "pinsAvailable": true,
+        "placedDevice": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Value}",
+          "uuid": "17fc964cacfba2c5"
+        },
+        "primitiveId": "a9dc75242c297427",
+        "rotation": 0,
+        "subPartName": "CL05B104KO5NNNC.1",
+        "supplier": "LCSC",
+        "supplierId": "C1525",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "CL05B104KO5NNNC",
+          "uuid": "321e5fd5f8862b6b"
+        },
+        "uniqueId": "",
+        "x": 870,
+        "y": 500
+      },
+      {
+        "addIntoBom": true,
+        "addIntoPcb": true,
+        "bbox": {
+          "maxX": 110.6,
+          "maxY": 315.5,
+          "minX": 89.5,
+          "minY": 244.5
+        },
+        "component": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "FH12-6S-0.5SH(55)",
+          "uuid": "fa0100ddc80dbf9e"
+        },
+        "componentType": "part",
+        "designator": "J4",
+        "device": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Manufacturer Part}",
+          "uuid": "160476eec46a426aba7fbe1ff290a393"
+        },
+        "deviceResolution": {
+          "footprint": "FPC-SMD_FH12-6S-0.5SH-55",
+          "footprintSource": {
+            "instanceUuid": "8d1232cad875f983",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "sourceKind": "project-epro2",
+            "uuid": "afa241db00fe4192aa5a369d6c059a50"
+          },
+          "lcsc": "C202118",
+          "sameFootprintUUID": true,
+          "via": "lcsc-footprint-source"
+        },
+        "footprint": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "FPC-SMD_FH12-6S-0.5SH-55",
+          "uuid": "8d1232cad875f983"
+        },
+        "manufacturer": "HRS(广濑)",
+        "manufacturerId": "FH12-6S-0.5SH(55)",
+        "mirror": false,
+        "name": "={Manufacturer Part}",
+        "net": "",
+        "netlistAvailable": true,
+        "otherProperty": {
+          "Contact Material": "磷青铜",
+          "Contact Plating": "金",
+          "Contact Type": "下接",
+          "Datasheet": "https://item.szlcsc.com/datasheet/FH12-6S-0.5SH(55)/203295.html",
+          "Description": "锁定特性:翻盖式;触点类型:下接;触点数量:6P;间距:0.5mm;安装方式:卧贴;工作温度:-40℃~+85℃;",
+          "FFC, FCB Thickness": "0.3mm",
+          "Height Above Board": "2mm",
+          "JLCPCB Part Class": "Extended Part",
+          "LCSC Part Name": "间距:0.5mm P数:6P 翻盖式 下接",
+          "Locking Feature": "翻盖式",
+          "Mounting Type": "卧贴",
+          "Number of Contacts": "6P",
+          "Operating Temperature": "-40℃~+85℃",
+          "PCB Layer": "",
+          "Pitch": "0.5mm",
+          "Supplier Footprint": "SMD,P=0.5mm,卧贴"
+        },
+        "pins": [
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "2",
+            "pinNumber": "2",
+            "primitiveId": "94d6ba9bfe593f4c-e3",
+            "rotation": 180,
+            "x": 70,
+            "y": 295
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "3",
+            "pinNumber": "3",
+            "primitiveId": "94d6ba9bfe593f4c-e7",
+            "rotation": 180,
+            "x": 70,
+            "y": 285
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "4",
+            "pinNumber": "4",
+            "primitiveId": "94d6ba9bfe593f4c-e11",
+            "rotation": 180,
+            "x": 70,
+            "y": 275
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "5",
+            "pinNumber": "5",
+            "primitiveId": "94d6ba9bfe593f4c-e15",
+            "rotation": 180,
+            "x": 70,
+            "y": 265
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "6",
+            "pinNumber": "6",
+            "primitiveId": "94d6ba9bfe593f4c-e19",
+            "rotation": 180,
+            "x": 70,
+            "y": 255
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "7",
+            "pinNumber": "7",
+            "primitiveId": "94d6ba9bfe593f4c-e23",
+            "rotation": 0,
+            "x": 130,
+            "y": 265
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "8",
+            "pinNumber": "8",
+            "primitiveId": "94d6ba9bfe593f4c-e27",
+            "rotation": 0,
+            "x": 130,
+            "y": 255
+          },
+          {
+            "net": "",
+            "noConnected": false,
+            "otherProperty": {},
+            "pinName": "1",
+            "pinNumber": "1",
+            "primitiveId": "94d6ba9bfe593f4c-e31",
+            "rotation": 180,
+            "x": 70,
+            "y": 305
+          }
+        ],
+        "pinsAvailable": true,
+        "placedDevice": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "={Manufacturer Part}",
+          "uuid": "fa0100ddc80dbf9e"
+        },
+        "primitiveId": "94d6ba9bfe593f4c",
+        "rotation": 0,
+        "subPartName": "FH12-6S-0.5SH(55).1",
+        "supplier": "LCSC",
+        "supplierId": "C202118",
+        "symbol": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "name": "FH12-6S-0.5SH(55)",
+          "uuid": "38f54a69abffe712"
+        },
+        "uniqueId": "",
+        "x": 100,
+        "y": 280
+      }
+    ],
+    "connectivitySummary": {
+      "buses": 0,
+      "netflags": 0,
+      "netlabels": 0,
+      "netports": 0,
+      "scope": "activePage",
+      "shortSymbols": 0,
+      "wires": 0
+    },
+    "count": 6,
+    "pinNetsAvailable": true,
+    "wires": [],
+    "wiresAvailable": true
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "c890760ef8f7474f",
+    "documentType": "schematic",
+    "tabId": "c890760ef8f7474f@cf823b99abc3472f86efd2c874825dfb"
+  },
+  "seq": 187,
+  "seqAbandoned": 1,
+  "abandonedIds": [
+    "req_120"
+  ]
+}

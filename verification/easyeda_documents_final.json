@@ -1,0 +1,33 @@
+{
+  "activeUuid": "c890760ef8f7474f",
+  "documents": [
+    {
+      "uuid": "d2755a5c8029894a",
+      "type": "pcb",
+      "name": "PCB1",
+      "parent": "cf823b99abc3472f86efd2c874825dfb",
+      "active": false
+    },
+    {
+      "uuid": "dee7b91727c4d6ff",
+      "type": "pcb",
+      "name": "PCB1_1",
+      "parent": "cf823b99abc3472f86efd2c874825dfb",
+      "active": false
+    },
+    {
+      "uuid": "e59b6979d877fc6f",
+      "type": "schematic",
+      "name": "Main_Controller",
+      "parent": "e001a3b40ac6d07e",
+      "active": false
+    },
+    {
+      "uuid": "c890760ef8f7474f",
+      "type": "schematic",
+      "name": "Sensor_FPC",
+      "parent": "ecdff503fd148f47",
+      "active": true
+    }
+  ]
+}

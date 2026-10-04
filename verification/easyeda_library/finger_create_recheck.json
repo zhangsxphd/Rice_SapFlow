@@ -1,0 +1,21 @@
+{
+  "id": "req_31",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-02T16:43:53.934214Z",
+  "ok": true,
+  "result": {
+    "components": [],
+    "count": 0,
+    "query": "Rice_SapFlow_GoldFinger6_Candidate"
+  },
+  "context": {
+    "projectUuid": "cf823b99abc3472f86efd2c874825dfb",
+    "projectName": "New Project_2026-10-03_00-31-06",
+    "documentUuid": "e59b6979d877fc6f",
+    "documentType": "schematic",
+    "tabId": "e59b6979d877fc6f@cf823b99abc3472f86efd2c874825dfb"
+  },
+  "seq": 27,
+  "seqAbandoned": 0
+}

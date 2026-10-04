@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "succeeded": [
+    "J1:6"
+  ],
+  "connections": [
+    {
+      "pin": "J1:6",
+      "net": "HEATER_RETURN",
+      "kind": "netport",
+      "pinX": 170,
+      "pinY": 115,
+      "selected": {
+        "direction": "left",
+        "offset": 143,
+        "endPoint": {
+          "x": 25,
+          "y": 115
+        },
+        "score": 94.3,
+        "reasons": [
+          {
+            "cost": 100,
+            "desc": "stub runs close to a pin fanout channel"
+          },
+          {
+            "cost": 14.3,
+            "desc": "offset cost"
+          },
+          {
+            "cost": -20,
+            "desc": "matches pin outward side"
+          }
+        ]
+      },
+      "rejected": [
+        {
+          "direction": "down",
+          "offset": 18,
+          "score": 1000000251.8,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "right",
+          "offset": 36,
+          "score": 1000000593.6,
+          "reason": "引出方向不沿引脚朝外方向（hard reject）"
+        },
+        {
+          "direction": "up",
+          "offset": 18,
+          "score": 3000000251.8,
+          "reason": "stub crosses a non-target pin (hard reject)"
+        }
+      ],
+      "wirePrimitiveId": "efd178b30949cd30",
+      "flagPrimitiveId": "6ba648c4c64260ab",
+      "state": "new"
+    }
+  ]
+}

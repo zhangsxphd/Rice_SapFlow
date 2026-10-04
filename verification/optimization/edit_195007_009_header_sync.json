@@ -1,0 +1,40 @@
+{
+  "id": "req_4708",
+  "type": "response",
+  "version": "v1",
+  "createdAt": "2026-10-03T11:50:32.220979Z",
+  "ok": true,
+  "result": {
+    "apiTimedOut": false,
+    "board": {
+      "name": "Main_Controller_V01",
+      "pcbUuid": "82d38807b4b94fc9",
+      "schematicUuid": "ec018d91a5446131"
+    },
+    "componentsAfter": 23,
+    "componentsBefore": 23,
+    "confirm": "no-dialog",
+    "confirmationClickCount": 0,
+    "createdBoard": false,
+    "duplicateUniqueIds": [],
+    "identityInventoryAvailable": true,
+    "imported": true,
+    "partial": true,
+    "reason": "import not verified: confirmation dialog still open, duplicate uniqueIds, or unreadable identity inventory; preserve returned IDs and fresh state, do not repeat import",
+    "verified": false
+  },
+  "context": {
+    "projectUuid": "a422d704ace24952ae3d8c1eb5094d0b",
+    "projectName": "Rice_SapFlow",
+    "documentUuid": "82d38807b4b94fc9",
+    "documentType": "pcb",
+    "tabId": "82d38807b4b94fc9@a422d704ace24952ae3d8c1eb5094d0b"
+  },
+  "seq": 6608,
+  "seqAbandoned": 3,
+  "abandonedIds": [
+    "req_706",
+    "req_829",
+    "req_840"
+  ]
+}
